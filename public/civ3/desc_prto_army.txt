@@ -1,9 +1,0 @@
-#DESC_PRTO_Army
-^Armies are the military forces of a nation, commissioned to defend the security of their country, as well as to protect its
-interests across the world. Complex organizations, armies are capable of supporting extended campaigns in lands far from home.
-They are frequently large groups of soldiers, though armies can be comprised of diverse combat specialties. Since these organs
-wield considerable force, their integration and power within a nation's ruling body is heavily scrutinized. 
- 
-
-;   ____________________________________________ EXPANSION UNITS_____________________________________________
-

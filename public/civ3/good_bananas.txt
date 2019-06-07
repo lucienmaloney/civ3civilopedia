@@ -1,7 +1,0 @@
-#GOOD_Bananas
-^
-^
-^[Tropical Fruit] is a $LINK<bonus resource=GCON_ResourcesB> that enhances city production. To get the bonus, the
-resource must be inside the city's $LINK<radius=GCON_Radius> and a citizen laborer must work the square. 
-^
-^Tropical Fruit is always visible in explored areas of the map and can be found only in $LINK<jungles=TERR_Jungle>.

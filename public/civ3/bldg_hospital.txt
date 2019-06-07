@@ -1,4 +1,0 @@
-#BLDG_Hospital
-^
-^
-^A city with a [Hospital] can grow beyond population 12. You must have a population of 7 or higher to build a hospital.

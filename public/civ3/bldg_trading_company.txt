@@ -1,9 +1,0 @@
-#BLDG_Trading_Company
-^
-^
-^Pays $LINK<maintenance=GCON_Maintenance> costs for all trade-based city improvements
-($LINK<Harbors=BLDG_Harbor>, $LINK<Marketplaces=BLDG_Marketplace>, $LINK<Banks=BLDG_Bank>, $LINK<Airports=BLDG_Airport>,
-$LINK<Commerical Dock=BLDG_Commercial_Dock> and $LINK<Stock Exchanges=BLDG_Stock_Exchange>).
-^
-^
-^May trigger $LINK<Golden Age=GCON_Golden_Age> for Commercial and Seafaring civilizations.

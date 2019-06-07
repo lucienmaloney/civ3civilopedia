@@ -1,5 +1,0 @@
-#BLDG_Wealth
-^
-^
-^[Wealth] causes shields to be converted to gold at a ratio of four to one.
-^When your civilization learns $LINK<Economics=TECH_Economics> the ratio is reduced to two to one.

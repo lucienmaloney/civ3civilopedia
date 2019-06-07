@@ -1,5 +1,0 @@
-#BLDG_Stock_Exchange
-^
-^
-^[Stock Exchange] provides a 50% tax output for the city it is constructed in. The Stock Exchange can only be built
-in a city that has a bank.

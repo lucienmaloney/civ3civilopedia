@@ -1,9 +1,0 @@
-#PRTO_War_Elephant
-^
-^
-^Indian [War Elephants] are powerful offensive units, and, like all fast units, will [withdraw] from battle if
-they are losing the conflict. But when engaged with other fast units, they do not withdraw.
-^Only India can build war elephants instead of $LINK<knights=PRTO_Knight>.
-^
-^The War Elephant receives an additional Hit Point on its Health Bar. 
-

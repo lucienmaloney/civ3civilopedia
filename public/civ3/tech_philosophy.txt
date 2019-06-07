@@ -1,4 +1,0 @@
-#TECH_Philosophy
-^
-^
-^{Bonus Tech} The first civilization to research this tech is awarded a free tech.

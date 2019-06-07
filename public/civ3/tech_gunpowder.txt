@@ -1,4 +1,0 @@
-#TECH_Gunpowder
-^
-^
-^{New Resource} $LINK<saltpeter=GOOD_Saltpeter> deposits appear on map.

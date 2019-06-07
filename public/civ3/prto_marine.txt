@@ -1,9 +1,0 @@
-#PRTO_Marine
-^
-^
-^[Marines] are infantry units specially trained to execute [amphibious assaults].
-They can unload from a sea $LINK<transport=PRTO_Transport> into any coastal land square, including enemy
-cities and enemy-occupied squares.
-^
-^A city must have $LINK<rubber=GOOD_Rubber> in its $LINK<Strategic Resource=GCON_ResourcesS>
-box to build a marine.

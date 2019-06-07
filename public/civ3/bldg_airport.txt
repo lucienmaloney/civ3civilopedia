@@ -1,6 +1,0 @@
-#BLDG_Airport
-^
-^A city with an [Airport] produces $LINK<veteran=GCON_Experience> air units instead of regulars.
-^An [Airport] is a link in the $LINK<trade network=GCON_Trade>, allowing luxuries
-and strategic resources to be traded to other [Airports].
-^A city with an [Airport] can be used to upgrade air units and airlift land units.

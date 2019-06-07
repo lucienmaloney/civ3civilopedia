@@ -1,8 +1,0 @@
-#DESC_PRTO_Carrack
-^
-^
-^When Viking longships encountered Mediterranean trading galleys, enterprising shipbuilders combined the two designs.  The result 
-was the carrack, a sturdy, square-rigged ship with three masts that retained the longships' sturdy construction (necessary in the 
-treacherous northern seas) and the maneuverability of the Mediterranean trade ships.  This combination allowed carracks to foray into 
-waters never before seen by European eyes -- and to carry back goods and maps from those faraway lands.
-

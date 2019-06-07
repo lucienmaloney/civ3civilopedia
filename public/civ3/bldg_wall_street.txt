@@ -1,5 +1,0 @@
-#BLDG_Wall_Street
-^
-^
-The $LINK<treasury=GCON_Treasury> begins earning 5% interest every turn with a maximum cap of 50 gold per turn.
-^{Requires:} The civilization must have at least five Stock Exchanges in cities it controls.

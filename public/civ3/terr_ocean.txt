@@ -1,3 +1,0 @@
-#TERR_Ocean
-^[Ocean] squares are significant barriers to $LINK<trade=GCON_Trade> and $LINK<travel=PRTO_Galley> until the
-discovery of $LINK<Navigation=TECH_Navigation> or $LINK<Magnetism=TECH_Magnetism>.

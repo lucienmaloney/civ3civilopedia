@@ -1,5 +1,0 @@
-#PRTO_Guerilla
-^
-^
-^[Guerilla] infantry units are typically used to exert pressure on enemy units and civilizations.  They are equipped 
-to act as both offensive and defensive units, possessing equal amounts of training in both.

@@ -1,4 +1,0 @@
-#TECH_Iron_Working
-^
-^
-^{New Resource} $LINK<Iron=GOOD_Iron> deposits appear on the map.

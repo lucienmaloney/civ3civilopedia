@@ -1,7 +1,0 @@
-#GOOD_Saltpeter
-^
-^
-^[Saltpeter] is a $LINK<Strategic Resource=GCON_ResourcesS> required to build early gunpowder military units.
-^
-^Saltpeter deposits appear when your civilization discovers $LINK<Gunpowder=TECH_Gunpowder> and can be found in
-$LINK<hills=TERR_Hills>, $LINK<mountains=TERR_Mountains> and $LINK<desert=TERR_Desert>.

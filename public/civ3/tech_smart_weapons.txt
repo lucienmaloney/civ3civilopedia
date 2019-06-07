@@ -1,4 +1,0 @@
-#TECH_Smart_Weapons
-^
-^
-^{New Ability}  Stealth units and F-15s may conduct $LINK<Precision Strikes=GCON_Air_Missions>.

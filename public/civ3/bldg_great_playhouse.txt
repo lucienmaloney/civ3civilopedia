@@ -1,7 +1,0 @@
-#BLDG_Great_Playhouse
-^
-^
-^Eight $LINK<unhappy citizens=GCON_Moods> in the city are made content. 
-^
-^
-^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>. A city with [Shakespeare's Theater] can grow beyond population 12, but you must have a population of 7 or higher in order to build it.

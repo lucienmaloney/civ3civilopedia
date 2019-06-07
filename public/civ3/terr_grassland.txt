@@ -1,9 +1,0 @@
-#TERR_Grassland
-^The areas of land between desert regions and forests in temperate and tropical climates usually consist of [grassland].
-^
-^Grassland may contain
-$LINK<cattle=GOOD_Cattle>,
-$LINK<horses=GOOD_Horses>,
-$LINK<tobacco=GOOD_Tobacco>,
-$LINK<wheat=GOOD_Wheat>, or
-$LINK<wine=GOOD_Wine>.

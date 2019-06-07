@@ -1,6 +1,0 @@
-#PRTO_Gallic_Swordsman
-^
-^
-^A Celt city must have $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS>
-to build a Gallic Swordsman. They replace the $LINK<swordsman=PRTO_Swordsman> and are much faster.
-

@@ -1,5 +1,0 @@
-#PRTO_Explorer
-^
-^
-^[Explorers] are unarmed, non-combat units that treat all terrain as if it were a road.
-This makes them very adept at exploring the wilderness.

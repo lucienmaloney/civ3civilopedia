@@ -1,4 +1,0 @@
-#BLDG_Offshore_Platform
-^
-^
-^An [Offshore Platform} causes all worked coastal, sea, and ocean squares to produce one $LINK<shield=GCON_Shields>.

@@ -1,5 +1,0 @@
-#TECH_Astronomy
-^
-^
-^{New Ability} $LINK<Harbors=BLDG_Harbor> can be $LINK<connected=GCON_Trade> by $LINK<sea=TERR_Sea> squares.
-^{New Ability} Naval units can safely traverse sea squares.

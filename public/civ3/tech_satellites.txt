@@ -1,4 +1,0 @@
-#TECH_Satellites
-^
-^
-^{Satellite Imagery} The entire world is revealed to any civilization mastering this tech.

@@ -1,6 +1,0 @@
-#PRTO_Berserk
-^
-^
-^The Berserk replaces $LINK<Longbowmen=PRTO_Longbowman> for the $LINK<Viking=RACE_Vikings> civilization.
-In addition to being formidable foot soldiers, berserkers are one of the first available amphibious units 
-in the game, which allows them to attack enemy units or structures directly from within sea-based transport vessels.

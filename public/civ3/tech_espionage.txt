@@ -1,5 +1,0 @@
-#TECH_Espionage
-^
-^
-^{New Ability}  Build an $LINK<Intelligence Agency=BLDG_Intelligence_Center> and you can conduct
-$LINK<Espionage Missions=GCON_Espionage>.

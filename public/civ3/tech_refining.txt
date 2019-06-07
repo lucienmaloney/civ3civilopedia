@@ -1,4 +1,0 @@
-#TECH_Refining
-^
-^
-^{New Resource}  $LINK<Oil=GOOD_Oil> appears on the map.

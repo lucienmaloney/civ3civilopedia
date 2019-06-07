@@ -1,4 +1,0 @@
-#BLDG_Temple
-^
-^
-^The [Temple] produces one $LINK<content face=GCON_Moods>, making one unhappy citizen content.

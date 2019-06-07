@@ -1,8 +1,0 @@
-#TERR_Desert
-^[Deserts] are arid stretches of land characterized by annual rainfall of less than ten inches. 
-^
-^Deserts may contain
-$LINK<incense=GOOD_Incense>,
-$LINK<oases=GOOD_Oasis>, 
-$LINK<oil=GOOD_Oil>, or
-$LINK<saltpeter=GOOD_Saltpeter>.

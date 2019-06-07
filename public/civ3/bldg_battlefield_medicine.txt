@@ -1,5 +1,0 @@
-#BLDG_Battlefield_Medicine
-^
-^
-Allows military units to heal in enemy territory.
-^{Requires:} The civilization must have at least five hospitals in cities it controls.

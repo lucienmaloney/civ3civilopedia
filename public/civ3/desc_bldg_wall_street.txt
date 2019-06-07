@@ -1,8 +1,0 @@
-#DESC_BLDG_Wall_Street
-^
-^
-^The location of the New York Stock Exchange, Wall Street has become the epitome of the modern financial district. A narrow street running from 
-Broadway to the East River, it houses some of the world's most prestigious and powerful banks and commodity exchanges. In 1653 Dutch colonists 
-erected a barricade along this route to ward off the British and unfriendly natives. 
-
-

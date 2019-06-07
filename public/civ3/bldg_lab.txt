@@ -1,6 +1,0 @@
-#BLDG_Lab
-^
-^
-^The [Research Lab] increases $LINK<scientific research=GCON_Research> by 50%.
-^This is in addition to any benefits from a $LINK<library=BLDG_Library> and/or $LINK<university=BLDG_University>.
-A University is required to build a Research Lab.

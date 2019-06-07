@@ -1,5 +1,0 @@
-#PRTO_Bismarck
-^
-^
-^Bismarck is the King unit for the $LINK<German=RACE_GERMANS> in the Regicide $LINK<Short Game Mode=GCON_Short_Game_Modes>.
-

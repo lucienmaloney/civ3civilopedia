@@ -1,9 +1,0 @@
-#BLDG_Cure_for_Cancer
-^
-^
-^Makes one unhappy citizen $LINK<content=GCON_Moods> in every city.
-^
-^
-^
-^
-^May trigger $LINK<Golden Age=GCON_Golden_Age> for Scientific and Agricultural civilizations.

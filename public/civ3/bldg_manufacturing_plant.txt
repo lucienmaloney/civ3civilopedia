@@ -1,5 +1,0 @@
-#BLDG_Manufacturing_Plant
-^
-^
-^A [Manufacturing Plant] increases $LINK<shield production=GCON_Shields> in its city by 50%. Note that 
-manufacturing plants produce $LINK<pollution=GCON_Pollution>. A Factory is required to build a Manufacturing Plant.

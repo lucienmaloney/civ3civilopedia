@@ -1,5 +1,0 @@
-#PRTO_Osman
-^
-^
-^Osman is the King unit for the $LINK<Ottomans=RACE_Ottomans> in the Regicide $LINK<Short Game Mode=GCON_Short_Game_Modes>.
-

@@ -1,9 +1,0 @@
-#TERR_Marsh
-^An extensive area of soft, low-lying terrain is known as a [Marsh]. The fetid conditions of
-a marsh can sometimes cause $LINK<disease=GCON_Disease>.
-^
-^Marsh may contain
-$LINK<fish=GOOD_Fish>, 
-$LINK<game=GOOD_Game>,
-$LINK<oil=GOOD_Oil>, or
-$LINK<rubber=GOOD_Rubber>.

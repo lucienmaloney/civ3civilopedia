@@ -1,7 +1,0 @@
-#GOOD_Ivory
-^
-^
-^[Ivory] is a $LINK<luxury resource=GCON_ResourcesL> that make content people happy in cities that are
-$LINK<connected=GCON_Trade> to it by domestic or foreign $LINK<trade routes=GCON_Trade>.
-^
-^Ivory is always visible on the map and can be found in $LINK<forests=TERR_Forest> and $LINK<plains=TERR_Plains>.

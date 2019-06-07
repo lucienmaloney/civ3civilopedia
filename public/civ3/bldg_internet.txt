@@ -1,9 +1,0 @@
-#BLDG_Internet
-^
-^
-^Puts a $LINK<Research Lab=BLDG_Lab> in every city on the same continent.
-^
-^
-^
-^
-^May trigger $LINK<Golden Age=GCON_Golden_Age> for all civilizations.

@@ -1,5 +1,0 @@
-#BLDG_Pentagon
-^
-^
-[The Pentagon] increases the unit capacity of all the civilization's armies from three to four.
-^{Requires:} The civilization must have at least three $LINK<armies=GCON_Armies> in the field.

@@ -1,5 +1,0 @@
-#TECH_Engineering
-^
-^
-^{New Ability} Workers can now $LINK<Plant Forests=GCON_Worker_Jobs>.
-^{New Ability} Roads now bridge rivers.

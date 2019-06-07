@@ -1,8 +1,0 @@
-#PRTO_Knight
-^
-^
-^[Knights] are fast [and] powerful. They are the first armored unit, and good at attack and defense. Knights
-will [withdraw] from combat if they are losing (unless fighting another fast unit).
-^
-^A city must have both $LINK<iron=GOOD_Iron> and $LINK<horses=GOOD_Horses> in its $LINK<Strategic Resource=GCON_ResourcesS>
-box to build knights.

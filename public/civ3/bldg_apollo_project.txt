@@ -1,4 +1,0 @@
-#BLDG_Apollo_Project
-^
-^
-Completion of the [Apollo Program] enables the civilization to begin construction of the Alpha Centauri $LINK<Spaceship=GCON_Spaceship>.

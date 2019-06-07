@@ -1,4 +1,0 @@
-#BLDG_Police_Station
-^
-^
-^The [Police Station] combats $LINK<war weariness=GCON_War_Weariness> and decreases $LINK<corruption=GCON_Corruption> in its city.

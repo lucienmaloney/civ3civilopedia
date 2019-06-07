@@ -1,5 +1,0 @@
-#BLDG_Coastal_Fortress
-^
-^
-^A [Coastal Fortress] gives the city a naval bombardment defense of eight.
-^The fortress automatically bombards passing enemy ships.

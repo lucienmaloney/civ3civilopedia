@@ -1,4 +1,0 @@
-#BLDG_Intelligence_Center
-^
-^
-^The intelligence agency allows the player to undertake $LINK<Espionage missions=GCON_Espionage>.

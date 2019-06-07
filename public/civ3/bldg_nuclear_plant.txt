@@ -1,9 +1,0 @@
-#BLDG_Nuclear_Plant
-^
-^
-^The [Nuclear Plant] increases $LINK<factory=BLDG_Factory> output by 100%. 
-^It does not create any $LINK<pollution=GCON_Pollution>. A Factory is required to build a Nuclear Plant.
-^Nuclear Plants can [meltdown], causing all hell to break loose...
-^
-^A city must have fresh water within its $LINK<radius=GCON_Radius> to build a Nuclear Plant. It replaces any
-other power plant in the city.

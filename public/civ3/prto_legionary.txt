@@ -1,8 +1,0 @@
-#PRTO_Legionary
-^
-^
-^The [Roman Legionary] is a highly-skilled swordsman good in both offense and defense.
-^
-^A city must have $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS>
-box to build a legionary.
-

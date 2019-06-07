@@ -1,4 +1,0 @@
-#TECH_Bronze_Working
-^
-^
-^$LINK<Scientific Civilizations=GCON_Strengths> start the game with [Bronze Working].

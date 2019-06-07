@@ -1,9 +1,0 @@
-#GCON_Bombardment_in_Ports
-Bombardment in Ports
-^
-^
-^A ship moored at a dock, or at anchor, is unable to quickly maneuver. Therefore, naval units "in port" (i.e., in a
-coastal city square being bombarded) are especially vulnerable to bombardment attacks.
-
-
-

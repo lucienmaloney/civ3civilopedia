@@ -1,5 +1,0 @@
-#BLDG_SDI
-^
-^
-Offers a 75% chance of intercepting enemy ICBMs.
-^{Requires:} The civilization must have at least five SAM Batteries in cities it controls.

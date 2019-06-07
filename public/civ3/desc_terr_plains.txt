@@ -1,9 +1,0 @@
-#DESC_TERR_Plains
-^
-^
-^Plains are similar to grasslands, except that the topsoil is often not as well suited for growing food. Often, rich deposits 
-of minerals are also found in plains regions. The indigenous plants of the plains make them well suited for grazing. Large herds of 
-buffalo and other animals can often be found roaming the area. With the proper irrigation, plains can be easily cultivated into 
-adequate farmland for the production of grains and the raising of livestock.
-
-

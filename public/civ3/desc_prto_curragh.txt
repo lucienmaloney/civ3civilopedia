@@ -1,8 +1,0 @@
-#DESC_PRTO_Curragh
-^
-^
-^"Curragh" is an Irish name for a small boat made of skin stretched over a frame of wood. The origins of this small boat
-date back many thousands of years, predating the more sophisticated and larger war galley. In the game the curragh
-can represent any small boat (papyrus, wooden canoes or rafts, etc.) used by ancient people to expedite movement up and
-down waterways and along coastal shorelines.
-

@@ -1,4 +1,0 @@
-#TECH_Fission
-^
-^
-^{New Resource}  $LINK<Uranium=GOOD_Uranium> appears on the map.

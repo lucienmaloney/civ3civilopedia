@@ -1,4 +1,0 @@
-#BLDG_SAM_Missile_Battery
-^
-^
-^[SAM Missile Batteries] attack enemy air units that attempt to attack the SAM site's city.

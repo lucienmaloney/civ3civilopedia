@@ -1,7 +1,0 @@
-#PRTO_Medieval_Infantry
-^
-^
-^Typically acting as the standard foot-soldiers of the Middle Ages, [Medieval Infantry] are skilled warriors who
-are suitable for dispatching ancient-era units and civilizations.
-^
-^A city must have $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build medieval infantry.

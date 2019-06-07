@@ -1,4 +1,0 @@
-#BLDG_Colosseum
-^
-^
-^The [Colosseum] produces two $LINK<content faces=GCON_Happy_Faces> that make two unhappy citizens content.

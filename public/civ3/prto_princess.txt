@@ -1,6 +1,0 @@
-#PRTO_Princess
-^
-^
-^The Princess functions as the flag in the Capture the Princess $LINK<Short Game Mode=GCON_Short_Game_Modes>.
-
-

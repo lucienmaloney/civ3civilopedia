@@ -1,7 +1,0 @@
-#BLDG_Harbor
-^
-^Cities with a [Harbor] produce $LINK<veteran=GCON_Experience> naval units instead of regulars.
-^Coastal, sea, and ocean squares produce one extra $LINK<food=GCON_Food>. 
-^A [Harbor] is a link in the $LINK<trade network=GCON_Trade>, allowing $LINK<luxuries=GCON_ResourcesL>
-and $LINK<strategic resources=GCON_ResourcesS> to be traded to other [Harbors].
-^A city with a [Harbor] can be used to upgrade naval units.

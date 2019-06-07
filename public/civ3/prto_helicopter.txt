@@ -1,8 +1,0 @@
-#PRTO_Helicopter
-^
-^
-^[Helicopters] are essentially air transports that can transport units to any square within their operational range,
-regardless of enemy units. Helicopters may carry foot soldiers only -- no mechanized units allowed.
-^
-^A city needs $LINK<oil=GOOD_Oil> and $LINK<rubber=GOOD_Rubber> in its $LINK<Strategic Resource=GCON_ResourcesS>
-box to build a helicopter.

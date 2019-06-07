@@ -1,8 +1,0 @@
-#GOOD_Iron
-^
-^
-^[Iron] is a $LINK<Strategic Resource=GCON_ResourcesS> required to build Ancient and Middle Ages sword and 
-armor military units.
-^
-^Iron deposits appear when your civilization discovers $LINK<iron working=TECH_Iron_Working>, and can be found in 
-$LINK<hills=TERR_Hills> and $LINK<mountains=TERR_Mountains>.

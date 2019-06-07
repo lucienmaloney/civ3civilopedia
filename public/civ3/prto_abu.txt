@@ -1,5 +1,0 @@
-#PRTO_Abu
-^
-^
-^Abu is the King unit for the $LINK<Arabs=RACE_Arabs> in the Regicide $LINK<Short Game Mode=GCON_Short_Game_Modes>.
-

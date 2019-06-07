@@ -1,8 +1,0 @@
-#BLDG_Hydro_Plant
-^
-^
-^The [Hydro Plant] increases $LINK<factory=BLDG_Factory> output by 50%.
-^It produces no $LINK<pollution=GCON_Pollution>.
-^It replaces any other power plant in the city. A Factory is required to build a Hydro Plant.
-^
-^A city must have a river within its $LINK<radius=GCON_Radius> to build a Hydro Plant.

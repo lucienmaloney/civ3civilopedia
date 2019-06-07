@@ -1,5 +1,0 @@
-#PRTO_Impi
-^
-^
-^The [Zulu Impi] is perhaps the first "mechanized infantry"... they are fast defenders that will [withdraw]
-from combat if they are losing (unless fighting another fast unit).

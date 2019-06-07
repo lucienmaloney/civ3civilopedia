@@ -1,7 +1,0 @@
-#PRTO_Horseman
-^
-^
-^The first mounted unit you can build, [horsemen] move fast and will [withdraw] from combat if losing (unless
-fighting another fast unit).
-^
-^A city must have $LINK<horses=GOOD_Horses> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a horseman.

@@ -1,6 +1,0 @@
-#PRTO_Conquistador
-^
-^
-^A Spanish city must have $LINK<horses=GOOD_Horses> in its $LINK<Strategic Resource=GCON_ResourcesS> to build a 
-Conquistador. They replace the $LINK<explorers=PRTO_Explorer> and are fast, military scouts that treat all terrain
-as if it were a road.

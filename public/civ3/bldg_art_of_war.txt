@@ -1,9 +1,0 @@
-#BLDG_Art_of_War
-^
-^
-^Puts a $LINK<barracks=BLDG_Barracks> in every city on the same continent.
-^
-^
-^
-^
-^May trigger $LINK<Golden Age=GCON_Golden_Age> for Militaristic civilizations.

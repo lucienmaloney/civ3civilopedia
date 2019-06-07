@@ -1,4 +1,0 @@
-#BLDG_SS_Fuel_Cells
-^
-^
-^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type.

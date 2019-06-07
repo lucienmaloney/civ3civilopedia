@@ -1,4 +1,0 @@
-#BLDG_Mass_Transit_System
-^
-^
-^The [Mass Transit System] reduces $LINK<pollution=GCON_Pollution> caused by population.

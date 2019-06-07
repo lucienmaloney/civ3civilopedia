@@ -1,4 +1,0 @@
-#BLDG_Bank
-^
-^
-^A [Bank] increases $LINK<tax revenue=GCON_Commerce> produced in its city by 50%, in addition to any marketplace benefit. You must have a $LINK<Marketplace=BLDG_Marketplace> to build a Bank.

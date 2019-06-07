@@ -1,9 +1,0 @@
-#BLDG_Theory_of_Evolution
-^
-^
-^Grants two Civilization Advances as soon as completed.
-^
-^
-^
-^
-^May trigger $LINK<Golden Age=GCON_Golden_Age> for Scientific civilizations.

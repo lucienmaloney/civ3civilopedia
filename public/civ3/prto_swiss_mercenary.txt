@@ -1,8 +1,0 @@
-#PRTO_Swiss_Mercenary
-^
-^
-^The [Dutch Swiss Mercenary] is an excellent defender that boasts an even better defense strength than the
-formidable $LINK<pikeman=PRTO_Pikeman>.
-^
-^A city must have $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Swiss
-Mercenary.

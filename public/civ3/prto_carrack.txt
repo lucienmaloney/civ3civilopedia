@@ -1,5 +1,0 @@
-#PRTO_Carrack
-^
-^
-^A [Portuguese Carrack] is a sea-going vessel that may safely traverse $LINK<coast=TERR_Coast> and $LINK<sea=TERR_Sea> squares. Unlike a caravel, if a carrack ends its turn in an $LINK<ocean=TERR_Ocean> square,
-it will not sink, and the carrack has a higher attack strength than a caravel.

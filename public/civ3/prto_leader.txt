@@ -1,7 +1,0 @@
-#PRTO_Leader
-^
-^
-^[Leaders] can arise when an $LINK<elite unit=GCON_Experience> wins a battle or as the result of scientific
-$LINK<research=GCON_Research>. Depending on the $LINK<type of leader=GCON_Leaders>, it can be used either to create
-an $LINK<army=PRTO_Army> or to $LINK<hurry=GCON_Hurry_Production> production of certain items in a city. When the
-leader does either of these things it disappears.

@@ -1,7 +1,0 @@
-#PRTO_Battleship
-^
-^
-^"The Queen of the seas," the [Battleship] has a bombardment range of two and packs a terrific punch both in
-traditional naval engagements and in offshore bombardment.
-^
-^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a battleship.

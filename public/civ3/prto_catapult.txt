@@ -1,8 +1,0 @@
-#PRTO_Catapult
-^
-^
-^Primitive artillery, [catapults] are devastating siege weapons in Ancient Times. They are used to
-$LINK<bombard=GCON_Combat> city defenses to soften the attack for accompanying soldiers.
-Catapults have no attack or defense power, so they should be protected by an escort. Finally,
-catapults are wheeled so they may not enter $LINK<mountain=TERR_Mountains>, $LINK<volcano=TERR_Volcano>,
-$LINK<jungle=TERR_Jungle> or $LINK<marsh=TERR_Marsh> terrain unless along a road.

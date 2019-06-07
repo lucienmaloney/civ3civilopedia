@@ -1,9 +1,0 @@
-#DESC_BLDG_Wealth
-^
-^
-^Manufactured goods can provide an excellent source of income. Cities throughout time have become manufacturing centers of 
-one sort or another, trading the goods and services generated within by its artisans and craftsmen. Modern manufacturing 
-operations currently employ all sorts of workers, from laborers to managers to executives, and are the primary driving 
-forces of many cities' and nations' economies.
-
-

@@ -1,6 +1,0 @@
-#TECH_Advanced_Flight
-^
-^
-^{New Ability} $LINK<Workers=PRTO_Worker> can build $LINK<radar towers=GCON_Radar_Towers>.
-
-

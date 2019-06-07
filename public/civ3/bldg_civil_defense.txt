@@ -1,5 +1,0 @@
-#BLDG_Civil_Defense
-^
-^
-^[Civil Defense] can be built in any size settlement and provides a 50% defensive bonus to units
-defending in the town. Civil Defense can only be built in a city that has a barracks.

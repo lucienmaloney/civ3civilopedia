@@ -1,5 +1,0 @@
-#TECH_Sanitation
-^
-^
-^
-^{New Ability}  Disease from $LINK<Floodplains=TERR_Flood_Plain> is eliminated, and the effect of $LINK<Plague=GCON_Plague> is reduced.

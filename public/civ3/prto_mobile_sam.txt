@@ -1,6 +1,0 @@
-#PRTO_Mobile_SAM
-^
-^
-^The [Mobile SAM] is a powerful anti-aircraft weapon.
-^
-^

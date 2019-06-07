@@ -1,6 +1,0 @@
-#PRTO_Pikeman
-^
-^
-^The [pikeman] is an excellent defender.
-^
-^A city must have $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a pikeman.

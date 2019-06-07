@@ -1,8 +1,0 @@
-#PRTO_Mech_Infantry
-^
-^
-^[Mechanized infantry] are fast-moving defensive units that will [withdraw] from combat if losing (unless
-fighting another fast unit).
-^
-^A city must have both $LINK<oil=GOOD_Oil> and $LINK<rubber=GOOD_Rubber> in its
-$LINK<Strategic Resource=GCON_ResourcesS> box to build mechanized infantry.

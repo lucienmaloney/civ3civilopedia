@@ -1,5 +1,0 @@
-#TECH_Construction
-^
-^
-^{New Ability} $LINK<Workers=PRTO_Worker> can build $LINK<fortresses=GCON_Fortresses> and
-$LINK<barricades=GCON_Barricades>.

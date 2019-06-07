@@ -1,6 +1,0 @@
-#PRTO_Swordsman
-^
-^
-^The [swordsman] is the first effective unit of the Iron Age.
-^
-^A city must have $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a swordsman.

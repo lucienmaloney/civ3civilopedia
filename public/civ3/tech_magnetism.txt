@@ -1,5 +1,0 @@
-#TECH_Magnetism
-^
-^
-^{New Ability} $LINK<Harbors=BLDG_Harbor> can be $LINK<connected=GCON_Trade> by $LINK<ocean=TERR_Ocean> squares.
-^{New Ability} Naval units can safely traverse $LINK<ocean=TERR_Ocean> squares.

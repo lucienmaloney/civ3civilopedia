@@ -1,9 +1,0 @@
-#BLDG_Manhattan_Project
-^
-^
-^Allows the construction of nuclear weapons by {all} civilizations. Nuclear Weapons can {Not} be built until this Wonder has been completed.
-^
-^
-^
-^
-^May trigger $LINK<Golden Age=GCON_Golden_Age> for Militaristic or Industrious civilizations.

@@ -1,6 +1,0 @@
-#BLDG_Military_Academy
-^
-^
-The city with the [Military Academy] can build $LINK<armies=GCON_Armies> without the benefit of a $LINK<leader=GCON_Leaders>.  Armies from this civilization are more effective in combat.
-^
-^{Requires:} The civilization must have had a victorious $LINK<army=GCON_Armies>.

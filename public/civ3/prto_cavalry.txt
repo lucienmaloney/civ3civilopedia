@@ -1,8 +1,0 @@
-#PRTO_Cavalry
-^
-^
-^Fast and well-organized, [Cavalry] packs a huge offensive punch but will [withdraw] if 
-losing (unless fighting another fast unit).
-^
-^A city must have both $LINK<horses=GOOD_Horses> and $LINK<saltpeter=GOOD_Saltpeter> in its
-$LINK<Strategic Resource=GCON_ResourcesS> box to build cavalry.

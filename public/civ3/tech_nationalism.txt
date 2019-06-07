@@ -1,6 +1,0 @@
-#TECH_Nationalism
-^
-^{New Ability}  Can $LINK<mobilize=GCON_Mobilization> for war.
-^{New Ability}  Can $LINK<draft=GCON_Draft> citizens.
-^{New Ability}  Can create $LINK<Police Officers=GCON_Specialists>.
-^{New Diplomatic Agreements}  Can now negotiate mutual protection pact and trade embargo $LINK<agreements=GCON_Agreements>.

@@ -1,6 +1,0 @@
-#TERR_Coast
-^Shallow by comparison with sea or ocean squares, [coastal] waters appear along the shorelines of land masses.
-Initially, naval units that leave the comfort of coastal areas risk loss in treacherous seas. But after the
-discovery of $LINK<astronomy=TECH_Astronomy>, this danger vanishes.
-^
-^Coastal squares can contain $LINK<fish=GOOD_Fish>.

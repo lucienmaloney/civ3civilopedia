@@ -1,8 +1,0 @@
-#DESC_PRTO_Mobile_SAM
-^
-^
-^SAMs, or Surface to Air Missiles, are the primary means by which modern armies defend themselves against air attack. They come in a staggering variety of cost, effectiveness, and portability, and can be used against enemy planes or missiles. During the Soviet invasion of Afghanistan in 1979, Afghan rebels made extensive use of U.S.-supplied Stinger missiles, a type of shoulder-launched SAM, to inflict massive losses on the Soviet helicopter forces. Some SAMs are fired from much larger launchers and use sophisticated radar systems, or communications systems that link them to dedicated radar arrays, to target supersonic aircraft at high altitudes. The neutralization of an enemy's SAM defense capability is often the first objective for an attacking air force.
-
-;   ____________________________________________ARTILLERY UNITS_____________________________________________
-
-

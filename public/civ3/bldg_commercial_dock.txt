@@ -1,5 +1,0 @@
-#BLDG_Commercial_Dock
-^
-^
-^A [Commercial Dock] causes the city it is in to produce one extra Commerce in every water square that already produces one.
-A Commercial Dock can only be bult in coastal cities. A Commercial Dock can only be built in a city that has a harbor.
