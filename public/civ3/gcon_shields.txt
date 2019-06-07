@@ -1,0 +1,29 @@
+#GCON_Shields
+Production and Shields
+^
+^
+^[Shields] represent [common] raw materials in the countryside [and] the labor
+required to make useful materials from them. In essence they are a measure of [production].
+^   The shields a city produces are used to complete its current project, which may be to build a military unit,
+city improvement, or wonder. When the production box is full of shields, the project is finished,
+the box is emptied, and a new project must be started.
+^   Some cities lose shields to $LINK<waste=GCON_Corruption>.
+^   Shield production depends upon the terrain within the city's radius, because citizens
+laboring there produce shields. When the [City Display] is open, you can see what the citizens are producing.
+^
+^{A citizen working		Produces this many shields}
+^Grasslands				0	1 if mined.
+^Outcropping			1	2 if mined.
+^Plains					1	2 if mined.
+^Hills					1	3 if mined.
+^Mountains				1	3 if mined.
+^Tundra				0	1 if mined.
+^Desert				1	2 if mined.
+^Forest				2	cannot be mined.
+^Marsh					0	cannot be mined.
+^Volcano				0	cannot be mined.
+^
+^Note that some $LINK<natural resources=GCON_ResourcesN> provide bonus shields as well.
+
+
+

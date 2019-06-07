@@ -1,0 +1,12 @@
+#DESC_TECH_The_Wheel
+^
+^
+^The invention of the wheel represented a major turning point in human civilization. The first wheels, disks carved from solid wood, may have 
+been built as early as 3500 BC. The earliest use of this device was the potter's wheel, used to spin and shape clay pottery. It was not long 
+before the true potential of the wheel was discovered, and wheeled carts soon replaced the sledge as a means of transportation. Rapid 
+developments, such as wheels consisting of a ring with radial spokes, made the wheel even more practical by reducing its weight. By using 
+the wheel, mankind gained the ability to work more efficiently and travel more quickly. Besides its use in transportation, the wheel went on 
+to become the basic principle behind almost every mechanical device.
+
+
+

@@ -1,0 +1,26 @@
+#RACE_DUTCH
+^The Dutch are $LINK<seafaring and agricultural=GCON_Strengths>. They start the game with
+$LINK<Pottery=TECH_Pottery> and $LINK<Alphabet=TECH_Alphabet> and build the $LINK<Swiss Mercenaries=PRTO_Swiss_Mercenary> instead of the $LINK<pikeman=PRTO_Pikeman>. 
+^
+^Toward the end of the 16th century CE, the independent cities and principalities of Flanders and Belgium sent
+representatives to Utrecht to form an alliance. The alliance would coordinate taxation and military operations
+against Spain, whose ruling Hapsburgs had dominion over the Low Countries even after they adopted the Protestant
+religion. The Netherlands, comparatively small and poor compared to mighty Spain and its empire of gold in
+the Americas, often had to rely on {Swiss mercenaries} and other hired guns for its defense. This was not a
+long-term solution, hence the need for a much closer alliance. The result of this meeting was the Union of
+Utrecht, which formally created the United Provinces of the Netherlands.
+^    Spain, which had spent the previous decade alternately fighting and politicking against the armies and
+intrigues of {William of Orange}, was not pleased by this development. Orange�s position had always been that
+Spain�s sovereignty over the Netherlands was legitimate, but the governors chosen by the King were trampling
+the rights of Orange and the other native nobles. William also vehemently opposed the imposition of Catholicism
+on his homeland, but still felt the King of Spain could be persuaded to loosen his grip. This proved unrealistic,
+and in 1581 Orange publicly renounced his loyalty to the Spanish throne. He was assassinated a few years later;
+he did not live to see his country completely free of Spanish domination.
+^    However, once the provincial leaders (particularly those of Holland, the largest and most influential of
+the United Provinces) and the nobles began to cooperate, putting their disagreements to one side, Spain was
+nearly defeated. Under the brilliant political, military, and economic leadership of Johan de Witt, perhaps
+the Netherlands� greatest statesman, the Dutch Republic grew into a world power, its rapidly growing economy and
+naval presence allowing it to settle colonies around the world and establish a massive trade empire. This
+wealth translated into a cultural golden age lasting over a hundred years.
+^    During that time, Dutch thinkers made fundamental contributions to philosophy, law, science, and art.
+Hugo Grotius, a lawyer and

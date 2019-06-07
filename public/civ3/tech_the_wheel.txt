@@ -1,0 +1,7 @@
+#TECH_The_Wheel
+^
+^
+^{New Resource} $LINK<Horses=GOOD_Horses> appear on the map.
+^
+^
+^Some $LINK<Militaristic Civilizations=GCON_Strengths> start the game with [The Wheel].

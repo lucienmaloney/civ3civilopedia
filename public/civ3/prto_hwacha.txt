@@ -1,0 +1,13 @@
+#PRTO_Hwacha
+^
+^The [Hwach'a] replaces the $LINK<cannon=PRTO_Cannon> as the siege weapon of choice for the $LINK<Korean=RACE_Koreans> 
+civilization in the Middle Ages.  The [Hwach'a] is a more advanced artillery unit, capable of bombarding adjacent 
+targets.  Hwach'a have no attack or defense value, so they should be protected by an escort.  Further, they 
+are wheeled units, so they cannot enter $LINK<mountain=TERR_Mountains>, $LINK<volcano=TERR_Volcano>,
+$LINK<jungle=TERR_Jungle> or $LINK<marsh=TERR_Marsh> terrain unless following a road.
+^
+^
+^The Hwach'a has both Lethal Sea and Land Bombardment.
+^
+^
+^A city must have $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic Resource=GCON_ResourcesS> to build a Hwach'a.

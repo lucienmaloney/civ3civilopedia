@@ -1,0 +1,6 @@
+#PRTO_Curragh
+^
+^
+^The [Curragh] is the first naval unit you can build. It is a tiny, primitive boat that must end each turn in
+a $LINK<coastal=TERR_Coast> square -- they are in danger of sinking if they end their turn in a
+$LINK<sea=TERR_Sea> or $LINK<ocean=TERR_Ocean> square.

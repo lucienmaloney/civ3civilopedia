@@ -1,0 +1,5 @@
+#PRTO_Caravel
+^
+^
+^The [Caravel] is a sea-going vessel that may safely traverse $LINK<coast=TERR_Coast> and $LINK<sea=TERR_Sea> squares. 
+If it ends a turn in an $LINK<ocean=TERR_Ocean> square, it is in danger of sinking.

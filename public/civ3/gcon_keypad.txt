@@ -1,0 +1,16 @@
+#GCON_Keypad
+Number Keypad
+^
+^
+^With your Num Lock "on," you can use the number keypad to move your units. Think of the numbers as the
+eight directions on a compass.
+^
+^1 = move Southwest
+^2 = move South
+^3 = move Southeast
+^4 = move West
+^6 = move East
+^7 = move Northwest
+^8 = move North
+^9 = move Northeast
+

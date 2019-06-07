@@ -1,0 +1,7 @@
+#GOOD_Rubber
+^
+^
+^[Rubber] is a $LINK<Strategic Resource=GCON_ResourcesS> required to build late Industrial Age and Modern Era units.
+^
+^Rubber sources appear when your civilization discovers $LINK<Replaceable Parts=TECH_Replaceable_Parts> and can be found in
+$LINK<jungles=TERR_Jungle>, $LINK<forests=TERR_Forest> and $LINK<marsh=TERR_Marsh>.

@@ -1,0 +1,20 @@
+#DESC_RACE_Byzantines
+^
+^
+^    After two hundred years of defeats and erosion, during which Byzantium lost virtually all of its possessions south of Asia Minor, the ascension 
+of Basil I to the imperial throne in 867 marked a turnaround in Byzantine military fortunes.  Byzantine armies beat back the Arabs in the east and south, and despite 
+several humiliating defeats at the hands of the Muslims, reasserted dominance over the eastern Mediterranean.  Syria, along
+with the key city of Antioch, also came back to Byzantine control, along with Armenia and large parts of the Balkans.  For 150 years, Byzantium enjoyed civil 
+prosperity and military victory.
+^    But new adversaries appeared where the old ones had fallen.  In 1071, Byzantium suffered two catastrophic defeats -- they lost their last toehold in Italy to the Normans, who had 
+earlier sacked Constantinople during a crusade gone awry.  In the east, the Ottomans broke Byzantine power in Asia Minor forever at Manzikert, and the once dominant 
+empire was reduced to a rump state comprising Constantinople, parts of the Balkans, and a few remaining provinces in western Turkey.  The heart of it, though, was 
+now ruled by the Turks.  Nonetheless, during this time, art, religion, and philosophy flourished within the walls of Constantinople.  It was as if the learned men
+of Byzantium were unaware of the threats lurking outside.  Another fateful event, the Schism of 1054, finalized the separation between the Byzantine (Eastern) and
+Catholic (western) churches.  This would lead to deep suspicion between the two churches, and western reluctance to assist Byzantium against the Turks years later.
+^    Eventually Byzantium was forced to resort to bribery and compromise with the Turks and the new western powers that coveted its territory and former influence. 
+In 1421, after a hundred years of co-existence with the Turks, the new sultan Murad II revoked all of the arrangements that had existed between the two empires.  As a 
+last resort, the Byzantine emperor begged Rome for help, but the Christian army sent to fight the Turks was utterly defeated.  In 1453, the Turks assaulted 
+Constantinople itself, and the walls that had stood for over a thousand years finally fell, marking the end of the Byzantine Empire.
+
+

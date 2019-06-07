@@ -1,0 +1,21 @@
+#GCON_Overpopulation
+Overpopulation
+^
+^
+^Depending upon the level of difficulty you choose to play, overpopulation affects your cities at different stages. 
+In each city, a number of citizens are born content. Thereafter, the rest are born unhappy. The number born content
+are as follows.
+^
+^
+^{Difficulty			Content Citizens}
+^* Chieftain					4
+^* Warlord					3
+^* Regent					2
+^* Monarch					2
+^* Emperor					1
+^* Demigod					1
+^* Deity					1
+^* Sid						1
+^
+^Overpopulation can also result in $LINK<starvation=GCON_Food>.
+

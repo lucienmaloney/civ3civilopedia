@@ -1,0 +1,8 @@
+#PRTO_Carrier
+^
+^
+^[Aircraft Carriers] carry air units and are legitimate airbases. Air units may $LINK<re-base=GCON_Air_Missions>
+to carriers, and can launch missions from them. Carriers are equipped with [Radar], so they can see two squares in all directions,
+regardless of any blocking terrain.
+^
+^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a carrier.

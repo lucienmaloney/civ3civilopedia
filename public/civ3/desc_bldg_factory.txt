@@ -1,0 +1,10 @@
+#DESC_BLDG_Factory
+^
+^
+^Early examples of factory-like production, where a number of individuals work cooperatively to produce goods for sale or trade, can be 
+found as far back as ancient Greece and Rome. Modern factories, however, evolved from the concept of specialized labor, where each worker 
+performed a single step in the overall production of an item. This specialization allows factories to increase the speed and efficiency of 
+the manufacturing process, far surpassing earlier means of production. The development of the factory system as a means of production played 
+a key role in the Industrial Revolution.
+
+

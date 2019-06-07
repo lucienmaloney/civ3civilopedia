@@ -1,0 +1,7 @@
+#PRTO_Musketeer
+^
+^
+^[French Musketeers] are troops specifically trained to use the new weapon, the musket. They are better on defense than
+normal musketmen.
+^
+^A French city must have $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a musketeer.

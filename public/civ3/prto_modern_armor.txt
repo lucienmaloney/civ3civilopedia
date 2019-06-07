@@ -1,0 +1,9 @@
+#PRTO_Modern_Armor
+^
+^
+^[Modern armored units] are faster and much more powerful than ordinary tanks. These are truly awesome
+war machines that can [attack multiple times] in a single turn and [withdraw] from combat
+if losing the fight (unless fighting another fast unit, of course).
+^
+^A city must have $LINK<aluminum=GOOD_Aluminum>, $LINK<oil=GOOD_Oil> and $LINK<rubber=GOOD_Rubber> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build modern armor.

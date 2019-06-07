@@ -1,0 +1,25 @@
+#RACE_EGYPTIANS
+^The Egyptians are $LINK<religious and industrious=GCON_Strengths>. They start the game with
+$LINK<Masonry=TECH_Masonry> and $LINK<Ceremonial Burial=TECH_Ceremonial_Burial> and build
+$LINK<war chariots=PRTO_War_Chariot> instead of normal $LINK<chariots=PRTO_Chariot>. 
+^
+^Few civilizations have left such an indelible mark on history as that of ancient Egypt. Though the first settlers 
+of the Nile valley are thought to have arrived as early as 7000 BC, it wasn't until the legendary king Menes unified 
+Upper and Lower Egypt that the region began to develop a cohesive sense of culture and identity. This First Dynasty 
+(2925-2775 BC), with its capital at Memphis, was followed by 26 more over the next 2700 years. Writing was the major 
+instrument in the centralization and self-preservation of Egypt. The two basic forms of writing, hieroglyphs and the 
+cursive form known as hieratic (used on papyrus), were invented at much the same time in late pre-dynastic Egypt 
+(about 3000 BC). Writing was used chiefly for administration and until about 2650 BC no continuous texts were recorded; 
+the only literary texts written down before the early Middle Kingdom (1950 BC) seem to have been lists of religious 
+practices and medical treatises. Another strength was the Egyptian religion, which was one of the most enduring of 
+the ancient world, through which Egypt became a highly stratified, highly efficient society. Egypt�s economic strength 
+allowed for the support of a priestly class, who were tasked with the spiritual well being of the people yet able to 
+devote their time to the study of religion, astronomy, philosophy and mathematics. The priesthood also served the 
+functions of a state bureaucracy, carrying out the edicts of the Pharaoh and managing his financial and diplomatic 
+affairs. The great organizational and economic power of Egypt allowed the rulers to accomplish unmatched works of 
+construction. The Great Pyramids of Giza, completed in the Fourth Dynasty (2575-2465 BC), still stand as one of mankind�s 
+most impressive feats of engineering and logistics.
+^    Previous to 1700 BC, no outsiders had ever held dominion over Egypt. That changed when the Hyksos, a Semitic 
+people, overran Lower Egypt. Thereafter, Egypt�s borders were defended by capable Libyan warriors and the elite often 
+rode into battle in {War Chariots}, which were able to use speed to outflank opponents and break up organized formations 
+of troops. Egypt�s greatest military strength,

@@ -1,0 +1,18 @@
+#GOVT_Communism
+^
+^
+^Under Communism, the government is in the hands of a ruling "party" controlled absolutely by you, the Chairman.
+Although Communism allows greater production than despotism, the system restricts personal freedoms, limiting
+$LINK<commerce=GCON_Commerce>. One positive aspect of Communism is its effect upon $LINK<corruption and waste=GCON_Corruption>:
+all cities suffer the same, limited effects.
+^
+^Worker efficiency				100%
+^Hurry Method					Forced Labor
+^Corruption / Waste				Communal
+^War Weariness					None
+^Draft Rate						2
+^Military Police Limit				4
+^Unit Support
+^    per town					6
+^    per city						6
+^    per metropolis				6

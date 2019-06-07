@@ -1,0 +1,15 @@
+#TFRM_Mine
+^
+^
+^A mine increases the $LINK<shield production=GCON_Shields> of a square.
+^
+^{Terrain					Produces}
+^Grasslands				0 shields, 1 if mined.
+^  w/ outcropping		1 shields, 2 if mined.
+^Plains					1 shields, 2 if mined.
+^Hills					1 shields, 3 if mined.
+^Mountains				1 shields, 3 if mined.
+^
+^Workers are ordered to dig mines by pressing [M], or the "Build Mine" button.
+
+

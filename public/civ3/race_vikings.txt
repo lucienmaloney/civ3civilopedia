@@ -1,0 +1,25 @@
+#RACE_Vikings
+^The Vikings are $LINK<militaristic and seafaring=GCON_Strengths>. They start the game with
+$LINK<Alphabet=TECH_Alphabet> and $LINK<Warrior Code=TECH_Warrior_Code> and build
+$LINK<Berserks=PRTO_Berserk> instead of $LINK<Longbowmen=PRTO_Longbowman>.
+^
+^The suggested reasons for the appearance of the Vikings at the end of the 8th century in Scandinavia are 
+varied. The most logical explanation to date is the possible overpopulation of the region.  An explosion in 
+Nordic population throughout Norway, Sweden, Finland, and Denmark during the 7th and 8th centuries may have 
+forced the indigenous people to explore and settle in more favorable territories. In addition, the gradual 
+establishment of government throughout most of Western Europe augmented mercantile trade greatly as well as the 
+opportunities for piracy. At home, these Scandinavians were independent farmers, but at sea or on the fields of 
+war they were some of the fiercest warriors in the world.
+^    The Scandinavian art of shipbuilding evolved during the course of the 8th century and greatly facilitated these 
+early Viking expeditions and raids.  The most distinct differences between the Viking ships and their merchant 
+vessel victims, was that the merchant ships were short, broad and relied on sail power, while Viking warships 
+were longer, thinner and had a far greater number of oars and men. This made the Viking ships notably faster, 
+and was instrumental in allowing the Vikings to penetrate long distances up rivers. Small armies of Viking 
+longships negotiated the seas, utilizing hit-and-run tactics on the cities, towns, and villages that dotted the 
+coasts of Europe. These longships were the very tools of Viking expansion.  The Vikings were able to raid far 
+afield and subsequently colonize the lands that they plundered.
+^    Viking hordes attacked England at the end of the 8th century, after which followed a period of relative calm 
+that was shattered years later when attacks began anew. At first, the Vikings led nothing more than predatory 
+raids in the summer months in search of booty and slaves, with no attempts at permanent settlement.  Beginning in 850 
+however, there appeared to be changes in Viking strategy, for the first time, Vikings occupied entire villages 
+and regions in the winters following their raids... they had come to stay.

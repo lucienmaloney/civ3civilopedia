@@ -1,0 +1,29 @@
+#GCON_ResourcesB
+Bonus Resources
+^
+^
+^[Bonus resources] are one of the types of $LINK<natural resources=GCON_ResourcesN>. These
+cannot be traded like $LINK<luxury=GCON_ResourcesL> or $LINK<strategic resources=GCON_ResourcesS>,
+but do provide bonuses to worked squares within a $LINK<city radius=GCON_Radius>.
+^
+^
+^{City Production Bonuses}
+^A citizen laborer working a bonus resource square gains extra $LINK<food=GCON_Food>,
+$LINK<shields=GCON_Shields>, and/or $LINK<commerce=GCON_Commerce>.
+^
+^{Types		Food	Shields	Commerce}
+^$LINK<Tropical Fruit=GOOD_Bananas>	+1		+0		+1
+^$LINK<Cattle=GOOD_Cattle>			+2		+1		+0
+^$LINK<Fish=GOOD_Fish>			+2		+0		+1
+^$LINK<Game=GOOD_Game>			+2		+0		+0
+^$LINK<Gold=GOOD_Gold>			+0		+0		+4
+^$LINK<Oasis=GOOD_Oasis>			+2		+0		+0
+^$LINK<Sugar=GOOD_Sugar>			+1		+0		+1
+^$LINK<Tobacco=GOOD_Tobacco>		+0		+0		+1
+^$LINK<Whales=GOOD_Whales>		+1		+1		+2
+^$LINK<Wheat=GOOD_Wheat>		+2		+0		+0
+
+
+
+
+

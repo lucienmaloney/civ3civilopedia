@@ -1,0 +1,16 @@
+#GCON_Assimilation
+Assimilation
+^
+^
+^[Assimilation] is the process by which $LINK<foreign nationals=GCON_Nationality> change their nationality
+from one civilization to another. When a foreign national has been a part of a minority population longer than not,
+he or she assimilates and becomes a member of the majority nationality.
+^ 
+^
+^This process can take many turns, but the reduced risk of successful $LINK<hostile propaganda=GCON_Espionage> makes
+it useful.
+
+
+
+
+

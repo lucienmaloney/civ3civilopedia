@@ -1,0 +1,11 @@
+#BLDG_Hanging_Gardens
+^
+^
+[The Hanging Gardens] makes three $LINK<unhappy citizens=GCON_Moods> content in its city and
+one unhappy citizen content in all other friendly cities.
+^
+^
+^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Industrious and Agricultural civilizations.

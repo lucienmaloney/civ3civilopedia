@@ -1,0 +1,22 @@
+#DESC_GCON_Hotkeys_Controls
+^{Diplomacy and Espionage}
+^Plant Spy       				Ctrl+Shift+E
+^Establish Embassy     		Ctrl+E
+^Use Embassy or Spy			Shift+E
+^Diplomatic Contact			Shift+D
+^Espionage       				E
+^
+^{City Window}
+^Hurry Production     			H
+^Add to Production Queue		Shift+Click
+^Governor       				G
+^
+^{Multiplayer}
+^Center on Message Location	Ctrl-M
+^Pause						Pause
+^Perform Automation			Ctrl-U
+^Send Voice Message			Tab
+^Send Text Message			~~
+
+
+

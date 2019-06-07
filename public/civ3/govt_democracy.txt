@@ -1,0 +1,19 @@
+#GOVT_Democracy
+^
+^
+^You are elected by the people to rule with their interests at heart. You are rewarded by increased
+$LINK<commerce=GCON_Commerce> and $LINK<production=GCON_Shields>. However, $LINK<war weariness=GCON_War_Weariness>
+is a significant problem and war must be entered into only after much consideration.
+^
+^
+^
+^Worker efficiency				150%
+^Hurry Method					Pay citizens
+^Corruption / Waste				Minimal
+^War Weariness					High
+^Draft Rate						1
+^Military Police Limit				0
+^Unit Support
+^    per town					0
+^    per city						0
+^    per metropolis				0

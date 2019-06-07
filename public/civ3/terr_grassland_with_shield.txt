@@ -1,0 +1,10 @@
+#TERR_Grassland_with_Shield
+^The areas of land between desert regions and forests in temperate and tropical climates usually consist of [grassland].
+Some grasslands contain mineral deposits and other useful materials. These have a rock outcropping to symbolize this
+and produce a $LINK<shield=GCON_Shields> if worked in a $LINK<city radius=GCON_Radius>.
+^
+^Grassland may contain
+$LINK<cattle=GOOD_Cattle>,
+$LINK<horses=GOOD_Horses>,
+$LINK<wheat=GOOD_Wheat>, or
+$LINK<wine=GOOD_Wine>.

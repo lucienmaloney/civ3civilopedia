@@ -1,0 +1,11 @@
+#DESC_TECH_The_Corporation
+^
+^
+^As businesses grow, they often find it necessary to raise large amounts of operating capital in order to expand their operations beyond a 
+certain point, or to meet operating expenses. In these cases, one option available is to form a corporation and "go public", or sell shares of 
+the business to investors. This arrangement allows the business to expand rapidly, while spreading the risks of the expansion among many 
+people, reducing individual risk. Corporations also have legal advantages such as the right to sue, and the limitation of liability for the 
+corporation's debt to the amount originally invested by the owners. Corporations as legal entities have existed since ancient Rome, although 
+the joint-stock company as it is known today didn't begin operating until sometime in the 16th century.
+
+

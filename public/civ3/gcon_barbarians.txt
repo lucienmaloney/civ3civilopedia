@@ -1,0 +1,21 @@
+#GCON_Barbarians
+Barbarians
+^
+^
+^[Barbarian tribes] inhabit every continent of the world and there are two types: Passive and Aggressive.
+^
+^
+^{Passive Tribes} 
+^Passive barbarians reside in small villages. When you send a unit into one of these villages, several
+things can happen -- some good and some bad. Possible results range from learning a new Civilization Advance 
+to enraging the residents and having to battle them.
+^
+^
+^{Aggressive Tribes}
+^These [named] tribes also reside in villages on the map, but they send out raiding parties
+to fight your units and pillage your cities and towns. By destroying a tribal village you can stop the raids from
+that village. But the survivors will move to a new site in explored or unexplored $LINK<territory=GCON_Territory>
+and begin raiding from there.
+
+
+

@@ -1,0 +1,11 @@
+#DESC_TECH_Industrialization
+^
+^
+^Industrialization involves the use of machines to dramatically increase productivity. Production of goods became concentrated in factories, 
+where the combination of specialization of labor and automation reduced labor costs and, ultimately, the cost of the final manufactured 
+product to the consumers.  Industrialization revolutionized living standards, both positively and negatively. The rapid growth of production 
+industries and the reduced cost of production have led to the prosperity of some of the richest families in history. Industrialization has also led 
+to the creation of a blue-collar working class. In newly industrialized nations, these workers, skilled only in their chosen trade, were often 
+underpaid and forced to endure abominable working conditions.
+
+

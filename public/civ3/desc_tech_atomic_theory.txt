@@ -1,0 +1,11 @@
+#DESC_TECH_Atomic_Theory
+^
+^
+^Philosophers in ancient Greece were the first to use the term "atom" to describe the smallest possible bit of matter. They hypothesized that all 
+things were made up of atoms, and could be theoretically broken down into atoms. The atom, however, was indestructible. Study of atomic 
+theory proceeded slowly. Experimental scientists of the 16th and 17th centuries developed methods of analyzing gases, liquids, and solids to 
+determine the individual elements of which they were composed. The founder of modern atomic theory was British chemist John Dalton. 
+Dalton's experiments explained how atoms link together to form molecules. He also explained the nature of these chemical bonds, and 
+performed a number of experiments concerning the formation of various chemical compounds.
+
+

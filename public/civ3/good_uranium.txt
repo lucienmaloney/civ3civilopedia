@@ -1,0 +1,7 @@
+#GOOD_Uranium
+^
+^
+^[Uranium] is a $LINK<Strategic Resource=GCON_ResourcesS> required to build Modern Era units and power plants.
+^
+^Uranium sources appear when your civilization discovers $LINK<Fission=TECH_Fission> and can be found in
+$LINK<mountains=TERR_Mountains> and $LINK<forests=TERR_Forest>.

@@ -1,0 +1,17 @@
+#GCON_Transport
+Transport
+^
+^
+^Some naval and one air unit can carry or [transport] other units.
+^
+^{Ships}
+^Ships can be boarded from any shoreline
+by simply moving the rider onto the ship. They may also be boarded from inside a coastal city by right-clicking
+the unit in the garrison box and selecting from the menu, or using the Load command button when on the main map.
+^
+^{Helicopters}
+^Helicopters are the only air unit that can [transport] ground units, and they may only be foot soldiers.
+To board a helicopter a ground unit must start its turn in a city with the chopper and use the Load command button.
+
+
+

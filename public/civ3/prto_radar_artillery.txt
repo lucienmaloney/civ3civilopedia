@@ -1,0 +1,8 @@
+#PRTO_Radar_Artillery
+^
+^
+^Radar Artillery are highly advanced stand-off attack units. The radar allow them to see up to two squares distant,
+regardless of blocking terrain, and fire that far as well. Radar Artillery has no attack 
+or defense value, so it should be protected by an escort.
+^
+^A city must have $LINK<aluminum=GOOD_Aluminum> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build radar artillery.

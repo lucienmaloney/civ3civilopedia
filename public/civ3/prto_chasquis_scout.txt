@@ -1,0 +1,4 @@
+#PRTO_Chasquis_Scout
+^
+^
+^The [Incan Chasqui Scout] is a scout unit that replaces the basic scout for the Inca. He has a modest attack and defensive capability. He is also very fast and ignores movement costs for both hills and mountains.

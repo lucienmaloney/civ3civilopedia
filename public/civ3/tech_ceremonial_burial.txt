@@ -1,0 +1,4 @@
+#TECH_Ceremonial_Burial
+^
+^
+^$LINK<Religious Civilizations=GCON_Strengths> start the game with [Ceremonial Burial].

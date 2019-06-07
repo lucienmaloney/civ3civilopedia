@@ -1,0 +1,26 @@
+#RACE_Arabs
+^The Arabs are $LINK<expansionist and religious=GCON_Strengths>. They start the game with
+$LINK<Pottery=TECH_Pottery> and $LINK<Ceremonial Burial=TECH_Ceremonial_Burial> and build
+$LINK<Ansar Warriors=PRTO_Ansar_Warrior> instead of $LINK<Knights=PRTO_Knight>. 
+^
+^Before the spread of Islam and the Arabic language, the term "Arab" referred to any of the nomadic residents of 
+the Arabian Peninsula. When used in a modern context, "Arab" refers to any of the Arabic-speaking peoples who 
+reside on the Atlantic Coast of Africa, Southwestern Iran, Egypt, Sudan, Saudi-Arabia, Syria, and Iraq.  The 
+earliest nomadic inhabitants of the Arabian Peninsula herded their sheep, goats, and camels through an unforgiving 
+desert environment; while those Arabs who settled in the oases provided date and cereal agriculture as trade staples 
+for Arab caravans that transported spices, ivory, and gold from southern Arabia and the Horn of Africa to the 
+civilizations farther north.
+^    During the 7th century AD, Muhammad emerged as the prophet for the religion of Islam, which was widely adopted 
+by the Arab community. Islam unified the Bedouins and the town-dwellers of the oases, and within a century, spread 
+throughout most of the present day Arab-speaking world.  The newfound social organization that followed Islam 
+offered new possibilities for the Arabs as agricultural production and intercity trading, particularly in luxury 
+goods, saw significant increases.  Gradually, the triad of temple, court, and market formed, as well as a 
+standardized style of writing for laws and other texts.  New institutions also emerged, including: coinage, 
+territorial deities, royal priesthoods, and standing armies, which further enhanced Arab power.  Adherence to the 
+religion of Islam has become a global phenomenon.  Muslims predominate in approximately 30 to 40 countries, from the 
+Atlantic to the Pacific and along a belt that stretches across northern Africa into Central Asia and the northern 
+regions of the Indian subcontinent.  Despite the absence of any large-scale Islamic political entities, the Islamic 
+faith continues to expand, by some estimates faster than any other major religion.
+^    By proclaiming his message publicly, Muhammad gained followers.  {Abu Bakr} is noted as being the first male 
+convert to Islam and also as Muhammad's closest companion and advisor.  At the point of Muhammad's death, on June 
+8th, 632 AD Muslims resolved the crisis of succession by accepting Abu Bakr as the first Caliph.  In his rule as 

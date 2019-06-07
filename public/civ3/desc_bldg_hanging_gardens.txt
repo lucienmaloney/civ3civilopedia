@@ -1,0 +1,10 @@
+#DESC_BLDG_Hanging_Gardens
+^
+^
+^The Hanging Gardens were a distinctive feature of ancient Babylon. They were a great source of pride to the people, and were often described in 
+accounts written by visitors to the city. Possibly built by King Nebuchadnezzar II in 600 BC, the gardens are believed to have been a remarkable 
+feat of engineering: an ascending series of tiered gardens containing all manner of trees, shrubs, and vines. The gardens were said to have looked like 
+a large green mountain constructed of mud bricks, rising from the center of the city.
+
+
+

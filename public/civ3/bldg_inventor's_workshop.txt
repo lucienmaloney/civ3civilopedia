@@ -1,0 +1,10 @@
+#BLDG_Inventor's_Workshop
+^
+^
+^Obsolete military units can be upgraded at half price.
+^
+^
+^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Militaristic civilizations.

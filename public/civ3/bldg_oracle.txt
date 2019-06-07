@@ -1,0 +1,11 @@
+#BLDG_Oracle
+^
+^
+^Doubles the effect of all $LINK<Temples=BLDG_Temple> in the Empire;
+they produce two $LINK<content faces=GCON_Moods> instead of one.
+^
+^
+^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Religious civilizations.

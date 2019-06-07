@@ -1,0 +1,12 @@
+#DESC_PRTO_Cannon
+^
+^
+^Closely following the invention of gunpowder, the development of the cannon caused a revolution in siege 
+warfare. Invented by a German monk in the 14th century, early cannons used gunpowder charges to fire rocks 
+or metal balls. The cannon forced a redesign of most fortifications because the straight, high walls 
+surrounding most cities could be easily destroyed by direct fire. This was the fate of the walls of 
+Constantinople, which had held against countless sieges for over a thousand years. The cannon quickly 
+assumed an important role on the battlefield.
+
+
+

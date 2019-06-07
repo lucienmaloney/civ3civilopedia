@@ -1,0 +1,7 @@
+#PRTO_Nuclear_Submarine
+^
+^
+^[Nuclear Submarines] are faster than normal subs and have the ability to carry a Tactical Nuclear Missile on board.
+They can launch these from the sea. In addition, Nuclear Submarines have $LINK<Stealth Attack=GCON_Stealth_Attack>.
+^
+^A coastal city needs $LINK<uranium=GOOD_Uranium> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Nuclear Submarine.

@@ -1,0 +1,13 @@
+#TERR_Plains
+^[Plains] are vast, open tracts of land, usually with very few trees and covered with
+vegetation such as sagebrush and various grasses. 
+^
+^Plains may contain
+$LINK<cattle=GOOD_Cattle>,
+$LINK<horses=GOOD_Horses>,
+$LINK<ivory=GOOD_Ivory>,
+$LINK<sugar=GOOD_Sugar>,
+$LINK<wheat=GOOD_Wheat>, or
+$LINK<wine=GOOD_Wine>. 
+
+

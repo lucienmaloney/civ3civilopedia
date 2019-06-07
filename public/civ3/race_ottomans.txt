@@ -1,0 +1,27 @@
+#RACE_Ottomans
+^The Ottomans are $LINK<scientific and industrious=GCON_Strengths>. They start the game with
+$LINK<Masonry=TECH_Masonry> and $LINK<Bronze Working=TECH_Bronze_Working> and build
+$LINK<Sipahi=PRTO_Sipahi> instead of $LINK<cavalry=PRTO_Cavalry>. 
+^
+^Fables and legends that feature the origins of the Ottoman Empire indicate that {Osman}, a Turkish tribesman, 
+was the original ruler responsible for founding the civilization that nearly brought Christian Europe to its 
+knees.  Narratives indicate that Osman's tribe, the Kayi, fled west from the Mongols in the 13th century and took 
+control of a freebooting army of nomads and Muslim peasants who inhabited the rugged stretch of wasteland along 
+the Byzantine frontier.  This band of refugees enjoyed close ties to Muslim guilds and religious brotherhoods in 
+local towns that were led by Sheikh Edebali, who allowed Osman to form a tiny state around his castle of 
+Karacahisar.  Turkish warriors and religious leaders who also fled from the pagan Mongols in the east quickly 
+populated this region, ruled by Osman.  Osman directed his community through the Kara Su valley to seize 
+Yenisehir, and establish it as the first true Ottoman capital.  The Ottoman state emerged, poised above the 
+fertile shores of the Sea of Marmara.
+^    Osman continued to wage a slow but persistent war against the Byzantine Empire who endeavored to defend 
+their territories along the Asiatic shores that were opposite of Constantinople (now Istanbul).  His first 
+victory over a Byzantine army at Koyunhisar in 1301 AD perpetuated Osman's fame, and settlers flocked to Ottoman 
+territory as a result.  Osman extended his control over several other Byzantine fortresses, providing the 
+Ottomans with strong bases from which they could lay siege to Bursa and Nicaea in northwest Anatolia.  The 
+pinnacle of Osman's reign occurred at the conquest of Bursa shortly before his death.
+^    Initially, Ottoman war tactics were no different than those used by the tribal Turks.  They would first 
+harass the foe with horse-archers, employing hit and run tactics, only closing in on the enemy when they became 
+completely disorganized.  Thus, the earliest Ottoman successes were won against isolated Byzantine garrisons, 
+but rarely against a field army.  In order to capture fortified towns the Ottomans ravaged the countryside and 
+imposed blockades.  Afterwards, the Ottomans would revive the town's trade and increase its population so that 
+it could then be consolidated into the Empire as a productive  

@@ -1,0 +1,6 @@
+#TECH_Pottery
+^
+^
+^$LINK<Expansionist Civilizations=GCON_Strengths> and $LINK<Agricultural Civilizations=GCON_Strengths> start
+the game with [Pottery]. If a civilization is both expansionist [and] agricultural, it receives
+$LINK<Masonry=TECH_Masonry> as its second tech advance.

@@ -1,0 +1,5 @@
+#PRTO_Warrior
+^
+^
+^The [warrior] is late Stone Age infantry, armed with stone axes and clubs.
+

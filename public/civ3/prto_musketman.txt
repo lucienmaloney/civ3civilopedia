@@ -1,0 +1,6 @@
+#PRTO_Musketman
+^
+^
+^The first gunpowder unit, [musketmen] are powerful defenders.
+^
+^A city must have $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a musketman.

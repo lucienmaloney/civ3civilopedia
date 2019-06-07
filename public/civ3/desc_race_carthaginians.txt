@@ -1,0 +1,24 @@
+#DESC_RACE_Carthaginians
+^
+^
+^two principal cities on the Sicilian coast, Messana and Syracuse, in order to establish their presence on the island.  Rome 
+responded by attacking Messana, forcing the Carthaginians to withdraw and later surrender, ceding Sicily and the Lipari 
+islands to Rome.  The great Carthaginian general, Hamilcar, led Carthage against Rome in the First Punic War, and his son 
+{Hannibal} was made to swear eternal hostility against Rome at an early age as well.  From the death of Hamilcar in 229 BC 
+until his own death in 183 BC, Hannibal's life was one of constant struggle against the Roman Republic.  Hannibal made 
+good on his oath by instigating a second Punic war.
+^    During the Second Punic War Hannibal established base in Spain, from which he could wage war against Rome.  Hannibal 
+refused Rome's demand to withdraw from the Iberian Peninsula, and Rome renewed war on Carthage once again.  Rome controlled 
+the Sea, forcing Hannibal to lead his army overland through Spain, Gaul, and the Alps to reach Rome.  After this spectacular
+achievement, Hannibal undermined Rome through battlefield tactics and shrewd political maneuvering.  Once Hannibal's hold 
+over northern Italy was established he maintained it until 203 BC, when he was ordered to return to Africa.  Roman forces 
+maintained pressure on Carthaginian strongholds, however, and eventually forced the Carthaginians out of Spain.  Carthage 
+accepted the terms of peace, surrendering its navy and ceded Spain as well as the Mediterranean islands to Rome.
+^    The first and second Punic wars effectively deprived Carthage of its political power, but did nothing to quell its 
+commercial trade, which continued to expand rapidly.  This inevitably drew the envy of Rome's growing mercantile community, 
+and was reason enough for the Roman Republic to goad the people of Carthage into one final war.  Despite determined and 
+ingenious resistance against a siege that lasted for two years, Carthage fell.  The third and final war between the Roman 
+Republic and the Carthaginians resulted in the final destruction of Carthage, the enslavement of its population, and Roman 
+hegemony over the western Mediterranean.
+
+

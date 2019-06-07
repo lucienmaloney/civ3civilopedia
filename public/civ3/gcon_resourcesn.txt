@@ -1,0 +1,28 @@
+#GCON_ResourcesN
+Natural Resources
+^
+^
+^There are 27 [natural resources] represented by various icons scattered around the world. These fall into three
+categories, [Bonus, Luxury,] and [Strategic].
+^
+^
+^[$LINK<Bonus Resources=GCON_ResourcesB>] give city production bonuses in worked squares within a city radius. Bonus resources
+cannot be traded to other cities or civilizations. Bonus resources are always visible in $LINK<explored=GCON_Maps> areas of the map. 
+^
+^
+^[$LINK<Luxury Resources=GCON_ResourcesL>] also give city production bonuses in squares worked by citizens.
+But they may also be traded along trade routes, and make content people happy in cities that receive them. Luxury
+resources are always visible on the map in explored areas.
+^
+^
+^[$LINK<Strategic Resources=GCON_ResourcesS>], like both the others, give bonuses to city production, but, like luxuries they can also be traded.
+Strategic resources are required for a city to build various military units and city improvements. Strategic resources 
+appear on the map when a Civilization Advance exposes their usefulness.
+^
+^
+^Luxury and Strategic Resources are referred to as {Tradable Resources.}
+
+
+
+
+

@@ -1,0 +1,7 @@
+#PRTO_Immortals
+^
+^
+^The [Persian Immortals] are highly-trained and skilled swordsmen that are excellent attackers in the ancient era.
+^
+^A Persian city must have $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS>
+box to build Immortals.

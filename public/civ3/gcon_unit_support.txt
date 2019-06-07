@@ -1,0 +1,21 @@
+#GCON_Unit_Support
+Supporting Military Units
+^
+^
+^Generally, each military unit must be supported with one gold per turn from its $LINK<treasury=GCON_Treasury>.
+However, each form of $LINK<government=GCON_Governments> defers these costs for a certain number of units,
+depending upon how many towns, cities, or metros the civilization controls.
+^
+^{Government			Town	City		Metro}
+^Anarchy				  0		  0		  0
+^Despotism				  4		  4		  4
+^Monarchy				  2		  4		  8
+^Republic				  1		  3		  4
+^Feudalism			  	  5		  2		  1
+^Communism			  6		  6		  6
+^Fascism				  4		  7		  10
+^Democracy			  0		  0		  0
+
+
+
+

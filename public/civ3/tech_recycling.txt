@@ -1,0 +1,4 @@
+#TECH_Recycling
+^
+^
+^Returns 25% of the shield cost when selling improvements in addition to the gold received.

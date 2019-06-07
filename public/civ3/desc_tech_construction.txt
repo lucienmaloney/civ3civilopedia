@@ -1,0 +1,12 @@
+#DESC_TECH_Construction
+^
+^
+^The development of masonry led to a widespread use of stone in simple structures such as fortifications, but due to the weight and 
+cumbersome nature of stone blocks, more complex structures had to be made of simpler materials. The need for the widespread use of 
+more durable and permanent materials eventually became apparent, forcing ancient artisans to learn new techniques. The biggest problem to 
+overcome was finding a stable way to span the distance between two upright columns or walls using stone blocks. To solve this problem, 
+fundamental architectural elements such as the arch and vault evolved. These basic construction techniques allowed larger and more elaborate 
+buildings to be created from stone and mortar. Many of the buildings erected by these early builders are still standing, a testament to the 
+sound construction techniques employed in their construction.
+
+

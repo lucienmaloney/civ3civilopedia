@@ -1,0 +1,12 @@
+#TFRM_Build_Colony
+^
+^
+^A worker can establish a colony on any square that contains a $LINK<tradable resource=GCON_ResourcesN>.
+If the colony is then $LINK<connected=GCON_Trade> to a city, that city gains access to the resource. A colony
+is necessary only if the resource is not inside your $LINK<borders=GCON_Territory>. Note that when a city's
+borders expand to include a colony, the colony disappears because it is no longer needed. The worker is consumed
+by building a colony.
+^
+^A worker is ordered to build a colony by pressing [B] or the "Build Colony" button.
+
+

@@ -1,0 +1,5 @@
+#TECH_Steam_Power
+^
+^
+^{New Resource}  $LINK<Coal=GOOD_Coal> appears on the map.
+^{New Ability}  Workers can build $LINK<Railroads=GCON_Worker_Jobs>.

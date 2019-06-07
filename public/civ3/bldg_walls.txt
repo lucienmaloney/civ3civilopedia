@@ -1,0 +1,5 @@
+#BLDG_Walls
+^
+^
+^[Walls] can be built only in town-size settlements and provide a land bombardment defense of eight,
+and a 50% defensive bonus to units defending in the town. When a town becomes a city, the walls no longer provide a defensive bonus.

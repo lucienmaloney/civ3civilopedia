@@ -1,0 +1,5 @@
+#PRTO_Hammurabi
+^
+^
+^Hammurabi is the King unit for the $LINK<Babylonians=RACE_BABYLON> in the Regicide $LINK<Short Game Mode=GCON_Short_Game_Modes>.
+

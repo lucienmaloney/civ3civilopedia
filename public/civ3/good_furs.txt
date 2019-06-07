@@ -1,0 +1,7 @@
+#GOOD_Furs
+^
+^
+^[Furs] are $LINK<luxury resources=GCON_ResourcesL> that make content people happy in cities that are
+$LINK<connected=GCON_Trade> to them by domestic or foreign $LINK<trade routes=GCON_Trade>.
+^
+^Furs are always visible on the map and can be found in $LINK<tundra=TERR_Tundra> and $LINK<forests=TERR_Forest>.

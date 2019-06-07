@@ -1,0 +1,9 @@
+#BLDG_Longevity
+^
+^
+^All cities get a population increase of two instead of one when the $LINK<Food Storage=GCON_Food> box is full.
+^
+^
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Scientific civilizations.

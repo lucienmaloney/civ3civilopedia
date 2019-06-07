@@ -1,0 +1,10 @@
+#TFRM_Plant_Forest
+^
+^
+^After the discovery of $LINK<Engineering=TECH_Engineering>, workers can plant forests in any grassland or
+plains square. This transforms the square into a normal $LINK<forest=TERR_Forest> square.
+^
+^A worker is ordered to plant forests by pressing [N] or the "Plant Forest" button.
+
+
+

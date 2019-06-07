@@ -1,0 +1,14 @@
+#DESC_TECH_Fission
+^
+^
+^According to Einstein's theory of relativity, even the smallest bit of matter is equivalent to a tremendous amount of energy. For instance, two 
+pounds of matter, if converted completely into energy, would produce energy equivalent to the explosive force of 22 megatons of high 
+explosives. In 1939, based on German experiments that successfully split the uranium atom, physicists were able to explain the process of 
+nuclear fission.  When a large, unstable atomic nucleus splits (fissions) it results in two or more smaller, more stable nuclei accompanied by 
+the release of tremendous amounts of energy and lingering, deadly radioactivity. The first application of this powerful technology was in 
+warfare. A top-secret research effort in the U.S. known as the Manhattan Project studied the fission process, and eventually produced the 
+first atomic bombs, which were dropped on the Japanese cities of Hiroshima and Nagasaki in 1945. These relatively small bombs, the only 
+atomic weapons ever used in a war, each produced an explosion equivalent to more than 20,000 tons of TNT. The nuclear weapons of 
+today are capable of producing explosions thousands of times more powerful.
+
+

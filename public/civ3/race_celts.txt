@@ -1,0 +1,27 @@
+#RACE_Celts
+^The Celts are $LINK<agricultural and religious=GCON_Strengths>. They start the game with
+$LINK<Pottery=TECH_Pottery> and $LINK<Ceremonial Burial=TECH_Ceremonial_Burial> and build
+$LINK<Gallic Swordsman=PRTO_Gallic_Swordsman> instead of $LINK<Swordsmen=PRTO_Swordsman>. 
+^
+^In the 1st century BC, Strabo wrote of the Celts: 'The whole race... is madly fond of war, high-spirited and 
+quick to battle... and on whatever pretext you stir them up, you will have them ready to face danger, even if they 
+have nothing on their side but their own strength and courage'.  Much of what we know about Celtic culture today 
+has been derived from the insights of the various writers and geographers of the time; coupled with finds from 
+Celtic burial sights located in Bavaria, Bohemia, and Upper Austria.  The Celts once formed a loose-knit 
+'empire', inhabiting territory that stretched in a chaotic band across central Europe.  The writings and 
+findings of modern archeologists place Celtic civilization as ranging from the Atlantic Coast of the British 
+Isles and northern Spain, to as far east as Transylvania and the Black Sea.
+^    The Celts lived as extended families, or clans, which banded together, in order to form larger tribes that 
+would occupy territory together.  A Knight and a High Chieftain typically governed these tribes, while a third 
+privileged class known as 'men of art', who are better known today as the Druids and Bards, extolled the feats 
+of Celtic warriors in song and craft.  Celtic society was held together by a complex web of family ties and 
+other obligations, within which, the warrior nobles would strive to attain wealth and prestige through 
+agriculture, trade, and success in war; which they often used to create and fund their own family or tribe.
+^    At the age of fourteen, Celtic boys attained manhood and were permitted to bear arms, while girls became 
+eligible for marriage.  Young nobles and sons of freemen who reached their fourteenth birthday became clients 
+of a famous lord or well-reputed Celtic Knight.  Such warrior retinues were called 'Fianna'.  These junior 
+warriors sought out and followed experienced warriors whose success could provide them with greater chances 
+at their own wealth and glory.
+^    While the bulk of a Celtic army would typically consist of poorly armored spearmen, it was the warrior 
+nobles who wielded swords that were the most feared.  These {Gallic Swordsmen} were wealthier than their peers, 
+and could afford to equip themselves not only 

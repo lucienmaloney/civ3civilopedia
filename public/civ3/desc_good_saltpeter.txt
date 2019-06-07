@@ -1,0 +1,10 @@
+#DESC_GOOD_Saltpeter
+^
+^
+^When found in nature, saltpeter (also known as potassium nitrate) takes the form of a white powdery substance. A major 
+component in black gunpowder beginning around the 12th century, it has also contributed to the fields of medicine, food 
+preservation and farming. The manufacturing of saltpeter is accomplished by combining the compounds sodium nitrate and 
+potassium chloride.
+
+
+

@@ -1,0 +1,21 @@
+#GOVT_Despotism
+^
+^
+^In Despotism, you rule with absolute power over your subjects, usually enforced by the military. This 
+system has a tendency to minimize individual freedom and reduce the efficiency of production efforts. 
+^
+^
+^
+^
+^Worker efficiency				100%
+^Hurry Method					Forced Labor
+^Corruption / Waste				Rampant
+^War Weariness					None
+^Draft Rate						2
+^Military Police Limit				2
+^Unit Support
+^    per town					4
+^    per city						4
+^    per metropolis				4
+^In addition, any city production square which produces more than two $LINK<food=GCON_Food>, $LINK<shields=GCON_Shields>, or
+$LINK<commerce=GCON_Commerce> in a despotic government instead produces one less.

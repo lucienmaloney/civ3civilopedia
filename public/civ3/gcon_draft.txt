@@ -1,0 +1,27 @@
+#GCON_Draft
+Draft
+^
+^ 
+^When a civilization develops $LINK<Nationalism=TECH_Nationalism> its citizens can be drafted into
+military service. Each city can draft some of its population each turn, depending upon the government currently in effect.
+^* A civilization in $LINK<Anarchy=GOVT_Anarchy> may not use the draft.
+^* A city in a $LINK<Democracy=GOVT_Democracy> or $LINK<Republic=GOVT_Republic> can draft [one] citizen per turn.
+^* A city in a country under $LINK<Communism=GOVT_Communism>, $LINK<Despotism=GOVT_Despotism>, $LINK<Fascism=GOVT_Fascism>,  $LINK<Feudalism=GOVT_Feudalism>, or $LINK<Monarchy=GOVT_Monarchy> can draft [two] citizens per turn.
+^
+^To utilize the draft, press the "Draft" button on the City Display. You may only draft citizens from a city with
+^a population of 7 or higher.
+^
+^The draft produces the following $LINK<conscript=GCON_Experience> units, depending upon your level of 
+scientific development:
+^
+^$LINK<Spearman=PRTO_Spearman>
+^$LINK<Pikeman=PRTO_Pikeman>
+^$LINK<Musketman=PRTO_Musketman>
+^$LINK<Rifleman=PRTO_Rifleman>
+^$LINK<Infantry=PRTO_Infantry>
+^$LINK<Mech. Infantry=PRTO_Mech_Infantry>
+^
+^However, drafting citizens will cause unhappiness in the city.
+
+
+

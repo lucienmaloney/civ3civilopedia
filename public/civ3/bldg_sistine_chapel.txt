@@ -1,0 +1,10 @@
+#BLDG_Sistine_Chapel
+^
+^
+^Doubles the effects of all $LINK<Cathedrals=BLDG_Cathedral> in your cities. 
+^
+^
+^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Religious civilizations.

@@ -1,0 +1,5 @@
+#PRTO_Cruiser
+^
+[Cruisers] are fast surface warships that can bombard one square away; they are stronger and more heavily armed than a $LINK<destroyer=PRTO_Destroyer>. They have [radar] so they can see two squares regardless of blocking terrain.
+^
+^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a cruiser.

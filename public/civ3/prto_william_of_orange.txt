@@ -1,0 +1,7 @@
+#PRTO_William_of_Orange
+^
+^
+^William of Orange is the King unit for the $LINK<Dutch=RACE_DUTCH> in the Regicide
+$LINK<Short Game Mode=GCON_Short_Game_Modes>.
+
+

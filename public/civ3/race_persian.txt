@@ -1,0 +1,25 @@
+#RACE_PERSIAN
+^The Persians are $LINK<industrious and scientific=GCON_Strengths>. They start the game with
+$LINK<Masonry=TECH_Masonry> and $LINK<Bronze Working=TECH_Bronze_Working>  and build
+$LINK<Persian Immortals=PRTO_Immortals> instead of $LINK<swordsmen=PRTO_Swordsman>.
+^
+^
+^The term Persia has been used for centuries, chiefly in the West, to designate a region of southern Iran formerly 
+known as Persis or Parsa; the name of the Indo-European nomadic people who migrated into the region about 1000 BC, 
+eventually supplanting the Assyrians and Chaldeans. The first mention of the Parsa occurs in the annals of Shalmanesar 
+III, an Assyrian king, in 844 BC. Cyrus II (559-529 BC), heir to a long line of ruling chiefs in Mesopotamia, was a 
+tolerant and venerated monarch, called the father of his people by the ancient Persians. After a successful revolt 
+against his Achaemenian overlords in 550 BC and inheriting the kingdom of the Medes, Cyrus consolidated his rule on 
+the Iranian Plateau and extended it westward across Asia Minor.
+^    In October 539 BC, Babylon, the greatest city of the ancient world, fell to his Persian forces. Following the 
+death of Cyrus' heir, Darius I (522-486 BC), a leading general and one of the princes of the Achaemenid family, 
+proclaimed himself king following suppression of a number of provincial rebellions and challenges from other pretenders 
+to the throne. Darius was in the mold of Cyrus the Great - a powerful personality and a dynamic ruler. To consolidate 
+his accession, Darius I founded his new capital of Parsa, known to the Greeks as Persepolis ("Persian City") and 
+expanded the ranks of his personal bodyguard, the {Immortals}.
+^    Although Darius consolidated and added to the conquests of his predecessors, it was as an administrator that 
+he made his greatest contribution to Persian history. During his reign, political and legal reforms revitalized the 
+provinces and ambitious projects were undertaken to promote imperial trade and commerce: coinage, weights and measures 
+were standardized, and new land and sea routes explored and established.
+^    Such activities, however, did not prevent Darius from following an active expansionist policy. Campaigns in the 
+east confirmed gains made by Cyrus the Great and added large sections of the northern 

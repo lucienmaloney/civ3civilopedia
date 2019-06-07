@@ -1,0 +1,11 @@
+#DESC_GOOD_Oil
+^
+^
+^Humans have known oil since ancient times. Oil deposits found on the surface were used for centuries for waterproofing and 
+fuel purposes. But it was not until the coming of the Industrial Revolution that civilizations began to form a dependence on 
+petroleum products. The widespread use of oil for fuel, lubrication, and other purposes led to a search for larger supplies. In 
+the mid 1800s, the first oil wells were drilled, marking the beginning of a tremendously important and profitable industry. Today, 
+with the world�s oil supplies dwindling and the demand for oil constantly rising, oil is a more valuable resource than ever.
+
+
+

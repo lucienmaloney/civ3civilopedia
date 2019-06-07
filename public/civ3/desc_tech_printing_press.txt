@@ -1,0 +1,13 @@
+#DESC_TECH_Printing_Press
+^
+^
+^The principle behind printing is not very complicated, but immense amounts of complexity are invested in the mass production of printed 
+documents. Invented by Johannes Gutenberg in the mid-15th century, the early printing presses used a flat tray of inked type. Once paper 
+was placed over the type, a surface was applied and the ink was pressed into the paper. While an improvement over the traditional 
+duplication methods of the time (being meticulous hand-scribing of volumes), it was a slow and tedious process to use. Around 1800 the first 
+cylinder press was created, followed by the large and immensely fast rotary presses. Today, computers have taken this ancient art out of the 
+craftsman�s workshop and placed it on the desktop. Desktop publishing revolutionized the creation of printed documents, not only from the 
+standpoint of speed and accuracy, but also by enabling anyone to mass-produce the printed word without investing the many years it takes 
+to learn the trade. 
+
+

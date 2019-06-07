@@ -1,0 +1,10 @@
+#TERR_Mountains
+^[Mountains] are areas of high elevation, usually consisting of a chain of rugged peaks and valleys.
+^
+^Mountains may contain
+$LINK<coal=GOOD_Coal>,
+$LINK<gems=GOOD_Diamonds>,
+$LINK<gold=GOOD_Gold>,
+$LINK<iron=GOOD_Iron>,
+$LINK<saltpeter=GOOD_Saltpeter>, or
+$LINK<uranium=GOOD_Uranium>.

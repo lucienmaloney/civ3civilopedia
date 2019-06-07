@@ -1,0 +1,16 @@
+#GCON_Volcanic_Eruptions
+Volcanic Eruptions
+^
+^
+^A $LINK<volcano=TERR_Volcano> is a disaster waiting to happen, as it can suddenly erupt with no warning. Most of
+the time, however, a dark cloud begins to emanate from the volcano's "mouth" a few turns in advance of an eruption --
+but such a warning cannot be guaranteed. Rest assured, however, once you notice a volcano beginning to smolder an
+eruption is in the offing.
+^
+^{Lava Flow}  
+^When a volcano erupts it spews forth lava -- in the form of $LINK<pollution=GCON_Pollution> -- that will mar the landscape of many of
+the tiles adjacent to the volcanic mountain. Volcanic "fallout" can be cleaned up by $LINK<workers=GCON_Worker_Jobs>
+set to clean up damage.
+
+
+

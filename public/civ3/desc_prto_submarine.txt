@@ -1,0 +1,14 @@
+#DESC_PRTO_Submarine
+^
+^
+^A submarine is a submersible warship, designed to attack enemy vessels while remaining hidden underwater. 
+Although defensively weak, submarines are feared because of their ability to make a stealthy approach and 
+attack without warning. Often, the presence of a submarine is not detected until the first of the sub's 
+torpedoes strikes its target. The Germans first used submarine warfare extensively during World War I. 
+Developments after the war, such as sonar, made the submarine even more effective. During World War II, 
+submarines were used extensively by all the world's naval powers. Today's submarines, in addition to their 
+role as fast attack vessels, also carry nuclear weapons that can be fired from underwater positions just off 
+the coast of an enemy country.
+
+
+

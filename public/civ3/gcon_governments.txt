@@ -1,0 +1,30 @@
+#GCON_Governments
+Governments
+^
+^
+^There are eight forms of government that you can use to control your civilization.
+Each has advantages and disadvantages. The type of government you use determines:
+^
+^How efficient your $LINK<workers=PRTO_Worker> are (how quickly they get their jobs done).
+^How much $LINK<Corruption and Waste=GCON_Corruption> affects your civilization.
+^The number of citizens you can $LINK<draft=GCON_Draft> per turn.
+^The number of military units that can be used as $LINK<military police=GCON_Moods>.
+^The number of military units you can have before you must $LINK<support=GCON_Unit_Support>
+them from your $LINK<treasury=GCON_Treasury>.
+^
+^The possible government types are:
+^* $LINK<Anarchy=GOVT_Anarchy>
+^* $LINK<Despotism=GOVT_Despotism>
+^* $LINK<Monarchy=GOVT_Monarchy>
+^* $LINK<Republic=GOVT_Republic>
+^* $LINK<Feudalism=GOVT_Feudalism>
+^* $LINK<Communism=GOVT_Communism>
+^* $LINK<Fascism=GOVT_Fascism>
+^* $LINK<Democracy=GOVT_Democracy>
+^
+^
+^To change your form of government, you must have a $LINK<revolution=GCON_Revolution>.
+
+
+
+

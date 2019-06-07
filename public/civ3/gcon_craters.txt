@@ -1,0 +1,13 @@
+#GCON_Craters
+Craters
+^
+^
+^Craters can occur in a non-city square due to bombardment attack. When a bombardment attack which eliminates
+the last unit or terrain improvement in a square, a crater may be formed. Like pollution, the presence of
+craters reduces a square's production, commerce, and food output by one.
+^
+^
+^{Clearing Craters}  Craters can be cleaned up by $LINK<workers=GCON_Worker_Jobs>.
+ 
+
+

@@ -1,0 +1,10 @@
+#DESC_BLDG_Inventor's_Workshop
+^
+^
+^Leonardo da Vinci was one of the most celebrated painters of the Italian Renaissance. His most famous works include the "Mona Lisa" and "The 
+Last Supper". Although best known for his art, da Vinci was also an accomplished observer and designer. Preserved in his sketchbooks are ideas 
+for dozens of inventions, many of them centuries ahead of their time. These include designs for such devices as drawbridges, construction equipment,
+parachutes, and even helicopters. His scientific and technical drawings became the basis for the development of many of these modern devices.
+
+
+

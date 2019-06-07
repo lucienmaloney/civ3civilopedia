@@ -1,0 +1,14 @@
+#DESC_PRTO_Nuclear_Submarine
+^
+^
+^Nuclear submarines are sea vehicles that are capable of remaining underwater for months at a time. This was possible because
+of the transition into nuclear, rather than diesel, generators. Typically equipped with both nuclear and anti-submarine 
+missiles, they presented a new threat to those nations engaging in nuclear deterrence. Since these mobile, virtually
+invisible ships could close to within a few dozen miles of a target, the reaction time to a nuclear attack could be reduced to
+minutes. Any nation who relied solely on land based missile launch systems stood a very good chance of being crippled before
+any opportunity to retaliate. This imbalance was righted however, as all announced nuclear powers soon had their own
+fleet of nuclear attack submarines. The difficulty in detection of nuclear submarines means that only other nuclear submarines
+had a viable chance at stopping one. 
+
+
+

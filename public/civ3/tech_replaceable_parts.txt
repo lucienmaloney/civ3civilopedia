@@ -1,0 +1,6 @@
+#TECH_Replaceable_Parts
+^
+^
+^{New Resource}  $LINK<Rubber=GOOD_Rubber> appears on the map.
+^{New Ability}   Workers work twice as fast.
+^{New Ability}   Can create $LINK<Civil Engineers=GCON_Specialists>.

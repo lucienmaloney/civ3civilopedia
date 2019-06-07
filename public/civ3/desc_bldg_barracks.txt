@@ -1,0 +1,11 @@
+#DESC_BLDG_Barracks
+^
+^
+^Warfare has been a recurring phenomenon throughout the history of mankind, and it continues to plague the world today. 
+Although war is not a desirable situation, it is important that even the most peaceful of societies be prepared for the 
+possibility of war. When warring nations are closely matched in technology and manpower, the army with the best training usually wins battles.
+Military schools and academies exist all over the world, established for the purpose of training military 
+personnel in the latest methods, tactics, and technology. Men and women who graduate from such facilities possess higher than 
+average command and military and technological skills, making them more effective in combat situations.
+
+

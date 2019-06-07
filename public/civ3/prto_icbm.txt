@@ -1,0 +1,9 @@
+#PRTO_ICBM
+^
+^
+^An [ICBM] (inter-continental ballistic missile) has an unlimited range, and like the tactical nuke, has a devastating effect. They cannot be moved from the
+city that builds them but can strike any target on the map. Nuclear weapons, if used, have a tremendous negative effect
+upon world opinion.
+^
+^A city must have $LINK<aluminum=GOOD_Aluminum> and $LINK<uranium=GOOD_Uranium> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build ICBMs.

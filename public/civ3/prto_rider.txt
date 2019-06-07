@@ -1,0 +1,6 @@
+#PRTO_Rider
+^
+^
+^[Chinese riders] move quickly and will [withdraw] from combat if they are losing (unless fighting another fast unit).
+^A Chinese city must have $LINK<horses=GOOD_Horses> and $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS> box to
+build a Rider.

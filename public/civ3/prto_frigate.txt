@@ -1,0 +1,8 @@
+#PRTO_Frigate
+^
+^
+^The [Frigate] is the first purely military naval unit. It can safely traverse any water,
+bombard into adjacent squares, and attack other naval vessels.
+^
+^A coastal city needs both $LINK<iron=GOOD_Iron> and $LINK<saltpeter=GOOD_Saltpeter> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build Frigates.

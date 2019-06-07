@@ -1,0 +1,14 @@
+#DESC_PRTO_Longbowman
+^
+^
+^Longbowmen were highly skilled archers capable of firing up to six arrows a minute over long distances into massed enemy formations. Using bows constructed from a 
+type of wood called Yew, they used arrows specifically designed to penetrate chainmail armor -- even plate if close enough. Frequently they would
+comprise approximately four-fifths of an army, and their devastating attacks helped to reverse the dominance of knights in warfare. Only lightly-armored,
+they enjoyed a great mobility advantage should their opponents survive their barrages.
+^
+^Once gunpowder began to find applications in the military, their
+use began to wane. Guns allowed foot soldiers the same effectiveness against knights, but without the decades of training required to be proficient
+with the longbow.
+
+
+

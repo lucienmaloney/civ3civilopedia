@@ -1,0 +1,13 @@
+#DESC_TECH_Space_Flight
+^
+^
+^Utilizing the now well-developed science of rocketry, the modern exploration of space began in October 1957 when the Soviet Union 
+launched Sputnik one. This tiny satellite orbited the earth for 57 days, providing information on radiation and other phenomena in the upper 
+atmosphere. In less than a year, the United States had also launched a satellite, Explorer one. This started the "space race", years of competition 
+between the U.S. and the U.S.S.R. to achieve new frontiers in space exploration. Space flight advanced rapidly from the simple sub-orbital 
+flights of the 1950s, to manned missions to Earth's moon in the late 1960s. The rapid growth of space technology led to many practical 
+applications, such as weather and surveillance satellites, and vastly improved worldwide communications. Today, although hindered by severe 
+government budget cuts, the exploration of space continues. Plans in the near future call for continued orbital exploration via the space shuttle 
+program, and the eventual construction of the multi-national, manned space station "Freedom" in the early 21st century.
+
+

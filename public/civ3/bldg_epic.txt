@@ -1,0 +1,5 @@
+#BLDG_Epic
+^
+^
+^Increases the chances of the appearance of $LINK<leaders=GCON_Leaders> from victorious combat.
+^{Requires:} The civilization must have had a victorious $LINK<army=GCON_Armies>.

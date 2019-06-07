@@ -1,0 +1,20 @@
+#RACE_BYZANTINES
+^The Byzantines are $LINK<seafaring and scientific=GCON_Strengths>. They start the game with
+$LINK<Bronze Working=TECH_Bronze_Working> and $LINK<Alphabet=TECH_Alphabet> and build the $LINK<Dromon=PRTO_Dromon> instead of the $LINK<galley=PRTO_Galley>. 
+^
+^The Byzantine Empire was first known as the eastern Roman empire, when Constantine I relocated the Roman capital from Rome
+to Constantinople and his successor Valentinian I made the division between Western and Eastern Empire official.  When barbarians 
+sacked Rome and defeated the western armies a century later, the Byzantine Empire was the final bulwark of Roman civilization to stand
+against the increasing pressure from European barbarians to the north and Persia in the east.  Byzantine government was based largely on 
+that of Rome, although unlike Roman emperors a Byzantine emperor was elected by a threefold vote of the senate, the people, and the army.  
+To govern the empire, Byzantine emperors relied on a labyrinthine system of advisors, ministries, and offices -- hence the pejorative "Byzantine" today, used to 
+describe overly hierarchical and intrigue-prone systems.
+^    The golden age of Byzantium began when Justinian I and his brilliant wife {Theodora} became emperor and empress.  Under their rule, the Byzantine 
+general Belisarius undertook a series of dramatic and successful campaigns against the barbarian kingdoms that had risen in the ruins of Rome.  
+After earning imperial favor by ruthlessly quashing a popular revolt, Belisarius successfully fought the Ostrogoths in Italy, the Persians, and various 
+tribes in North Africa.  His enormous popularity eventually caused Justinian to fear him, and he was eventually stripped of his command.
+^    Byzantine military reform came mostly during the reign of Heraclius, the son of Africa's imperial governor.  Arriving in Constantinople 
+to restore order after a disastrous interregnum (marred by assassination, intrigue, and civil disorder), Heraclius placed tremendous power in the 
+hands of the army.  It was also during the reign of Heraclius that Greek fire, the medieval precursor to napalm, was invented, and used extensively by 
+Byzantine ships called {dromons} in battle against Persian and barbarian ships.  Heraclius also ordered the army to emulate the 
+barbarian horse archers previously employed as mercenaries; the result was the cataphract, a heavily armored cavalryman who could fight with bow, sword, or lance.

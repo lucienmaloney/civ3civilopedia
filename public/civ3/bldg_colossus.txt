@@ -1,0 +1,14 @@
+#BLDG_Colossus
+^
+^
+^[The Colossus] causes its city to produce one extra $LINK<Commerce=GCON_Commerce> in every square that
+already produces at least one.
+^
+^
+^The Colossus may be built only in a coastal city.
+^
+^
+^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Expansionist, Seafaring, and Commercial civilizations.

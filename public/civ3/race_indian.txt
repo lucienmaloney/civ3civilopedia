@@ -1,0 +1,24 @@
+#RACE_INDIAN
+^The Indians are $LINK<commercial and religious=GCON_Strengths>. They start the game with
+$LINK<Ceremonial Burial=TECH_Ceremonial_Burial> and $LINK<The Alphabet=TECH_Alphabet> and build
+$LINK<war elephants=PRTO_War_Elephant> instead of $LINK<knights=PRTO_Knight>. 
+^
+^The Indian subcontinent is the home of one of the world's oldest and most influential civilizations. From about 
+5000 BC, increasing numbers of settlements of subsistence agriculturalists began to appear throughout the Indus 
+Valley; by 2600 BC some of these villages grew into urban centers, forming the basis for the early Harappan 
+civilization, the peer of contemporary Egyptian and Babylonian civilizations. However, unlike these regions, 
+centralized imperialism, which was attempted in the Mauryan Period (325-185 BC), collapsed. Nonetheless, the 
+ascension of Chandra Gupta Maurya (321-297 BC) is significant because it inaugurated the first Indian empire; 
+the Mauryan dynasty was to rule almost the entire subcontinent except the southern coasts.
+^    Using {War Elephants} to good effect, he defeated Alexander's successor Seleucus, the ruler of the eastern 
+Greek holdings in Iran and India. The result was a treaty by which Seleucus ceded the trans-Indus provinces to 
+Chandra and the latter presented Seleucus with 500 elephants for his own army. A century later, the disintegration 
+of the Mauryan empire gave rise to a number of feuding kingdoms, the Guptas and Pajputs in the north and Chola, 
+Hoysalas and Pandyas in the south, unable to stand alone against the coming Islamic tide.
+^    The first Arabic raids in the subcontinent were made along the western coast and in Sind during the 7th and 
+8th centuries, and there had been Muslim trading communities in India for decades before. The permanent military 
+movement of Muslims into northern India, however, dates from the late 12th century and was carried out by the 
+Turkish dynasty that arose on the ruins of the Abbasid caliphate. Sultan Mahmud, who conducted more than 20 
+campaigns in India from 1001 to 1027 AD and established a large but short-lived empire, laid the road to conquest. 
+By 1186 AD, the Mahmud realm had been destroyed by the Ghurids, who proceeded to conquer the Rajput kingdoms and 
+establish a Muslim sultanate in Delhi, from which a series of able Turkish overlords ruled the north until 1526 AD.

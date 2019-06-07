@@ -1,0 +1,26 @@
+#GCON_Nationality
+Nationality
+^
+^
+^Each civilization produces citizens of its own [nationality], a characteristic that
+persists until $LINK<assimilated=GCON_Assimilation> into another nationality.
+^
+^ 
+^{Foreign Nationals}
+^When a city is captured, this can create a city controlled by one nationality, but populated by another.
+These citizens are called [foreign nationals]. Foreign nationals retain their team colors so they can be easily identified.
+^
+^
+^Having a city with foreign nationals is not a problem unless you are at war with
+the nation that originally produced them. When at war, foreign nationals become
+unhappy more quickly than others and are more likely to be affected by hostile propaganda from
+their mother country.
+^ 
+^
+^Captured workers and settlers retain their original nationality as well, and, if ordered to
+join a city, become foreign nationals within that city.
+
+
+
+
+

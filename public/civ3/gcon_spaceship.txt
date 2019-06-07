@@ -1,0 +1,22 @@
+#GCON_Spaceship
+Space Ship
+^
+^To win the space race $LINK<victory=GCON_Victory>, you have to be the first to build, then launch, the spaceship.
+The spaceship is comprised of components:
+^
+^$LINK<Thrusters=BLDG_SS_Thrusters>
+^$LINK<Cockpit=BLDG_SS_Cockpit>
+^$LINK<Docking Bay=BLDG_SS_Landing_Docking_Bay>
+^$LINK<Engine=BLDG_SS_Engine>
+^$LINK<Fuel Cells=BLDG_SS_Fuel_Cells>
+^$LINK<Life Support System=BLDG_SS_Life_Support_System>
+^$LINK<Stasis Chamber=BLDG_SS_Stasis_Chamber>
+^$LINK<Storage/Supply=BLDG_SS_Storage_Supply>
+^$LINK<Planetary Party Lounge=BLDG_SS_Planetary_Party_Lounge>
+^$LINK<Exterior Casing=BLDG_SS_Exterior_Casing>
+^
+^The components may be built in any order.
+
+
+
+

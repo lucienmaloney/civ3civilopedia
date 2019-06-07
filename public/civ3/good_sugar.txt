@@ -1,0 +1,7 @@
+#GOOD_Sugar
+^
+^
+^[Sugar] is a $LINK<bonus resource=GCON_ResourcesB> that enhances city production. To get the bonus, the
+resource must be inside the city's $LINK<radius=GCON_Radius> and a citizen laborer must work the square. 
+^
+^Sugar is always visible on the map and can be found in $LINK<hills=TERR_Hills> and $LINK<plains=TERR_Plains>.

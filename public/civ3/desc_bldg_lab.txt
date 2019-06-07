@@ -1,0 +1,10 @@
+#DESC_BLDG_Lab
+^
+^
+^Historically, libraries and universities have acted as the primary centers of research for new ideas and technologies. The growth 
+of private industry in the Modern Age has also given birth to hundreds of privately owned research facilities. These private laboratories, 
+usually dedicated to research in a single field related to their founding company, have made tremendous advances in many fields including 
+physics, biology, chemistry, and medicine. The growth of privately-funded  research has vastly increased the speed at which mankind achieves 
+new advances in science and technology.
+
+

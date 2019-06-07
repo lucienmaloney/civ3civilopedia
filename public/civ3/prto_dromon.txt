@@ -1,0 +1,10 @@
+#PRTO_Dromon
+^
+^
+^[Byzantine Dromons] are a type of galley with an enhanced offensive capability, as it can let loose
+a hot stream of "Greek Fire." 
+^
+^
+^The Dromon has Lethal Sea Bombardment.
+
+

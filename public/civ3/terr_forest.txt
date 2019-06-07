@@ -1,0 +1,13 @@
+#TERR_Forest
+^Extensive areas of land covered by thick growths of trees and related ground vegetation are classified as [forests]. 
+^
+^Forests may contain
+$LINK<dyes=GOOD_Dye>,
+$LINK<furs=GOOD_Furs>,
+$LINK<game=GOOD_Game>,
+$LINK<ivory=GOOD_Ivory>,
+$LINK<rubber=GOOD_Rubber>,
+$LINK<spice=GOOD_Spice>,
+$LINK<silk=GOOD_Silk>, or
+$LINK<uranium=GOOD_Uranium>.
+

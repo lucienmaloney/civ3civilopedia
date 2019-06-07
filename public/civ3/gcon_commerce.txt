@@ -1,0 +1,33 @@
+#GCON_Commerce
+Commerce
+^
+^
+^Commerce is the exchange of goods and cash between communities within and around a city, the exchange of
+knowledge and ideas, travel and shopping. It is the commercial exploitation of goods and services within your society.
+^
+^Commerce production depends upon the terrain within the city's radius, because citizens
+laboring there produce commerce. When the [City Display] is open, you can see what the citizens are producing.
+^
+^{A citizen working			Produces}
+^Floodplains				1	2 with road.
+^Grasslands					0	1 with road.
+^Plains						0	1 with road.
+^Hills						0	1 with road.
+^Mountains					0	1 with road.
+^Forests					0	1 with road.
+^Jungles					0	1 with road.
+^Marsh						0	1 with road.
+^
+^Note any square next to a river produces one extra commerce per turn, and 
+some $LINK<natural resources=GCON_ResourcesN> provide bonus commerce as well.
+^
+^
+^The government derives {Tax Revenue} from commercial activity and divides the revenue into three areas,
+^* The build-up of liquid wealth in the $LINK<treasury=GCON_Treasury>,
+^* Long-term investment in $LINK<scientific research=GCON_Research>, or
+^* The entertainment of the population to produce $LINK<happy faces=GCON_Happy_Faces>.
+^
+^The allocation of tax revenues into these three categories is set using the Revenue Slider on the [Domestic Advisor].
+
+
+

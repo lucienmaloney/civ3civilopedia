@@ -1,0 +1,26 @@
+#RACE_AMERICAN
+^The Americans are $LINK<expansionist and industrious=GCON_Strengths>. They start the game with
+$LINK<Pottery=TECH_Pottery> and $LINK<Masonry=TECH_Masonry> and build $LINK<F-15s=PRTO_F-15> instead of
+normal $LINK<jet fighters=PRTO_Jet_Fighter>. 
+^
+^The United States is relatively young by Civilization standards, being barely more than 200 years old; it achieved 
+its current size and influence only in the mid-20th century. America was the first of the European colonies to separate 
+successfully from its motherland, and it was the first nation to be established on the premise that sovereignty rests 
+with its citizens and not with the government. In its first century and a half, the country was mainly preoccupied with 
+its own territorial exploration and expansion and with economic growth. American politics became increasingly democratic 
+during the 1820s and '30s. But a matter of freedom would bring the nation to its greatest crisis: the American Civil War. 
+On February 4, 1861 - a month before {Abraham Lincoln} (1860-1865) could be inaugurated in Washington - six Southern 
+states sent representatives to Montgomery to declare a new independent government. With Jefferson Davis at its head, the 
+Confederate States of America came into being, set up its own bureaus and offices, occupied federal buildings, issued its 
+own money, raised its own taxes, and flew its own flag.
+^    With the Union preserved, the nation entered a period of unprecedented prosperity after the long conflict and 
+reconstruction. In the ensuing two decades industrial production, the number of industrial workers, and the number 
+of factories all more than doubled. European immigration, westward expansion, urban growth, technological advances 
+and a host of American inventions - including the telephone, typewriter, linotype, phonograph, electric light, cash 
+register, air brake, refrigerator car, and the automobile - contributed to the American explosion, while widespread 
+use of corporate organization offered new opportunities for large-scale financing of business enterprise and attracted 
+new capital.
+^    Militarily speaking, the Spanish-American War of 1898 was so brief and relatively bloodless as to have been a 
+mere passing episode in the history of modern warfare, but it catapulted the United States into the world arena. 
+Before the 1890s, roughly speaking, most Americans had stubbornly adhered to the belief, as old as the
+

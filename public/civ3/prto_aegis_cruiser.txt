@@ -1,0 +1,9 @@
+#PRTO_AEGIS_Cruiser
+^
+^
+^[AEGIS Cruisers] are nimble and lethal. They can bombard up to two squares away; they have [radar] so they can see two squares
+regardless of blocking terrain; and they can see $LINK<submarines=PRTO_Submarine> when within their radar range.
+All in all the AEGIS Cruiser is a formidable warship.
+^
+^A coastal city needs $LINK<aluminum=GOOD_Aluminum> and $LINK<uranium=GOOD_Uranium> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build an AEGIS Cruiser.

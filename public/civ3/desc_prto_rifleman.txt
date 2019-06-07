@@ -1,0 +1,15 @@
+#DESC_PRTO_Rifleman
+^
+^
+^Two developments in the 19th century made early firearms (such as the musket) obsolete. The first was the invention 
+of a spiral groove, or "rifling," inside the barrel of a gun. Second was the development of the repeating 
+rifle, which could fire multiple shots before it required reloading. The rifle was a better weapon than its
+ancestors, with much more accuracy over a greater range than the musket and a much higher rate of fire. 
+^    
+^Riflemen were first employed in large numbers during the American Civil War. The rifle gave a strong 
+defensive advantage, since riflemen could fire several times while the attackers advanced to within 
+hand-to-hand distance. This was normally enough to hold any position. Riflemen dominated the
+battlefield until the appearance of armored attack vehicles.
+
+
+

@@ -1,0 +1,10 @@
+#DESC_TECH_Map_Making
+^
+^
+^Maps provide a diagrammatic representation of an area, showing terrain features, cities, and other landmarks. The earliest maps were etched 
+clay tablets charting Babylonian lands for the purposes of taxation. Around the same time, the Chinese produced regional maps drawn on 
+silk cloth. In between 600 and 200 BC, the Greeks produced several maps of the known world, including the first map showing a primitive 
+system of latitude and longitude. Traders and merchants primarily used these early maps. Seamen, who often set their courses based only on 
+the tales brought back by previous voyagers, benefited most from the science of map making.
+
+

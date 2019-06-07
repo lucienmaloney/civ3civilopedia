@@ -1,0 +1,37 @@
+#GCON_Worker_Jobs_Advanced
+Worker Actions (Advanced)
+^ see also $LINK<Worker Actions=GCON_Worker_Jobs>
+^
+^
+^{Road to (Ctrl-R)}
+^Builds a road to a particular destination.
+^
+^{Rail to (Ctrl-Shift-R)}
+^Builds a railroad to a particular destination.
+^
+^{Build Road Then Colony (Ctrl-B)}
+^The worker builds a road/railroad to a particular destination and then builds a $LINK<colony=GCON_Colony>
+at the destination.
+^
+^{Automate (A)}
+^Causes control of the worker to be relinquished while it performs automated tasks.
+^
+^{Automate: Build Trade Network (Ctrl-N)}
+^Automates the worker, giving it the task of linking all cities to your capital city.
+^
+^{Automate: Irrigate to Nearest City (Ctrl-I)}
+^Automates the worker, giving it the task of irrigating the nearest city.
+^
+^{Automate: Clear Forest (Shift-F)}
+^Automates the worker, giving it the task of clearing all nearby forests.
+^
+^{Automate: Clear Wetlands (Shift-W)}
+^Automates the worker, giving it the task of clearing all nearby jungle and/or marsh.
+^
+^{Automate: Clear Damage (Shift-D)}
+^Automates the worker, giving it the task of clearing all nearby pollution, including $LINK<craters=GCON_Craters>
+and fallout from a $LINK<volcanic eruption=GCON_Volcanic_Eruptions>.
+^
+^{Automate: This City Only (Shift-I)}
+^Automates the worker, allowing it to perform automated tasks to improve the nearest city.
+

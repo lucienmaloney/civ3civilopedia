@@ -1,0 +1,33 @@
+#GCON_Hotkeys_Units
+Hotkeys: Unit Commands
+^
+^
+^{Settler / Worker Actions}
+^Build Road 						R
+^*   Road to							Ctrl-R
+^Build Rail							Shift-R
+^*   Rail to							Ctrl-Shift-R
+^Build Road/Rail Net					Ctrl-N
+^Build/Join city/colony				B
+^*   Road then Colony					Ctrl-B
+^Irrigate							I
+^*   Irrigate to city					Ctrl-I
+^Improve Nearest City					Shift-I
+^Improve Nearest City/Without Altering	Ctrl-Shift-I
+^Build Mine							M
+^Build Fortress/Barricade				Ctrl-F
+^Plant Forest						N
+^Clear Pollution/Forest/Jungle/Marsh		Shift-C
+^*   Clear all Forest					Shift-F
+^*   Clear all Wetlands					Shift-W
+^*   Clear all Damage					Shift-D
+^Automate Worker					A
+^Automate Worker (virgin terrain)		Shift-A
+^
+^{Air Missions}
+^Bombing							B
+^Recon							R
+^Air Superiority						S
+^Re-Base							Shift-R
+^Precision Strike						P
+

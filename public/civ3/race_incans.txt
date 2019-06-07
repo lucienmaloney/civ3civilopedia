@@ -1,0 +1,13 @@
+#RACE_INCANS
+^The Inca are $LINK<expansionist and agricultural=GCON_Strengths>. They start the game with
+$LINK<Pottery=TECH_Pottery> and $LINK<Masonry=TECH_Masonry>. They start the game with a regular $LINK<scout=PRTO_Scout> and thereafter can build their unique $LINK<Chasqui Scout=PRTO_Chasquis_Scout> unit. 
+^
+^Hundreds of years ago, a group of people calling themselves the [Inca] settled the Cuzco Valley high in the Andes Mountains of South America. Where they had come from was a mystery. Yet, though their purpose for settling such a rugged and inhospitable landscape was unclear, the end result of their arrival is without doubt. In time, the Inca built an empire that spanned the Pacific coast (as far south as Argentina and as far north as Ecuador), some 2,000 miles of hills, mountains, valleys and coastline. I
+n just a short time (roughly 100 years), the Incan empire dominated South America and is, to this day, considered one of the finest empires the world has ever known. Beginning with the ninth ruler, {Pachacuti} Inca Yupanqui, the Inca began their 
+expansion. Pachacuti won his first military campaign against the Chanca people, where he refused to retreat despite insurmountable odds. From there, he consolidated his control over his cultural base, Cuzco, then moved north into the Urubamba Valley, which extended beyond the site where the lost city of Mach Picchu was later built. He then turned his army south and conquered the Colla and Lupaca tribes. Though not the first Incan ruler, Pachacuti was by many accounts one of the finest Pre-Columbian persons 
+that ever lived. A great military strategist, an architect, a skilled diplomat and a gifted religious philosopher, his teachings are still practiced by many Andeans today. 
+^    Like many other groups that preceded the Inca (the Chimu, the Nazca, the Moche), 
+Incan society was heavily dipped in the worship of powerful gods. Their pantheon contained such lofty omnipotents as Viracocha (the god of creation), Inti (the sun and father of the Inca Dynasty), Illapa (god of rain, thunder, and lightening), Pacha Mama 
+(mother of the earth), and Mama Cocha (mother of the lakes). Grand ceremonies were held frequently to honor these gods, for the Inca believed that if one did not give thanks and obedience to the gods, bad things would happen. The world of the Andes Mountains is full of ecological wonders [and] ecological disasters: Earthquakes, severe storms, and 
+volcanic activity. The gods held sway with these events and thus the proper respect had to be paid at all times.
+

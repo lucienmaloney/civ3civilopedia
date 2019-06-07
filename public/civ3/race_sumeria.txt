@@ -1,0 +1,18 @@
+#RACE_SUMERIA
+^The Sumerians are $LINK<scientific and agricultural=GCON_Strengths>. They start the game with
+$LINK<Bronze Working=TECH_Bronze_Working> and $LINK<Pottery=TECH_Pottery> and build $LINK<Enkidu Warriors=PRTO_Enkidu_Warrior> instead of $LINK<warriors=PRTO_Warrior>. They also cannot build $LINK<Spearmen=PRTO_Spearman>.
+^
+^The Sumerians were, by historical consensus, the first human civilization. Originally from Asia Minor, they settled between the 
+Tigris and Euphrates (in modern-day Iraq) and began to farm and create simple goods. They relied on a sort of theocratic city-state government, 
+where each Sumerian city worshipped a separate god and had a separate governor, although all paid tribute to a single King in the capital, Ur.
+^    Sumeria's first and greatest accomplishment was the extent to which its people controlled their environment. They drained swamps, dug canals, 
+and generally bent the Euphrates region to their needs. They plowed the land for the first time in history, and took advantage of the rich, fertile 
+Mesopotamia soil. However, the area was low on other resources, so the Sumerian city-states were forced to import goods (particularly metals). Thus they 
+had to create a barter system of trade, as well as riverboats to more easily traverse the rivers that flanked their home. The invention of the plow led in 
+turn to the invention of the wheel, which permitted animals to pull carts as well as plow fields, and also to the creation of better pottery (with potters' 
+wheels).
+^    Since specialists were now able to create goods, and not every man had to farm, full-time priests could administer community affairs as well as the 
+temples in each city. To support them, in turn, people had time to devise picture signs and other very early alphabets, and being a full-time scribe became a 
+viable profession. The literature of Sumeria followed thereafter, culminating in the Epic of {Gilgamesh}, a lengthy poem dedicated to the mythic god-king whose 
+real and legendary exploits blend together. A companion of Gilgamesh, Enkidu, fought by Gilgamesh's side in many battles, and for him the {Enkidu Warriors} are 
+named: fierce fighters who sought to defend Sumerian lands from the other civilizations being born nearby.

@@ -1,0 +1,9 @@
+#PRTO_Chariot
+^
+^
+^The first wheeled unit you can build, [chariots] move fast and [withdraw] from combat if losing the battle 
+(unless fighting another fast unit).
+Being wheeled, chariots may not enter $LINK<mountain=TERR_Mountains>, $LINK<volcano=TERR_Volcano>,
+$LINK<jungle=TERR_Jungle> or $LINK<marsh=TERR_Marsh> terrain unless following a road.
+^
+^A city must have $LINK<horses=GOOD_Horses> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build chariots.

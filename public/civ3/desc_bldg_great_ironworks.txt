@@ -1,0 +1,9 @@
+#DESC_BLDG_Great_Ironworks
+^
+^
+^As mankind�s dependence on metals increased through the ages, it became very important to cheaply and effectively separate the base metal from 
+impurities. The process of smelting, through the use of a structure called a blast furnace, achieved just that. Using carbon dioxide created from 
+oxidized coke to absorb the oxygen from the molten iron, it leaves the metal �slag� to sink to the bottom of the furnace. This separation allows for 
+a pure iron to be derived, which is then used for numerous purposes, including the creation of steel.
+
+

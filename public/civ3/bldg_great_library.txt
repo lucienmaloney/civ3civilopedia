@@ -1,0 +1,11 @@
+#BLDG_Great_Library
+^
+^
+^The civilization that builds the [Great Library] gets any Civilization Advance already discovered by two
+other known civilizations for free.
+^
+^
+^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Scientific civilizations.

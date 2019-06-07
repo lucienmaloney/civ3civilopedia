@@ -1,0 +1,5827 @@
+{
+  "Tribes": {
+    "race_american": {
+      "name": "America"
+    },
+    "race_arabs": {
+      "name": "Arabia"
+    },
+    "race_aztecs": {
+      "name": "Aztecs"
+    },
+    "race_babylon": {
+      "name": "Bablyon"
+    },
+    "race_byzantines": {
+      "name": "Byzantines"
+    },
+    "race_carthaginians": {
+      "name": "Carthage"
+    },
+    "race_celts": {
+      "name": "Celts"
+    },
+    "race_chinese": {
+      "name": "China"
+    },
+    "race_egyptians": {
+      "name": "Egypt"
+    },
+    "race_english": {
+      "name": "England"
+    },
+    "race_french": {
+      "name": "France"
+    },
+    "race_germans": {
+      "name": "Germany"
+    },
+    "race_greeks": {
+      "name": "Greece"
+    },
+    "race_hatti": {
+      "name": "Hittites"
+    },
+    "race_incans": {
+      "name": "Inca"
+    },
+    "race_indians": {
+      "name": "India"
+    },
+    "race_iroquois": {
+      "name": "Iroquois"
+    },
+    "race_japanese": {
+      "name": "Japan"
+    },
+    "race_koreans": {
+      "name": "Korea"
+    },
+    "race_mayans": {
+      "name": "Maya"
+    },
+    "race_mongols": {
+      "name": "Mongols"
+    },
+    "race_dutch": {
+      "name": "Netherlands"
+    },
+    "race_ottomans": {
+      "name": "Ottomans"
+    },
+    "race_persian": {
+      "name": "Persia"
+    },
+    "race_portugal": {
+      "name": "Portugal"
+    },
+    "race_romans": {
+      "name": "Rome"
+    },
+    "race_russian": {
+      "name": "Russia"
+    },
+    "race_vikings": {
+      "name": "Scandinavia"
+    },
+    "race_spanish": {
+      "name": "Spain"
+    },
+    "race_sumeria": {
+      "name": "Sumeria"
+    },
+    "race_zulu": {
+      "name": "Zululand"
+    }
+  },
+  "Civilization Advances": {
+    "tech_advanced_flight": {
+      "tech": {
+        "requires": [
+          "Flight",
+          "Electronics",
+          "Motorized Transportation"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [
+          "Helicopter",
+          "Paratrooper"
+        ],
+        "Actions": [
+          "Radar Tower"
+        ],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Advanced Flight"
+    },
+    "tech_alphabet": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Mathematics",
+          "Writing"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Curragh"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Alphabet"
+    },
+    "tech_amphibious_warfare": {
+      "tech": {
+        "requires": [
+          "Mass Production"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [
+          "Marine"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Amphibious War"
+    },
+    "tech_astronomy": {
+      "tech": {
+        "requires": [
+          "Education"
+        ],
+        "allows": [
+          "Navigation",
+          "Physics"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Caravel",
+          "Carrack",
+          "Conquistador",
+          "Explorer"
+        ],
+        "Actions": [],
+        "Gr Wonders": [
+          "Copernicus' Observatory"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Astronomy"
+    },
+    "tech_atomic_theory": {
+      "tech": {
+        "requires": [
+          "Scientific Method"
+        ],
+        "allows": [
+          "Electronics"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Atomic Theory"
+    },
+    "tech_banking": {
+      "tech": {
+        "requires": [
+          "Education"
+        ],
+        "allows": [
+          "Democracy",
+          "Economics"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Bank"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Banking"
+    },
+    "tech_bronze_working": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Iron Working"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Hoplite",
+          "Impi",
+          "Numidian Mercenary",
+          "Spearman"
+        ],
+        "Actions": [],
+        "Gr Wonders": [
+          "The Colossus"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Bronze Working"
+    },
+    "tech_ceremonial_burial": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Mysticism"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Temple"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Ceremonial Burial"
+    },
+    "tech_chemistry": {
+      "tech": {
+        "requires": [
+          "Gunpowder"
+        ],
+        "allows": [
+          "Metallurgy",
+          "Physics"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Chemistry"
+    },
+    "tech_chivalry": {
+      "tech": {
+        "requires": [
+          "Monotheism",
+          "Feudalism"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [
+          "Ansar Warrior",
+          "Keshik",
+          "Knight",
+          "Rider",
+          "Samurai",
+          "War Elephant"
+        ],
+        "Actions": [],
+        "Gr Wonders": [
+          "Knights Templar"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Chivalry"
+    },
+    "tech_code_of_laws": {
+      "tech": {
+        "requires": [
+          "Writing"
+        ],
+        "allows": [
+          "The Republic"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Courthouse"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Code of Laws"
+    },
+    "tech_combustion": {
+      "tech": {
+        "requires": [
+          "Refining",
+          "Steel"
+        ],
+        "allows": [
+          "Flight",
+          "Mass Production"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Cruiser",
+          "Destroyer",
+          "Transport"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Combustion"
+    },
+    "tech_communism": {
+      "tech": {
+        "requires": [
+          "Nationalism"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Police Station"
+        ],
+        "Govts": [
+          "Communism"
+        ],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Communism"
+    },
+    "tech_computers": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "The Laser",
+          "Miniaturization"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Mech Infantry"
+        ],
+        "Actions": [],
+        "Gr Wonders": [
+          "SETI Program"
+        ],
+        "City Imp's": [
+          "Research Lab"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Computers"
+    },
+    "tech_construction": {
+      "tech": {
+        "requires": [
+          "Iron Working",
+          "Mathematics"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [
+          "Barricade",
+          "Fortress"
+        ],
+        "Gr Wonders": [
+          "The Great Wall"
+        ],
+        "City Imp's": [
+          "Aqueduct",
+          "Colosseum"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Construction"
+    },
+    "tech_the_corporation": {
+      "tech": {
+        "requires": [
+          "Industrialization"
+        ],
+        "allows": [
+          "Refining",
+          "Steel"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Stock Exchange"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "The Corporation"
+    },
+    "tech_currency": {
+      "tech": {
+        "requires": [
+          "Mathematics"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Marketplace"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Currency"
+    },
+    "tech_democracy": {
+      "tech": {
+        "requires": [
+          "Printing Press",
+          "Banking"
+        ],
+        "allows": [
+          "Free Artistry"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [
+          "Democracy"
+        ],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Democracy"
+    },
+    "tech_ecology": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Recycling",
+          "Synthetic Fibers"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Mass Transit System",
+          "Solar Plant"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Ecology"
+    },
+    "tech_economics": {
+      "tech": {
+        "requires": [
+          "Banking"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "Smith's Trading Company"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Economics"
+    },
+    "tech_education": {
+      "tech": {
+        "requires": [
+          "Theology"
+        ],
+        "allows": [
+          "Astronomy",
+          "Banking",
+          "Music Theory"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "University"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Education"
+    },
+    "tech_electricity": {
+      "tech": {
+        "requires": [
+          "Steam Power"
+        ],
+        "allows": [
+          "Replaceable Parts",
+          "Scientific Method"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Electricity"
+    },
+    "tech_electronics": {
+      "tech": {
+        "requires": [
+          "Atomic Theory"
+        ],
+        "allows": [
+          "Advanced Flight"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "Hoover Dam"
+        ],
+        "City Imp's": [
+          "Civil Defense",
+          "Hydro Plant"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Electronics"
+    },
+    "tech_engineering": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Invention"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Trebuchet"
+        ],
+        "Actions": [
+          "Plant Forest"
+        ],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Engineering"
+    },
+    "tech_espionage": {
+      "tech": {
+        "requires": [
+          "Nationalism",
+          "Industrialization"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [
+          "Intelligence Agency",
+          "Secret Police HQ"
+        ],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Espionage"
+    },
+    "tech_fascism": {
+      "tech": {
+        "requires": [
+          "Nationalism"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [
+          "Fascism"
+        ],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Fascism"
+    },
+    "tech_feudalism": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Chivalry",
+          "Invention"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Medieval Infantry",
+          "Pikeman",
+          "Swiss Mercenary"
+        ],
+        "Actions": [],
+        "Gr Wonders": [
+          "Sun Tzu's Art of War"
+        ],
+        "City Imp's": [],
+        "Govts": [
+          "Feudalism"
+        ],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Feudalism"
+    },
+    "tech_fission": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Nuclear Power",
+          "Superconductor"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Nuclear Submarine"
+        ],
+        "Actions": [],
+        "Gr Wonders": [
+          "The Manhattan Project",
+          "The United Nations"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": [
+          "Uranium"
+        ]
+      },
+      "text": "",
+      "name": "Fission"
+    },
+    "tech_flight": {
+      "tech": {
+        "requires": [
+          "Combustion"
+        ],
+        "allows": [
+          "Advanced Flight"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Bomber",
+          "Fighter",
+          "Flak"
+        ],
+        "Actions": [
+          "Airfield"
+        ],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Airport"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Flight"
+    },
+    "tech_free_artistry": {
+      "tech": {
+        "requires": [
+          "Democracy"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "Shakespeare's Theater"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Free Artistry"
+    },
+    "tech_genetics": {
+      "tech": {
+        "requires": [
+          "Miniaturization"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "Cure for Cancer",
+          "Longevity"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Genetics"
+    },
+    "tech_gunpowder": {
+      "tech": {
+        "requires": [
+          "Invention"
+        ],
+        "allows": [
+          "Chemistry"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Musketeer",
+          "Musketman"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": [
+          "Saltpeter"
+        ]
+      },
+      "text": "",
+      "name": "Gunpowder"
+    },
+    "tech_horseback_riding": {
+      "tech": {
+        "requires": [
+          "The Wheel",
+          "Warrior Code"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [
+          "Horseman",
+          "Mounted Warrior"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Horseback Riding"
+    },
+    "tech_industrialization": {
+      "tech": {
+        "requires": [
+          "Steam Power"
+        ],
+        "allows": [
+          "The Corporation",
+          "Espionage"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "Universal Suffrage"
+        ],
+        "City Imp's": [
+          "Coal Plant",
+          "Factory"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Industrialization"
+    },
+    "tech_integrated_defense": {
+      "tech": {
+        "requires": [
+          "Superconductor",
+          "Satellites",
+          "Smart Weapons"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [
+          "Strategic Missile Defense"
+        ],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Integrated Defense"
+    },
+    "tech_invention": {
+      "tech": {
+        "requires": [
+          "Feudalism",
+          "Engineering"
+        ],
+        "allows": [
+          "Gunpowder"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Beserk",
+          "Longbowman"
+        ],
+        "Actions": [],
+        "Gr Wonders": [
+          "Leonardo's Workshop"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Invention"
+    },
+    "tech_iron_working": {
+      "tech": {
+        "requires": [
+          "Bronze Working"
+        ],
+        "allows": [
+          "Construction"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Gallic Swordsman",
+          "Immortals",
+          "Legionary",
+          "Swordsman"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": [
+          "Iron"
+        ]
+      },
+      "text": "",
+      "name": "Iron Working"
+    },
+    "tech_ironclads": {
+      "tech": {
+        "requires": [
+          "Steam Power"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [
+          "Ironclads"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Ironclads"
+    },
+    "tech_the_laser": {
+      "tech": {
+        "requires": [
+          "Nuclear Power",
+          "Computers"
+        ],
+        "allows": [
+          "Robotics",
+          "Smart Weapons"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "SS Planetary Party Lounge"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "The Laser"
+    },
+    "tech_literature": {
+      "tech": {
+        "requires": [
+          "Writing"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "The Great Library"
+        ],
+        "City Imp's": [
+          "Library"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Literature"
+    },
+    "tech_magnetism": {
+      "tech": {
+        "requires": [
+          "Physics"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [
+          "Frigate",
+          "Galleon",
+          "Man-O-War",
+          "Privateer"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Magnetism"
+    },
+    "tech_map_making": {
+      "tech": {
+        "requires": [
+          "Writing",
+          "Pottery"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [
+          "Dromon",
+          "Galley"
+        ],
+        "Actions": [],
+        "Gr Wonders": [
+          "The Great Lighthouse"
+        ],
+        "City Imp's": [
+          "Harbor"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Map Making"
+    },
+    "tech_masonry": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Mathematics"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [
+          "Outpost"
+        ],
+        "Gr Wonders": [
+          "The Pyramids"
+        ],
+        "City Imp's": [
+          "Palace",
+          "Walls"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Masonry"
+    },
+    "tech_mass_production": {
+      "tech": {
+        "requires": [
+          "Combustion",
+          "Replaceable Parts"
+        ],
+        "allows": [
+          "Amphibious War",
+          "Motorized Transportation"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Battleship",
+          "Carrier",
+          "Submarine"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Commercial Dock"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Mass Production"
+    },
+    "tech_mathematics": {
+      "tech": {
+        "requires": [
+          "Masonry",
+          "Alphabet"
+        ],
+        "allows": [
+          "Construction",
+          "Currency"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Catapult"
+        ],
+        "Actions": [],
+        "Gr Wonders": [
+          "The Statue of Zeus"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Mathematics"
+    },
+    "tech_medicine": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Sanitation",
+          "Scientific Method"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Medicine"
+    },
+    "tech_metallurgy": {
+      "tech": {
+        "requires": [
+          "Chemistry"
+        ],
+        "allows": [
+          "Military Tradition"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Cannon",
+          "Hwach'a"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Coastal Fortress"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Metallurgy"
+    },
+    "tech_military_tradition": {
+      "tech": {
+        "requires": [
+          "Metallurgy"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [
+          "Cavalry",
+          "Cossack",
+          "Sipahi"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [
+          "Military Academy"
+        ],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Military Tradition"
+    },
+    "tech_miniaturization": {
+      "tech": {
+        "requires": [
+          "Computers"
+        ],
+        "allows": [
+          "Genetics",
+          "Robotics"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "The Internet"
+        ],
+        "City Imp's": [
+          "Offshore Platform"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Miniaturization"
+    },
+    "tech_monarchy": {
+      "tech": {
+        "requires": [
+          "Warrior Code",
+          "Polytheism"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "The Hanging Gardens"
+        ],
+        "City Imp's": [],
+        "Govts": [
+          "Monarchy"
+        ],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Monarchy"
+    },
+    "tech_monotheism": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Chivalry",
+          "Theology"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Cathedral"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Monotheism"
+    },
+    "tech_motorized_transportation": {
+      "tech": {
+        "requires": [
+          "Mass Production"
+        ],
+        "allows": [
+          "Advanced Flight"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Panzer",
+          "Tank"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Motorized Transportation"
+    },
+    "tech_music_theory": {
+      "tech": {
+        "requires": [
+          "Education"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "JS Bach's Cathedral"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Music Theory"
+    },
+    "tech_mysticism": {
+      "tech": {
+        "requires": [
+          "Ceremonial Burial"
+        ],
+        "allows": [
+          "Polytheism"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "The Oracle"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Mysticism"
+    },
+    "tech_nationalism": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Communism",
+          "Espionage",
+          "Fascism"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Rifleman"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Nationalism"
+    },
+    "tech_navigation": {
+      "tech": {
+        "requires": [
+          "Astronomy"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "Magellan's Voyage"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Navigation"
+    },
+    "tech_nuclear_power": {
+      "tech": {
+        "requires": [
+          "Fission"
+        ],
+        "allows": [
+          "The Laser"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Nuclear Plant"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Nuclear Power"
+    },
+    "tech_philosophy": {
+      "tech": {
+        "requires": [
+          "Writing"
+        ],
+        "allows": [
+          "The Republic"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "The Mausoleum of Mausollos"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Philosophy"
+    },
+    "tech_physics": {
+      "tech": {
+        "requires": [
+          "Astronomy",
+          "Chemistry"
+        ],
+        "allows": [
+          "Magnetism",
+          "Theory of Gravity"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Physics"
+    },
+    "tech_polytheism": {
+      "tech": {
+        "requires": [
+          "Mysticism"
+        ],
+        "allows": [
+          "Monarchy"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "The Temple of Artemis"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Polytheism"
+    },
+    "tech_pottery": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Map Making"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Granary"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Pottery"
+    },
+    "tech_printing_press": {
+      "tech": {
+        "requires": [
+          "Theology"
+        ],
+        "allows": [
+          "Democracy"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Printing Press"
+    },
+    "tech_recycling": {
+      "tech": {
+        "requires": [
+          "Ecology"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Recycling Center"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Recycling"
+    },
+    "tech_refining": {
+      "tech": {
+        "requires": [
+          "The Corporation"
+        ],
+        "allows": [
+          "Combustion"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": [
+          "Oil"
+        ]
+      },
+      "text": "",
+      "name": "Refining"
+    },
+    "tech_replaceable_parts": {
+      "tech": {
+        "requires": [
+          "Electricity"
+        ],
+        "allows": [
+          "Mass Production"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Artillery",
+          "Guerilla",
+          "Infantry"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": [
+          "Rubber"
+        ]
+      },
+      "text": "",
+      "name": "Replaceable Parts"
+    },
+    "tech_the_republic": {
+      "tech": {
+        "requires": [
+          "Philosophy",
+          "Code of Laws"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [
+          "Republic"
+        ],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "The Republic"
+    },
+    "tech_robotics": {
+      "tech": {
+        "requires": [
+          "The Laser",
+          "Miniaturization"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [
+          "AEGIS Cruiser",
+          "Radar Artillery"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Manufacturing Plant",
+          "SS Stasis Chamber"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Robotics"
+    },
+    "tech_rocketry": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Space Flight"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Cruise Missile",
+          "F-15",
+          "Jet Fighter",
+          "Mobile SAM",
+          "TOW Infantry"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "SAM Missile Battery"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": [
+          "Aluminum"
+        ]
+      },
+      "text": "",
+      "name": "Rocketry"
+    },
+    "tech_sanitation": {
+      "tech": {
+        "requires": [
+          "Medicine"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "Hospital"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Sanitation"
+    },
+    "tech_satellites": {
+      "tech": {
+        "requires": [
+          "Space Flight"
+        ],
+        "allows": [
+          "Integrated Defense",
+          "Smart Weapons"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "ICBM"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "SS Thrusters"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Satellites"
+    },
+    "tech_scientific_method": {
+      "tech": {
+        "requires": [
+          "Medicine",
+          "Electricity"
+        ],
+        "allows": [
+          "Atomic Theory"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "Theory of Evolution"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Scientific Method"
+    },
+    "tech_smart_weapons": {
+      "tech": {
+        "requires": [
+          "Satellites",
+          "The Laser"
+        ],
+        "allows": [
+          "Integrated Defense"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Smart Weapons"
+    },
+    "tech_space_flight": {
+      "tech": {
+        "requires": [
+          "Rocketry"
+        ],
+        "allows": [
+          "Satellites",
+          "Superconductor"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Tactical Nuke"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "SS Cockpit",
+          "SS Docking Bay",
+          "SS Engine"
+        ],
+        "Govts": [],
+        "Sm Wonders": [
+          "Apollo Program"
+        ],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Space Flight"
+    },
+    "tech_stealth": {
+      "tech": {
+        "requires": [
+          "Synthetic Fibers"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [
+          "Stealth Bomber",
+          "Stealth Fighter"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Stealth"
+    },
+    "tech_steam_power": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Electricity",
+          "Industrialization",
+          "Ironclads"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [
+          "Railroad"
+        ],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": [
+          "Coal"
+        ]
+      },
+      "text": "",
+      "name": "Steam Power"
+    },
+    "tech_steel": {
+      "tech": {
+        "requires": [
+          "The Corporation"
+        ],
+        "allows": [
+          "Combustion"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Steel"
+    },
+    "tech_superconductor": {
+      "tech": {
+        "requires": [
+          "Fission",
+          "Space Flight"
+        ],
+        "allows": [
+          "Integrated Defense"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "SS Fuel Cells",
+          "SS Life Support"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Superconductor"
+    },
+    "tech_synthetic_fibers": {
+      "tech": {
+        "requires": [
+          "Ecology"
+        ],
+        "allows": [
+          "Stealth"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Modern Armor",
+          "Modern Paratrooper"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [
+          "SS Exterior Casing",
+          "SS Storage/Supply"
+        ],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Synthetic Fibers"
+    },
+    "tech_theology": {
+      "tech": {
+        "requires": [
+          "Monotheism"
+        ],
+        "allows": [
+          "Education",
+          "Printing Press"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "Sistine Chapel"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Theology"
+    },
+    "tech_theory_of_gravity": {
+      "tech": {
+        "requires": [
+          "Physics"
+        ],
+        "allows": []
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [
+          "Newton's University"
+        ],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Theory of Gravity"
+    },
+    "tech_warrior_code": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Horseback Riding",
+          "Monarchy"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Archer",
+          "Bowman",
+          "Jaguar Warrior",
+          "Javelin Thrower"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Warrior Code"
+    },
+    "tech_the_wheel": {
+      "tech": {
+        "requires": [],
+        "allows": [
+          "Horseback Riding"
+        ]
+      },
+      "allows": {
+        "Units": [
+          "Chariot",
+          "Three-Man Chariot",
+          "War Chariot"
+        ],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": [
+          "Horses"
+        ]
+      },
+      "text": "",
+      "name": "The Wheel"
+    },
+    "tech_writing": {
+      "tech": {
+        "requires": [
+          "Alphabet"
+        ],
+        "allows": [
+          "Code of Laws",
+          "Literature",
+          "Map Making",
+          "Philosophy"
+        ]
+      },
+      "allows": {
+        "Units": [],
+        "Actions": [],
+        "Gr Wonders": [],
+        "City Imp's": [],
+        "Govts": [],
+        "Sm Wonders": [],
+        "Resources": []
+      },
+      "text": "",
+      "name": "Writing"
+    }
+  },
+  "Great Wonders": {
+    "bldg_colossus": {
+      "Cost": 200,
+      "Maintenance": 0,
+      "Culture": 3,
+      "Obsolete": "Flight",
+      "Advance": "Bronze Working",
+      "Resources": [],
+      "name": "The Colossus"
+    },
+    "bldg_solar_system": {
+      "Cost": 400,
+      "Maintenance": 0,
+      "Culture": 4,
+      "Obsolete": "",
+      "Advance": "Astronomy",
+      "Resources": [],
+      "name": "Copernicus' Observatory"
+    },
+    "bldg_cure_for_cancer": {
+      "Cost": 1000,
+      "Maintenance": 0,
+      "Culture": 3,
+      "Obsolete": "",
+      "Advance": "Genetics",
+      "Resources": [],
+      "name": "Cure for Cancer"
+    },
+    "bldg_great_library": {
+      "Cost": 400,
+      "Maintenance": 0,
+      "Culture": 6,
+      "Obsolete": "Education",
+      "Advance": "Literature",
+      "Resources": [],
+      "name": "The Great Library"
+    },
+    "bldg_lighthouse": {
+      "Cost": 300,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Obsolete": "Magnetism",
+      "Advance": "Map Making",
+      "Resources": [],
+      "name": "The Great Lighthouse"
+    },
+    "bldg_great_wall": {
+      "Cost": 300,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Obsolete": "Metallurgy",
+      "Advance": "Construction",
+      "Resources": [],
+      "name": "The Great Wall"
+    },
+    "bldg_hanging_gardens": {
+      "Cost": 300,
+      "Maintenance": 0,
+      "Culture": 4,
+      "Obsolete": "Steam Power",
+      "Advance": "Monarchy",
+      "Resources": [],
+      "name": "The Hanging Gardens"
+    },
+    "bldg_hoover_dam": {
+      "Cost": 800,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Obsolete": "",
+      "Advance": "Electronics",
+      "Resources": [],
+      "name": "Hoover Dam"
+    },
+    "bldg_internet": {
+      "Cost": 1000,
+      "Maintenance": 0,
+      "Culture": 4,
+      "Obsolete": "",
+      "Advance": "Miniaturization",
+      "Resources": [],
+      "name": "The Internet"
+    },
+    "bldg_grand_cathedral": {
+      "Cost": 600,
+      "Maintenance": 0,
+      "Culture": 6,
+      "Obsolete": "",
+      "Advance": "Music Theory",
+      "Resources": [],
+      "name": "JS Bach's Cathedral"
+    },
+    "bldg_knights_templar": {
+      "Cost": 300,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Obsolete": "Steam Power",
+      "Advance": "Chivalry",
+      "Resources": [],
+      "name": "Knights Templar"
+    },
+    "bldg_inventor's_workshop": {
+      "Cost": 600,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Obsolete": "",
+      "Advance": "Invention",
+      "Resources": [],
+      "name": "Leonardo's Workshop"
+    },
+    "bldg_longevity": {
+      "Cost": 1000,
+      "Maintenance": 0,
+      "Culture": 3,
+      "Obsolete": "",
+      "Advance": "Genetics",
+      "Resources": [],
+      "name": "Longevity"
+    },
+    "bldg_circumnavigation": {
+      "Cost": 400,
+      "Maintenance": 0,
+      "Culture": 3,
+      "Obsolete": "",
+      "Advance": "Navigation",
+      "Resources": [],
+      "name": "Magellan's Voyage"
+    },
+    "bldg_manhattan_project": {
+      "Cost": 800,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Obsolete": "",
+      "Advance": "Fission",
+      "Resources": [
+        "Uranium"
+      ],
+      "name": "The Manhattan Project"
+    },
+    "bldg_mausoleum": {
+      "Cost": 200,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Obsolete": "",
+      "Advance": "Philosophy",
+      "Resources": [],
+      "name": "The Mausoleum of Mausollos"
+    },
+    "bldg_great_university": {
+      "Cost": 400,
+      "Maintenance": 0,
+      "Culture": 6,
+      "Obsolete": "",
+      "Advance": "Theory of Gravity",
+      "Resources": [],
+      "name": "Newton's University"
+    },
+    "bldg_oracle": {
+      "Cost": 300,
+      "Maintenance": 0,
+      "Culture": 4,
+      "Obsolete": "Theology",
+      "Advance": "Mysticism",
+      "Resources": [],
+      "name": "The Oracle"
+    },
+    "bldg_pyramids": {
+      "Cost": 400,
+      "Maintenance": 0,
+      "Culture": 4,
+      "Obsolete": "",
+      "Advance": "Masonry",
+      "Resources": [],
+      "name": "The Pyramids"
+    },
+    "bldg_seti_program": {
+      "Cost": 1000,
+      "Maintenance": 0,
+      "Culture": 3,
+      "Obsolete": "",
+      "Advance": "Computers",
+      "Resources": [],
+      "name": "SETI program"
+    },
+    "bldg_great_playhouse": {
+      "Cost": 450,
+      "Maintenance": 0,
+      "Culture": 8,
+      "Obsolete": "",
+      "Advance": "Free Artistry",
+      "Resources": [],
+      "name": "Shakespeare's Theater"
+    },
+    "bldg_sistine_chapel": {
+      "Cost": 600,
+      "Maintenance": 0,
+      "Culture": 6,
+      "Obsolete": "",
+      "Advance": "Theology",
+      "Resources": [],
+      "name": "Sistine Chapel"
+    },
+    "bldg_trading_company": {
+      "Cost": 600,
+      "Maintenance": 0,
+      "Culture": 3,
+      "Obsolete": "",
+      "Advance": "Economics",
+      "Resources": [],
+      "name": "Smith's Trading Company"
+    },
+    "bldg_zeus": {
+      "Cost": 200,
+      "Maintenance": 0,
+      "Culture": 4,
+      "Obsolete": "Metallurgy",
+      "Advance": "Mathematics",
+      "Resources": [
+        "Ivory"
+      ],
+      "name": "The Statue of Zeus"
+    },
+    "bldg_art_of_war": {
+      "Cost": 600,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Obsolete": "",
+      "Advance": "Feudalism",
+      "Resources": [],
+      "name": "Sun Tzu's Art of War"
+    },
+    "bldg_artemis": {
+      "Cost": 500,
+      "Maintenance": 0,
+      "Culture": 4,
+      "Obsolete": "Education",
+      "Advance": "Polytheism",
+      "Resources": [],
+      "name": "The Temple of Artemis"
+    },
+    "bldg_theory_of_evolution": {
+      "Cost": 600,
+      "Maintenance": 0,
+      "Culture": 3,
+      "Obsolete": "",
+      "Advance": "Scientific Method",
+      "Resources": [],
+      "name": "Theory of Evolution"
+    },
+    "bldg_united_nations": {
+      "Cost": 1000,
+      "Maintenance": 0,
+      "Culture": 4,
+      "Obsolete": "",
+      "Advance": "Fission",
+      "Resources": [],
+      "name": "The United Nations"
+    },
+    "bldg_universal_suffrage": {
+      "Cost": 800,
+      "Maintenance": 0,
+      "Culture": 4,
+      "Obsolete": "",
+      "Advance": "Industrialization",
+      "Resources": [],
+      "name": "Universal Suffrage"
+    }
+  },
+  "Small Wonders": {
+    "bldg_apollo_project": {
+      "Cost": 500,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Required Government": "",
+      "Advance": "Space Flight",
+      "Resources": [
+        "Aluminum"
+      ],
+      "Text": "",
+      "name": "Apollo Program"
+    },
+    "bldg_battlefield_medicine": {
+      "Cost": 500,
+      "Maintenance": 0,
+      "Culture": 1,
+      "Required Government": "",
+      "Advance": "",
+      "Resources": [],
+      "Text": "",
+      "name": "Battlefield Medicine"
+    },
+    "bldg_forbidden_palace": {
+      "Cost": 200,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Required Government": "",
+      "Advance": "",
+      "Resources": [],
+      "Text": "",
+      "name": "Forbidden Palace"
+    },
+    "bldg_epic": {
+      "Cost": 200,
+      "Maintenance": 0,
+      "Culture": 4,
+      "Required Government": "",
+      "Advance": "",
+      "Resources": [],
+      "Text": "",
+      "name": "Heroic Epic"
+    },
+    "bldg_intelligence_center": {
+      "Cost": 400,
+      "Maintenance": 0,
+      "Culture": 1,
+      "Required Government": "",
+      "Advance": "Espionage",
+      "Resources": [],
+      "Text": "",
+      "name": "Intelligence Agency"
+    },
+    "bldg_great_ironworks": {
+      "Cost": 300,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Required Government": "",
+      "Advance": "",
+      "Resources": [
+        "Iron",
+        "Coal"
+      ],
+      "Text": "",
+      "name": "Iron Works"
+    },
+    "bldg_military_academy": {
+      "Cost": 400,
+      "Maintenance": 0,
+      "Culture": 1,
+      "Required Government": "",
+      "Advance": "Military Tradition",
+      "Resources": [],
+      "Text": "",
+      "name": "Military Academy"
+    },
+    "bldg_pentagon": {
+      "Cost": 400,
+      "Maintenance": 0,
+      "Culture": 1,
+      "Required Government": "",
+      "Advance": "",
+      "Resources": [],
+      "Text": "",
+      "name": "The Pentagon"
+    },
+    "bldg_secret_police_hq": {
+      "Cost": 200,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Required Government": "Communism",
+      "Advance": "Espionage",
+      "Resources": [],
+      "Text": "",
+      "name": "Secret Police HQ"
+    },
+    "bldg_sdi": {
+      "Cost": 500,
+      "Maintenance": 0,
+      "Culture": 1,
+      "Required Government": "",
+      "Advance": "Integrated Defense",
+      "Resources": [],
+      "Text": "",
+      "name": "Strategic Missile Defense"
+    },
+    "bldg_wall_street": {
+      "Cost": 300,
+      "Maintenance": 0,
+      "Culture": 2,
+      "Required Government": "",
+      "Advance": "",
+      "Resources": [],
+      "Text": "",
+      "name": "Wall Street"
+    }
+  },
+  "City Improvements": {
+    "bldg_airport": {
+      "Cost": 160,
+      "Maintenance": 2,
+      "Culture": 0,
+      "Advance": "Flight",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Airport"
+    },
+    "bldg_aqueduct": {
+      "Cost": 100,
+      "Maintenance": 1,
+      "Culture": 0,
+      "Advance": "Construction",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Aqueduct"
+    },
+    "bldg_bank": {
+      "Cost": 160,
+      "Maintenance": 1,
+      "Culture": 0,
+      "Advance": "Banking",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Bank"
+    },
+    "bldg_barracks": {
+      "Cost": 40,
+      "Maintenance": 1,
+      "Culture": 0,
+      "Advance": "",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Barracks"
+    },
+    "bldg_cathedral": {
+      "Cost": 160,
+      "Maintenance": 2,
+      "Culture": 3,
+      "Advance": "Monotheism",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Cathedral"
+    },
+    "bldg_civil_defense": {
+      "Cost": 120,
+      "Maintenance": 1,
+      "Culture": 0,
+      "Advance": "Electronics",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Civil Defense"
+    },
+    "bldg_coal_plant": {
+      "Cost": 160,
+      "Maintenance": 3,
+      "Culture": 0,
+      "Advance": "Industrialization",
+      "Resources": [
+        "Coal"
+      ],
+      "text": "",
+      "description": "",
+      "name": "Coal Plant"
+    },
+    "bldg_coastal_fortress": {
+      "Cost": 40,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "Metallurgy",
+      "Resources": [
+        "Iron",
+        "Saltpeter"
+      ],
+      "text": "",
+      "description": "",
+      "name": "Coastal Fortress"
+    },
+    "bldg_colosseum": {
+      "Cost": 120,
+      "Maintenance": 2,
+      "Culture": 2,
+      "Advance": "Construction",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Colosseum"
+    },
+    "bldg_commercial_dock": {
+      "Cost": 160,
+      "Maintenance": 2,
+      "Culture": 0,
+      "Advance": "Mass Production",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Commercial Dock"
+    },
+    "bldg_courthouse": {
+      "Cost": 80,
+      "Maintenance": 1,
+      "Culture": 0,
+      "Advance": "Code of Laws",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Courthouse"
+    },
+    "bldg_factory": {
+      "Cost": 240,
+      "Maintenance": 3,
+      "Culture": 0,
+      "Advance": "Industrialization",
+      "Resources": [
+        "Iron"
+      ],
+      "text": "",
+      "description": "",
+      "name": "Factory"
+    },
+    "bldg_granary": {
+      "Cost": 60,
+      "Maintenance": 1,
+      "Culture": 0,
+      "Advance": "Pottery",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Granary"
+    },
+    "bldg_harbor": {
+      "Cost": 60,
+      "Maintenance": 1,
+      "Culture": 0,
+      "Advance": "Map Making",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Harbor"
+    },
+    "bldg_hospital": {
+      "Cost": 160,
+      "Maintenance": 2,
+      "Culture": 0,
+      "Advance": "Sanitation",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Hospital"
+    },
+    "bldg_hydro_plant": {
+      "Cost": 240,
+      "Maintenance": 3,
+      "Culture": 0,
+      "Advance": "Electronics",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Hydro Plant"
+    },
+    "bldg_library": {
+      "Cost": 80,
+      "Maintenance": 1,
+      "Culture": 3,
+      "Advance": "Literature",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Library"
+    },
+    "bldg_manufacturing_plant": {
+      "Cost": 320,
+      "Maintenance": 3,
+      "Culture": 0,
+      "Advance": "Robotics",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Manufacturing Plant"
+    },
+    "bldg_marketplace": {
+      "Cost": 100,
+      "Maintenance": 1,
+      "Culture": 0,
+      "Advance": "Currency",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Marketplace"
+    },
+    "bldg_mass_transit_system": {
+      "Cost": 200,
+      "Maintenance": 2,
+      "Culture": 0,
+      "Advance": "Ecology",
+      "Resources": [
+        "Rubber"
+      ],
+      "text": "",
+      "description": "",
+      "name": "Mass Transit System"
+    },
+    "bldg_nuclear_plant": {
+      "Cost": 240,
+      "Maintenance": 3,
+      "Culture": 0,
+      "Advance": "Nuclear Power",
+      "Resources": [
+        "Uranium"
+      ],
+      "text": "",
+      "description": "",
+      "name": "Nuclear Plant"
+    },
+    "bldg_offshore_platform": {
+      "Cost": 240,
+      "Maintenance": 3,
+      "Culture": 0,
+      "Advance": "Miniaturization",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Offshore Platform"
+    },
+    "bldg_palace": {
+      "Cost": 100,
+      "Maintenance": 0,
+      "Culture": 1,
+      "Advance": "Masonry",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Palace"
+    },
+    "bldg_police_station": {
+      "Cost": 160,
+      "Maintenance": 2,
+      "Culture": 0,
+      "Advance": "Communism",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Police Station"
+    },
+    "bldg_recycling_center": {
+      "Cost": 200,
+      "Maintenance": 2,
+      "Culture": 0,
+      "Advance": "Recycling",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Recycling Center"
+    },
+    "bldg_lab": {
+      "Cost": 200,
+      "Maintenance": 2,
+      "Culture": 2,
+      "Advance": "Computers",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Research Lab"
+    },
+    "bldg_sam_missile_battery": {
+      "Cost": 80,
+      "Maintenance": 2,
+      "Culture": 0,
+      "Advance": "Rocketry",
+      "Resources": [
+        "Aluminum"
+      ],
+      "text": "",
+      "description": "",
+      "name": "SAM Missile Battery"
+    },
+    "bldg_solar_plant": {
+      "Cost": 320,
+      "Maintenance": 3,
+      "Culture": 0,
+      "Advance": "Ecology",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Solar Plant"
+    },
+    "bldg_ss_cockpit": {
+      "Cost": 320,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "Space Flight",
+      "Resources": [
+        "Aluminum"
+      ],
+      "text": "",
+      "description": "",
+      "name": "SS Cockpit"
+    },
+    "bldg_ss_landing_docking_bay": {
+      "Cost": 160,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "Space Flight",
+      "Resources": [
+        "Aluminum"
+      ],
+      "text": "",
+      "description": "",
+      "name": "SS Docking Bay"
+    },
+    "bldg_ss_engine": {
+      "Cost": 640,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "Space Flight",
+      "Resources": [
+        "Aluminum"
+      ],
+      "text": "",
+      "description": "",
+      "name": "SS Engine"
+    },
+    "bldg_ss_exterior_casing": {
+      "Cost": 640,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "Synthetic Fibers",
+      "Resources": [
+        "Aluminum",
+        "Rubber"
+      ],
+      "text": "",
+      "description": "",
+      "name": "SS Exterior Casing"
+    },
+    "bldg_ss_fuel_cells": {
+      "Cost": 160,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "Superconductor",
+      "Resources": [
+        "Uranium"
+      ],
+      "text": "",
+      "description": "",
+      "name": "SS Fuel Cells"
+    },
+    "bldg_ss_life_support_system": {
+      "Cost": 320,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "Superconductor",
+      "Resources": [
+        "Aluminum"
+      ],
+      "text": "",
+      "description": "",
+      "name": "SS Life Support System"
+    },
+    "bldg_ss_planetary_party_lounge": {
+      "Cost": 160,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "The Laser",
+      "Resources": [
+        "Aluminum"
+      ],
+      "text": "",
+      "description": "",
+      "name": "SS Planetary Party Lounge"
+    },
+    "bldg_ss_stasis_chamber": {
+      "Cost": 320,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "Robotics",
+      "Resources": [
+        "Aluminum",
+        "Uranium"
+      ],
+      "text": "",
+      "description": "",
+      "name": "SS Stasis Chamber"
+    },
+    "bldg_ss_storage_supply": {
+      "Cost": 160,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "Synthetic Fibers",
+      "Resources": [
+        "Aluminum"
+      ],
+      "text": "",
+      "description": "",
+      "name": "SS Storage/Supply"
+    },
+    "bldg_ss_thrusters": {
+      "Cost": 320,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "Satellites",
+      "Resources": [
+        "Aluminum"
+      ],
+      "text": "",
+      "description": "",
+      "name": "SS Thrusters"
+    },
+    "bldg_stock_exchange": {
+      "Cost": 200,
+      "Maintenance": 3,
+      "Culture": 0,
+      "Advance": "The Corporation",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Stock Exchange"
+    },
+    "bldg_temple": {
+      "Cost": 60,
+      "Maintenance": 1,
+      "Culture": 2,
+      "Advance": "Ceremonial Burial",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Temple"
+    },
+    "bldg_university": {
+      "Cost": 200,
+      "Maintenance": 2,
+      "Culture": 4,
+      "Advance": "Education",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "University"
+    },
+    "bldg_walls": {
+      "Cost": 20,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "Masonry",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Walls"
+    },
+    "bldg_wealth": {
+      "Cost": 0,
+      "Maintenance": 0,
+      "Culture": 0,
+      "Advance": "",
+      "Resources": [],
+      "text": "",
+      "description": "",
+      "name": "Wealth"
+    }
+  },
+  "Governments": {
+    "govt_anarchy": {
+      "requires": "",
+      "allows": "",
+      "name": "Anarchy"
+    },
+    "govt_communism": {
+      "requires": "Communism",
+      "allows": "Secret Police HQ",
+      "name": "Communism"
+    },
+    "govt_democracy": {
+      "requires": "Democracy",
+      "allows": "",
+      "name": "Democracy"
+    },
+    "govt_despotism": {
+      "requires": "",
+      "allows": "",
+      "name": "Despotism"
+    },
+    "govt_fascism": {
+      "requires": "Fascism",
+      "allows": "",
+      "name": "Fascism"
+    },
+    "govt_feudalism": {
+      "requires": "Feudalism",
+      "allows": "",
+      "name": "Feudalism"
+    },
+    "govt_monarchy": {
+      "requires": "Monarchy",
+      "allows": "",
+      "name": "Monarchy"
+    },
+    "govt_republic": {
+      "requires": "The Republic",
+      "allows": "",
+      "name": "Republic"
+    }
+  },
+  "Units": {
+    "prto_abu": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Abu"
+    },
+    "prto_aegis_cruiser": {
+      "Cost": 160,
+      "Attack": 15,
+      "Defense": 10,
+      "Movement": 7,
+      "Bombard": 6,
+      "Range": 2,
+      "Rate of Fire": 2,
+      "Anti-Air Defense": 3,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Robotics",
+      "Resources": [
+        "Aluminum",
+        "Uranium"
+      ],
+      "name": "AEGIS Cruiser"
+    },
+    "prto_alexander": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Alexander"
+    },
+    "prto_ancient_cavalry": {
+      "Cost": 40,
+      "Attack": 3,
+      "Defense": 2,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Ancient Cavalry"
+    },
+    "prto_ansar_warrior": {
+      "Cost": 60,
+      "Attack": 4,
+      "Defense": 2,
+      "Movement": 3,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Chivalry",
+      "Resources": [
+        "Horses",
+        "Iron"
+      ],
+      "name": "Ansar Warrior"
+    },
+    "prto_archer": {
+      "Cost": 20,
+      "Attack": 2,
+      "Defense": 1,
+      "Movement": 1,
+      "Bombard": 1,
+      "Range": 0,
+      "Rate of Fire": 1,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Warrior Code",
+      "Resources": [],
+      "name": "Archer"
+    },
+    "prto_army": {
+      "Cost": 400,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": 3,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Army"
+    },
+    "prto_artillery": {
+      "Cost": 80,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Bombard": 12,
+      "Range": 2,
+      "Rate of Fire": 2,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Radar Artillery",
+      "Advance": "Replaceable Parts",
+      "Resources": [],
+      "name": "Artillery"
+    },
+    "prto_battleship": {
+      "Cost": 200,
+      "Attack": 18,
+      "Defense": 12,
+      "Movement": 5,
+      "Bombard": 8,
+      "Range": 2,
+      "Rate of Fire": 2,
+      "Anti-Air Defense": 2,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Mass Production",
+      "Resources": [
+        "Oil"
+      ],
+      "name": "Battleship"
+    },
+    "prto_berserk": {
+      "Cost": 70,
+      "Attack": 6,
+      "Defense": 2,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Invention",
+      "Resources": [],
+      "name": "Berserk"
+    },
+    "prto_bismarck": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Bismarck"
+    },
+    "prto_bomber": {
+      "Cost": 100,
+      "Attack": 0,
+      "Defense": 2,
+      "Movement": null,
+      "Bombard": 12,
+      "Range": 0,
+      "Rate of Fire": 3,
+      "Operational Range": 10,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Flight",
+      "Resources": [
+        "Oil"
+      ],
+      "name": "Bomber"
+    },
+    "prto_bowman": {
+      "Cost": 20,
+      "Attack": 2,
+      "Defense": 2,
+      "Movement": 1,
+      "Bombard": 1,
+      "Range": 0,
+      "Rate of Fire": 1,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Longbowman",
+      "Advance": "Warrior Code",
+      "Resources": [],
+      "name": "Bowman"
+    },
+    "prto_brennus": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Brennus"
+    },
+    "prto_caesar": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Caesar"
+    },
+    "prto_cannon": {
+      "Cost": 40,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Bombard": 8,
+      "Range": 1,
+      "Rate of Fire": 1,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Artillery",
+      "Advance": "Metallurgy",
+      "Resources": [
+        "Iron",
+        "Saltpeter"
+      ],
+      "name": "Cannon"
+    },
+    "prto_caravel": {
+      "Cost": 40,
+      "Attack": 1,
+      "Defense": 2,
+      "Movement": 4,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": 3,
+      "Upgrades To": "Galleon",
+      "Advance": "Astronomy",
+      "Resources": [],
+      "name": "Caravel"
+    },
+    "prto_carrack": {
+      "Cost": 40,
+      "Attack": 2,
+      "Defense": 2,
+      "Movement": 4,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": 3,
+      "Upgrades To": "",
+      "Advance": "Astronomy",
+      "Resources": [],
+      "name": "Carrack"
+    },
+    "prto_carrier": {
+      "Cost": 180,
+      "Attack": 1,
+      "Defense": 8,
+      "Movement": 7,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": 1,
+      "Transport Capacity": 4,
+      "Upgrades To": "",
+      "Advance": "Mass Production",
+      "Resources": [
+        "Oil"
+      ],
+      "name": "Carrier"
+    },
+    "prto_catapult": {
+      "Cost": 20,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Bombard": 4,
+      "Range": 1,
+      "Rate of Fire": 1,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Trebuchet",
+      "Advance": "Mathematics",
+      "Resources": [],
+      "name": "Catapult"
+    },
+    "prto_catherine": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Catherine"
+    },
+    "prto_cavalry": {
+      "Cost": 80,
+      "Attack": 6,
+      "Defense": 3,
+      "Movement": 3,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Military Tradition",
+      "Resources": [
+        "Horses",
+        "Saltpeter"
+      ],
+      "name": "Cavalry"
+    },
+    "prto_chariot": {
+      "Cost": 20,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Horseman",
+      "Advance": "The Wheel",
+      "Resources": [
+        "Horses"
+      ],
+      "name": "Chariot"
+    },
+    "prto_chasquis_scout": {
+      "Cost": 20,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Chasqui Scout"
+    },
+    "prto_cleopatra": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Cleopatra"
+    },
+    "prto_conquistador": {
+      "Cost": 70,
+      "Attack": 3,
+      "Defense": 2,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Astronomy",
+      "Resources": [
+        "Horses"
+      ],
+      "name": "Conquistador"
+    },
+    "prto_cossack": {
+      "Cost": 90,
+      "Attack": 6,
+      "Defense": 3,
+      "Movement": 3,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Military Tradition",
+      "Resources": [
+        "Horses",
+        "Saltpeter"
+      ],
+      "name": "Cossack"
+    },
+    "prto_cruise_missile": {
+      "Cost": 60,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Bombard": 16,
+      "Range": 4,
+      "Rate of Fire": 3,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Rocketry",
+      "Resources": [
+        "Aluminum"
+      ],
+      "name": "Cruise Missile"
+    },
+    "prto_cruiser": {
+      "Cost": 160,
+      "Attack": 15,
+      "Defense": 10,
+      "Movement": 6,
+      "Bombard": 7,
+      "Range": 1,
+      "Rate of Fire": 2,
+      "Anti-Air Defense": 1,
+      "Transport Capacity": null,
+      "Upgrades To": "AEGIS Cruiser",
+      "Advance": "Combustion",
+      "Resources": [
+        "Oil"
+      ],
+      "name": "Cruiser"
+    },
+    "prto_crusader": {
+      "Cost": 70,
+      "Attack": 5,
+      "Defense": 3,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Crusader"
+    },
+    "prto_curragh": {
+      "Cost": 15,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Galley",
+      "Advance": "Alphabet",
+      "Resources": [],
+      "name": "Curragh"
+    },
+    "prto_destroyer": {
+      "Cost": 120,
+      "Attack": 12,
+      "Defense": 8,
+      "Movement": 8,
+      "Bombard": 6,
+      "Range": 1,
+      "Rate of Fire": 2,
+      "Anti-Air Defense": 1,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Combustion",
+      "Resources": [
+        "Oil"
+      ],
+      "name": "Destroyer"
+    },
+    "prto_dromon": {
+      "Cost": 30,
+      "Attack": 2,
+      "Defense": 1,
+      "Movement": 3,
+      "Bombard": 2,
+      "Range": 1,
+      "Rate of Fire": 2,
+      "Anti-Air Defense": 2,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Map Making",
+      "Resources": [],
+      "name": "Dromon"
+    },
+    "prto_elizabeth": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Elizabeth"
+    },
+    "prto_enkidu_warrior": {
+      "Cost": 10,
+      "Attack": 1,
+      "Defense": 2,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Enkidu Warrior"
+    },
+    "prto_explorer": {
+      "Cost": 20,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Astronomy",
+      "Resources": [],
+      "name": "Explorer"
+    },
+    "prto_f-15": {
+      "Cost": 100,
+      "Attack": 8,
+      "Defense": 4,
+      "Movement": null,
+      "Bombard": 6,
+      "Range": 0,
+      "Rate of Fire": 2,
+      "Operational Range": 9,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Rocketry",
+      "Resources": [
+        "Oil",
+        "Aluminum"
+      ],
+      "name": "F-15"
+    },
+    "prto_fighter": {
+      "Cost": 80,
+      "Attack": 4,
+      "Defense": 2,
+      "Movement": null,
+      "Bombard": 3,
+      "Range": 0,
+      "Rate of Fire": 1,
+      "Operational Range": 6,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Jet Fighter",
+      "Advance": "Flight",
+      "Resources": [
+        "Oil"
+      ],
+      "name": "Fighter"
+    },
+    "prto_flak": {
+      "Cost": 70,
+      "Attack": 1,
+      "Defense": 6,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": 2,
+      "Transport Capacity": null,
+      "Upgrades To": "Mobile SAM",
+      "Advance": "Flight",
+      "Resources": [],
+      "name": "Flak"
+    },
+    "prto_frigate": {
+      "Cost": 60,
+      "Attack": 2,
+      "Defense": 2,
+      "Movement": 5,
+      "Bombard": 3,
+      "Range": 1,
+      "Rate of Fire": 2,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Magnetism",
+      "Resources": [
+        "Iron",
+        "Saltpeter"
+      ],
+      "name": "Frigate"
+    },
+    "prto_galleon": {
+      "Cost": 50,
+      "Attack": 1,
+      "Defense": 2,
+      "Movement": 4,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": 4,
+      "Upgrades To": "Transport",
+      "Advance": "Magnetism",
+      "Resources": [],
+      "name": "Galleon"
+    },
+    "prto_galley": {
+      "Cost": 30,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 3,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": 2,
+      "Upgrades To": "Caravel",
+      "Advance": "Map Making",
+      "Resources": [],
+      "name": "Galley"
+    },
+    "prto_gallic_swordsman": {
+      "Cost": 40,
+      "Attack": 3,
+      "Defense": 2,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Iron Working",
+      "Resources": [
+        "Iron"
+      ],
+      "name": "Gallic Swordsman"
+    },
+    "prto_gandhi": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Gandhi"
+    },
+    "prto_gilgamesh": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Gilgamesh"
+    },
+    "prto_guerilla": {
+      "Cost": 90,
+      "Attack": 6,
+      "Defense": 6,
+      "Movement": 1,
+      "Bombard": 3,
+      "Range": 0,
+      "Rate of Fire": 1,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "TOW Infantry",
+      "Advance": "Replaceable Parts",
+      "Resources": [],
+      "name": "Guerilla"
+    },
+    "prto_hammurabi": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Hammurabi"
+    },
+    "prto_hannibal": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Hannibal"
+    },
+    "prto_helicopter": {
+      "Cost": 100,
+      "Attack": 0,
+      "Defense": 2,
+      "Movement": null,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": 3,
+      "Operational Range": 6,
+      "Upgrades To": "",
+      "Advance": "Advanced Flight",
+      "Resources": [
+        "Oil",
+        "Rubber"
+      ],
+      "name": "Helicopter"
+    },
+    "prto_henry": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Henry"
+    },
+    "prto_hiawatha": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Hiawatha"
+    },
+    "prto_hoplite": {
+      "Cost": 20,
+      "Attack": 1,
+      "Defense": 3,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Bronze Working",
+      "Resources": [],
+      "name": "Hoplite"
+    },
+    "prto_horseman": {
+      "Cost": 30,
+      "Attack": 2,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Knight",
+      "Advance": "Horseback Riding",
+      "Resources": [
+        "Horses"
+      ],
+      "name": "Horseman"
+    },
+    "prto_hwacha": {
+      "Cost": 40,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Bombard": 8,
+      "Range": 1,
+      "Rate of Fire": 1,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Metallurgy",
+      "Resources": [
+        "Saltpeter"
+      ],
+      "name": "Hwach'a"
+    },
+    "prto_icbm": {
+      "Cost": 500,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Satellites",
+      "Resources": [
+        "Aluminum",
+        "Uranium"
+      ],
+      "name": "ICBM"
+    },
+    "prto_immortals": {
+      "Cost": 30,
+      "Attack": 4,
+      "Defense": 2,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Iron Working",
+      "Resources": [
+        "Iron"
+      ],
+      "name": "Immortals"
+    },
+    "prto_impi": {
+      "Cost": 20,
+      "Attack": 1,
+      "Defense": 2,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Bronze Working",
+      "Resources": [],
+      "name": "Impi"
+    },
+    "prto_infantry": {
+      "Cost": 90,
+      "Attack": 6,
+      "Defense": 10,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Mech Infantry",
+      "Advance": "Replaceable Parts",
+      "Resources": [
+        "Rubber"
+      ],
+      "name": "Infantry"
+    },
+    "prto_ironclad": {
+      "Cost": 90,
+      "Attack": 5,
+      "Defense": 6,
+      "Movement": 3,
+      "Bombard": 6,
+      "Range": 1,
+      "Rate of Fire": 2,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Destroyer",
+      "Advance": "Ironclads",
+      "Resources": [
+        "Iron",
+        "Coal"
+      ],
+      "name": "Ironclad"
+    },
+    "prto_isabella": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Isabella"
+    },
+    "prto_jaguar_warrior": {
+      "Cost": 15,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Warrior Code",
+      "Resources": [],
+      "name": "Jaguar Warrior"
+    },
+    "prto_javelin_thrower": {
+      "Cost": 30,
+      "Attack": 2,
+      "Defense": 2,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Warrior Code",
+      "Resources": [],
+      "name": "Javelin Thrower"
+    },
+    "prto_jet_fighter": {
+      "Cost": 100,
+      "Attack": 8,
+      "Defense": 4,
+      "Movement": null,
+      "Operational Range": 9,
+      "Bombard": 3,
+      "Range": 0,
+      "Rate of Fire": 1,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Rocketry",
+      "Resources": [
+        "Oil",
+        "Aluminum"
+      ],
+      "name": "Jet Fighter"
+    },
+    "prto_joan": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Joan d'Arc"
+    },
+    "prto_keshik": {
+      "Cost": 60,
+      "Attack": 4,
+      "Defense": 2,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Chivalry",
+      "Resources": [
+        "Horses"
+      ],
+      "name": "Keshik"
+    },
+    "prto_knight": {
+      "Cost": 70,
+      "Attack": 4,
+      "Defense": 3,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Cavalry",
+      "Advance": "Chivalry",
+      "Resources": [
+        "Horses",
+        "Iron"
+      ],
+      "name": "Knight"
+    },
+    "prto_leader": {
+      "Cost": 0,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 3,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Leader"
+    },
+    "prto_legionary": {
+      "Cost": 30,
+      "Attack": 3,
+      "Defense": 3,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Iron Working",
+      "Resources": [
+        "Iron"
+      ],
+      "name": "Legionary"
+    },
+    "prto_lincoln": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Lincoln"
+    },
+    "prto_longbowman": {
+      "Cost": 40,
+      "Attack": 4,
+      "Defense": 1,
+      "Movement": 1,
+      "Bombard": 2,
+      "Range": 0,
+      "Rate of Fire": 1,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Guerilla",
+      "Advance": "Invention",
+      "Resources": [],
+      "name": "Longbowman"
+    },
+    "prto_man-o-war": {
+      "Cost": 65,
+      "Attack": 4,
+      "Defense": 2,
+      "Movement": 5,
+      "Bombard": 4,
+      "Range": 1,
+      "Rate of Fire": 2,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Magnetism",
+      "Resources": [
+        "Iron",
+        "Saltpeter"
+      ],
+      "name": "Man-O-War"
+    },
+    "prto_mao": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Mao"
+    },
+    "prto_marine": {
+      "Cost": 120,
+      "Attack": 12,
+      "Defense": 6,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Amphibious War",
+      "Resources": [
+        "Rubber"
+      ],
+      "name": "Marine"
+    },
+    "prto_mech_infantry": {
+      "Cost": 110,
+      "Attack": 12,
+      "Defense": 18,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Computers",
+      "Resources": [
+        "Oil",
+        "Rubber"
+      ],
+      "name": "Mech Infantry"
+    },
+    "prto_medieval_infantry": {
+      "Cost": 40,
+      "Attack": 4,
+      "Defense": 2,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Guerilla",
+      "Advance": "Feudalism",
+      "Resources": [
+        "Iron"
+      ],
+      "name": "Medieval Infantry"
+    },
+    "prto_mobile_sam": {
+      "Cost": 100,
+      "Attack": 1,
+      "Defense": 6,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": 4,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Rocketry",
+      "Resources": [],
+      "name": "Mobile SAM"
+    },
+    "prto_modern_armor": {
+      "Cost": 120,
+      "Attack": 24,
+      "Defense": 16,
+      "Movement": 3,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Synthetic Fibers",
+      "Resources": [
+        "Oil",
+        "Rubber",
+        "Aluminum"
+      ],
+      "name": "Modern Armor"
+    },
+    "prto_paratrooper": {
+      "Cost": 110,
+      "Attack": 6,
+      "Defense": 11,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Synthetic Fibers",
+      "Resources": [
+        "Oil",
+        "Rubber"
+      ],
+      "name": "Modern Paratrooper"
+    },
+    "prto_montezuma": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Montezuma"
+    },
+    "prto_mounted_warrior": {
+      "Cost": 30,
+      "Attack": 3,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Horseback Riding",
+      "Resources": [
+        "Horses"
+      ],
+      "name": "Mounted Warrior"
+    },
+    "prto_mursilis": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Mursilis"
+    },
+    "prto_musketeer": {
+      "Cost": 60,
+      "Attack": 2,
+      "Defense": 5,
+      "Movement": 1,
+      "Bombard": 2,
+      "Range": 0,
+      "Rate of Fire": 1,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Gunpowder",
+      "Resources": [
+        "Saltpeter"
+      ],
+      "name": "Musketeer"
+    },
+    "prto_musketman": {
+      "Cost": 60,
+      "Attack": 2,
+      "Defense": 4,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Rifleman",
+      "Advance": "Gunpowder",
+      "Resources": [
+        "Saltpeter"
+      ],
+      "name": "Musketman"
+    },
+    "prto_nuclear_submarine": {
+      "Cost": 140,
+      "Attack": 8,
+      "Defense": 4,
+      "Movement": 5,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": 1,
+      "Upgrades To": "",
+      "Advance": "Fission",
+      "Resources": [
+        "Uranium"
+      ],
+      "name": "Nuclear Submarine"
+    },
+    "prto_libyan_mercenary": {
+      "Cost": 30,
+      "Attack": 2,
+      "Defense": 3,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Bronze Working",
+      "Resources": [],
+      "name": "Numidian Mercenary"
+    },
+    "prto_osman": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Osman"
+    },
+    "prto_pachacuti": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Pachacuti"
+    },
+    "prto_panzer": {
+      "Cost": 100,
+      "Attack": 16,
+      "Defense": 8,
+      "Movement": 3,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Motorized Transportation",
+      "Resources": [
+        "Oil",
+        "Rubber"
+      ],
+      "name": "Panzer"
+    },
+    "prto_wwii_paratrooper": {
+      "Cost": 90,
+      "Attack": 4,
+      "Defense": 9,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Modern Paratrooper",
+      "Advance": "Advanced Flight",
+      "Resources": [
+        "Oil",
+        "Rubber"
+      ],
+      "name": "Paratrooper"
+    },
+    "prto_pikeman": {
+      "Cost": 30,
+      "Attack": 1,
+      "Defense": 3,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Musketman",
+      "Advance": "Feudalism",
+      "Resources": [
+        "Iron"
+      ],
+      "name": "Pikeman"
+    },
+    "prto_princess": {
+      "Cost": 0,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Princess"
+    },
+    "prto_privateer": {
+      "Cost": 50,
+      "Attack": 2,
+      "Defense": 1,
+      "Movement": 5,
+      "Bombard": 3,
+      "Range": 0,
+      "Rate of Fire": 0,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Magnetism",
+      "Resources": [
+        "Iron",
+        "Saltpeter"
+      ],
+      "name": "Privateer"
+    },
+    "prto_radar_artillery": {
+      "Cost": 120,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 2,
+      "Bombard": 16,
+      "Range": 2,
+      "Rate of Fire": 3,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Robotics",
+      "Resources": [
+        "Aluminum"
+      ],
+      "name": "Radar Artillery"
+    },
+    "prto_ragnar": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Ragnar"
+    },
+    "prto_rider": {
+      "Cost": 70,
+      "Attack": 4,
+      "Defense": 3,
+      "Movement": 3,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Chivalry",
+      "Resources": [
+        "Horses",
+        "Iron"
+      ],
+      "name": "Rider"
+    },
+    "prto_rifleman": {
+      "Cost": 80,
+      "Attack": 4,
+      "Defense": 6,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Infantry",
+      "Advance": "Nationalism",
+      "Resources": [],
+      "name": "Rifleman"
+    },
+    "prto_samurai": {
+      "Cost": 70,
+      "Attack": 4,
+      "Defense": 4,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Chivalry",
+      "Resources": [
+        "Iron"
+      ],
+      "name": "Samurai"
+    },
+    "prto_scout": {
+      "Cost": 10,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Scout"
+    },
+    "prto_settler": {
+      "Cost": 30,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Population Cost": 2,
+      "Advance": "",
+      "Resources": [],
+      "name": "Settler"
+    },
+    "prto_shaka": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Shaka"
+    },
+    "prto_sipahi": {
+      "Cost": 100,
+      "Attack": 8,
+      "Defense": 3,
+      "Movement": 3,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Military Tradition",
+      "Resources": [
+        "Horses",
+        "Saltpeter"
+      ],
+      "name": "Sipahi"
+    },
+    "prto_smoke-jaguar": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Smoke-Jaguar"
+    },
+    "prto_spearman": {
+      "Cost": 20,
+      "Attack": 1,
+      "Defense": 2,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Pikeman",
+      "Advance": "Bronze Working",
+      "Resources": [],
+      "name": "Spearman"
+    },
+    "prto_stealth_bomber": {
+      "Cost": 240,
+      "Attack": 0,
+      "Defense": 5,
+      "Movement": null,
+      "Operational Range": 16,
+      "Bombard": 18,
+      "Range": 0,
+      "Rate of Fire": 3,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Stealth",
+      "Resources": [
+        "Oil",
+        "Aluminum"
+      ],
+      "name": "Stealth Bomber"
+    },
+    "prto_stealth_fighter": {
+      "Cost": 120,
+      "Attack": 8,
+      "Defense": 6,
+      "Movement": null,
+      "Operational Range": 12,
+      "Bombard": 6,
+      "Range": 0,
+      "Rate of Fire": 2,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Stealth",
+      "Resources": [
+        "Oil",
+        "Aluminum"
+      ],
+      "name": "Stealth Fighter"
+    },
+    "prto_submarine": {
+      "Cost": 100,
+      "Attack": 8,
+      "Defense": 4,
+      "Movement": 4,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Mass Production",
+      "Resources": [
+        "Oil"
+      ],
+      "name": "Submarine"
+    },
+    "prto_swiss_mercenary": {
+      "Cost": 30,
+      "Attack": 1,
+      "Defense": 4,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Feudalism",
+      "Resources": [
+        "Iron"
+      ],
+      "name": "Swiss Mercenary"
+    },
+    "prto_swordsman": {
+      "Cost": 30,
+      "Attack": 3,
+      "Defense": 2,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Medieval Infantry",
+      "Advance": "Iron Working",
+      "Resources": [
+        "Iron"
+      ],
+      "name": "Swordsman"
+    },
+    "prto_nuke": {
+      "Cost": 300,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Space Flight",
+      "Resources": [
+        "Aluminum",
+        "Uranium"
+      ],
+      "name": "Tactical Nuke"
+    },
+    "prto_tank": {
+      "Cost": 100,
+      "Attack": 16,
+      "Defense": 8,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Modern Armor",
+      "Advance": "Motorized Transportation",
+      "Resources": [
+        "Oil",
+        "Rubber"
+      ],
+      "name": "Tank"
+    },
+    "prto_temujin": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Temujin"
+    },
+    "prto_theodora": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Theodora"
+    },
+    "prto_three_man_chariot": {
+      "Cost": 30,
+      "Attack": 2,
+      "Defense": 2,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "The Wheel",
+      "Resources": [
+        "Horses"
+      ],
+      "name": "Three-Man Chariot"
+    },
+    "prto_tokugawa": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Tokugawa"
+    },
+    "prto_tow_infantry": {
+      "Cost": 120,
+      "Attack": 12,
+      "Defense": 14,
+      "Movement": 1,
+      "Bombard": 6,
+      "Range": 0,
+      "Rate of Fire": 1,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Rocketry",
+      "Resources": [],
+      "name": "TOW Infantry"
+    },
+    "prto_transport": {
+      "Cost": 100,
+      "Attack": 1,
+      "Defense": 2,
+      "Movement": 6,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": 6,
+      "Upgrades To": "",
+      "Advance": "Combustion",
+      "Resources": [
+        "Oil"
+      ],
+      "name": "Transport"
+    },
+    "prto_trebuchet": {
+      "Cost": 30,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Bombard": 6,
+      "Range": 1,
+      "Rate of Fire": 1,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Cannon",
+      "Advance": "Engineering",
+      "Resources": [],
+      "name": "Trebuchet"
+    },
+    "prto_wang": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Wang Kon"
+    },
+    "prto_war_chariot": {
+      "Cost": 20,
+      "Attack": 2,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "The Wheel",
+      "Resources": [
+        "Horses"
+      ],
+      "name": "War Chariot"
+    },
+    "prto_war_elephant": {
+      "Cost": 70,
+      "Attack": 4,
+      "Defense": 3,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "Chivalry",
+      "Resources": [],
+      "name": "War Elephant"
+    },
+    "prto_warrior": {
+      "Cost": 10,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "Swordsman",
+      "Advance": "",
+      "Resources": [],
+      "name": "Warrior"
+    },
+    "prto_william_of_orange": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "William of Orange"
+    },
+    "prto_worker": {
+      "Cost": 10,
+      "Attack": 0,
+      "Defense": 0,
+      "Movement": 1,
+      "Population Cost": 1,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Worker"
+    },
+    "prto_xerxes": {
+      "Cost": 0,
+      "Attack": 1,
+      "Defense": 1,
+      "Movement": 2,
+      "Bombard": null,
+      "Range": null,
+      "Rate of Fire": null,
+      "Anti-Air Defense": null,
+      "Transport Capacity": null,
+      "Upgrades To": "",
+      "Advance": "",
+      "Resources": [],
+      "name": "Xerxes"
+    }
+  },
+  "Worker Actions": {
+    "tfrm_airfield": {
+      "Turns": 1,
+      "Advance": "Flight",
+      "Resources": [],
+      "name": "Airfield"
+    },
+    "tfrm_barricades": {
+      "Turns": 16,
+      "Advance": "Construction",
+      "Resources": [],
+      "name": "Barricade"
+    },
+    "tfrm_build_colony": {
+      "Turns": 1,
+      "Advance": "",
+      "Resources": [],
+      "name": "Build Colony"
+    },
+    "tfrm_clear_damage": {
+      "Turns": 24,
+      "Advance": "",
+      "Resources": [],
+      "name": "Clear Damage"
+    },
+    "tfrm_clear_forest": {
+      "Turns": 4,
+      "Advance": "",
+      "Resources": [],
+      "name": "Clear Forest"
+    },
+    "tfrm_clear_wetlands": {
+      "Turns": 16,
+      "Advance": "Construction",
+      "Resources": [],
+      "name": "Clear Wetlands"
+    },
+    "tfrm_fortress": {
+      "Turns": 16,
+      "Advance": "Construction",
+      "Resources": [],
+      "name": "Fortress"
+    },
+    "tfrm_irrigation": {
+      "Turns": 8,
+      "Advance": "",
+      "Resources": [],
+      "name": "Irrigation"
+    },
+    "tfrm_mine": {
+      "Turns": 12,
+      "Advance": "",
+      "Resources": [],
+      "name": "Mine"
+    },
+    "tfrm_outpost": {
+      "Turns": 1,
+      "Advance": "Masonry",
+      "Resources": [],
+      "name": "Outpost"
+    },
+    "tfrm_plant_forest": {
+      "Turns": 18,
+      "Advance": "Engineering",
+      "Resources": [],
+      "name": "Plant Forest"
+    },
+    "tfrm_radar_tower": {
+      "Turns": 1,
+      "Advance": "Advanced Flight",
+      "Resources": [],
+      "name": "Radar Tower"
+    },
+    "tfrm_railroad": {
+      "Turns": 12,
+      "Advance": "Steam Power",
+      "Resources": [
+        "Iron",
+        "Coal"
+      ],
+      "name": "Railroad"
+    },
+    "tfrm_road": {
+      "Turns": 6,
+      "Advance": "",
+      "Resources": [],
+      "name": "Road"
+    }
+  },
+  "Terrain": {
+    "terr_coast": {
+      "Movement Cost": 1,
+      "Defensive Bonus": 10,
+      "Base Yield": [
+        1,
+        0,
+        2
+      ],
+      "Bonus Yield": [
+        0,
+        0,
+        0
+      ],
+      "name": "Coast"
+    },
+    "terr_desert": {
+      "Movement Cost": 1,
+      "Defensive Bonus": 10,
+      "Base Yield": [
+        0,
+        1,
+        0
+      ],
+      "Bonus Yield": [
+        1,
+        1,
+        1
+      ],
+      "name": "Desert"
+    },
+    "terr_flood_plain": {
+      "Movement Cost": 1,
+      "Defensive Bonus": 10,
+      "Base Yield": [
+        3,
+        0,
+        0
+      ],
+      "Bonus Yield": [
+        1,
+        0,
+        1
+      ],
+      "name": "Flood Plain"
+    },
+    "terr_forest": {
+      "Movement Cost": 2,
+      "Defensive Bonus": 25,
+      "Base Yield": [
+        1,
+        2,
+        0
+      ],
+      "Bonus Yield": [
+        0,
+        0,
+        1
+      ],
+      "name": "Forest"
+    },
+    "terr_fresh_water_lake": {
+      "Movement Cost": 1,
+      "Defensive Bonus": 10,
+      "Base Yield": [
+        2,
+        0,
+        2
+      ],
+      "Bonus Yield": [
+        0,
+        0,
+        0
+      ],
+      "name": "Fresh Water Lake"
+    },
+    "terr_grassland": {
+      "Movement Cost": 1,
+      "Defensive Bonus": 10,
+      "Base Yield": [
+        2,
+        0,
+        0
+      ],
+      "Bonus Yield": [
+        1,
+        1,
+        1
+      ],
+      "name": "Grassland"
+    },
+    "terr_grassland_with_shield": {
+      "Movement Cost": 1,
+      "Defensive Bonus": 10,
+      "Base Yield": [
+        2,
+        1,
+        0
+      ],
+      "Bonus Yield": [
+        1,
+        1,
+        1
+      ],
+      "name": "Grassland with Shield"
+    },
+    "terr_hills": {
+      "Movement Cost": 2,
+      "Defensive Bonus": 50,
+      "Base Yield": [
+        1,
+        1,
+        0
+      ],
+      "Bonus Yield": [
+        0,
+        2,
+        1
+      ],
+      "name": "Hills"
+    },
+    "terr_jungle": {
+      "Movement Cost": 3,
+      "Defensive Bonus": 25,
+      "Base Yield": [
+        1,
+        0,
+        0
+      ],
+      "Bonus Yield": [
+        0,
+        0,
+        1
+      ],
+      "name": "Jungle"
+    },
+    "terr_marsh": {
+      "Movement Cost": 2,
+      "Defensive Bonus": 20,
+      "Base Yield": [
+        1,
+        0,
+        0
+      ],
+      "Bonus Yield": [
+        0,
+        0,
+        1
+      ],
+      "name": "Marsh"
+    },
+    "terr_mountains": {
+      "Movement Cost": 3,
+      "Defensive Bonus": 100,
+      "Base Yield": [
+        0,
+        1,
+        0
+      ],
+      "Bonus Yield": [
+        0,
+        2,
+        1
+      ],
+      "name": "Mountains"
+    },
+    "terr_ocean": {
+      "Movement Cost": 1,
+      "Defensive Bonus": 10,
+      "Base Yield": [
+        0,
+        0,
+        0
+      ],
+      "Bonus Yield": [
+        0,
+        0,
+        0
+      ],
+      "name": "Ocean"
+    },
+    "terr_plains": {
+      "Movement Cost": 1,
+      "Defensive Bonus": 10,
+      "Base Yield": [
+        1,
+        1,
+        0
+      ],
+      "Bonus Yield": [
+        1,
+        1,
+        1
+      ],
+      "name": "Plains"
+    },
+    "terr_river": {
+      "Movement Cost": 0,
+      "Defensive Bonus": 0,
+      "Base Yield": [
+        0,
+        0,
+        1
+      ],
+      "Bonus Yield": [
+        0,
+        0,
+        0
+      ],
+      "name": "River"
+    },
+    "terr_sea": {
+      "Movement Cost": 1,
+      "Defensive Bonus": 10,
+      "Base Yield": [
+        1,
+        0,
+        1
+      ],
+      "Bonus Yield": [
+        0,
+        0,
+        0
+      ],
+      "name": "Sea"
+    },
+    "terr_tundra": {
+      "Movement Cost": 1,
+      "Defensive Bonus": 10,
+      "Base Yield": [
+        1,
+        0,
+        0
+      ],
+      "Bonus Yield": [
+        0,
+        1,
+        1
+      ],
+      "name": "Tundra"
+    },
+    "terr_volcano": {
+      "Movement Cost": 3,
+      "Defensive Bonus": 80,
+      "Base Yield": [
+        0,
+        3,
+        0
+      ],
+      "Bonus Yield": [
+        0,
+        0,
+        0
+      ],
+      "name": "Volcano"
+    }
+  },
+  "Resources": {
+    "good_cattle": {
+      "type": "Bonus",
+      "Tile Bonus": [
+        2,
+        1,
+        0
+      ],
+      "name": "Cattle"
+    },
+    "good_fish": {
+      "type": "Bonus",
+      "Tile Bonus": [
+        2,
+        0,
+        1
+      ],
+      "name": "Fish"
+    },
+    "good_game": {
+      "type": "Bonus",
+      "Tile Bonus": [
+        2,
+        0,
+        0
+      ],
+      "name": "Game"
+    },
+    "good_gold": {
+      "type": "Bonus",
+      "Tile Bonus": [
+        0,
+        0,
+        4
+      ],
+      "name": "Gold"
+    },
+    "good_oasis": {
+      "type": "Bonus",
+      "Tile Bonus": [
+        2,
+        0,
+        0
+      ],
+      "name": "Oasis"
+    },
+    "good_sugar": {
+      "type": "Bonus",
+      "Tile Bonus": [
+        1,
+        0,
+        1
+      ],
+      "name": "Sugar"
+    },
+    "good_tobacco": {
+      "type": "Bonus",
+      "Tile Bonus": [
+        0,
+        0,
+        1
+      ],
+      "name": "Tobacco"
+    },
+    "good_bananas": {
+      "type": "Bonus",
+      "Tile Bonus": [
+        1,
+        0,
+        1
+      ],
+      "name": "Tropical Fruit"
+    },
+    "good_whales": {
+      "type": "Bonus",
+      "Tile Bonus": [
+        1,
+        1,
+        2
+      ],
+      "name": "Whales"
+    },
+    "good_wheat": {
+      "type": "Bonus",
+      "Tile Bonus": [
+        2,
+        0,
+        0
+      ],
+      "name": "Wheat"
+    },
+    "good_dye": {
+      "type": "Luxury",
+      "Tile Bonus": [
+        0,
+        0,
+        1
+      ],
+      "name": "Dyes"
+    },
+    "good_furs": {
+      "type": "Luxury",
+      "Tile Bonus": [
+        0,
+        1,
+        1
+      ],
+      "name": "Furs"
+    },
+    "good_diamonds": {
+      "type": "Luxury",
+      "Tile Bonus": [
+        0,
+        0,
+        4
+      ],
+      "name": "Gems"
+    },
+    "good_incense": {
+      "type": "Luxury",
+      "Tile Bonus": [
+        0,
+        0,
+        2
+      ],
+      "name": "Incense"
+    },
+    "good_ivory": {
+      "type": "Luxury",
+      "Tile Bonus": [
+        0,
+        0,
+        2
+      ],
+      "name": "Ivory"
+    },
+    "good_silk": {
+      "type": "Luxury",
+      "Tile Bonus": [
+        0,
+        0,
+        3
+      ],
+      "name": "Silks"
+    },
+    "good_spice": {
+      "type": "Luxury",
+      "Tile Bonus": [
+        0,
+        0,
+        2
+      ],
+      "name": "Spices"
+    },
+    "good_wine": {
+      "type": "Luxury",
+      "Tile Bonus": [
+        1,
+        0,
+        1
+      ],
+      "name": "Wines"
+    },
+    "good_aluminum": {
+      "type": "Strategic",
+      "Tile Bonus": [
+        0,
+        2,
+        0
+      ],
+      "Advance": "Rocketry",
+      "name": "Aluminum"
+    },
+    "good_coal": {
+      "type": "Strategic",
+      "Tile Bonus": [
+        0,
+        2,
+        1
+      ],
+      "Advance": "Steam Power",
+      "name": "Coal"
+    },
+    "good_horses": {
+      "type": "Strategic",
+      "Tile Bonus": [
+        0,
+        0,
+        1
+      ],
+      "Advance": "The Wheel",
+      "name": "Horses"
+    },
+    "good_iron": {
+      "type": "Strategic",
+      "Tile Bonus": [
+        0,
+        1,
+        0
+      ],
+      "Advance": "Iron Working",
+      "name": "Iron"
+    },
+    "good_oil": {
+      "type": "Strategic",
+      "Tile Bonus": [
+        0,
+        1,
+        2
+      ],
+      "Advance": "Refining",
+      "name": "Oil"
+    },
+    "good_rubber": {
+      "type": "Strategic",
+      "Tile Bonus": [
+        0,
+        0,
+        2
+      ],
+      "Advance": "Replaceable Parts",
+      "name": "Rubber"
+    },
+    "good_saltpeter": {
+      "type": "Strategic",
+      "Tile Bonus": [
+        0,
+        0,
+        1
+      ],
+      "Advance": "Gunpowder",
+      "name": "Saltpeter"
+    },
+    "good_uranium": {
+      "type": "Strategic",
+      "Tile Bonus": [
+        0,
+        2,
+        3
+      ],
+      "Advance": "Fission",
+      "name": "Uranium"
+    }
+  },
+  "Game Concepts": {
+    "gcon_age_of_science": {
+      "name": "Age of Science"
+    },
+    "gcon_air_missions": {
+      "name": "Air Missions"
+    },
+    "gcon_airfields": {
+      "name": "Airfields"
+    },
+    "gcon_armies": {
+      "name": "Armies"
+    },
+    "gcon_assimilation": {
+      "name": "Assimilation"
+    },
+    "gcon_barbarians": {
+      "name": "Barbarians"
+    },
+    "gcon_barricades": {
+      "name": "Barricades"
+    },
+    "gcon_bombardment_in_ports": {
+      "name": "Bombardment in Ports"
+    },
+    "gcon_resourcesb": {
+      "name": "Bonus Resources"
+    },
+    "gcon_moods": {
+      "name": "Citizen Moods"
+    },
+    "gcon_conversion": {
+      "name": "City Defection"
+    },
+    "gcon_radius": {
+      "name": "City Radius"
+    },
+    "gcon_disorder": {
+      "name": "Civil Disorder"
+    },
+    "gcon_strengths": {
+      "name": "Civilization Strengths"
+    },
+    "gcon_collateral_damage": {
+      "name": "Collateral Damage"
+    },
+    "gcon_colony": {
+      "name": "Colony"
+    },
+    "gcon_combat": {
+      "name": "Combat"
+    },
+    "gcon_experience": {
+      "name": "Combat Experience"
+    },
+    "gcon_commerce": {
+      "name": "Commerce"
+    },
+    "gcon_corruption": {
+      "name": "Corruption and Waste"
+    },
+    "gcon_craters": {
+      "name": "Craters"
+    },
+    "gcon_culture": {
+      "name": "Culture"
+    },
+    "gcon_terrain_combat": {
+      "name": "Defender Combat Bonus"
+    },
+    "gcon_agreements": {
+      "name": "Diplomatic Agreements"
+    },
+    "gcon_disease": {
+      "name": "Disease"
+    },
+    "gcon_draft": {
+      "name": "Draft"
+    },
+    "gcon_embassies": {
+      "name": "Embassies"
+    },
+    "gcon_enslavement": {
+      "name": "Enslavement"
+    },
+    "gcon_espionage": {
+      "name": "Espionage"
+    },
+    "gcon_espionage_missions": {
+      "name": "Espionage Missions"
+    },
+    "gcon_food": {
+      "name": "Food"
+    },
+    "gcon_fortresses": {
+      "name": "Fortresses"
+    },
+    "gcon_golden_age": {
+      "name": "Golden Age"
+    },
+    "gcon_governments": {
+      "name": "Governments"
+    },
+    "gcon_happy_faces": {
+      "name": "Happy Faces"
+    },
+    "gcon_hotkeys_controls": {
+      "name": "Hotkeys: Game Controls"
+    },
+    "gcon_hotkeys_units": {
+      "name": "Hotkeys: Unit Commands"
+    },
+    "gcon_hurry_production": {
+      "name": "Hurry Production"
+    },
+    "gcon_landmark_terrain": {
+      "name": "Landmark Terrain"
+    },
+    "gcon_leaders": {
+      "name": "Leaders"
+    },
+    "gcon_locked_alliances": {
+      "name": "Locked Alliances"
+    },
+    "gcon_resourcesl": {
+      "name": "Luxury Resources"
+    },
+    "gcon_maintenance": {
+      "name": "Maintenance"
+    },
+    "gcon_maps": {
+      "name": "Maps"
+    },
+    "gcon_mobilization": {
+      "name": "Mobilization"
+    },
+    "gcon_nationality": {
+      "name": "Nationality"
+    },
+    "gcon_resourcesn": {
+      "name": "Natural Resources"
+    },
+    "gcon_keypad": {
+      "name": "Number Keypad"
+    },
+    "gcon_outposts": {
+      "name": "Outposts"
+    },
+    "gcon_overpopulation": {
+      "name": "Overpopulation"
+    },
+    "gcon_plague": {
+      "name": "Plague"
+    },
+    "gcon_pollution": {
+      "name": "Pollution"
+    },
+    "gcon_plants": {
+      "name": "Power Plants"
+    },
+    "gcon_shields": {
+      "name": "Production and Shields"
+    },
+    "gcon_radar_towers": {
+      "name": "Radar Towers"
+    },
+    "gcon_resistance": {
+      "name": "Resistance"
+    },
+    "gcon_revolution": {
+      "name": "Revolution"
+    },
+    "gcon_ruins": {
+      "name": "Ruins"
+    },
+    "gcon_research": {
+      "name": "Scientific Research"
+    },
+    "gcon_short_game_modes": {
+      "name": "Short Game Modes"
+    },
+    "gcon_spaceship": {
+      "name": "Space Ship"
+    },
+    "gcon_specialists": {
+      "name": "Specialists"
+    },
+    "gcon_stealth_attack": {
+      "name": "Stealth Attack"
+    },
+    "gcon_resourcess": {
+      "name": "Strategic Resources"
+    },
+    "gcon_unit_support": {
+      "name": "Supporting Military Units"
+    },
+    "gcon_territory": {
+      "name": "Territory"
+    },
+    "gcon_tourist_attraction": {
+      "name": "Tourist Attraction"
+    },
+    "gcon_trade": {
+      "name": "Trade and Trade routes"
+    },
+    "gcon_transport": {
+      "name": "Transport"
+    },
+    "gcon_treasury": {
+      "name": "Treasury"
+    },
+    "gcon_victory": {
+      "name": "Victory Conditions"
+    },
+    "gcon_volcanic_eruptions": {
+      "name": "Volcanic Eruptions"
+    },
+    "gcon_war_weariness": {
+      "name": "War Weariness"
+    },
+    "gcon_we_love_the_king_day": {
+      "name": "We Love the __ Day"
+    },
+    "gcon_worker_jobs": {
+      "name": "Worker Actions"
+    },
+    "gcon_worker_jobs_advanced": {
+      "name": "Worker Actions (Advanced)"
+    },
+    "gcon_zoc": {
+      "name": "Zone of Control"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+#BLDG_Courthouse
+^
+^
+^The [Courthouse] decreases $LINK<corruption=GCON_Corruption> in its city and makes the city more resistant to propaganda.

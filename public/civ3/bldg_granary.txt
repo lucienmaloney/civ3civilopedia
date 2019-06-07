@@ -1,0 +1,5 @@
+#BLDG_Granary
+^
+^
+^The [Granary] effectively doubles the rate of a city's growth by causing only half of a city's $LINK<food store=GCON_Food> to
+be depleted when the city grows.

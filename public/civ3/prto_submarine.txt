@@ -1,0 +1,8 @@
+#PRTO_Submarine
+^
+^
+^[Submarines] can operate invisibly to enemy units because they travel beneath the waves. They remain
+invisible until they attack a surface ship, after which they again disappear. However, other submarines
+and $LINK<AEGIS Cruisers=PRTO_AEGIS_Cruiser> and $LINK<Destroyers=PRTO_Destroyer> can see them plainly. In addition, Submarines have $LINK<Stealth Attack=GCON_Stealth_Attack>.
+^
+^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a sub.

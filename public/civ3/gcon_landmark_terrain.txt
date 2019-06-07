@@ -1,0 +1,12 @@
+#GCON_Landmark_Terrain
+Landmark Terrain
+^
+^
+^A pre-designed scenario (only) might feature "Landmark Terrain", which essentially is a variation on a
+standard terrain type in order to alter that terrain's shield (production), food or commerce value(s).
+If the game preference for [Show Food and Shields on Map] is ON, Landmark Terrain squares are shown on
+the game map by a small gold diamond outline. As usual, information about a square's terrain can always be
+determined by right-clicking on it.
+
+
+

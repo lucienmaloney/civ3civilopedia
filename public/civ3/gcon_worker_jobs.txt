@@ -1,0 +1,41 @@
+#GCON_Worker_Jobs
+Worker Actions
+^ see also $LINK<Worker Actions (Advanced)=GCON_Worker_Jobs_Advanced>
+^ 
+^
+^{Irrigate (I)}
+^Increases $LINK<food=GCON_Food> output.
+^
+^{Build Mine (M)}
+^Increases $LINK<shield=GCON_Shields> output.
+^
+^{Build Road (R)}
+^Increases $LINK<commercial=GCON_Commerce> output and speeds movement.
+^
+^{Build Railroad (R)}
+^Increases $LINK<irrigation=TFRM_Irrigation> or $LINK<mine=TFRM_Mine> output, and provides unlimited movement.
+^
+^{Plant Forest (N)}
+^Adds a $LINK<forest=TERR_Forest> to a square.
+^
+^{Clear Forest (Shift-C)}
+^Removes $LINK<forest=TERR_Forest> and sends $LINK<shields=GCON_Shields> to nearest city.
+^
+^{Clear Wetlands (Shift-C)}
+^Removes $LINK<jungle=TERR_Jungle> or $LINK<marsh=TERR_Marsh>.
+^
+^{Clear Damage (Shift-C)} 
+^Removes $LINK<pollution=GCON_Pollution>, including fallout from a $LINK<volcanic eruption=GCON_Volcanic_Eruptions>,
+and $LINK<craters=GCON_Craters>. 
+^
+^{Build Fortress (Ctrl-F)}
+^Increases a square's $LINK<defensive value=GCON_Terrain_Combat> by 50%.
+^
+^{Build Barricade (Ctrl-F)}
+^Turns Fortress into Barricade, doubling the square's $LINK<defensive value=GCON_Terrain_Combat>.
+^
+^{Build Colony (B)}
+^$LINK<Colonies=GCON_Colony> are built atop $LINK<tradable resources=GCON_ResourcesN>. If $LINK<connected=GCON_Trade>
+to a city, a [colony] provides the resource to that city.
+
+

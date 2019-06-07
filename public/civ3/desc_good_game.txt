@@ -1,0 +1,10 @@
+#DESC_GOOD_Game
+^
+^
+^Since ancient times, hunting of game animals has been important both for survival and for sport. Forested areas containing a large 
+concentration of deer, elk, and smaller game were very valuable as a source of food for nearby settlements and cities. Though the 
+widespread practice of farming domestic animals for food purposes has made hunting for sport much more common than hunting 
+for food, certain animals such as geese, ducks, and deer are still frequently hunted and killed for food.
+
+
+

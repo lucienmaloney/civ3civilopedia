@@ -1,0 +1,7 @@
+#PRTO_Trebuchet
+^
+^
+^The [trebuchet] is a powerful siege weapon developed during the Middle Ages. It is most effective when used to
+$LINK<bombard=GCON_Combat> a fortified city to soften its defenses.
+Like its sister unit the catapult, a trebuchet needs to be protected by an escort as it has no attack or defense power on its own. Finally, a trebuchet is wheeled, thus it may not enter $LINK<mountain=TERR_Mountains>, $LINK<volcano=TERR_Volcano>,
+$LINK<jungle=TERR_Jungle> or $LINK<marsh=TERR_Marsh> terrain unless following a road.

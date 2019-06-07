@@ -1,0 +1,9 @@
+#PRTO_WWII_Paratrooper
+^
+^
+^[Paratroops] are infantrymen specially trained to execute {airdrops}. When a paratrooper is active
+in a city with an $LINK<airport=BLDG_Airport> it may perform an airdrop. Press [A] then click a target
+square within range to launch the airdrop. Otherwise, paratroops act as normal infantry.
+^
+^A city must have $LINK<oil=GOOD_Oil> and $LINK<rubber=GOOD_Rubber> in its $LINK<Strategic Resource=GCON_ResourcesS>
+box to build a paratrooper.

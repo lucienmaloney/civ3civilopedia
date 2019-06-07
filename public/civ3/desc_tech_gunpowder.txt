@@ -1,0 +1,11 @@
+#DESC_TECH_Gunpowder
+^
+^
+^Gunpowder is a chemical mixture of saltpeter, sulfur, and charcoal. When ignited, it burns rapidly and explodes if contained to any degree. 
+Gunpowder is believed to have been developed by the Chinese, who used it in fireworks as early as the 9th century, but it did not reach 
+Europe until the 14th century. Europeans immediately saw the potential of this substance, and manufactured it for use in weapons as early as 
+1334. The discovery of gunpowder led to the invention of firearms, such as the musket, which led to the replacement of archers in most 
+armies of the world by the late 1500s. Gunpowder marked one of the major technological turning points in military history; significantly 
+changing the way wars were fought.
+
+

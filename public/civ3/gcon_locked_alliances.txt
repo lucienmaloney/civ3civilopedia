@@ -1,0 +1,28 @@
+#GCON_Locked_Alliances
+Locked Alliances
+^
+^
+^A pre-designed scenario (only) might begin with some (or all) civilizations grouped into several "Locked
+Alliances". Members of a Locked Alliance have a permanent $LINK<Mutual Protection Pact=GCON_Agreements> with
+each other. Therefore, a civilization that is part of a Locked Alliance is not allowed to conduct any type
+of attack against another member of its alliance. Furthermore, if any civilization attacks another nation
+that is part of a Locked Alliance, the attacker will find itself at war with all nations member to that
+Locked Alliance.
+^
+^
+^{Permanent War}  
+^A Locked Alliance (and all of its member civilizations) might also find itself permanently at war -- right
+from the start of the scenario -- with another Locked Alliance if so dictated by the scenario. Such a war is
+permanent, and only ends when all members of one of the warring alliances have been eliminated (or the
+scenario's time limit is reached).
+^
+^
+^{Coalition Victory}
+^A scenario featuring one or more Locked Alliances might specify that "Coalition Victory Conditions" are in effect.
+In this case, victory criteria (score, victory points, cultural value, etc.) are summed for all allied players in
+each Locked Alliance. As soon as any coalition has fulfilled the scenario's victory conditions the scenario ends
+and all civilizations member to the winning coalition are awarded victory. 
+
+
+
+

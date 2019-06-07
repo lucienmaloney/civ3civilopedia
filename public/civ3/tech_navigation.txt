@@ -1,0 +1,6 @@
+#TECH_Navigation
+^
+^
+^{New Ability} $LINK<Harbors=BLDG_Harbor> can be $LINK<connected=GCON_Trade> by $LINK<ocean=TERR_Ocean> squares.
+^{New Ability} Naval units can safely traverse ocean squares.
+^{New Ability} Can now trade $LINK<world maps=GCON_Maps> in diplomacy. 

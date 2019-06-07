@@ -1,0 +1,11 @@
+#DESC_BLDG_Granary
+^
+^
+^Early humans were nomadic, settling in specific regions only for brief periods of time. When the food supply was exhausted in 
+one area, the nomads would move on to search for more. Cities became possible only when the development of agriculture made 
+the supply of food more abundant and dependable. However, cities still needed a way to keep the food supply stable throughout 
+all four seasons. To do so, the citizens had to come up with a way to store seasonal crops for later use. The Granary was designed 
+for the storage and protection of surplus food. Food storage technology meant that a smaller percentage of the population could 
+produce and store enough food for everyone, allowing the remainder to pursue other jobs and activities.
+
+

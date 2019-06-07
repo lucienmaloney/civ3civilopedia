@@ -1,0 +1,11 @@
+#DESC_BLDG_Hydro_Plant
+^
+^
+^One alternative to power generation utilizing coal or petroleum fuels is the hydroelectric power plant. This facility 
+utilizes the energy of rapidly moving water to turn the turbines of its generators and produce electricity. In locations 
+where a source of moving water is available, hydro plants offer a clean, safe alternative to coal, petroleum, and nuclear 
+power generation. Hydro plants have their own set of  environmental dangers, however. The disruption of a river's normal 
+flow and the massive flooding of the land behind the facility's dam can destroy the habitat of the wildlife inhabiting the 
+river basin.
+
+

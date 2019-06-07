@@ -1,0 +1,15 @@
+#RACE_MAYANS
+^The Maya are $LINK<agricultural and industrious=GCON_Strengths>. They start the game with
+$LINK<Masonry=TECH_Masonry> and $LINK<Pottery=TECH_Pottery> and build the $LINK<Javelin Thrower=PRTO_Javelin_Thrower> instead of the $LINK<Archer=PRTO_Archer>. 
+^
+^The Mayan civilization of ancient Mesoamerica is shrouded in mystery. The Maya developed their unique culture in one of the most inhospitable places on earth. The lowlands of northern Guatemala, western Honduras, Belize, and the Yucatan peninsula, are hot and humid, teeming with jungles boasting an annual average rainfall of 120
+ inches. And yet, these stalwart peoples toughed it out and forged a civilization that stands, to this day, as a testament to the ingenuity and creativity of ancient man. 
+^    Where did the Maya originate? The earliest archeological evidence was discovered
+ in and around Belize, and dates as far back as 1200 BC. Primitive tools and pottery, small religious figurines of animals and humans became abundant, and by 900 BC, small
+ villages of one-room dwellings made of poles lashed together with henequen rope, began to appear everywhere. By 600 BC, the Maya were the dominant people in the region.
+ Between 300 BC and 150 BC, Mayan villages grew into larger and more populous cities, ruled by powerful kings and noble families. It was during this so-called Pre-Classic
+ period that Maya society defined its cultural identity. 
+^    It was also during this time that the Maya began to worship a pantheon of gods, from the creator of the universe, [Huabku], to [Itzamna] (creator of man); from [Ix
+ Chel] (goddess of childbirth), to [Chac] (the rainmaker � an all-important god to the peasant class); from [Yam Kax] (the young corn god), to [Ah Much] (the lord of death). As more and more gods were added to the pantheon, the rituals needed to glorify them
+ became quite elaborate, and thus it was necessary to create a priest sect to maintain the ceremonies. 
+^    One of the most important cultural traits developed during the [Pre-Classic] period was the act of human sacrifice. Though the Maya never practiced it as prominently as the Aztecs, various acts of blood letting became commonplace and (ultimately) essential to the Mayan way-of-life. Mayan kings ruled through semi-divine right, and they believed that their connection to the gods could only be maintained through ritual sacrifice.

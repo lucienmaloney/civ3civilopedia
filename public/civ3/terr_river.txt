@@ -1,0 +1,5 @@
+#TERR_River
+^[Rivers] do not run [in] squares: instead they run along the edges of squares.
+Any square with a river along its edge produces one extra $LINK<commerce=GCON_Commerce> if
+worked by citizen laborers within a $LINK<city radius=GCON_Radius>. Also, rivers are sources of fresh water,
+allowing $LINK<irrigation=TFRM_Irrigation> of adjacent squares without $LINK<electricity=TECH_Electricity>.

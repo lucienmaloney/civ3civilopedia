@@ -1,0 +1,13 @@
+#BLDG_Zeus
+^
+^
+^The [Statue of Zeus] produces an $LINK<Ancient Cavalry=PRTO_Ancient_Cavalry> every 5 turns.
+^
+^
+^A city must have access to $LINK<Ivory=GOOD_Ivory> to build The Statue of Zeus.
+^
+^
+^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Religious and Militaristic civilizations.

@@ -1,0 +1,13 @@
+#DESC_GOOD_Dye
+^
+^
+^Dyeing is the process of applying colors to fabrics. A human practice for over three thousand years, it enabled the natural white 
+color of silk, wool and cotton to be enhanced with a varied spectrum of color. Natural dyes are created from a myriad of 
+sources, including shells, animals and plants, though these were not always permanent and frequently expensive. Modern dyes 
+are based around artificial or processed substances such as coal and other chemicals. One benefit for a nation with an extensive 
+dye industry is that the processes involved in creating dye can be easily retooled to other purposes. Germany discovered this in 
+World War I when it was determined that factories producing artificial dye could be easily modified to create explosives and 
+other tools of war.
+
+
+

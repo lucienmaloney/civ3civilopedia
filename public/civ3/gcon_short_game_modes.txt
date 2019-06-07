@@ -1,0 +1,31 @@
+#GCON_Short_Game_Modes
+Short Game Modes
+^{Regicide}
+^Regicide is a victory condition, in which each player has a "King" unit. This unit represents the 
+civilization's Great Leader (for the Americans, the 'King' unit is Abraham Lincoln). When the Regicide victory 
+condition is enabled, if the "King" unit is killed, the controlling player is eliminated from the game. Once 
+the "King" has been eliminated, all units, colonies, airbases, and cities belonging to that player are destroyed, 
+becoming ruins until something new is built on it. The Regicide victory condition can be enabled on the Player 
+Setup Screen, the Multiplayer Setup Screen, and in the Editor.
+^
+^{Mass Regicide}
+^Mass Regicide is a victory condition, in which each player has several "King" units. These units represent 
+the civilization's Great Leader (for the Americans, the "King" unit is Abraham Lincoln). When the Mass Regicide 
+victory condition is enabled, if all of a player's "King" units are killed, the controlling player is eliminated 
+from the game. Once the "Kings" have been eliminated, all units, colonies, airbases, and cities belonging to 
+that player are destroyed, becoming ruins until something new is built in that location. The Mass Regicide 
+victory condition can be enabled on the Player Setup Screen, the Multiplayer Setup Screen, and in the Editor.
+^
+^{Elimination}
+^Elimination is a victory condition. When this victory condition is enabled, any civilization that loses a 
+city to an enemy is eliminated from the game. Once a player has been eliminated, all units, colonies, airbases, 
+and cities belonging to that player are destroyed, becoming ruins until something new is built in that location.  
+The Elimination victory condition can be enabled on the Player Setup Screen, the Multiplayer Setup Screen, and in
+the Editor.
+^
+^{Wonder Victory}
+^This is a new method of suddenly bringing a game to conclusion. If this condition is enabled the game ends as
+soon as [all] Great Wonders have been built. The winner is then determined based on victory points -- not
+necessarily on building the greatest number of wonders, nor a specific wonder.
+
+

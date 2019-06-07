@@ -1,0 +1,6 @@
+#PRTO_Henry
+^
+^
+^Prince Henry is the King unit for the $LINK<Portuguese=RACE_PORTUGAL> in the Regicide $LINK<Short Game Mode=GCON_Short_Game_Modes>.
+
+

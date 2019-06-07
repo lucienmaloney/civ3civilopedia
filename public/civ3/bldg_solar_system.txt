@@ -1,0 +1,10 @@
+#BLDG_Solar_System
+^
+^
+^Doubles $LINK<scientific research=GCON_Research> in the city where it is built.
+^
+^
+^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Expansionist civilizations.

@@ -1,0 +1,24 @@
+#RACE_IROQUOIS
+^The Iroquois are $LINK<agricultural and commercial=GCON_Strengths>. They start the game with
+$LINK<Alphabet=TECH_Alphabet> and $LINK<Pottery=TECH_Pottery> and build
+$LINK<mounted warriors=PRTO_Mounted_Warrior> instead of normal $LINK<horsemen=PRTO_Horseman>. 
+^
+^Loosely speaking, Iroquois is the term for any member of the Five (later, Six) Nations composed of several 
+Native American tribes speaking a language of the Iroquoian family: the Cayuga, Mohawk, Oneida, Onondaga, Seneca, 
+and Tuscarora (after 1722). At its greatest extent, the Five Nations occupied a vast territory around Lakes Ontario, 
+Huron and Erie, in present-day New York state and Pennsylvania and southern Ontario and Quebec. Tradition credits 
+the formation of the Iroquois Confederacy, forged between 1570 and 1600, to Dekanawidah, born a Huron, who is said 
+to have persuaded {Hiawatha}, an influential Onondaga who had become the Mohawks' war chief, to abandon cannibalism 
+and advance "peace, civil authority, righteousness, and the great law" as sanctions for confederation. Cemented mainly 
+by their desire to stand together against invasion, the five tribes united in a common council composed of clan and 
+village chiefs; each tribe had one vote, and unanimity was the rule. In this form, the Iroquois used a combination 
+of military prowess and skilled diplomacy to conquer an empire. Until their internal unity finally failed them during 
+the American Revolution, the Iroquois dealt with even the European powers as equals.
+^    For nearly two centuries before the American Revolution, the Iroquois stood athwart the path from the Eastern 
+coast to the Great Lakes, blocking the route to permanent settlement by the French and containing the Dutch and the 
+English. Throughout the 18th century the Six Nations remained consistent and bitter enemies of the French, who were 
+allied with their traditional foes, the Algonquins and Hurons. The Iroquois' success in maintaining their autonomy 
+from both the French and English was a remarkable achievement for an aboriginal people. But during the American War 
+of Independence, a schism developed within the Iroquois Confederation. The Oneida and Tuscarora espoused the American 
+cause, while the rest of the league, led by Chief Joseph Brant's Mohawks, fought for the British, decimating isolated 
+American settlements.

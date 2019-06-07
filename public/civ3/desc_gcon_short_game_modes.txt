@@ -1,0 +1,28 @@
+#DESC_GCON_Short_Game_Modes
+^
+^{Capture the Princess}
+^Capture the Princess is a method of scoring victory points. Each player starts with a "Princess" unit. This 
+unit has no unit actions and can be captured. The "Princess" unit is immobile until it is captured, at which 
+point it moves with its owning unit at its speed. The "Princess" unit starts in the players starting location. 
+The goal for each player is to capture this unit and return it to their own capital, bestowing them with 1000 
+victory points. You may capture the "Princess" when any unit is in the tile with the "Princess" and executes the 
+"Capture" unit action. Once captured, the "Princess" unit is spawned again at the original owner's Capital City.  
+If there is no suitable city for the "Princess" to re-spawn in, it remains in the captor's Capital and bestows 
+another 1,000 points upon that player.
+^
+^{Victory Location}
+^Victory Location is a method of scoring victory points. Victory Location tiles are scattered about the map,
+represented on the map by a Victory Location icon. Players score points by capturing and holding Victory
+Location tiles. To score these points a unit with a defensive military stat must be in that tile at the end of
+all players' turns for that turn. Each turn a Victory Location is controlled, the controlling player gets 25
+victory points. In single player mode, the starting location of each player is designated a Victory Location.
+Any terrain improvement, including cities, can be built on a Victory Location tile.
+^
+^{Reverse Capture the Flag}
+^Reverse Capture the Flag is a new method of scoring victory points. This condition cannot be enabled for a random
+map game; it can only be used in a custom-made scenario. When in effect, one or more Victory Units (which might
+look like a "Holy Relic") will be present on the map. Like a "Princess" unit, a "Holy Relic" can only be
+transported by another unit. When the Victory Unit is delivered to a Victory Location (see above), the player
+scores a substantial amount of victory points.
+
+

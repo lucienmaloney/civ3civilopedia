@@ -1,0 +1,11 @@
+#GCON_Age_of_Science
+Age of Science
+^
+^
+^Every civilization can experience an [Age of Science], a 20-turn period in which the 
+$LINK<scientific research=GCON_Research> of each city in that civilization's empire is 25% more productive.
+An Age of Science can only be triggered by a $LINK<scientific leader=GCON_Leaders>.
+
+
+
+

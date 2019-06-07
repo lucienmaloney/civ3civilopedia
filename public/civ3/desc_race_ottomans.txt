@@ -1,0 +1,28 @@
+#DESC_RACE_Ottomans
+^
+^
+^and functioning city.  During their earliest exploits, the Ottomans were frequently frustrated by fortifications 
+and the exhausting sieges that were required in order to overcome these defenders.  This changed in the 15th 
+century and beyond as imported expertise in firearms and gunpowder led to some of the most massive artillery of 
+the time.  A form of Turkish heavy cavalry, known as {Sipahi}, became the predominating military unit utilized by 
+the Ottoman Empire.  The earliest variations of these soldiers were well-armored men on well-armored horses, 
+who typically used a mace as their primary weapon.  During the 17th century the Sipahi replaced their archaic 
+weaponry with sabers and pistols, establishing them as a fearsome presence on the battlefield.  While European 
+infantry were more than a match for the standard Ottoman infantry, the Sipahi were far superior to any 
+medieval knights.
+^    During their period of expansion, the Ottomans visualized Europe as Americans would later see their Western 
+frontier: a land of destiny.  The conquest of Istanbul in 1453 AD initiated this by uniting Muslim Anatolia and
+Christian Rumelia under the Ottoman Sultan's protection.  However, this attitude would change as the Ottomans 
+were forced to go on the defensive during the 17th and 18th centuries.  Ottoman defeats were followed by mass 
+slaughters of Muslim minorities.  These massacres characterized the war between Christian and Turk in the 19th 
+century.
+^    At its height, the Ottoman Empire territory included Hungary, Serbia, Bosnia, Romania, Greece, the 
+Ukraine, Iraq, Syria, Israel, Egypt, a large section of North Africa, and most of the Arabian Peninsula.  Over 
+time, however, Sultans grew weary of their administrative duties and withdrew from public affairs.  The office of 
+Grand Vizier was created to act second only to the sultan in authority and revenue, but while the Grand Vizier 
+was able to stand in for the sultan in an official capacity, he could not take his place as a focus of loyalty 
+among the different classes and social groups in the empire.  This separation of political loyalty and 
+centralized authority led to a decline in the government's ability to impose its will, which inevitably led to 
+the Ottoman Empire's end in 1922, when it was replaced by the Turkish Republic.
+
+

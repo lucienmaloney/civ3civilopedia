@@ -1,0 +1,5 @@
+#DESC_PRTO_Flak
+^
+^
+^Flak, an acronym for the German Fliegerabwehrkanone (flyer defense cannon), is a type of short-to-medium range air defense system. Flak cannons fire shells that explode in the air, generating shrapnel and shock waves that damage enemy aircraft -- they are not aimed at specific aircraft but at formations and to screen avenues of bombing attack. They are usually employed in large numbers, creating screens and clouds of shell explosions in the air. Since they are as much a danger to friendly aircraft as to enemy, they are typically the last line of air defense. The earliest flak cannons were used during World War I, targeting enemy observation balloons and aircraft.
+

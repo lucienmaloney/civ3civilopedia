@@ -1,0 +1,7 @@
+#GOOD_Whales
+^
+^
+^[Whales] are $LINK<bonus resources=GCON_ResourcesB> that enhance city production. To get
+the bonus, the resource must be inside the city's $LINK<radius=GCON_Radius> and a citizen laborer must work the square. 
+^
+^Whales are always visible on the map; they are found only in $LINK<Sea=TERR_Sea>.

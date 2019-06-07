@@ -1,0 +1,5 @@
+#TERR_Flood_Plain
+^Incredibly rich farm land, [floodplains] appear along $LINK<river=TERR_River> banks and, therefore,
+produce one extra $LINK<food=GCON_Food>.
+^
+^Floodplains may contain $LINK<wheat=GOOD_Wheat>.

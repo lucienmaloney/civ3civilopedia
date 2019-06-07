@@ -1,0 +1,6 @@
+#TECH_Alphabet
+^
+^
+^$LINK<Commercial Civilizations=GCON_Strengths> and $LINK<Seafaring Civilizations=GCON_Strengths> start the
+game with the [Alphabet]. If a civilization is both commercial [and] seafaring, it receives
+$LINK<Pottery=TECH_Pottery> as its second tech advance.

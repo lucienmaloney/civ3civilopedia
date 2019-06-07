@@ -1,0 +1,14 @@
+#DESC_TECH_Medicine
+^
+^
+^Primitive man attributed the onset of serious disease as the influence of the gods, or possession by evil spirits. Over time, however, it was 
+found that such "possessions" could be treated through the use of elixirs made from plant extracts. Methods were also developed to clean 
+and treat wounds, and set fractured bones. The ancient Greeks established the first schools to teach medical sciences circa 500 BC. The 
+texts produced by the students of these schools, most notably Hippocrates, who is considered the father of medicine, based his theories of 
+the human body on observation and reasoning rather than supernatural intervention. Continued study of diseases over the years, combined 
+with the dissection and study of the human body in the 13th century, pointed out flaws in early Greek theories, and led to more accurate 
+medical texts based on detailed analysis rather than conjecture. By the 18th century, the same methods of analysis and observation used by 
+scientists in other fields were applied to the study of medicine. This paved the way for the increasingly effective methods of treatment and 
+surgery that have prevailed over the last 200 years.
+
+

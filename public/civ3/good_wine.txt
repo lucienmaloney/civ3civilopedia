@@ -1,0 +1,8 @@
+#GOOD_Wine
+^
+^
+^[Wine] is a $LINK<luxury resource=GCON_ResourcesL> that makes content people happy in cities that are
+$LINK<connected=GCON_Trade> to it by domestic or foreign $LINK<trade routes=GCON_Trade>.
+^
+^Wine is always visible on the map and can be found in
+$LINK<grasslands=TERR_Grassland>, $LINK<plains=TERR_Plains>, and $LINK<hills=TERR_Hills>

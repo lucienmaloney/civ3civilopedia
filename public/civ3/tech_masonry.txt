@@ -1,0 +1,5 @@
+#TECH_Masonry
+^
+^{New Ability} $LINK<Workers=PRTO_Worker> can build $LINK<outposts=GCON_Outposts>.
+^
+^$LINK<Industrious Civilizations=GCON_Strengths> start the game with [Masonry].

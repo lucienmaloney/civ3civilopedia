@@ -1,0 +1,13 @@
+#PRTO_Jet_Fighter
+^
+^
+^[Jet Fighters] are faster versions of their predecessor. They may execute all $LINK<air missions=GCON_Air_Missions>
+except precision strikes. Jet Fighters have [radar] that allows the unit to "see" two squares regardless of blocking terrain.
+They may be based in any city or aircraft carrier on the map.
+^
+^
+^The Jet Fighter has Lethal Sea Bombardment.
+^
+^
+^A city needs $LINK<oil=GOOD_Oil> and $LINK<aluminum=GOOD_Aluminum> in its $LINK<Strategic Resource=GCON_ResourcesS> box
+to build a jet fighter.

@@ -1,0 +1,11 @@
+#DESC_BLDG_Apollo_Project
+^
+^
+^The Apollo Program was begun by the United States in the late 1960s. Following the success of the manned orbital missions of the Mercury and 
+Gemini missions, the destination of the Apollo Program was the moon. The early Apollo flights concentrated on orbital observations of the moon, 
+and testing the docking systems of the Apollo craft. Apollo 11 accomplished the ultimate goal of the Apollo Program on July 20, 1969, when Neil 
+Armstrong became the first human to walk on the moon. Several other landings followed, the last being Apollo 17 in December, 1972. The Apollo 
+Program truly represented a "giant leap for mankind". The U.S. manned lunar missions are unparalleled feats in space exploration, and the 
+technology originally developed for the Apollo Program was later found to be invaluable in designing future space vehicles and orbital platforms.
+
+

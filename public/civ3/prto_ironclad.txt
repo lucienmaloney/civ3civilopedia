@@ -1,0 +1,7 @@
+#PRTO_Ironclad
+^
+^
+^The forerunner of the modern battleship, the [Ironclad] is a tough defender against anything but more modern warships.
+^
+^A coastal city needs $LINK<coal=GOOD_Coal> and $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS>
+box to build an ironclad.

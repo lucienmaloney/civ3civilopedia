@@ -1,0 +1,12 @@
+#GCON_Outposts
+Outposts
+^
+^
+^Outposts eliminate fog of war.  To construct an Outpost, move a worker to any land tile in neutral or owned 
+territory and select the Build Outpost unit action.  Construction of the Outpost consumes the worker.  The range 
+of vision for the Outpost is 2 tiles on flat terrain, 3 on hills and 4 on mountains.  Outposts can only be used 
+by the player who created them.  If an Outpost falls within the territory of any other civilization, it will be 
+destroyed.  Outposts can only be built in a tile that is empty, has a mine, irrigation, a road and/or a railroad.
+You cannot build an Outpost on a tile with an Airfield or a Colony.  The "Build Outpost" unit-action becomes 
+available after the Masonry advance is researched.
+

@@ -1,0 +1,13 @@
+#DESC_PRTO_Dromon
+^
+^
+^The dromon was the end result of Byzantine ingenuity applied to old Greek ship designs. Powered by
+rowers, its primary virtue was its versatility -- the wide, flat decks could be mounted with a variety
+of weapons. There were many classes of dromon, from light escort and reconnaissance designs to heavy
+warships. Dromons often included mini-forts made of wood from which marines could sally forth or fire
+bows, as well as catapults, rams, ballistae, and later, Greek fire launchers. These dangerous and
+devastating primitive flamethrowers spelled death to enemies in an age where all ships were made of
+flammable wood and crew were constantly exposed on the upper decks.
+
+
+

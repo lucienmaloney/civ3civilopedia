@@ -1,0 +1,4 @@
+#PRTO_Rifleman
+^
+^
+^[Riflemen] are powerful defenders. By the time you can build these, saltpeter is in abundance and is not needed.

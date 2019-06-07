@@ -1,0 +1,11 @@
+#DESC_PRTO_Warrior
+^
+^
+^The earliest military forces were simply the citizens of the city, armed with whatever implements they could 
+use as weapons. Although a militia made up of warriors was inexpensive, they were no match for organized 
+armies. Warriors were usually used as stopgap measures while waiting for superior units to be trained, or to 
+defend a city that had been temporarily cut off from military support. In a crisis situation, an assembly of 
+warriors is better than no defense at all.
+
+
+

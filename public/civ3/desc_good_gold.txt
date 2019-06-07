@@ -1,0 +1,12 @@
+#DESC_GOOD_Gold
+^
+^
+^Gold has always been one of the most highly valued metals in the world. It is used in the manufacture of everything from jewelry 
+to electronics, and has been established as the basis for monetary systems worldwide. The factor that makes gold valuable is its 
+rarity. Although gold can be found in many different areas, the most valuable deposits are large veins of gold ore running through 
+mountains. When a large deposit is found, mining the deposit greatly boosts the economy in settlements and cities near the mine. 
+Historical examples of this phenomenon are the many towns that grew and prospered over a relatively short time during the 
+California gold rush in America during the 1800s.
+
+
+

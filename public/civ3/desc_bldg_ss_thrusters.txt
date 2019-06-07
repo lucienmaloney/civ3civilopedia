@@ -1,0 +1,18 @@
+#DESC_BLDG_SS_Thrusters
+^
+^
+^The massive Thrusters are, much like the Engine, designed to function in a myriad of ways. Designed in stages like the 
+Engines, the Thrusters channel the exhaust used to propel the Space Ship through all of its phases of travel. In the initial 
+phase, the external booster rockets channel their fuel through the Thrusters array until they run out of fuel, at which 
+point they are jettisoned. After that, the powerful electromagnets built into the Thrusters help accelerate the charged 
+particles of the ion drive to near the speed of light, providing a great deal of thrust for the Space Ship. Finally, in 
+the last stages of travel, the Thrusters are responsible for maneuvering the Space Ship into the planet's gravity well 
+and providing a counter thrust to slow the vessel to a manageable velocity to settle into a geo-synchronous orbit. In 
+order to fulfill all of these functions, the Thrusters array had to be capable of the ultra-sensitive duty of accelerating 
+high energy ions as well as be able to handle the hundreds of thousands of pounds of thrust produced by the solid fuel 
+boosters. The engineers who designed the Thrusters were able to fulfill both of these functions as well as making them 
+articulated to allow for maneuverability that is remarkable considering the mass and projected velocities of the craft.
+
+
+
+

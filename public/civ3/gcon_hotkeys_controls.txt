@@ -1,0 +1,38 @@
+#GCON_Hotkeys_Controls
+Hotkeys: Game Controls
+^
+^
+^{Main Controls}
+^End Turn						Shift-ENTER
+^Save Game					Ctrl-S
+^Load Game					Ctrl-L
+^Start New Game				Ctrl-Shift-Q
+^Retire							Ctrl-Q
+^Quit							ESC
+^Civilopedia						Ctrl-C
+^
+^{Map Controls}
+^Center map on Active unit			C
+^Clear Map						Ctrl-Shift-M
+^Zoom in/out					Z
+^Map Grid on/off					Ctrl-G
+^Locate City					Shift-L
+^Center on Capital				H
+^
+^{Advisors and miscellaneous}
+^Domestic Advisor				F1
+^Trade Advisor					F2
+^Military Advisor					F3
+^Foreign Advisor					F4
+^Cultural Advisor					F5
+^Science Advisor					F6
+^Wonders of the World			F7
+^Victory Status Screen			F8
+^Palace						F9
+^Spaceship						F10
+^Demographics					F11
+^Preferences					Ctrl-P
+^Audio Preferences				Shift-S
+^Change Governments			Shift-G
+^Change Mobilization				Shift-M
+

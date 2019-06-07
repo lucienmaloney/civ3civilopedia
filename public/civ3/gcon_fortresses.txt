@@ -1,0 +1,14 @@
+#GCON_Fortresses
+Fortresses
+^
+^
+^When a civilization has learned $LINK<construction=TECH_Construction>, its workers know how to construct
+stone and masonry [fortresses]. Military units inside these bastions have a few advantages.
+^* They get a 50% defensive bonus if attacked.
+^* They have a $LINK<zone of control=GCON_ZOC> and fire at passing enemy units without receiving return fire.
+^
+^
+^{Upgrade}  A worker can improve a fortress by building a $LINK<barricade=GCON_Barricades>.
+
+
+

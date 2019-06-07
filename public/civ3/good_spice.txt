@@ -1,0 +1,7 @@
+#GOOD_Spice
+^
+^
+^[Spice] is a $LINK<luxury resource=GCON_ResourcesL> that make content people happy in cities that are
+$LINK<connected=GCON_Trade> to it by domestic or foreign $LINK<trade routes=GCON_Trade>.
+^
+^Spice is always visible on the map and can be found in $LINK<forests=TERR_Forest> and $LINK<jungles=TERR_Jungle>.

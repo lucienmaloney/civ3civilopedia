@@ -1,0 +1,13 @@
+#DESC_TECH_Alphabet
+^
+^
+^The ancestors of modern alphabets were the iconographic and ideographic symbols developed by ancient man, such as cuneiform and 
+hieroglyphics. The first known alphabet, a combination of a number of early pictographic symbols known as North Semitic, was developed 
+between 1700 and 1500 BC. Four other alphabets - South Semitic, Canaanite, Aramaic, and Greek - had evolved from the North Semitic 
+alphabet by 1000 BC. The Roman alphabet, used by all the languages of Western Europe including English, was derived from the Greek 
+alphabet sometime after 500 BC. The Roman alphabet became one of the most widespread due to the extensive use of the Latin language 
+during the reign of the Roman Empire. The development of alphabets was significant in the development of advanced civilizations because it 
+allowed history and ideas to be written down, rather than memorized and passed along orally.
+
+
+

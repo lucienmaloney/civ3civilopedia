@@ -1,0 +1,29 @@
+#DESC_GCON_Hotkeys_Units
+^{General Unit Commands}
+^Hold (don't move)					Spacebar
+^Wait (until end of turn)				W
+^Fortify/Garrison/Sleep				F
+^Go to								G
+^*	Stack Go to						X, J
+^*	Stack Go to With Same Units			Ctrl-X, Ctrl-J
+^Disband							D
+^Load/unload						L
+^Explore							E
+^Pillage							Shift-P
+^Bombard							B
+^Airdrop							P
+^Airlift								T
+^Sentry							Y
+^*	Sentry (Until Enemy Contact)			Shift-Y
+^
+^{Special Actions and Orders}
+^Upgrade Unit						U
+^*	Upgrade all Obsolete Units			Shift-U
+^Build Army							B
+^Hurry City Production					Ctrl-H
+
+
+
+
+
+

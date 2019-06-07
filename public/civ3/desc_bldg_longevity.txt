@@ -1,0 +1,9 @@
+#DESC_BLDG_Longevity
+^
+^
+^As the lifespan of a human being has slowly increased over the centuries, a shift in medical focus began to take place. Infectious diseases, once the 
+leading cause of death, began to be tamed by modern vaccinations. This allowed the field to spend more time combating those ailments associated 
+with advanced aging, such as cancer and heart disease. This trend shows no signs of slowing, but rather accelerating. Modern technology permits 
+sophisticated diagnosis and treatment of illness, while at the same time identifying their genetic roots.
+
+

@@ -1,0 +1,12 @@
+#DESC_PRTO_Settler
+^
+^
+^When cities grew to a size where the resources were insufficient to adequately insure a decent standard of 
+living for the populace, adventurous groups of citizens set out on their own in search of a place to build 
+a new city. Once a suitable site was found, the settlers would build their new homes, and develop the land 
+surrounding the city. Eventually the whole process repeated, and the new city would send out settlers of 
+its own. This process allowed civilizations to grow throughout history, from the empires of the ancient 
+world to the discovery and settlement of the New World.
+
+
+

@@ -1,0 +1,8 @@
+#GOOD_Gold
+^
+^
+^[Gold] is a $LINK<bonus resource=GCON_ResourcesB> that significantly enhances city production of commerce (gold). To get
+the bonus, the resource must be inside the city's $LINK<radius=GCON_Radius> and a citizen laborer must work the square. 
+^
+^Gold is always visible in explored areas of the map and can be found in $LINK<mountains=TERR_Mountains> and
+$LINK<hills=TERR_Hills>.

@@ -1,0 +1,7 @@
+#GOOD_Oil
+^
+^
+^[Oil] is a $LINK<Strategic Resource=GCON_ResourcesS> required to build late Industrial Age and Modern Era units.
+^
+^Oil deposits appear when your civilization discovers $LINK<Refining=TECH_Refining> and can be found in
+$LINK<tundra=TERR_Tundra>, $LINK<desert=TERR_Desert> and $LINK<marsh=TERR_Marsh>.

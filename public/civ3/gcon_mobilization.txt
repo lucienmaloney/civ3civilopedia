@@ -1,0 +1,21 @@
+#GCON_Mobilization
+Mobilization
+^
+^
+^When a civilization develops $LINK<Nationalism=TECH_Nationalism>, it can [Mobilize] its economy for war.
+Mobilize your economy using the "Mobilization" button on the Domestic Advisor.
+^
+^
+^{Effects of Mobilization}
+^* During mobilization a city building a military unit produces one extra $LINK<shield=GCON_Shields>
+in every square that is already producing at least one.
+^A civilization that is mobilized:
+^* May only build military units and military city improvements.
+^* May not build peacetime improvements.
+^* May not return to Normalcy until a Peace Treaty is signed.
+^
+^
+^During Mobilization workers, settlers and explorers can be built, but will not receive the production bonus. 
+
+
+

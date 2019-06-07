@@ -1,0 +1,7 @@
+#PRTO_Samurai
+^
+^
+^[Japanese Samurai], are dedicated unmounted warriors armed with excellent weapons. 
+^
+^A city must have $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS>
+box to build a Samurai.

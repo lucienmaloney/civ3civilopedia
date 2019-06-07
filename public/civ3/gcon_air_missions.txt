@@ -1,0 +1,30 @@
+#GCON_Air_Missions
+Air Missions
+^
+^
+^Air units are not moved around the map like other units. Instead, they are stationed in a city,
+and assigned missions which they execute immediately against targets within their operational range.
+^
+^When an air unit is active, choose the mission you want it to perform (command button or hot key) and
+choose a target within the plane's range.
+^
+^{Air Superiority (S)}
+^The plane attempts to intercept enemy aircraft that attack targets within the inner half of its operational range.
+^
+^{Bombing Mission (B)}
+^The plane flies to the target and attacks, sometimes affecting city improvements,
+and sometimes population.
+^
+^{Precision Strike (P)}
+^Performed by $LINK<stealth aircraft=PRTO_Stealth_Fighter>,
+precision strikes destroy city improvements only, unless there are none in which case population is affected.
+^
+^{Recon Mission (R)}
+^The plane flies to the target and reveals the map.
+^
+^{Re-Base Mission (Ctrl-R)}
+^The unit can be moved to another city or a $LINK<carrier=PRTO_Carrier> a distance equal to up to Six
+times the plane's operational range.
+
+
+

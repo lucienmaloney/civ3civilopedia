@@ -1,0 +1,13 @@
+#DESC_TECH_Iron_Working
+^
+^
+^Some examples of iron ornamentation date back to 4000 BC, but the use of iron for tools, weapons, and other practical purposes did not 
+become common until much later. Prior to this time, bronze was the most widely used metal for such purposes. Although the term "Iron Age" 
+denotes a period of time starting around 1000 BC, iron replaced bronze as the metal of choice at different times in different places. Iron is 
+more common than copper and tin, the component metals of bronze, but iron is seldom found in a free state; it is most commonly found 
+mixed with other minerals and elements. In order to be used, the iron must be separated from the ore. Once this technique was developed, 
+and forges hot enough to melt the iron were developed, iron working became commonplace. Worked iron was harder, less brittle, and 
+could hold a much sharper edge than bronze. Iron has remained an important metal throughout history, and is one of the major components
+in the production of steel.
+
+

@@ -1,0 +1,4 @@
+#TECH_Map_Making
+^
+^
+^{New Ability} Can now negotiate right of passage $LINK<agreements=GCON_Agreements>.

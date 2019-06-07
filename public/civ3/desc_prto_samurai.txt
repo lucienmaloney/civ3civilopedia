@@ -1,0 +1,12 @@
+#DESC_PRTO_Samurai
+^
+^
+^Similar to the European knights, Japanese samurai were landowners who volunteered military service in exchange for
+a larger warlord's protection. Their handsome lacquer armor gave them durable protection on the battlefield. 
+The warrior code of "Bushido" placed exacting restrictions on their behavior, both on the field of battle and off.
+One such tenet was that samurai of opposing forces must seek each other out and battle one on one. While their
+armor provided some safety from early gunpowder weapons, soon more advanced weaponry and skilled
+marksmen relegated them to administrative and leadership roles. The samurai caste was abolished in 1868.
+
+
+

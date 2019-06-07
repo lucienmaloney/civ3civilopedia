@@ -1,0 +1,18 @@
+#GCON_Radius
+City Radius
+^
+^
+^Every city has a [city radius], an area around the city in which its citizens work. The radius is shown on
+the City Display and potential radii are shown whenever a settler is active.
+^
+^{A square is part of a city's radius if it is}
+^* within the city's $LINK<cultural borders=GCON_Territory>, and
+^* within two squares of the city. 
+^
+^Citizens of the city work the squares in the city radius, extracting $LINK<Food=GCON_Food>,
+$LINK<Shields=GCON_Shields>, and $LINK<Commerce=GCON_Commerce> -- the three basic currencies.
+
+
+
+
+

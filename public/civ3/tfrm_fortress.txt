@@ -1,0 +1,8 @@
+#TFRM_Fortress
+^
+^
+^Units within a fortress enjoy a +50% defensive bonus, as well as a $LINK<zone of control=GCON_ZOC>.
+^
+^Workers are ordered to build fortresses by pressing [Ctrl-F], or the "Build Fortification" button.
+
+

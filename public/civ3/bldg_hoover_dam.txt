@@ -1,0 +1,13 @@
+#BLDG_Hoover_Dam
+^
+^
+^Brings the effects of a $LINK<hydro plant=BLDG_Hydro_Plant> to all cities on the same continent.
+^
+^
+^To build the Hoover Dam a city must have a river within its $LINK<radius=GCON_Radius>.
+^
+^
+^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Industrious and Agricultural civilizations.

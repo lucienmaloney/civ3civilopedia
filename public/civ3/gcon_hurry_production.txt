@@ -1,0 +1,27 @@
+#GCON_Hurry_Production
+Hurry Production
+^
+^
+^City construction projects (improvements or units) can be hurried to completion if necessary. 
+Use the "Hurry" button on the [City Display].
+^
+^
+^Under $LINK<Despotism=GOVT_Despotism>, $LINK<Communism=GOVT_Communism>, $LINK<Feudalism=GOVT_Feudalism>, or $LINK<Fascism=GOVT_Fascism> you hurry production in your cities
+by forced labor. Disillusioned by your harsh rule, citizens will leave your city if you institute this type of
+rushed production. 
+^
+^
+^Under $LINK<Monarchy=GOVT_Monarchy>, $LINK<Republic=GOVT_Republic>, and $LINK<Democracy=GOVT_Democracy> you can pay
+overtime and hire temporary workers to complete a project. This costs gold from your treasury; the amount depends
+upon how much work remains to be done.
+^
+^
+^$LINK<Great leaders=GCON_Leaders> can also be used to hurry production.
+^
+^
+^You have [no] production if your civilization is in $LINK<Anarchy=GOVT_Anarchy>.
+
+
+
+
+

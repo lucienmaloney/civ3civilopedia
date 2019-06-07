@@ -1,0 +1,12 @@
+#DESC_GCON_Worker_Jobs_Advanced
+^
+^ 
+^{Automate: No Altering (Shift-A)}
+^Automates the worker, allowing it to perform automated tasks that do not change existing tile improvements.
+^
+^{Automate: No Altering/This City Only (Ctrl-Shift-I)}
+^Automates the worker, allowing it to perform automated tasks to improve the nearest city and that do
+not change existing tile improvements.
+
+
+

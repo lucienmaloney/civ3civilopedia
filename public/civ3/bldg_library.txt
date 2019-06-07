@@ -1,0 +1,4 @@
+#BLDG_Library
+^
+^
+^A city with a [Library] produces 50% more $LINK<scientific research=GCON_Research> than it would without one.

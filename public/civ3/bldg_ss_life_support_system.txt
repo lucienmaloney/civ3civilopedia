@@ -1,0 +1,4 @@
+#BLDG_SS_Life_Support_System
+^
+^
+^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type.

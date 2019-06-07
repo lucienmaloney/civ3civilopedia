@@ -1,0 +1,9 @@
+#BLDG_SETI_Program
+^
+^
+^Doubles $LINK<scientific research=GCON_Research> in the city where it is built.
+^
+^
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Expansionist civilizations.

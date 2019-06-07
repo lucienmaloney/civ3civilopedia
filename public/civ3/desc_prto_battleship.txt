@@ -1,0 +1,15 @@
+#DESC_PRTO_Battleship
+^
+^
+^The battleship was once the most powerful vessel on the seas. Heavily armored and difficult to destroy, its 
+massive guns could accurately fire heavy projectiles at targets miles away. The battleship had two primary 
+functions: clearing the seas of enemy ships and bombarding enemy coastal targets, usually in preparation for 
+an invasion. The battleship's importance began to decline in World War II when the increasing use of fighters 
+and bombers launched from aircraft carriers greatly extended the range of naval conflicts. Ship-to-ship combat 
+became less frequent than long-range air attacks against enemy battle groups. The last of the U.S. Navy's 
+battleships was decommissioned shortly after the Vietnam War, but the four battleships of the Iowa class were 
+remodeled and re-commissioned in the 1980s.
+
+
+
+

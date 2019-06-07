@@ -1,0 +1,12 @@
+#TERR_Jungle
+^[Jungles] cover a significant portion of the equatorial areas of the world. Supplies of $LINK<rubber=GOOD_Rubber> can be
+found there, but also $LINK<disease=GCON_Disease>.
+^
+^Jungles may contain
+$LINK<tropical fruit=GOOD_Bananas>,
+$LINK<coal=GOOD_Coal>,
+$LINK<dyes=GOOD_Dye>,
+$LINK<gems=GOOD_Diamonds>,
+$LINK<rubber=GOOD_Rubber>,
+$LINK<silk=GOOD_Silk>, or
+$LINK<spice=GOOD_Spice>.

@@ -1,0 +1,15 @@
+#GCON_Disease
+Disease
+^
+^
+^[Disease] kills citizens and units that spend too much time in unhealthy areas like
+$LINK<floodplains=TERR_Flood_Plain>, $LINK<jungles=TERR_Jungle> and
+$LINK<marsh=TERR_Marsh>. Military units that fortify in these terrains are susceptible
+to [disease].
+^
+^Your workers can $LINK<clear jungles or marsh=TFRM_Clear_Wetlands> and eliminate that risk.
+Floodplains continue to be risky until you discover $LINK<sanitation=TECH_Sanitation>.
+
+
+
+

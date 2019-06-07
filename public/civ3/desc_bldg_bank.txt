@@ -1,0 +1,9 @@
+#DESC_BLDG_Bank
+^
+^
+^A highly developed banking system is one of the cornerstones of an advanced civilization. Banks lend money to individuals or groups, 
+providing capital for industrial and real estate development. Banks also contribute to the economic growth of a city or region by stimulating 
+the development of production facilities. Individual citizens can also benefit by investing their own surplus money in the bank and  earning 
+interest on it.
+
+

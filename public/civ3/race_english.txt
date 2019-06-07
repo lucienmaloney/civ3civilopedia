@@ -1,0 +1,28 @@
+#RACE_ENGLISH
+^The British are $LINK<seafaring and commercial=GCON_Strengths>. They start the game with
+$LINK<the Alphabet=TECH_Alphabet> and $LINK<Pottery=TECH_Pottery> and build
+$LINK<men-o-war=PRTO_Man-O-War> instead of $LINK<frigates=PRTO_Frigate>. 
+^
+^In Roman times Britain lay on the periphery of the civilized world, and it emerged into the light of history 
+only after the Saxon settlements in the 5th century AD. Tribal migrations into Britain began about the middle 
+of the 5th century. The first arrivals were invited by a British chieftain to defend his kingdom against the Picts 
+and Scots. The first mercenaries were from three tribes - the Angles, Saxons, and Jutes - which located on the 
+coastlands of northwestern Germany. Eventually, these peoples would themselves topple the native kingdoms. But 
+unity was fleeting; the subsequent Norman Conquest (1066) resulted in the subordination of England to a Frankish 
+aristocracy, and the introduction of feudalism to the Isles.
+^    The English Normans would eventually give rise to a 
+purely British line of kings, the Plantagenets. Three centuries later, the Wars of the Roses was the final struggle 
+between the Yorkist and Lancastrian descendants of the Plantagenets for control of the throne. When Henry Tudor, earl 
+of Richmond, seized the crown in 1485, leaving the Yorkist Richard III dead upon the field of battle, few Englishmen 
+would have predicted that 118 years of Tudor rule had begun. {Elizabeth} I (1558-1603) proved to be the most able Tudor 
+monarch. No observer in 1558, any more than in 1485, would have predicted 
+that despite the social discord, political floundering, and international humiliation of the past decades, the kingdom 
+again stood on the threshold of an extraordinary age. Her reign ushered in two centuries of British exploration, 
+colonization, artistic and intellectual advances. When Elizabeth, the "Virgin Queen," died childless, Parliament 
+offered the crown to the closest blood kin, James VI of Scotland (1603-1625) and the United Kingdom was born, 
+defended by the "wooden wall" of the Royal Navy�s {Men-o-War}. 
+^    Every major war Britain engaged in during this period increased its colonial power. The Seven Years' War 
+was particularly notable in this respect, and so were the Napoleonic Wars. By 1820 the total population  
+of the British Empire was 200 million, 26% of the world's total population. However acquired, all these
+acquisitions added to the crown�s and the country's power and reputation. For the privileged and the rich, 
+the Victorian era was pre-eminently one of confidence 

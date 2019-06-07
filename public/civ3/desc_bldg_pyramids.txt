@@ -1,0 +1,10 @@
+#DESC_BLDG_Pyramids
+^
+^
+^Built by the fourth dynasty of Egyptian rulers, the Pyramids represent the pinnacle of ancient Egyptian cultural achievement. Constructed on the Giza 
+plateau outside modern-day Cairo, these structures were burial tombs and monuments for the Pharaohs, and may have taken generations and tens 
+of thousands of workers to complete. The Pyramids are the only one of the generally accepted man-made wonders of the ancient world that remains
+in existence today.
+
+
+

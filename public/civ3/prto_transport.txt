@@ -1,0 +1,8 @@
+#PRTO_Transport
+^
+^
+^While barely able to defend itself, the [Transport] can move large quantities of military forces over
+the bounding main. A transport carrying $LINK<Marines=PRTO_Marine> can be a significant off-shore
+threat to any nation.
+^
+^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a transport.

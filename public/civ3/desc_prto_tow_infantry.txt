@@ -1,0 +1,7 @@
+#DESC_PRTO_TOW_Infantry
+^
+^
+^TOW stands for Tube-launched Optically-tracked Wire-guided (missile). A TOW missile can be fired by a lone infantry soldier; its purpose is armor penetration, meaning that TOW-armed infantry units can effectively fight tanks, destroying very expensive and
+ difficult-to-train units at the risk of a substantially cheaper one. TOW missiles are especially effective in tank-unfriendly terrain, permitting pot-shots from heavy cover. TOW missiles are gaining popularity in nations whose armed forces are not cutting edge,
+ although they are still a little too expensive for wide use among poorly funded irregular forces.
+

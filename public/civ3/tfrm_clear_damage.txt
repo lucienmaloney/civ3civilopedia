@@ -1,0 +1,10 @@
+#TFRM_Clear_Damage
+^
+^
+^A worker can repair a damaged square (cleaning up pollution and volcanic fallout, and filling in bomb craters),
+thus restoring the square to its former production capacity.
+^
+^A worker is ordered to clear damage by pressing [Shift-C] or the "Clear Damage" button.
+
+
+

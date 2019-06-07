@@ -1,0 +1,6 @@
+#BLDG_Coal_Plant
+^
+^
+^The [Coal Plant] increases $LINK<factory=BLDG_Factory> output by 50%.
+^It does produce $LINK<pollution=GCON_Pollution>.
+^It replaces any other power plant in the city. A Factory is required to build a Coal Plant.

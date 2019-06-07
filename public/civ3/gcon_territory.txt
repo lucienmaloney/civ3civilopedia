@@ -1,0 +1,27 @@
+#GCON_Territory	
+Territory
+^
+^
+^Every civilization has [territory] (areas of the map claimed as national land). The extent of your territory
+is the sum of all terrain squares under the cultural influence of your cities, which in turn is a
+result of the $LINK<cultural value=GCON_Culture> of each city. 
+^
+^
+^{Borders}
+^Your territory is defined by your [borders], which are drawn in your civilization's color, and clearly mark
+your cultural boundaries. The area within your borders is [friendly] territory.
+^ 
+^
+^{Advantages of Friendly Territory}
+^Your territory has several characteristics beneficial to you.
+^* Rival civilizations cannot benefit from the roads or rails within your territory without a
+$LINK<right of passage=GCON_Agreements> agreement.
+^* You can always $LINK<"see"=GCON_Maps> squares in friendly territory.
+^* Tradable $LINK<resources=GCON_ResourcesN> are easier to get when found within your territory
+(no need for a $LINK<colony=GCON_Colony>).
+^* You can eject rival military units from your territory during diplomatic negotiations.
+
+
+
+
+

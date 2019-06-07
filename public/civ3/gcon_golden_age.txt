@@ -1,0 +1,27 @@
+#GCON_Golden_Age
+Golden Age
+^
+^
+^Every civilization can experience a [Golden Age], a 20-turn period in which every citizen laborer in the empire
+is more productive, producing one extra $LINK<shield=GCON_Shields> and/or $LINK<commerce=GCON_Commerce>
+if already producing at least one. A civilization's Golden Age is triggered in one of two ways:
+^
+^{Unique Unit Victory}
+^Each civilization has a unique military unit -- one that only it can build.
+A civilization's Golden Age can begin when its unique military unit is victorious in battle.  Note that only victories
+versus other civilizations are capable of initiating a Golden Age in this way.  Victories versus barbarians will not initiate
+a Golden Age.
+^
+^
+^{Great Wonders}
+^Each $LINK<Great Wonder=MENU_Wonders> is associated with one or more civilization strengths.
+If a civilization builds a Great Wonder (or Wonders) that corresponds to [both] its unique $LINK<strengths=GCON_Strengths>, its Golden Age can be triggered.
+^
+^{For example} if the Egyptians (industrious and religious) build the Pyramids (which is both a
+feat of construction and a place of worship), Egypt's Golden Age could begin. Or if the
+Babylonians (scientific and religious) build the Great Library (scientific) [and] the Oracle
+(religious) Babylon's Golden Age could begin.
+
+
+
+

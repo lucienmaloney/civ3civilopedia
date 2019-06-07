@@ -1,0 +1,31 @@
+#GCON_Agreements
+Diplomatic Agreements
+^
+^
+^When your civilization builds an $LINK<embassy=GCON_Embassies> in a rival's capital city, or when a rival builds one
+in your capital, you can negotiate [Diplomatic Agreements] with that civilization. There are four kinds:
+^
+^
+^{Military Alliance}
+^You agree to declare war on a despised third party.
+^
+^
+^{Right of Passage}
+^You agree to allow his or her military units to move through your $LINK<territory=GCON_Territory> and use
+your transportation network (roads and railroads).
+^
+^
+^{Trade Embargo}
+^An agreement that neither of you will $LINK<trade=GCON_Trade> with or [allow] trade with a third party.
+^
+^
+^{Mutual Protection Pact}
+^An agreement to declare war upon any civilization that attacks your partner.
+^
+^
+^There is a fifth item that you can trade through your Embassies: {Communications}. These are
+introductions to a third civilization you can grant or receive from a rival.
+
+
+
+

@@ -1,0 +1,9 @@
+#DESC_TECH_Music_Theory
+^
+^
+^Music finds a comfortable parallel with that of human language. Much as language has words, sentences, and stories, music has tones, 
+melodies, and songs. The theory of music emphasizes the elements from which music is composed. One such structure is the melody, which 
+is a grouping of musical notes that combine into a basic, but immensely flexible structure. Another is the chord, which is two or more notes 
+played simultaneously to create a harmony. The impact of music throughout history can be clearly seen, as both entertainment and an art.
+
+

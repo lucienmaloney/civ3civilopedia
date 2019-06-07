@@ -1,0 +1,11 @@
+#DESC_PRTO_Pikeman
+^
+^
+^The growing deployment of knights on the battlefield demanded that foot soldiers develop new means of fighting 
+that would lessen their vulnerability to mounted opponents. One of the best ways to do this was to 
+lengthen the reach of the infantrymen by arming them with long, sturdy spears known as pikes. Massed infantry 
+armed with pikes -- particularly in conjunction with archers -- managed to even the battlefield odds. Armies equipped in this 
+manner were able to hold their own until the invention of gunpowder made archers, pikemen, and knights a thing of the past.
+
+
+

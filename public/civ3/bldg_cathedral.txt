@@ -1,0 +1,4 @@
+#BLDG_Cathedral
+^
+^
+^[The Cathedral] produces three $LINK<content faces=GCON_Happy_Faces>, making three unhappy citizens content. You must have a $LINK<Temple=BLDG_Temple> in the city in order to build a Cathedral.

@@ -1,0 +1,7 @@
+#GOOD_Cattle
+^
+^
+^[Cattle] are $LINK<bonus resources=GCON_ResourcesB> that enhance city production. To get
+the bonus, the resource must be inside the city's $LINK<radius=GCON_Radius> and a citizen laborer must work the square. 
+^
+^Cattle are always visible in explored areas of the map and can be found in $LINK<grassland=TERR_Grassland> and $LINK<plains=TERR_Plains>.

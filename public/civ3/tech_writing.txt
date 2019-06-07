@@ -1,0 +1,5 @@
+#TECH_Writing
+^
+^
+^{New Ability} Can build $LINK<Embassies=GCON_Embassies>.
+^{Diplomatic Agreements} Can now negotiate military alliance.

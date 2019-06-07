@@ -1,0 +1,7 @@
+#GOOD_Aluminum
+^
+^
+^[Aluminum] is a $LINK<Strategic Resource=GCON_ResourcesS> required to build Modern Era units and Spaceship Parts.
+^
+^Aluminum sources appear when your civilization discovers $LINK<Rocketry=TECH_Rocketry> and can be found in
+$LINK<hills=TERR_Hills> and $LINK<tundra=TERR_Tundra>.

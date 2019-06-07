@@ -1,0 +1,6 @@
+#TERR_Tundra
+^Cold, barren permafrost found in polar regions, [tundra] may contain
+$LINK<aluminum=GOOD_Aluminum>,
+$LINK<furs=GOOD_Furs>,
+$LINK<game=GOOD_Game>, or
+$LINK<oil=GOOD_Oil>.

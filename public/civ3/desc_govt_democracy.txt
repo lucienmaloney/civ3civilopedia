@@ -1,0 +1,11 @@
+#DESC_GOVT_Democracy
+Democracy is a ruling system where the citizens have a great deal of control over the actions of the government, either directly or 
+through elected representatives. Democratic governments can be traced back to the city-states of ancient Greece and Rome. 
+Citizens would gather in a public forum, and each one would have the opportunity to speak and vote on issues affecting the 
+community. This direct democracy system was possible due to the relatively small populations of the city-states. Starting in the 
+17th century, the monarchs of Europe began to be stripped of their absolute power, and by the end of the 19th century the 
+citizens had a strong voice in government in many European nations. Large populations made public forums impractical, so the 
+people elected groups of representatives to carry their views to the ruling powers. Strictly speaking, this type of system more 
+closely resembles a republican system rather than a true democracy. This type of representative democracy is considered the best 
+governing system in the modern world because of the personal and economic freedom enjoyed by the citizens.
+

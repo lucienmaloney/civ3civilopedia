@@ -1,0 +1,13 @@
+#DESC_BLDG_Internet
+^
+^
+^The Internet is a computer system architecture that has revolutionized methods of communications and commerce by allowing various computer networks 
+around the world to connect.  The internet provides a capability so powerful and general that it can be used for almost any purpose, supporting human 
+communication via e-mail, chat rooms, newsgroups, forums, as well as in audio and video transmissions.  The Internet emerged in the United States in 
+the 1970s, but did not become visible to the general public until the early 1990s. By the beginning of the 21st century, approximately 6% of the world�s 
+population was estimated to have access to the internet.  It is widely assumed that at least half of the world's population will have some form of 
+access to the internet by the year 2010.  Many experts believe that the Internet will continue to dramatically transform business as well as society.
+
+
+
+

@@ -1,0 +1,5 @@
+#PRTO_Ragnar
+^
+^
+^Ragnar is the King unit for the $LINK<Vikings=RACE_Vikings> in the Regicide $LINK<Short Game Mode=GCON_Short_Game_Modes>.
+

@@ -1,0 +1,27 @@
+#RACE_Carthaginians
+^The Carthaginians are $LINK<seafaring and industrious=GCON_Strengths>. They start the game with
+$LINK<Alphabet=TECH_Alphabet> and $LINK<Masonry=TECH_Masonry> and build
+$LINK<Numidian Mercenaries=PRTO_Libyan_Mercenary> instead of $LINK<spearmen=PRTO_Spearman>. 
+^
+^Carthaginians were 8th century BC Phoenician emigrants who fled from the Persian-held city of Tyre and sought to fashion 
+their own identity in the fertile peninsula of northern Africa.  The effort of these refugees was realized in the foundation 
+of Carthage.  The Romans knew the people of Carthage as "Poeni", a derivation of the word "Phoenicians", from which the 
+adjective "Punic" is also derived.  Carthage is located in modern-day Tunisia, bordered by Algeria, Libya, and the 
+Mediterranean Sea.  Located roughly center of the triangular Cap Bon peninsula, it is surrounded by low hills and backed 
+by the lake of Tunis, allowing for safe anchorage and an abundant supply of fish.  The resulting city site was well 
+protected, and easily defensible.  Carthaginian control extended as far southwest as Theveste in northern Algeria; 
+throughout which, a thriving agriculture developed.
+^    The actual stages of growth in Carthaginian power are unknown, but the process was largely complete by the start of 
+the 4th century BC.  Ancient sources indicate that Carthage had perhaps become the richest city in the world via trade in 
+perishable goods such as textiles, un-worked metals, food, and slaves.  Tin, silver, gold, and iron were obtained in 
+exchange for these manufactured and consumer goods.  Carthage maintained a monopoly of trade from the 6th to 3rd century 
+BC by sinking all intruders and exacting recognition of its position from neighboring Mediterranean states.  This wealth 
+was attested by the vast mercenary armies it was able to maintain with a mintage of gold coins far exceeding that known 
+for any other advanced state of its time. 
+^    While frequently led by Carthaginian soldiers, the majority of the Carthaginian armies was comprised of mercenaries.  
+Celts and Iberians contributed large numbers of infantry and horsemen, but {Numidian Infantry} dominated their ranks.  These 
+Numidian mercenaries were equipped with loot from assorted engagements against Rome, and were generally regarded as capable 
+soldiers and spearmen.
+^    The First Punic War between Rome and Carthage resulted from attempts to garner control over lands and trade routes 
+through Corsica and Sicily.  Carthaginians intervened in a dispute between the
+

@@ -1,0 +1,25 @@
+#GCON_We_Love_The_King_Day
+We Love the __ Day
+^
+^
+^At certain points in the game, if the population of a city has been well provided for and are happy, a city-wide
+celebration will occur in that city, called "We Love the King Day" (or Emperor, or Regent, or President, etc.).
+^
+^The provisions for this to occur are:
+^
+^	The city cannot be starving,
+^	The city cannot have any resisters,
+^	The city cannot have any unhappy citizens,
+^	There must be more happy citizens than content citizens, and
+^	The city must be large enough (typically size 6).
+^
+^
+^
+^The benefits of having a "We Love the __ Day" celebration are:
+^
+^	The chance of the city converting to another civ is halved,
+^	Waste in the city is reduced, and
+^	The effectiveness of enemy spy propaganda missions against the city is reduced.
+
+
+

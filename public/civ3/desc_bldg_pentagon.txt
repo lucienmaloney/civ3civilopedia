@@ -1,0 +1,8 @@
+#DESC_BLDG_Pentagon
+^
+^
+^The Pentagon is the largest office building in existence. The structure was completed on January 15, 1943, during the height of the Second World War, after a crash building effort of only 
+16 months. The 83 million dollar facility covers more than six million square feet, roughly three times that of the Chicago�s Sears Tower (the second largest office building). Originally a US Army facility,
+it soon became the nerve center for all military branches of the United States.
+
+

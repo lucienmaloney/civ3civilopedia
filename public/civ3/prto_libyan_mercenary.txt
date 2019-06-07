@@ -1,0 +1,5 @@
+#PRTO_Libyan_Mercenary
+^
+^
+^[Numidian Mercenaries] replace $LINK<spearmen=PRTO_Spearman> as the first and best defensive units of the Bronze Age
+for the $LINK<Carthaginians=RACE_Carthaginians>. They replace the $LINK<spearman=PRTO_Spearman> and have an increased attack ability.

@@ -1,0 +1,5 @@
+#BLDG_Aqueduct
+^
+^
+^A city with an [Aqueduct] can grow beyond population six.
+^Note that a city adjacent to fresh water never requires an aqueduct.

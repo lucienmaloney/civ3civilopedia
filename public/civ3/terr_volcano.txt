@@ -1,0 +1,3 @@
+#TERR_Volcano
+^A [Volcano] is a mountain capped by a large crater which can, on rare occasions,
+$LINK<erupt=GCON_Volcanic_Eruptions> and spew forth streams of molten lava.

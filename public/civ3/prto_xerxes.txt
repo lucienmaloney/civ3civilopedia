@@ -1,0 +1,5 @@
+#PRTO_Xerxes
+^
+^
+^Xerxes is the King unit for the $LINK<Persians=RACE_PERSIAN> in the Regicide $LINK<Short Game Mode=GCON_Short_Game_Modes>.
+

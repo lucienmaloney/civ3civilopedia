@@ -1,0 +1,9 @@
+#BLDG_Universal_Suffrage
+^
+^
+^Reduces $LINK<war weariness=GCON_War_Weariness> in all cities.
+^
+^
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Agricultural civilizations.

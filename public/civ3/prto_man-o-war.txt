@@ -1,0 +1,9 @@
+#PRTO_Man-O-War
+^
+^
+^The English [Man-O-War] is a powerful $LINK<frigate=PRTO_Frigate> that only the English may build.
+^
+^The English Man-O-War can $LINK<Enslave=GCON_Enslavement>, and a successful enslavement creates another Man-O-War. 
+^
+^An English coastal city needs both $LINK<iron=GOOD_Iron> and $LINK<saltpeter=GOOD_Saltpeter> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build the Man-O-War.

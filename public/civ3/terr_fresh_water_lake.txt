@@ -1,0 +1,3 @@
+#TERR_Fresh_Water_Lake
+^[Lakes] are bodies of water completely surrounded by land. They contain fresh water, allowing 
+$LINK<irrigation=TFRM_Irrigation> of adjacent squares without $LINK<electricity=TECH_Electricity>.

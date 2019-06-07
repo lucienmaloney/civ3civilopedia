@@ -1,0 +1,16 @@
+#TERR_Hills
+^Rolling areas of the countryside often found between plains and more mountainous regions are known as [hills]
+or [foothills.]
+^
+^Hills may contain
+$LINK<aluminum=GOOD_Aluminum>,
+$LINK<coal=GOOD_Coal>,
+$LINK<gold=GOOD_Gold>,
+$LINK<horses=GOOD_Horses>,
+$LINK<incense=GOOD_Incense>,
+$LINK<iron=GOOD_Iron>,
+$LINK<saltpeter=GOOD_Saltpeter>,
+$LINK<sugar=GOOD_Sugar>,
+$LINK<tobacco=GOOD_Tobacco>, or
+$LINK<wine=GOOD_Wine>.
+

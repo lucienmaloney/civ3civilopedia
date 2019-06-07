@@ -1,0 +1,4 @@
+#BLDG_Recycling_Center
+^
+^
+^The [Recycling Center] decreases $LINK<pollution=GCON_Pollution> caused by city improvements.

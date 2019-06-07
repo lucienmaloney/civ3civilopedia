@@ -1,0 +1,8 @@
+#TERR_Sea
+^[Sea] squares are significant barriers to $LINK<trade=GCON_Trade> and $LINK<travel=PRTO_Galley> until the
+discovery of $LINK<astronomy=TECH_Astronomy>.
+^
+^Seas may contain
+$LINK<fish=GOOD_Fish> or
+$LINK<whales=GOOD_Whales>.
+

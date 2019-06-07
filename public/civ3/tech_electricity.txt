@@ -1,0 +1,5 @@
+#TECH_Electricity
+^
+^
+^
+^{New Ability}  Workers can $LINK<irrigate=TFRM_Irrigation> without fresh water.

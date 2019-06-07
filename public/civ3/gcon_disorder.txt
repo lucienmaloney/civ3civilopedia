@@ -1,0 +1,21 @@
+#GCON_Disorder
+Civil Disorder
+^
+^
+^[Civil Disorder] is a state of near anarchy in a city, in which the city essentially freezes and shuts down:
+^* $LINK<Production=GCON_Shields> ceases,
+^* No revenue comes in from $LINK<commerce=GCON_Commerce>, and
+^* No excess $LINK<food=GCON_Food> is stored.
+^
+^
+^Prolonged periods of civil disorder can lead to:
+^* Destruction of existing $LINK<city improvements=MENU_City_Improvements> or even sabotage to ongoing projects by angry mobs.
+^* $LINK<Defection=GCON_Conversion> of the city to a nearby rival civilization with a strong culture.
+^* An overthrow of your $LINK<government=GCON_Governments> and descent of your empire into anarchy.
+^
+^
+^Civil disorder erupts when a city has more unhappy than happy citizens. The only remedy is to improve the 
+$LINK<mood=GCON_Moods> of the people in the city.
+
+
+

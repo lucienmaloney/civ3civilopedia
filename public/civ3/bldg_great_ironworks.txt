@@ -1,0 +1,5 @@
+#BLDG_Great_Ironworks
+^
+^
+^$LINK<Production=GCON_Shields> increased by 100% in the city where it's built.
+^{Requires:} The city that builds it must have Iron and Coal in its city radius.

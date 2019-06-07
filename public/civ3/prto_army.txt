@@ -1,0 +1,17 @@
+#PRTO_Army
+^
+An [Army] is a group of ordinary units that move and fight together. To form an army, you must build the Army unit
+and then 'load' other units into it. You can load up to three units, though the $LINK<Pentagon=BLDG_Pentagon>
+increases this limit to four, if you have built it.
+^
+^{Building an Army}
+^Armies can be built in cities that have the $LINK<Military Academy=BLDG_Military_Academy>
+or a $LINK<Leader=GCON_Leaders> in them. But you must have at least four cities for every army you create.
+^
+^{In Battle}
+^An army uses one, some, or all its internal units to fight a battle, depending upon the course of the fight.
+^
+^{Spotting}
+^An army can "see" up to two squares away, due to its intrinsic scouts.
+
+

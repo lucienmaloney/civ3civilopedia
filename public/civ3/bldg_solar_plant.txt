@@ -1,0 +1,6 @@
+#BLDG_Solar_Plant
+^
+^
+^The [Solar Plant] increases $LINK<factory=BLDG_Factory> output by 50%.
+^It produces no $LINK<pollution=GCON_Pollution>, and replaces any other power plant in the city. A Factory is required to build a 
+Solar Plant.

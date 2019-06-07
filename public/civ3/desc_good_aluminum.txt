@@ -1,0 +1,13 @@
+#DESC_GOOD_Aluminum
+^
+^
+^A silvery, gray metal, aluminum has a staggering number of uses and applications. Just a few examples include the fact it never 
+rusts, is lighter than copper (and almost as effective in electricity transmission), and is soft enough to easily mold for nearly any 
+purpose. Though the dominant metal in the Earth�s composition, aluminum wasn�t discovered until 1825, thousands of years 
+after copper and iron. The primary reason for this was the difficulty in extracting the metal from the ore (in modern aluminum, 
+the ore bauxite). Charles Hall, a 22-year-old American, created what was to become the most cost effective method of 
+separating aluminum in 1886. His process involved passing an electrical current through aluminum oxide, resulting in two 
+separate components of pure aluminum and oxygen.
+
+
+

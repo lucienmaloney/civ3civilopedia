@@ -1,0 +1,4 @@
+#TECH_Rocketry
+^
+^
+^{New Resource}  $LINK<Aluminum=GOOD_Aluminum> appears on the map.

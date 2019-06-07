@@ -1,0 +1,11 @@
+#PRTO_Cruise_Missile
+^
+^
+^Cruise missiles are long-range, fire-and-forget weapons that can find the target on their own. Like all artillery-type
+units, cruise missiles have no attack or defense values, only bombardment.
+^
+^
+^The Cruise Missle has both Lethal Land and Sea Bombardment. 
+^
+^
+^A city must have $LINK<aluminum=GOOD_Aluminum> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build cruise missiles.

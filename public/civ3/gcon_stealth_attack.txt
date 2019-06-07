@@ -1,0 +1,7 @@
+#GCON_Stealth_Attack
+Stealth Attack
+^
+^
+^Stealth attack allows a unit to specify which enemy unit -- in a stack -- it will attack. As soon as a unit with stealth capability attacks a stack of enemy units, a selection box appears listing the target units. >From this box, you may select the unit to attack. The stealth unit then conducts its attack normally against the unit you've targeted. 
+
+

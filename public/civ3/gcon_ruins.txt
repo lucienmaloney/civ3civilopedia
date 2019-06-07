@@ -1,0 +1,8 @@
+#GCON_Ruins
+Ruins
+^
+^
+^When a city is destroyed, Ruins take its place on the map. Ruins will stay on the map indefinitely, unless they
+are built upon by another city. They have no impact on the production of the terrain they reside in. 
+
+

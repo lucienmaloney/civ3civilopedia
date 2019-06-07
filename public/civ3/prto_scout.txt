@@ -1,0 +1,4 @@
+#PRTO_Scout
+^
+^
+^[Scouts] are unarmed, non-combat units with two movement points. They are good at exploring the countryside.

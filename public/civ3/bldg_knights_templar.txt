@@ -1,0 +1,7 @@
+#BLDG_Knights_Templar
+^
+^
+^The [Knights Templar] produces a $LINK<Crusader=PRTO_Crusader> every 5 turns.
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Militaristic and Religious civilizations.

@@ -1,0 +1,14 @@
+#DESC_BLDG_SS_Landing_Docking_Bay
+^
+^
+^Built entirely in space and for space travel, the Space Ship is a marvel of human technology. The Docking Bay module 
+allows for the transfer of personnel and materials both during the initial loading of the Space Ship as well as during its 
+final orbit, during which it will be converted to a Space Station for the first phase of the colonization and terraforming 
+process. The Docking Bay module also holds the RCV Manned Shuttle, the main travel and transit vehicle for the Space Ship 
+occupants, as well as providing access for the engineers to the exterior of the Space Ship during space walks. The Docking 
+Bay is in essence a large air lock with a door large enough to release the RCV, flanked by a pair of smaller air locks for 
+transferal of small teams of individuals. The Docking Bay also has large magnetic locks, allowing the Space Ship to join to 
+the International Space Station prior to its departure during the final phases of supply loading before launching from 
+Earth's orbit for its interstellar trip.
+
+

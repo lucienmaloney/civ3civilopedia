@@ -1,0 +1,24 @@
+#DESC_GCON_Espionage_Missions
+^
+^
+^(continued)
+^
+^{Steal Technology -} This option attempts to Steal a Technology from the currently selected Civilization. 
+^
+^{Steal Military Plans -} Use a spy to steal military plans of a rival, which reveals the locations of all their military units.
+^
+^{Initiate Propaganda -} Initiate propaganda against the city where the spy resides. If successful, 
+the people will revolt and $LINK<defect=GCON_Conversion> to your side.
+^
+^{Expose Enemy Spy -} If you suspect a rival has planted a spy in one of your cities you can attempt to expose the intruder.
+^
+^{Investigate City -} This option attempts to Investigate a City belonging to the currently selected Civilization.
+^
+^{Steal World Map -} Use a spy to steal a $LINK<world map=GCON_Maps> from a rival.
+^
+^{Sabotage Production -} Use a spy to destroy all the $LINK<shields=GCON_Shields> in the production box of a rival city.
+^
+
+
+
+

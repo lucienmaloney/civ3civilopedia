@@ -1,0 +1,7 @@
+#GOOD_Horses
+^
+^
+^[Horses] are $LINK<Strategic Resources=GCON_ResourcesS> required to build mounted military units.
+^
+^Horses appear when your civilization discovers $LINK<The Wheel=TECH_The_Wheel> and can be found in
+$LINK<grasslands=TERR_Grassland>, $LINK<plains=TERR_Plains>, and $LINK<hills=TERR_Hills>.

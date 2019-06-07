@@ -1,0 +1,5 @@
+#BLDG_Barracks
+^
+^A city with a [Barracks] produces $LINK<veteran=GCON_Experience> ground units instead of regulars and heals ground units
+completely in one turn.
+^A city with a [Barracks] can be used to upgrade ground units.

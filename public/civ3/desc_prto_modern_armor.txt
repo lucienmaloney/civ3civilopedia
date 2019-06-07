@@ -1,0 +1,10 @@
+#DESC_PRTO_Modern_Armor
+^
+^
+^Modern armor's goal is to provide versatile firepower that can operate in any battlefield condition, while at the
+same time ensuring the safety of its crew. Sophisticated electronics allows modern tanks to operate in any weather,
+day or night, with no significant performance degradation. Capable of nearly 50 mph in rugged terrain, these fighting vehicles are often
+in the 50-60 ton range. Though their firepower varies, most of these advanced tracked vehicles are equipped with 100mm+ 
+cannons, in addition to other smaller caliber machine guns. Depending on the assignment, some versions include 
+"reactive" armor, which helps to thwart the advanced armor-penetrating munitions seen on today's battlefields. 
+

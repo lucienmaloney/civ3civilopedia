@@ -1,0 +1,14 @@
+#DESC_PRTO_Worker
+^
+^
+^In primitive, hunter-gatherer cultures, there was no division of labor. But every civilization since has had a 
+worker "class," devoted to the production of goods and the unskilled tasks necessary for the maintenance of society. 
+In most early societies, slaves and peasants fulfilled this role. With the coming of the Middle Ages, the more 
+specialized workers organized themselves into craft guilds. The technological advances of the Industrial Age gave 
+rise to a new class of semi-skilled workers: wage laborers, most of which worked in factories and offices. 
+Continuing trends in the specialization and professionalism of labor during the late 20th century has not altered 
+the fact, however, that civilization still rests upon the shoulders of those who till the fields and build the 
+roads.
+
+
+

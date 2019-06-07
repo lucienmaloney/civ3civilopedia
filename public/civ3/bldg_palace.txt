@@ -1,0 +1,7 @@
+#BLDG_Palace
+^
+^
+^[The Palace] marks the capital city and center of your empire.
+^It eliminates $LINK<corruption/waste=GCON_Corruption> in the capital, and decreases it in nearby cities.
+Each civilization can have only one palace at a time. But each civilization can also build the
+$LINK<Forbidden Palace=BLDG_Forbidden_Palace>.
