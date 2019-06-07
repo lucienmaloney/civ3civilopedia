@@ -6,3 +6,7 @@
   background-image: url('/img/Civilopedia/bar-orange.bmp');
   color: rgb(132, 90, 49);
 }
+
+p#text {
+  height: 180px !important;
+}

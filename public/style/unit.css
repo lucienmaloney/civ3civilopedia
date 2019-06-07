@@ -7,3 +7,6 @@
   color: rgb(0, 0, 132);
 }
 
+p#text {
+  height: 210px !important;
+}

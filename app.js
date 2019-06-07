@@ -27,27 +27,59 @@ const VIEWS = {
   menu: 'concepts',
 };
 
+const NAMES = {
+  race: 'Tribes',
+  tech: 'Civilization Advances',
+  gwdr: 'Great Wonders',
+  swdr: 'Small Wonders',
+  bldg: 'City Improvements',
+  gvmt: 'Governments',
+  prto: 'Units',
+  tfrm: 'Worker Actions',
+  terr: 'Terrain',
+  good: 'Resources',
+  gcon: 'Game Concepts',
+};
+
 const CIVILOPEDIA_JSON = require('./public/civ3complete.json');
 
 app.get('/civilopedia', function(req, res, next) {
+  const keys = Object.keys(NAMES);
+  let links = keys.map(k => {
+    return `<a href="/civilopedia/${k}">${NAMES[k]}</a>`;
+  });
+
   res.status(200).render(VIEWS.gcon, {
-    text: 'Main Menu',
+    text: links.join('\n'),
     header: 'Main Menu',
   });
 });
 
 app.get('/civilopedia/:section', function(req, res, next) {
-  fs.readFile('public/civ3/game_concepts_keys.txt', 'latin1', function(err, text) {
-    if (err) {
-      next(err);
-      return 0;
+  const section = (req.params.section || '').toLowerCase();
+
+  if (NAMES[section]) {
+    let keys = Object.keys(CIVILOPEDIA_JSON[section] || CIVILOPEDIA_JSON.bldg);
+    if (section === 'bldg') {
+      keys = keys.filter(k => CIVILOPEDIA_JSON.bldg[k].type === 'Improvement');
+    } else if (section === 'gwdr') {
+      keys = keys.filter(k => CIVILOPEDIA_JSON.bldg[k].type === 'Great Wonder');
+    } else if (section === 'swdr') {
+      keys = keys.filter(k => CIVILOPEDIA_JSON.bldg[k].type === 'Small Wonder');
     }
 
-    res.status(200).render(VIEWS.gcon, {
-      text: text,
-      header: 'Sub Menu',
+
+    const links = keys.map(k => {
+      return `<a href="${Civ.fileNameToUrlPath(k)}">${(CIVILOPEDIA_JSON[section] || CIVILOPEDIA_JSON.bldg)[k].name}</a>`
     });
-  });
+
+    res.status(200).render(VIEWS.menu, {
+      header: NAMES[section],
+      text: links.join('\n'),
+    });
+  } else {
+    next();
+  }
 });
 
 app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {

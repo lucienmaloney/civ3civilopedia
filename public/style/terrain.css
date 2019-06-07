@@ -6,3 +6,7 @@
   background-image: url('/img/Civilopedia/bar-green.bmp');
   color: rgb(0, 132, 0);
 }
+
+p#text {
+  height: 80px !important;
+}
