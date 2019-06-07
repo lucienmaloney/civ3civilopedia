@@ -63,6 +63,7 @@ html {
   font-size: 10pt;
   overflow: hidden;
   padding: 48px 28px;
+  white-space: pre-wrap;
 }
 
 p {

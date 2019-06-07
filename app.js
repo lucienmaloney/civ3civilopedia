@@ -27,6 +27,8 @@ const VIEWS = {
   menu: 'concepts',
 };
 
+const CIVILOPEDIA_JSON = require('./public/civ3complete.json');
+
 app.get('/civilopedia', function(req, res, next) {
   res.status(200).render(VIEWS.gcon, {
     text: 'Main Menu',
@@ -51,27 +53,22 @@ app.get('/civilopedia/:section', function(req, res, next) {
 app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
   const section = (req.params.section || '').toLowerCase();
   const page = (req.params.page || '').toLowerCase();
+  const full = `${section}_${page}`;
 
-  const file = Civ.urlPathToFilePath(section, page, req.params.desc);
-
-  fs.readFile(file, 'latin1', function(err, text) {
-    if (err) {
-      next(err);
-      return 0;
-    }
-
-    const title = text.match(/_(.*)\n/)[1].replace(/_/g, ' ');
-    const parsedText = Civ.parseText(text);
+  if (CIVILOPEDIA_JSON[section] && CIVILOPEDIA_JSON[section][full]) {
+    const data = CIVILOPEDIA_JSON[section][full];
 
     res.status(200).render(VIEWS[section], {
-      text: parsedText,
-      header: title,
+      text: Civ.parseText(data.text),
+      header: data.name,
     });
-  });
+  } else {
+    next();
+  }
 });
 
 app.use('*', function(req, res) {
   res.status(404).send('404 Not Found');
 });
 
-app.listen(4000);
+app.listen(4000, () => console.log('Running on port 4000'));

@@ -17,7 +17,7 @@ class Civilopedia {
 
   static replaceLinks(text) {
     return text.replace(/\$LINK<([^=]*)=([^>]*)>/g, function(a, b, c) {
-      return `<a href="${Civilopedia.fileNameToUrlPath(c)}">${b}</a>`
+      return ` <a href="${Civilopedia.fileNameToUrlPath(c)}">${b}</a>`
     });
   }
 
@@ -26,12 +26,17 @@ class Civilopedia {
                 .replace(/\]/g, '</i>')
                 .replace(/\{/g, '<b>')
                 .replace(/\}/g, '</b>')
-                .replace(/\^/g, '<br>'));
+                .replace(/\n/g, ' ')
+                .replace(/\^/g, '\n'))
+                .replace(/  /g, ' ');
+  }
+
+  static cleanText(text) {
+    return text.split('\n').filter(t => t[0] !== '#').join('\n').trim();
   }
 
   static parseText(text) {
-    const trimmed = text.substring(text.indexOf('^\n^') + 5);
-    return Civilopedia.formatText(Civilopedia.replaceLinks(trimmed));
+    return Civilopedia.cleanText(Civilopedia.formatText(Civilopedia.replaceLinks(text)));
   }
 }
 
