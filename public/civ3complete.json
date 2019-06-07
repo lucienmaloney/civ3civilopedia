@@ -1,5 +1,5 @@
 {
-  "Tribes": {
+  "race": {
     "race_american": {
       "name": "America",
       "text": "#RACE_AMERICAN\n^The Americans are $LINK<expansionist and industrious=GCON_Strengths>. They start the game with\n$LINK<Pottery=TECH_Pottery> and $LINK<Masonry=TECH_Masonry> and build $LINK<F-15s=PRTO_F-15> instead of\nnormal $LINK<jet fighters=PRTO_Jet_Fighter>. \n^\n^The United States is relatively young by Civilization standards, being barely more than 200 years old; it achieved \nits current size and influence only in the mid-20th century. America was the first of the European colonies to separate \nsuccessfully from its motherland, and it was the first nation to be established on the premise that sovereignty rests \nwith its citizens and not with the government. In its first century and a half, the country was mainly preoccupied with \nits own territorial exploration and expansion and with economic growth. American politics became increasingly democratic \nduring the 1820s and '30s. But a matter of freedom would bring the nation to its greatest crisis: the American Civil War. \nOn February 4, 1861 - a month before {Abraham Lincoln} (1860-1865) could be inaugurated in Washington - six Southern \nstates sent representatives to Montgomery to declare a new independent government. With Jefferson Davis at its head, the \nConfederate States of America came into being, set up its own bureaus and offices, occupied federal buildings, issued its \nown money, raised its own taxes, and flew its own flag.\n^    With the Union preserved, the nation entered a period of unprecedented prosperity after the long conflict and \nreconstruction. In the ensuing two decades industrial production, the number of industrial workers, and the number \nof factories all more than doubled. European immigration, westward expansion, urban growth, technological advances \nand a host of American inventions - including the telephone, typewriter, linotype, phonograph, electric light, cash \nregister, air brake, refrigerator car, and the automobile - contributed to the American explosion, while widespread \nuse of corporate organization offered new opportunities for large-scale financing of business enterprise and attracted \nnew capital.\n^    Militarily speaking, the Spanish-American War of 1898 was so brief and relatively bloodless as to have been a \nmere passing episode in the history of modern warfare, but it catapulted the United States into the world arena. \nBefore the 1890s, roughly speaking, most Americans had stubbornly adhered to the belief, as old as the\n\n",
@@ -156,7 +156,7 @@
       "description": "#DESC_RACE_ZULU\n^\n^\n^of discrete\nareas of historical Zululand. With the abolition of the apartheid system, KwaZulu in 1994 was \nreincorporated into Natal province. The Zulu were the single largest ethnic group in modern South Africa and now \nnumber about nine million.\n\n\n\n"
     }
   },
-  "Civilization Advances": {
+  "tech": {
     "tech_advanced_flight": {
       "tech": {
         "requires": [
@@ -2244,7 +2244,7 @@
       "description": "#DESC_TECH_Writing\n^\n^\n^The development of writing is considered one of the most important advances of civilization. The earliest forms of writing were simple \nsymbols and marks, used to keep accounts and inventories. Some cultures developed pictographic symbols to tell stories and record events. \nEventually, complete systems of writing were developed, capable of conveying any thought that could be expressed orally. At this point, \nscribes replaced the oral historian as the chief keepers of records. Writing allowed the presentation of information in a form that could be \nreliably transmitted from person to person and made it possible for ideas, history, and knowledge to be stored permanently and passed \nbetween cultures more reliably than through oral recitation.\n\n\n"
     }
   },
-  "Great Wonders": {
+  "bldg": {
     "bldg_colossus": {
       "Cost": 200,
       "Maintenance": 0,
@@ -2254,7 +2254,8 @@
       "Resources": [],
       "name": "The Colossus",
       "text": "#BLDG_Colossus\n^\n^\n^[The Colossus] causes its city to produce one extra $LINK<Commerce=GCON_Commerce> in every square that\nalready produces at least one.\n^\n^\n^The Colossus may be built only in a coastal city.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Expansionist, Seafaring, and Commercial civilizations.\n",
-      "description": "#DESC_BLDG_Colossus\n^\n^\n^The Colossus of Rhodes was a bronze statue of Helios, the Greek God of the Sun, erected near the mouth of the city harbor. It stood over 100 feet \nhigh, about two-thirds the height of the Statue of Liberty. Unfortunately, an earthquake toppled it only 56 years after its construction. Taking the \ncounsel of an oracle, the city elected to leave the statue where it lay. For over 900 years, people from all over the ancient world came to Rhodes to \nsee the Colossus. It remained where it was until 654 AD when the Muslims who plundered the city sold the statue for scrap.\n\n\n\n"
+      "description": "#DESC_BLDG_Colossus\n^\n^\n^The Colossus of Rhodes was a bronze statue of Helios, the Greek God of the Sun, erected near the mouth of the city harbor. It stood over 100 feet \nhigh, about two-thirds the height of the Statue of Liberty. Unfortunately, an earthquake toppled it only 56 years after its construction. Taking the \ncounsel of an oracle, the city elected to leave the statue where it lay. For over 900 years, people from all over the ancient world came to Rhodes to \nsee the Colossus. It remained where it was until 654 AD when the Muslims who plundered the city sold the statue for scrap.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_solar_system": {
       "Cost": 400,
@@ -2265,7 +2266,8 @@
       "Resources": [],
       "name": "Copernicus' Observatory",
       "text": "#BLDG_Solar_System\n^\n^\n^Doubles $LINK<scientific research=GCON_Research> in the city where it is built.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Expansionist civilizations.\n",
-      "description": "#DESC_BLDG_Solar_System\n^\n^\n^Ancient astronomers originally put forth the theory that the Sun was the center of our solar system, and that the planets revolve around it. This \nknowledge was lost during the Dark Ages, but was re-introduced in the early 16th Century by Nicholas Copernicus. Copernicus' research and \ntheories form the foundation for modern astronomy. Copernicus collected his data from his observatory, a small room in the spire of an East \nPrussian cathedral. His research methods and observations also marked the rebirth of the scientific method, and were an important step in the \nadvance of knowledge.\n\n\n\n"
+      "description": "#DESC_BLDG_Solar_System\n^\n^\n^Ancient astronomers originally put forth the theory that the Sun was the center of our solar system, and that the planets revolve around it. This \nknowledge was lost during the Dark Ages, but was re-introduced in the early 16th Century by Nicholas Copernicus. Copernicus' research and \ntheories form the foundation for modern astronomy. Copernicus collected his data from his observatory, a small room in the spire of an East \nPrussian cathedral. His research methods and observations also marked the rebirth of the scientific method, and were an important step in the \nadvance of knowledge.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_cure_for_cancer": {
       "Cost": 1000,
@@ -2276,7 +2278,8 @@
       "Resources": [],
       "name": "Cure for Cancer",
       "text": "#BLDG_Cure_for_Cancer\n^\n^\n^Makes one unhappy citizen $LINK<content=GCON_Moods> in every city.\n^\n^\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Scientific and Agricultural civilizations.\n",
-      "description": "#DESC_BLDG_Cure_for_Cancer\n^\n^\n^Despite the huge outlays of cash for research and study, cancer still looms as a terrifying and deadly plague on the human race. Although scientists \nand doctors have discovered many different forms of cancer, and have identified some of the factors that can trigger the disease, a true cure still \neludes modern medical science. A cure for cancer would put an end to the source of much suffering and anguish, and allow millions of people, who \nwould otherwise be doomed, to lead happy and productive lives.\n\n\n"
+      "description": "#DESC_BLDG_Cure_for_Cancer\n^\n^\n^Despite the huge outlays of cash for research and study, cancer still looms as a terrifying and deadly plague on the human race. Although scientists \nand doctors have discovered many different forms of cancer, and have identified some of the factors that can trigger the disease, a true cure still \neludes modern medical science. A cure for cancer would put an end to the source of much suffering and anguish, and allow millions of people, who \nwould otherwise be doomed, to lead happy and productive lives.\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_great_library": {
       "Cost": 400,
@@ -2287,7 +2290,8 @@
       "Resources": [],
       "name": "The Great Library",
       "text": "#BLDG_Great_Library\n^\n^\n^The civilization that builds the [Great Library] gets any Civilization Advance already discovered by two\nother known civilizations for free.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Scientific civilizations.\n",
-      "description": "#DESC_BLDG_Great_Library\n^\n^\n^The Great Library of Alexandria was one of the two most important libraries of the ancient world. Ptolemy I  founded it around 300 BC, \nand was enhanced and expanded by his successors. The library attempted to obtain copies of all scrolls of any consequence, and eventually \ncontained over 700,000 volumes. Religious fanatics destroyed the library in 391 AD, after nearly 700 years of operation. During this period, \nAlexandria served as the cultural center of the Hellenistic world. Today, only part of the catalog remains, providing us with a mere hint of what \ntreasures the library contained.\n\n\n\n"
+      "description": "#DESC_BLDG_Great_Library\n^\n^\n^The Great Library of Alexandria was one of the two most important libraries of the ancient world. Ptolemy I  founded it around 300 BC, \nand was enhanced and expanded by his successors. The library attempted to obtain copies of all scrolls of any consequence, and eventually \ncontained over 700,000 volumes. Religious fanatics destroyed the library in 391 AD, after nearly 700 years of operation. During this period, \nAlexandria served as the cultural center of the Hellenistic world. Today, only part of the catalog remains, providing us with a mere hint of what \ntreasures the library contained.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_lighthouse": {
       "Cost": 300,
@@ -2298,7 +2302,8 @@
       "Resources": [],
       "name": "The Great Lighthouse",
       "text": "#BLDG_Lighthouse\n^\n^\n^$LINK<Galleys=PRTO_Galleys> and other early naval units can move safely in and out of $LINK<sea=TERR_Sea> squares, and all naval unit movement rates are increased by one.\n^\n^\n^The [Great Lighthouse] may be built only in a coastal city.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Expansionist, Commercial and Seafaring\ncivilizations.\n",
-      "description": "#DESC_BLDG_Lighthouse\n^\n^\n^The Pharos was a marble watchtower and lighthouse built in 280 BC on an island in the harbor of Alexandria, Egypt. Estimated to have been 300 \nfeet high, the primary function of the lighthouse was to guide approaching ships to the harbor on an otherwise unmarked coast. Historians debate \nwhether fires were burned on the top of the tower, or whether mirrors were used to reflect sunlight. Since ships rarely sailed along coasts at night, \nthere was probably little need for the lighthouse after dark. The Pharos was destroyed in the 14th century, after having been damaged by several \nearthquakes.\n\n\n\n"
+      "description": "#DESC_BLDG_Lighthouse\n^\n^\n^The Pharos was a marble watchtower and lighthouse built in 280 BC on an island in the harbor of Alexandria, Egypt. Estimated to have been 300 \nfeet high, the primary function of the lighthouse was to guide approaching ships to the harbor on an otherwise unmarked coast. Historians debate \nwhether fires were burned on the top of the tower, or whether mirrors were used to reflect sunlight. Since ships rarely sailed along coasts at night, \nthere was probably little need for the lighthouse after dark. The Pharos was destroyed in the 14th century, after having been damaged by several \nearthquakes.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_great_wall": {
       "Cost": 300,
@@ -2309,7 +2314,8 @@
       "Resources": [],
       "name": "The Great Wall",
       "text": "#BLDG_Great_Wall\n^\n^\n^Doubles unit combat values versus $LINK<Barbarians=GCON_Barbarians>. \n^\n^\n^Places a $LINK<Wall=BLDG_Walls> in each city of the continent on which it is built. \n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Militaristic or Industrious civilizations.\n",
-      "description": "#DESC_BLDG_Great_Wall\n^\n^\n^The Great Wall of China, a huge stone structure stretching from the Yellow Sea to the Asian deserts, was built over a period of approximately \n1,800 years. The wall is 25 feet high and 12 feet thick, and runs nearly 1,500 miles across northern China. The purpose of the Great Wall was \nto make it difficult for raiders to escape with their booty, and thereby discourage invasion. Despite its overwhelming size, the wall was not intended \nto keep invaders out, since manning such a defensive structure would have been prohibitively expensive.\n\n\n\n"
+      "description": "#DESC_BLDG_Great_Wall\n^\n^\n^The Great Wall of China, a huge stone structure stretching from the Yellow Sea to the Asian deserts, was built over a period of approximately \n1,800 years. The wall is 25 feet high and 12 feet thick, and runs nearly 1,500 miles across northern China. The purpose of the Great Wall was \nto make it difficult for raiders to escape with their booty, and thereby discourage invasion. Despite its overwhelming size, the wall was not intended \nto keep invaders out, since manning such a defensive structure would have been prohibitively expensive.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_hanging_gardens": {
       "Cost": 300,
@@ -2320,7 +2326,8 @@
       "Resources": [],
       "name": "The Hanging Gardens",
       "text": "#BLDG_Hanging_Gardens\n^\n^\n[The Hanging Gardens] makes three $LINK<unhappy citizens=GCON_Moods> content in its city and\none unhappy citizen content in all other friendly cities.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Industrious and Agricultural civilizations.\n",
-      "description": "#DESC_BLDG_Hanging_Gardens\n^\n^\n^The Hanging Gardens were a distinctive feature of ancient Babylon. They were a great source of pride to the people, and were often described in \naccounts written by visitors to the city. Possibly built by King Nebuchadnezzar II in 600 BC, the gardens are believed to have been a remarkable \nfeat of engineering: an ascending series of tiered gardens containing all manner of trees, shrubs, and vines. The gardens were said to have looked like \na large green mountain constructed of mud bricks, rising from the center of the city.\n\n\n\n"
+      "description": "#DESC_BLDG_Hanging_Gardens\n^\n^\n^The Hanging Gardens were a distinctive feature of ancient Babylon. They were a great source of pride to the people, and were often described in \naccounts written by visitors to the city. Possibly built by King Nebuchadnezzar II in 600 BC, the gardens are believed to have been a remarkable \nfeat of engineering: an ascending series of tiered gardens containing all manner of trees, shrubs, and vines. The gardens were said to have looked like \na large green mountain constructed of mud bricks, rising from the center of the city.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_hoover_dam": {
       "Cost": 800,
@@ -2331,7 +2338,8 @@
       "Resources": [],
       "name": "Hoover Dam",
       "text": "#BLDG_Hoover_Dam\n^\n^\n^Brings the effects of a $LINK<hydro plant=BLDG_Hydro_Plant> to all cities on the same continent.\n^\n^\n^To build the Hoover Dam a city must have a river within its $LINK<radius=GCON_Radius>.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Industrious and Agricultural civilizations.\n",
-      "description": "#DESC_BLDG_Hoover_Dam\n^\n^\n^For centuries, mankind has been harnessing the power of rivers to move waterwheels for various purposes. With the advent of electrical power, it \nwas found the rivers were also very useful for generating electricity. Hydroelectric power plants derive power from rivers by constructing dams to \nensure a dependable supply of water. The overflow is then released through special chambers where the moving water turns giant turbines, \ngenerating electricity. When planned and engineered properly, this system provides an excellent power source with very limited environmental \nimpact. The Hoover Dam, constructed on the Colorado River near Las Vegas, was one of the earliest hydroelectric power plants.\n\n\n\n\n\n"
+      "description": "#DESC_BLDG_Hoover_Dam\n^\n^\n^For centuries, mankind has been harnessing the power of rivers to move waterwheels for various purposes. With the advent of electrical power, it \nwas found the rivers were also very useful for generating electricity. Hydroelectric power plants derive power from rivers by constructing dams to \nensure a dependable supply of water. The overflow is then released through special chambers where the moving water turns giant turbines, \ngenerating electricity. When planned and engineered properly, this system provides an excellent power source with very limited environmental \nimpact. The Hoover Dam, constructed on the Colorado River near Las Vegas, was one of the earliest hydroelectric power plants.\n\n\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_internet": {
       "Cost": 1000,
@@ -2342,7 +2350,8 @@
       "Resources": [],
       "name": "The Internet",
       "text": "#BLDG_Internet\n^\n^\n^Puts a $LINK<Research Lab=BLDG_Lab> in every city on the same continent.\n^\n^\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for all civilizations.\n",
-      "description": "#DESC_BLDG_Internet\n^\n^\n^The Internet is a computer system architecture that has revolutionized methods of communications and commerce by allowing various computer networks \naround the world to connect.  The internet provides a capability so powerful and general that it can be used for almost any purpose, supporting human \ncommunication via e-mail, chat rooms, newsgroups, forums, as well as in audio and video transmissions.  The Internet emerged in the United States in \nthe 1970s, but did not become visible to the general public until the early 1990s. By the beginning of the 21st century, approximately 6% of the world�s \npopulation was estimated to have access to the internet.  It is widely assumed that at least half of the world's population will have some form of \naccess to the internet by the year 2010.  Many experts believe that the Internet will continue to dramatically transform business as well as society.\n\n\n\n\n"
+      "description": "#DESC_BLDG_Internet\n^\n^\n^The Internet is a computer system architecture that has revolutionized methods of communications and commerce by allowing various computer networks \naround the world to connect.  The internet provides a capability so powerful and general that it can be used for almost any purpose, supporting human \ncommunication via e-mail, chat rooms, newsgroups, forums, as well as in audio and video transmissions.  The Internet emerged in the United States in \nthe 1970s, but did not become visible to the general public until the early 1990s. By the beginning of the 21st century, approximately 6% of the world�s \npopulation was estimated to have access to the internet.  It is widely assumed that at least half of the world's population will have some form of \naccess to the internet by the year 2010.  Many experts believe that the Internet will continue to dramatically transform business as well as society.\n\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_grand_cathedral": {
       "Cost": 600,
@@ -2353,7 +2362,8 @@
       "Resources": [],
       "name": "JS Bach's Cathedral",
       "text": "#BLDG_Grand_Cathedral\n^\n^\n^Decreases the number of $LINK<unhappy citizens=GCON_Moods> on the continent by two per city.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>. \n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Religious civilizations.\n",
-      "description": "#DESC_BLDG_Grand_Cathedral\n^\n^\n^Few composers were more prolific or beloved than Johann Sebastian Bach. Bach, the most well known member of a gifted family of German \nmusicians, was perhaps the finest composer of the baroque style of music. In his time, he wrote numerous choral and orchestral pieces. During his \nlifetime, he was renowned as an organist and music director of St. Thomas' Church in Leipzig, and many of his compositions were religious in nature. \nAfter his death, Bach's music gained worldwide appreciation.\n\n\n"
+      "description": "#DESC_BLDG_Grand_Cathedral\n^\n^\n^Few composers were more prolific or beloved than Johann Sebastian Bach. Bach, the most well known member of a gifted family of German \nmusicians, was perhaps the finest composer of the baroque style of music. In his time, he wrote numerous choral and orchestral pieces. During his \nlifetime, he was renowned as an organist and music director of St. Thomas' Church in Leipzig, and many of his compositions were religious in nature. \nAfter his death, Bach's music gained worldwide appreciation.\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_knights_templar": {
       "Cost": 300,
@@ -2364,7 +2374,8 @@
       "Resources": [],
       "name": "Knights Templar",
       "text": "#BLDG_Knights_Templar\n^\n^\n^The [Knights Templar] produces a $LINK<Crusader=PRTO_Crusader> every 5 turns.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Militaristic and Religious civilizations.\n",
-      "description": "#DESC_BLDG_Knights_Templar\n^\n^\n^The Knights Templar was a holy order devoted to defending the fledgling crusader states founded during the \nFirst Crusade against Muslim reconquest. The king of Jerusalem allowed them to make their headquarters in \nthe main temple of Jerusalem, from which they took their name. In exchange for this hospitality they swore allegiance \nto the throne of Jerusalem. They participated in several major battles and did very well; this increased their numbers \nsubstantially. Eventually their power grew so much -- to the point where they could field an army of almost 10,000 knights \nand still uphold their promises to garrison individual towns -- that the Pope decided to place them under his direct control.\n^\tTemplar valor in the Holy Land resulted in many rewards back in Europe; knights who fought under the red cross and white \nfield of the Templars often found themselves with new estates and castles in their native countries. As a result the order became \nfantastically wealthy, as the Grandmasters shrewdly invested the order's wealth, using plunder to buy goods and sell them throughout \nthe Mediterranean.\n^\tKings, however, often become jealous of wealthy organizations over which they have little or no control. The French king \nPhilip IV, his treasury emptied and his debts monstrous from constant warfare, accused the Templars of heresy and blasphemy, and \nconfiscated almost all of their wealth in France. Other monarchs followed suit, embarking on a program of persecution and repression \nwhose goal was mostly to secure the Templars' money for themselves. Hundreds of Templars gave false confessions of heresy under torture, \nand others were burned at the stake. The order died out completely in the early 14th century when the entire Templar leadership had been \nmurdered.\n\n\n\n\n; END GREAT WONDERS _________________________________________________________________________ END GREAT WONDERS \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n; SMALL WONDERS______________________________________________________________________________SMALL WONDERS\n\n"
+      "description": "#DESC_BLDG_Knights_Templar\n^\n^\n^The Knights Templar was a holy order devoted to defending the fledgling crusader states founded during the \nFirst Crusade against Muslim reconquest. The king of Jerusalem allowed them to make their headquarters in \nthe main temple of Jerusalem, from which they took their name. In exchange for this hospitality they swore allegiance \nto the throne of Jerusalem. They participated in several major battles and did very well; this increased their numbers \nsubstantially. Eventually their power grew so much -- to the point where they could field an army of almost 10,000 knights \nand still uphold their promises to garrison individual towns -- that the Pope decided to place them under his direct control.\n^\tTemplar valor in the Holy Land resulted in many rewards back in Europe; knights who fought under the red cross and white \nfield of the Templars often found themselves with new estates and castles in their native countries. As a result the order became \nfantastically wealthy, as the Grandmasters shrewdly invested the order's wealth, using plunder to buy goods and sell them throughout \nthe Mediterranean.\n^\tKings, however, often become jealous of wealthy organizations over which they have little or no control. The French king \nPhilip IV, his treasury emptied and his debts monstrous from constant warfare, accused the Templars of heresy and blasphemy, and \nconfiscated almost all of their wealth in France. Other monarchs followed suit, embarking on a program of persecution and repression \nwhose goal was mostly to secure the Templars' money for themselves. Hundreds of Templars gave false confessions of heresy under torture, \nand others were burned at the stake. The order died out completely in the early 14th century when the entire Templar leadership had been \nmurdered.\n\n\n\n\n; END GREAT WONDERS _________________________________________________________________________ END GREAT WONDERS \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n; SMALL WONDERS______________________________________________________________________________SMALL WONDERS\n\n",
+      "type": "Great Wonder"
     },
     "bldg_inventor's_workshop": {
       "Cost": 600,
@@ -2375,7 +2386,8 @@
       "Resources": [],
       "name": "Leonardo's Workshop",
       "text": "#BLDG_Inventor's_Workshop\n^\n^\n^Obsolete military units can be upgraded at half price.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Militaristic civilizations.\n",
-      "description": "#DESC_BLDG_Inventor's_Workshop\n^\n^\n^Leonardo da Vinci was one of the most celebrated painters of the Italian Renaissance. His most famous works include the \"Mona Lisa\" and \"The \nLast Supper\". Although best known for his art, da Vinci was also an accomplished observer and designer. Preserved in his sketchbooks are ideas \nfor dozens of inventions, many of them centuries ahead of their time. These include designs for such devices as drawbridges, construction equipment,\nparachutes, and even helicopters. His scientific and technical drawings became the basis for the development of many of these modern devices.\n\n\n\n"
+      "description": "#DESC_BLDG_Inventor's_Workshop\n^\n^\n^Leonardo da Vinci was one of the most celebrated painters of the Italian Renaissance. His most famous works include the \"Mona Lisa\" and \"The \nLast Supper\". Although best known for his art, da Vinci was also an accomplished observer and designer. Preserved in his sketchbooks are ideas \nfor dozens of inventions, many of them centuries ahead of their time. These include designs for such devices as drawbridges, construction equipment,\nparachutes, and even helicopters. His scientific and technical drawings became the basis for the development of many of these modern devices.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_longevity": {
       "Cost": 1000,
@@ -2386,7 +2398,8 @@
       "Resources": [],
       "name": "Longevity",
       "text": "#BLDG_Longevity\n^\n^\n^All cities get a population increase of two instead of one when the $LINK<Food Storage=GCON_Food> box is full.\n^\n^\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Scientific civilizations.\n",
-      "description": "#DESC_BLDG_Longevity\n^\n^\n^As the lifespan of a human being has slowly increased over the centuries, a shift in medical focus began to take place. Infectious diseases, once the \nleading cause of death, began to be tamed by modern vaccinations. This allowed the field to spend more time combating those ailments associated \nwith advanced aging, such as cancer and heart disease. This trend shows no signs of slowing, but rather accelerating. Modern technology permits \nsophisticated diagnosis and treatment of illness, while at the same time identifying their genetic roots.\n\n\n"
+      "description": "#DESC_BLDG_Longevity\n^\n^\n^As the lifespan of a human being has slowly increased over the centuries, a shift in medical focus began to take place. Infectious diseases, once the \nleading cause of death, began to be tamed by modern vaccinations. This allowed the field to spend more time combating those ailments associated \nwith advanced aging, such as cancer and heart disease. This trend shows no signs of slowing, but rather accelerating. Modern technology permits \nsophisticated diagnosis and treatment of illness, while at the same time identifying their genetic roots.\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_circumnavigation": {
       "Cost": 400,
@@ -2397,7 +2410,8 @@
       "Resources": [],
       "name": "Magellan's Voyage",
       "text": "#BLDG_Circumnavigation\n^\n^\n^The movement rate of all naval units is increased by one.\n^\n^\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Expansionist, Commercial and Seafaring\ncivilizations.\n",
-      "description": "#DESC_BLDG_Circumnavigation\n^\n^\n^In 1519, Ferdinand Magellan sailed from Spain with the intention of reaching the spice-rich Malouccas Islands of Indonesia by sailing west, \ninstead of east. Although natives in the Philippines killed Magellan, his expedition went on to prove conclusively that the world was round. More \nimportantly, it proved that the Americas were indeed a New World. Magellan's expedition was one of the great sea voyages of history, and it \ninspired further expeditions by other explorers. The discoveries made along the way reduced the dangers to all the sea expeditions that followed.\n\n\n\n"
+      "description": "#DESC_BLDG_Circumnavigation\n^\n^\n^In 1519, Ferdinand Magellan sailed from Spain with the intention of reaching the spice-rich Malouccas Islands of Indonesia by sailing west, \ninstead of east. Although natives in the Philippines killed Magellan, his expedition went on to prove conclusively that the world was round. More \nimportantly, it proved that the Americas were indeed a New World. Magellan's expedition was one of the great sea voyages of history, and it \ninspired further expeditions by other explorers. The discoveries made along the way reduced the dangers to all the sea expeditions that followed.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_manhattan_project": {
       "Cost": 800,
@@ -2410,7 +2424,8 @@
       ],
       "name": "The Manhattan Project",
       "text": "#BLDG_Manhattan_Project\n^\n^\n^Allows the construction of nuclear weapons by {all} civilizations. Nuclear Weapons can {Not} be built until this Wonder has been completed.\n^\n^\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Militaristic or Industrious civilizations.\n",
-      "description": "#DESC_BLDG_Manhattan_Project\n^\n^\n^The Manhattan Project was the code name for an intensive and costly research effort during World\nWar II that resulted in the development of atomic weapons. The first two such weapons, the bombs\ndropped on Nagasaki and Hiroshima in 1945, brought an end to the Second World War. For a short\ntime, the United States held a monopoly on atomic weapons. However, by 1949 the Soviet Union had\nalso developed similar technology, based in part on Manhattan Project information obtained through\nespionage. The nuclear standoff that has resulted from this balance of power may be largely\nresponsible for the absence of major wars since World War II.\n\n\n"
+      "description": "#DESC_BLDG_Manhattan_Project\n^\n^\n^The Manhattan Project was the code name for an intensive and costly research effort during World\nWar II that resulted in the development of atomic weapons. The first two such weapons, the bombs\ndropped on Nagasaki and Hiroshima in 1945, brought an end to the Second World War. For a short\ntime, the United States held a monopoly on atomic weapons. However, by 1949 the Soviet Union had\nalso developed similar technology, based in part on Manhattan Project information obtained through\nespionage. The nuclear standoff that has resulted from this balance of power may be largely\nresponsible for the absence of major wars since World War II.\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_mausoleum": {
       "Cost": 200,
@@ -2421,7 +2436,8 @@
       "Resources": [],
       "name": "The Mausoleum of Mausollos",
       "text": "#BLDG_Mausoleum\n^\n^\n^[The Mausoleum of Mausollos] makes three $LINK<unhappy citizens=GCON_Moods> content in its city.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Scientific and Seafaring civilizations.\n",
-      "description": "#DESC_BLDG_Mausoleum\n^\n^\n^The tomb of King Mausollos of Caria (from whose name the generic term \"mausoleum\" derives), a local Persian ruler, was not especially remarkable in its construction or size.  \nIts status as one of the Ancient Wonders of the World comes from the dozens of painstakingly carved statues and sculptures that surrounded it. They depicted legendary and \nreal people, and the noble animals of mythology and history.  Inside the mausoleum was a great frieze, or wall-carving, depicting an epic battle between the Greeks and the \nAmazons, and topping the mausoleum's dome was a huge statue of a four-horse chariot. The Mausoleum and its statues survived until after the Crusades, when Christian knights \nfounded a new crusader kingdom in Asia Minor, and used the already-carved stones of the Mausoleum to build castles. The statues, in turn, spread around the world, until British \narchaeologists began to collect and recover them.  Some can be seen today in museums, but most have been lost or destroyed.\n\n\n\n"
+      "description": "#DESC_BLDG_Mausoleum\n^\n^\n^The tomb of King Mausollos of Caria (from whose name the generic term \"mausoleum\" derives), a local Persian ruler, was not especially remarkable in its construction or size.  \nIts status as one of the Ancient Wonders of the World comes from the dozens of painstakingly carved statues and sculptures that surrounded it. They depicted legendary and \nreal people, and the noble animals of mythology and history.  Inside the mausoleum was a great frieze, or wall-carving, depicting an epic battle between the Greeks and the \nAmazons, and topping the mausoleum's dome was a huge statue of a four-horse chariot. The Mausoleum and its statues survived until after the Crusades, when Christian knights \nfounded a new crusader kingdom in Asia Minor, and used the already-carved stones of the Mausoleum to build castles. The statues, in turn, spread around the world, until British \narchaeologists began to collect and recover them.  Some can be seen today in museums, but most have been lost or destroyed.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_great_university": {
       "Cost": 400,
@@ -2432,7 +2448,8 @@
       "Resources": [],
       "name": "Newton's University",
       "text": "#BLDG_Great_University\n^\n^\n^Doubles $LINK<scientific research=GCON_Research> in the city where it is built.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Scientific civilizations.\n",
-      "description": "#DESC_BLDG_Great_University\n^\n^\n^Sir Isaac Newton, a mathematician and physicist, is considered to be one of the greatest scientists of all time. He is credited with many important \ndiscoveries including the laws of gravity, the color spectrum of light, calculus, fluid dynamics, and an understanding of ocean tides. He also built the \nworld's first reflecting telescope. For 32 years, he held an important teaching post at Cambridge University, where he continued his own research \nwhile instructing a generation of students.\n\n\n\n\n\n"
+      "description": "#DESC_BLDG_Great_University\n^\n^\n^Sir Isaac Newton, a mathematician and physicist, is considered to be one of the greatest scientists of all time. He is credited with many important \ndiscoveries including the laws of gravity, the color spectrum of light, calculus, fluid dynamics, and an understanding of ocean tides. He also built the \nworld's first reflecting telescope. For 32 years, he held an important teaching post at Cambridge University, where he continued his own research \nwhile instructing a generation of students.\n\n\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_oracle": {
       "Cost": 300,
@@ -2443,7 +2460,8 @@
       "Resources": [],
       "name": "The Oracle",
       "text": "#BLDG_Oracle\n^\n^\n^Doubles the effect of all $LINK<Temples=BLDG_Temple> in the Empire;\nthey produce two $LINK<content faces=GCON_Moods> instead of one.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Religious civilizations.\n",
-      "description": "#DESC_BLDG_Oracle\n^\n^\n^In ancient Greek religion, an oracle was a priest or priestess through whom the gods spoke in response to questions. The oracle interpreted \ndreams, the actions of entranced persons, and physical signs found in the entrails of sacrificed animals. The most famous oracle resided in the \nshrine of Apollo at Delphi, located on the slopes of Mount Parnassus. Greeks, Romans, and others consulted this oracle for centuries about \npublic policy and private matters. A priestess called the Pythia would, for a fee, make public predictions for the future. These ecstatic \npronouncements became infamous for their ambiguity.\n\n\n\n"
+      "description": "#DESC_BLDG_Oracle\n^\n^\n^In ancient Greek religion, an oracle was a priest or priestess through whom the gods spoke in response to questions. The oracle interpreted \ndreams, the actions of entranced persons, and physical signs found in the entrails of sacrificed animals. The most famous oracle resided in the \nshrine of Apollo at Delphi, located on the slopes of Mount Parnassus. Greeks, Romans, and others consulted this oracle for centuries about \npublic policy and private matters. A priestess called the Pythia would, for a fee, make public predictions for the future. These ecstatic \npronouncements became infamous for their ambiguity.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_pyramids": {
       "Cost": 400,
@@ -2454,7 +2472,8 @@
       "Resources": [],
       "name": "The Pyramids",
       "text": "#BLDG_Pyramids\n^\n^\n^Puts a $LINK<Granary=BLDG_Granary> in every city on the same continent.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Industrious, Religious, and Agricultural\ncivilizations.\n",
-      "description": "#DESC_BLDG_Pyramids\n^\n^\n^Built by the fourth dynasty of Egyptian rulers, the Pyramids represent the pinnacle of ancient Egyptian cultural achievement. Constructed on the Giza \nplateau outside modern-day Cairo, these structures were burial tombs and monuments for the Pharaohs, and may have taken generations and tens \nof thousands of workers to complete. The Pyramids are the only one of the generally accepted man-made wonders of the ancient world that remains\nin existence today.\n\n\n\n"
+      "description": "#DESC_BLDG_Pyramids\n^\n^\n^Built by the fourth dynasty of Egyptian rulers, the Pyramids represent the pinnacle of ancient Egyptian cultural achievement. Constructed on the Giza \nplateau outside modern-day Cairo, these structures were burial tombs and monuments for the Pharaohs, and may have taken generations and tens \nof thousands of workers to complete. The Pyramids are the only one of the generally accepted man-made wonders of the ancient world that remains\nin existence today.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_seti_program": {
       "Cost": 1000,
@@ -2465,7 +2484,8 @@
       "Resources": [],
       "name": "SETI program",
       "text": "#BLDG_SETI_Program\n^\n^\n^Doubles $LINK<scientific research=GCON_Research> in the city where it is built.\n^\n^\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Expansionist civilizations.\n",
-      "description": "#DESC_BLDG_SETI_program\n^\n^\n^The Search for Extraterrestrial Intelligence (SETI) was officially initiated by the United States in the latter half of the 20th Century. The purpose of \nthe program was to find some sort of conclusive evidence that intelligent life existed beyond the confines of our planet. Employing banks of radio \ntelescopes and other detection equipment, SETI scans the skies hoping to find proof of extraterrestrial life in the form of radio transmissions and \nother activity. Although the program has yet to find such proof, the effort has produced many useful benefits to astronomy, telecommunications, and \nother high-tech fields.\n\n\n\n"
+      "description": "#DESC_BLDG_SETI_program\n^\n^\n^The Search for Extraterrestrial Intelligence (SETI) was officially initiated by the United States in the latter half of the 20th Century. The purpose of \nthe program was to find some sort of conclusive evidence that intelligent life existed beyond the confines of our planet. Employing banks of radio \ntelescopes and other detection equipment, SETI scans the skies hoping to find proof of extraterrestrial life in the form of radio transmissions and \nother activity. Although the program has yet to find such proof, the effort has produced many useful benefits to astronomy, telecommunications, and \nother high-tech fields.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_great_playhouse": {
       "Cost": 450,
@@ -2476,7 +2496,8 @@
       "Resources": [],
       "name": "Shakespeare's Theater",
       "text": "#BLDG_Great_Playhouse\n^\n^\n^Eight $LINK<unhappy citizens=GCON_Moods> in the city are made content. \n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>. A city with [Shakespeare's Theater] can grow beyond population 12, but you must have a population of 7 or higher in order to build it.\n",
-      "description": "#DESC_BLDG_Great_Playhouse\n^\n^\n^Most of the plays of William Shakespeare were first performed on the stage of London's Globe Theater during the 1600s. Theaters offered people \na diversion from their everyday lives by allowing them to enjoy comedies, tragedies, and triumphs acted out on stage. Similar theaters, such as the \nComedie Francaise in Paris, and La Scala in Milan, fulfilled similar roles by offering entertainment to the citizens of their cities. Although the original \nGlobe Theater burned down, Shakespeare's plays are still performed in a new theater bearing his name, and in other theaters throughout the world.\n\n\n\n"
+      "description": "#DESC_BLDG_Great_Playhouse\n^\n^\n^Most of the plays of William Shakespeare were first performed on the stage of London's Globe Theater during the 1600s. Theaters offered people \na diversion from their everyday lives by allowing them to enjoy comedies, tragedies, and triumphs acted out on stage. Similar theaters, such as the \nComedie Francaise in Paris, and La Scala in Milan, fulfilled similar roles by offering entertainment to the citizens of their cities. Although the original \nGlobe Theater burned down, Shakespeare's plays are still performed in a new theater bearing his name, and in other theaters throughout the world.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_sistine_chapel": {
       "Cost": 600,
@@ -2487,7 +2508,8 @@
       "Resources": [],
       "name": "Sistine Chapel",
       "text": "#BLDG_Sistine_Chapel\n^\n^\n^Doubles the effects of all $LINK<Cathedrals=BLDG_Cathedral> in your cities. \n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Religious civilizations.\n",
-      "description": "#DESC_BLDG_Sistine_Chapel\n^\n^\n^The beauty of Rome's Sistine Chapel has long served as a testament to the mixture of strong religious beliefs and the love of art shared by the \npeople of Renaissance Europe. Michelangelo devoted four years to painting the mural that adorns the ceiling, a work depicting events in the book \nof Genesis and other Biblical stories. Few visitors to the Sistine Chapel have failed to be moved by the artist's dedication to his subject, or his\nfeeling for the nature of human struggle, suffering, and spiritual triumph.\n\n\n\n"
+      "description": "#DESC_BLDG_Sistine_Chapel\n^\n^\n^The beauty of Rome's Sistine Chapel has long served as a testament to the mixture of strong religious beliefs and the love of art shared by the \npeople of Renaissance Europe. Michelangelo devoted four years to painting the mural that adorns the ceiling, a work depicting events in the book \nof Genesis and other Biblical stories. Few visitors to the Sistine Chapel have failed to be moved by the artist's dedication to his subject, or his\nfeeling for the nature of human struggle, suffering, and spiritual triumph.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_trading_company": {
       "Cost": 600,
@@ -2498,7 +2520,8 @@
       "Resources": [],
       "name": "Smith's Trading Company",
       "text": "#BLDG_Trading_Company\n^\n^\n^Pays $LINK<maintenance=GCON_Maintenance> costs for all trade-based city improvements\n($LINK<Harbors=BLDG_Harbor>, $LINK<Marketplaces=BLDG_Marketplace>, $LINK<Banks=BLDG_Bank>, $LINK<Airports=BLDG_Airport>,\n$LINK<Commerical Dock=BLDG_Commercial_Dock> and $LINK<Stock Exchanges=BLDG_Stock_Exchange>).\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Commercial and Seafaring civilizations.\n",
-      "description": "#DESC_BLDG_Trading_Company\n^\n^\n^Adam Smith is generally regarded as the father of modern economics. In his book \"The Wealth of Nations\", he analyzed the economic processes of \nsupply and demand, and discussed how free trade and individual ambition would lead to both economic and social growth. Smith favored a political \nenvironment where the government would only become involved in business and trade to preserve justice and order. Smith's ideas of economics and \nthe lack of government involvement form the basis of modern economic liberalism.\n\n\n\n\n\n"
+      "description": "#DESC_BLDG_Trading_Company\n^\n^\n^Adam Smith is generally regarded as the father of modern economics. In his book \"The Wealth of Nations\", he analyzed the economic processes of \nsupply and demand, and discussed how free trade and individual ambition would lead to both economic and social growth. Smith favored a political \nenvironment where the government would only become involved in business and trade to preserve justice and order. Smith's ideas of economics and \nthe lack of government involvement form the basis of modern economic liberalism.\n\n\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_zeus": {
       "Cost": 200,
@@ -2511,7 +2534,8 @@
       ],
       "name": "The Statue of Zeus",
       "text": "#BLDG_Zeus\n^\n^\n^The [Statue of Zeus] produces an $LINK<Ancient Cavalry=PRTO_Ancient_Cavalry> every 5 turns.\n^\n^\n^A city must have access to $LINK<Ivory=GOOD_Ivory> to build The Statue of Zeus.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Religious and Militaristic civilizations.\n",
-      "description": "#DESC_BLDG_Zeus\n^\n^\n^The Statue of Zeus at Olympia, the site of the original Olympic Games held to honor the king of the gods, depicted him as a massive ivory figure clad in robes\nand sandals of gold. The statue was almost four stories tall, with its head nearly touching the roof of the temple that housed it. The sculpture is described as\nexquisite in even the tiniest details by historians and writers of the day -- its robes intricately carved with designs of animals, flowers, and images of Zeus'\nchildren, and its base surrounded by sphinxes and other mythological creatures. Such a statue could not long escape the notice of greedy kings and warlords, and\nseveral attempts were made to steal the statue -- including one by the crazed Roman emperor Caligula.  The statue was finally successfully stolen about the third\ncentury A.D., and was destroyed in a fire in Constantinople just after the fall of Rome. No images or accurate reconstructions of this, one of the lost Wonders of the\nAncient World, survive today.\n\n\n"
+      "description": "#DESC_BLDG_Zeus\n^\n^\n^The Statue of Zeus at Olympia, the site of the original Olympic Games held to honor the king of the gods, depicted him as a massive ivory figure clad in robes\nand sandals of gold. The statue was almost four stories tall, with its head nearly touching the roof of the temple that housed it. The sculpture is described as\nexquisite in even the tiniest details by historians and writers of the day -- its robes intricately carved with designs of animals, flowers, and images of Zeus'\nchildren, and its base surrounded by sphinxes and other mythological creatures. Such a statue could not long escape the notice of greedy kings and warlords, and\nseveral attempts were made to steal the statue -- including one by the crazed Roman emperor Caligula.  The statue was finally successfully stolen about the third\ncentury A.D., and was destroyed in a fire in Constantinople just after the fall of Rome. No images or accurate reconstructions of this, one of the lost Wonders of the\nAncient World, survive today.\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_art_of_war": {
       "Cost": 600,
@@ -2522,7 +2546,8 @@
       "Resources": [],
       "name": "Sun Tzu's Art of War",
       "text": "#BLDG_Art_of_War\n^\n^\n^Puts a $LINK<barracks=BLDG_Barracks> in every city on the same continent.\n^\n^\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Militaristic civilizations.\n",
-      "description": "#DESC_BLDG_Art_of_War\n^\n^\n^One of the earliest pieces of military literature is \"The Art of War\", written by Chinese general Sun Tzu in the 6th century BC. This book contained \na detailed explanation and analysis of the Chinese military, from weapons and strategy to rank and discipline. Sun Tzu also stressed the importance \nof intelligence operatives and espionage to the war effort. Because Sun Tzu has long been considered to be one of history's finest military tacticians \nand analysts, his teachings and strategies formed the basis of advanced military training for centuries to come.\n\n\n\n"
+      "description": "#DESC_BLDG_Art_of_War\n^\n^\n^One of the earliest pieces of military literature is \"The Art of War\", written by Chinese general Sun Tzu in the 6th century BC. This book contained \na detailed explanation and analysis of the Chinese military, from weapons and strategy to rank and discipline. Sun Tzu also stressed the importance \nof intelligence operatives and espionage to the war effort. Because Sun Tzu has long been considered to be one of history's finest military tacticians \nand analysts, his teachings and strategies formed the basis of advanced military training for centuries to come.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_artemis": {
       "Cost": 500,
@@ -2533,7 +2558,8 @@
       "Resources": [],
       "name": "The Temple of Artemis",
       "text": "#BLDG_Artemis\n^\n^\n^Puts a $LINK<Temple=BLDG_Temple> in every city on the same continent.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Religious civilizations.\n",
-      "description": "#DESC_BLDG_Artemis\n^\n^\n^One of the original Seven Wonders of the Ancient World, the Temple of Artemis at Ephesus was an immense, grand temple and marketplace constructed of marble,\nfinanced by the Greek king Croesus (whose name is now synonymous with great wealth). Filled with treasures and statues of bronze, gold, and silver from around\nthe civilized world, it stood for just two hundred years before it was burned by a fame-seeking arsonist. It was rebuilt twice, but never as grandly as it \nstood at its apex in the 6th century B.C. The Temple was destroyed for the last time by a Christian missionary and saint, who sought to eliminate this \npowerful symbol of the pagan world.\n\n\n\n"
+      "description": "#DESC_BLDG_Artemis\n^\n^\n^One of the original Seven Wonders of the Ancient World, the Temple of Artemis at Ephesus was an immense, grand temple and marketplace constructed of marble,\nfinanced by the Greek king Croesus (whose name is now synonymous with great wealth). Filled with treasures and statues of bronze, gold, and silver from around\nthe civilized world, it stood for just two hundred years before it was burned by a fame-seeking arsonist. It was rebuilt twice, but never as grandly as it \nstood at its apex in the 6th century B.C. The Temple was destroyed for the last time by a Christian missionary and saint, who sought to eliminate this \npowerful symbol of the pagan world.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_theory_of_evolution": {
       "Cost": 600,
@@ -2544,7 +2570,8 @@
       "Resources": [],
       "name": "Theory of Evolution",
       "text": "#BLDG_Theory_of_Evolution\n^\n^\n^Grants two Civilization Advances as soon as completed.\n^\n^\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Scientific civilizations.\n",
-      "description": "#DESC_BLDG_Theory_of_Evolution\n^\n^\n^Charles Darwin, the main proponent of the theory of evolution based on natural selection, built up much of his evidence for this theory during a \nfive-year voyage around the world. His voyage aboard the H.M.S. Beagle was instrumental not only in the establishment of his theory, but also \nin the application of the scientific method to the study of nature. Darwin published his theory of evolution in his book \"On the Origin of Species by Means \nof Natural Selection\". His studies were so thorough that the scientific world never challenged his findings. However, his findings were, and continue to be, \nchallenged on philosophical and religious grounds. Darwin's research opened many new lines of inquiry, and inspired a wave of new biological research.\n\n\n\n"
+      "description": "#DESC_BLDG_Theory_of_Evolution\n^\n^\n^Charles Darwin, the main proponent of the theory of evolution based on natural selection, built up much of his evidence for this theory during a \nfive-year voyage around the world. His voyage aboard the H.M.S. Beagle was instrumental not only in the establishment of his theory, but also \nin the application of the scientific method to the study of nature. Darwin published his theory of evolution in his book \"On the Origin of Species by Means \nof Natural Selection\". His studies were so thorough that the scientific world never challenged his findings. However, his findings were, and continue to be, \nchallenged on philosophical and religious grounds. Darwin's research opened many new lines of inquiry, and inspired a wave of new biological research.\n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_united_nations": {
       "Cost": 1000,
@@ -2555,7 +2582,8 @@
       "Resources": [],
       "name": "The United Nations",
       "text": "#BLDG_United_Nations\n^\n^\n^Initiates the possibility of a $LINK<Diplomatic Victory=GCON_Victory>.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Commercial civilizations.\n",
-      "description": "#DESC_BLDG_United_Nations\n^\n^\n^Created in 1945 to maintain international peace and security, the United Nations was the second of two laudable efforts to \nestablish an international authority on law and human rights between the self governing nations of the world. Headquartered \nin New York City, the United Nations was established at the end of World War II in response to the apparent ineffectiveness \nof the League of Nations to prevent another global conflict on the scale of \"The War to End All Wars\". The organization was \noriginally conceived in 1941 as the Atlantic Charter, an agreement signed between Winston Churchill and Franklin D. \nRoosevelt, but developed into a pact signed by 26 countries to try to stop the aggression of the Axis powers. In 1945, in a \nconference between \"The Big Three\", Churchill, Roosevelt, and Stalin, the original charter was laid down. Throughout its \nhistory the United Nations has had great success in establishing many permanent international laws on subjects from human \nrights, international treaties, and worldwide decolonization. Although the United Nations does not have the power to enforce \ndecisions or compel nations to take military action, the ability to compel member nations to impose economic sanctions \nagainst countries guilty of violating security orders gives it significant power in the world stage. \n\n\n\n"
+      "description": "#DESC_BLDG_United_Nations\n^\n^\n^Created in 1945 to maintain international peace and security, the United Nations was the second of two laudable efforts to \nestablish an international authority on law and human rights between the self governing nations of the world. Headquartered \nin New York City, the United Nations was established at the end of World War II in response to the apparent ineffectiveness \nof the League of Nations to prevent another global conflict on the scale of \"The War to End All Wars\". The organization was \noriginally conceived in 1941 as the Atlantic Charter, an agreement signed between Winston Churchill and Franklin D. \nRoosevelt, but developed into a pact signed by 26 countries to try to stop the aggression of the Axis powers. In 1945, in a \nconference between \"The Big Three\", Churchill, Roosevelt, and Stalin, the original charter was laid down. Throughout its \nhistory the United Nations has had great success in establishing many permanent international laws on subjects from human \nrights, international treaties, and worldwide decolonization. Although the United Nations does not have the power to enforce \ndecisions or compel nations to take military action, the ability to compel member nations to impose economic sanctions \nagainst countries guilty of violating security orders gives it significant power in the world stage. \n\n\n\n",
+      "type": "Great Wonder"
     },
     "bldg_universal_suffrage": {
       "Cost": 800,
@@ -2566,10 +2594,9 @@
       "Resources": [],
       "name": "Universal Suffrage",
       "text": "#BLDG_Universal_Suffrage\n^\n^\n^Reduces $LINK<war weariness=GCON_War_Weariness> in all cities.\n^\n^\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Agricultural civilizations.\n",
-      "description": "#DESC_BLDG_Universal_Suffrage\n^\n^\n^After decades of struggle, women in the United States won the right to vote in 1920 with the passage of the 19th Amendment to the U.S. \nConstitution. The achievement of women's suffrage was accelerated by the excellent record of women working in jobs traditionally held by men \nduring World War I. Full voting rights were granted to women in Great Britain in 1928. Since that time, women have gained the right to vote in most \ncountries in the developed world.\n\n\n\n\n\n"
-    }
-  },
-  "Small Wonders": {
+      "description": "#DESC_BLDG_Universal_Suffrage\n^\n^\n^After decades of struggle, women in the United States won the right to vote in 1920 with the passage of the 19th Amendment to the U.S. \nConstitution. The achievement of women's suffrage was accelerated by the excellent record of women working in jobs traditionally held by men \nduring World War I. Full voting rights were granted to women in Great Britain in 1928. Since that time, women have gained the right to vote in most \ncountries in the developed world.\n\n\n\n\n\n",
+      "type": "Great Wonder"
+    },
     "bldg_apollo_project": {
       "Cost": 500,
       "Maintenance": 0,
@@ -2582,7 +2609,8 @@
       "Text": "",
       "name": "Apollo Program",
       "text": "#BLDG_Apollo_Project\n^\n^\nCompletion of the [Apollo Program] enables the civilization to begin construction of the Alpha Centauri $LINK<Spaceship=GCON_Spaceship>.\n",
-      "description": "#DESC_BLDG_Apollo_Project\n^\n^\n^The Apollo Program was begun by the United States in the late 1960s. Following the success of the manned orbital missions of the Mercury and \nGemini missions, the destination of the Apollo Program was the moon. The early Apollo flights concentrated on orbital observations of the moon, \nand testing the docking systems of the Apollo craft. Apollo 11 accomplished the ultimate goal of the Apollo Program on July 20, 1969, when Neil \nArmstrong became the first human to walk on the moon. Several other landings followed, the last being Apollo 17 in December, 1972. The Apollo \nProgram truly represented a \"giant leap for mankind\". The U.S. manned lunar missions are unparalleled feats in space exploration, and the \ntechnology originally developed for the Apollo Program was later found to be invaluable in designing future space vehicles and orbital platforms.\n\n\n"
+      "description": "#DESC_BLDG_Apollo_Project\n^\n^\n^The Apollo Program was begun by the United States in the late 1960s. Following the success of the manned orbital missions of the Mercury and \nGemini missions, the destination of the Apollo Program was the moon. The early Apollo flights concentrated on orbital observations of the moon, \nand testing the docking systems of the Apollo craft. Apollo 11 accomplished the ultimate goal of the Apollo Program on July 20, 1969, when Neil \nArmstrong became the first human to walk on the moon. Several other landings followed, the last being Apollo 17 in December, 1972. The Apollo \nProgram truly represented a \"giant leap for mankind\". The U.S. manned lunar missions are unparalleled feats in space exploration, and the \ntechnology originally developed for the Apollo Program was later found to be invaluable in designing future space vehicles and orbital platforms.\n\n\n",
+      "type": "Small Wonder"
     },
     "bldg_battlefield_medicine": {
       "Cost": 500,
@@ -2594,7 +2622,8 @@
       "Text": "",
       "name": "Battlefield Medicine",
       "text": "#BLDG_Battlefield_Medicine\n^\n^\nAllows military units to heal in enemy territory.\n^{Requires:} The civilization must have at least five hospitals in cities it controls.\n",
-      "description": "#DESC_BLDG_Battlefield_Medicine\n^\n^\n^While fundamentally in conflict with the destructive goals of war, physicians must still proffer aid to those in need. The practice of repairing the \npersonal damage of war, sometimes actually during the fight itself, has a number of benefits beyond the obvious. A paramount one is that of morale, \nsince the soldiers of an army that contains surgeons are assured care if they fall in battle.\n\n"
+      "description": "#DESC_BLDG_Battlefield_Medicine\n^\n^\n^While fundamentally in conflict with the destructive goals of war, physicians must still proffer aid to those in need. The practice of repairing the \npersonal damage of war, sometimes actually during the fight itself, has a number of benefits beyond the obvious. A paramount one is that of morale, \nsince the soldiers of an army that contains surgeons are assured care if they fall in battle.\n\n",
+      "type": "Small Wonder"
     },
     "bldg_forbidden_palace": {
       "Cost": 200,
@@ -2606,7 +2635,8 @@
       "Text": "",
       "name": "Forbidden Palace",
       "text": "#BLDG_Forbidden_Palace\n^\n^\nGives similar benefits as the $LINK<Palace=BLDG_Palace> but still suffers some corruption. By building the Forbidden Palace you also increase the optimal number of cities for your civilization to have. This amount is relative to map size, difficulty, and current government choice. This is cumulative with $LINK<Secret Police HQ=BLDG_Secret_Police_HQ>.\n^{Requires:} The civilization must have at least ten cities (on a standard size map) under its control.\n",
-      "description": "#DESC_BLDG_Forbidden_Palace\n^\n^\n^A collection of imperial structures in Beijing, the Forbidden Palace stands as a testament to the Chinese architectural ingenuity and aesthetic. Ornamental gardens, \nterraces and fountains surround the magnificent structure, which became the capital of China in 1421.\n\n\n"
+      "description": "#DESC_BLDG_Forbidden_Palace\n^\n^\n^A collection of imperial structures in Beijing, the Forbidden Palace stands as a testament to the Chinese architectural ingenuity and aesthetic. Ornamental gardens, \nterraces and fountains surround the magnificent structure, which became the capital of China in 1421.\n\n\n",
+      "type": "Small Wonder"
     },
     "bldg_epic": {
       "Cost": 200,
@@ -2618,7 +2648,8 @@
       "Text": "",
       "name": "Heroic Epic",
       "text": "#BLDG_Epic\n^\n^\n^Increases the chances of the appearance of $LINK<leaders=GCON_Leaders> from victorious combat.\n^{Requires:} The civilization must have had a victorious $LINK<army=GCON_Armies>.\n",
-      "description": "#DESC_BLDG_Epic\n^\n^\n^The Epic of Gilgamesh documents the adventures of this Middle Eastern hero. Of special interest to biblical scholars, the document was found \namong the ruins of Nineveh. More than 3000 lines, scribed across 12 tablets, this tale was written around 2000 BC. Gilgamesh was a king of Uruk, \nwhich now lies within the borders of Iraq.\n\n\n"
+      "description": "#DESC_BLDG_Epic\n^\n^\n^The Epic of Gilgamesh documents the adventures of this Middle Eastern hero. Of special interest to biblical scholars, the document was found \namong the ruins of Nineveh. More than 3000 lines, scribed across 12 tablets, this tale was written around 2000 BC. Gilgamesh was a king of Uruk, \nwhich now lies within the borders of Iraq.\n\n\n",
+      "type": "Small Wonder"
     },
     "bldg_intelligence_center": {
       "Cost": 400,
@@ -2630,7 +2661,8 @@
       "Text": "",
       "name": "Intelligence Agency",
       "text": "#BLDG_Intelligence_Center\n^\n^\n^The intelligence agency allows the player to undertake $LINK<Espionage missions=GCON_Espionage>.\n",
-      "description": "#DESC_BLDG_Intelligence_Center\n^\n^\n^The benefits of using spies and espionage in military matters were identified early in mankind�s history. Both the pharaohs of Egypt and Caesars of \nRome setup embassies in neighboring nations in order to monitor the expansion and movement of military forces. As technology increased the \npotential scale of warfare, it became critical to know from where and when threats would emerge. This can be seen in the plethora of methods used \nin acquiring information on a not-so-friendly nation. These include high altitude reconnaissance photography, actual battlefield observation, and \ncovert missions. All this information usually focuses at the Intelligence Center, which collates and analyzes this valuable data from their diverse and \nremote sources. \n\n\n"
+      "description": "#DESC_BLDG_Intelligence_Center\n^\n^\n^The benefits of using spies and espionage in military matters were identified early in mankind�s history. Both the pharaohs of Egypt and Caesars of \nRome setup embassies in neighboring nations in order to monitor the expansion and movement of military forces. As technology increased the \npotential scale of warfare, it became critical to know from where and when threats would emerge. This can be seen in the plethora of methods used \nin acquiring information on a not-so-friendly nation. These include high altitude reconnaissance photography, actual battlefield observation, and \ncovert missions. All this information usually focuses at the Intelligence Center, which collates and analyzes this valuable data from their diverse and \nremote sources. \n\n\n",
+      "type": "Small Wonder"
     },
     "bldg_great_ironworks": {
       "Cost": 300,
@@ -2645,7 +2677,8 @@
       "Text": "",
       "name": "Iron Works",
       "text": "#BLDG_Great_Ironworks\n^\n^\n^$LINK<Production=GCON_Shields> increased by 100% in the city where it's built.\n^{Requires:} The city that builds it must have Iron and Coal in its city radius.\n",
-      "description": "#DESC_BLDG_Great_Ironworks\n^\n^\n^As mankind�s dependence on metals increased through the ages, it became very important to cheaply and effectively separate the base metal from \nimpurities. The process of smelting, through the use of a structure called a blast furnace, achieved just that. Using carbon dioxide created from \noxidized coke to absorb the oxygen from the molten iron, it leaves the metal �slag� to sink to the bottom of the furnace. This separation allows for \na pure iron to be derived, which is then used for numerous purposes, including the creation of steel.\n\n\n"
+      "description": "#DESC_BLDG_Great_Ironworks\n^\n^\n^As mankind�s dependence on metals increased through the ages, it became very important to cheaply and effectively separate the base metal from \nimpurities. The process of smelting, through the use of a structure called a blast furnace, achieved just that. Using carbon dioxide created from \noxidized coke to absorb the oxygen from the molten iron, it leaves the metal �slag� to sink to the bottom of the furnace. This separation allows for \na pure iron to be derived, which is then used for numerous purposes, including the creation of steel.\n\n\n",
+      "type": "Small Wonder"
     },
     "bldg_military_academy": {
       "Cost": 400,
@@ -2657,7 +2690,8 @@
       "Text": "",
       "name": "Military Academy",
       "text": "#BLDG_Military_Academy\n^\n^\nThe city with the [Military Academy] can build $LINK<armies=GCON_Armies> without the benefit of a $LINK<leader=GCON_Leaders>.  Armies from this civilization are more effective in combat.\n^\n^{Requires:} The civilization must have had a victorious $LINK<army=GCON_Armies>.\n",
-      "description": "#DESC_BLDG_Military_Academy\n^\n^\n^Methods of passing down the tactics and arts of war from generation to generation vary based on culture and era. The United States solution, which \nup to that point relied on foreign instructors, lay in creating the United States Military Academy, located at West Point, New York. Established on \nthe site of a 18th century fortress in 1802, West Point went on to craft most of the nation�s military leaders. Cadets are selected for training via a \ndiverse number of methods, including competitive and non-competitive methods. Graduates earn the commission as Second Lieutenants and receive \na Bachelor of Science degree. One paramount function of this institution is to stay current in the practice of warfare, typically by having officers from \nprevious conflicts become instructors.\n\n\n"
+      "description": "#DESC_BLDG_Military_Academy\n^\n^\n^Methods of passing down the tactics and arts of war from generation to generation vary based on culture and era. The United States solution, which \nup to that point relied on foreign instructors, lay in creating the United States Military Academy, located at West Point, New York. Established on \nthe site of a 18th century fortress in 1802, West Point went on to craft most of the nation�s military leaders. Cadets are selected for training via a \ndiverse number of methods, including competitive and non-competitive methods. Graduates earn the commission as Second Lieutenants and receive \na Bachelor of Science degree. One paramount function of this institution is to stay current in the practice of warfare, typically by having officers from \nprevious conflicts become instructors.\n\n\n",
+      "type": "Small Wonder"
     },
     "bldg_pentagon": {
       "Cost": 400,
@@ -2669,7 +2703,8 @@
       "Text": "",
       "name": "The Pentagon",
       "text": "#BLDG_Pentagon\n^\n^\n[The Pentagon] increases the unit capacity of all the civilization's armies from three to four.\n^{Requires:} The civilization must have at least three $LINK<armies=GCON_Armies> in the field.\n",
-      "description": "#DESC_BLDG_Pentagon\n^\n^\n^The Pentagon is the largest office building in existence. The structure was completed on January 15, 1943, during the height of the Second World War, after a crash building effort of only \n16 months. The 83 million dollar facility covers more than six million square feet, roughly three times that of the Chicago�s Sears Tower (the second largest office building). Originally a US Army facility,\nit soon became the nerve center for all military branches of the United States.\n\n\n"
+      "description": "#DESC_BLDG_Pentagon\n^\n^\n^The Pentagon is the largest office building in existence. The structure was completed on January 15, 1943, during the height of the Second World War, after a crash building effort of only \n16 months. The 83 million dollar facility covers more than six million square feet, roughly three times that of the Chicago�s Sears Tower (the second largest office building). Originally a US Army facility,\nit soon became the nerve center for all military branches of the United States.\n\n\n",
+      "type": "Small Wonder"
     },
     "bldg_secret_police_hq": {
       "Cost": 200,
@@ -2681,7 +2716,8 @@
       "Text": "",
       "name": "Secret Police HQ",
       "text": "#BLDG_Secret_Police_HQ\n^\n^\nGives similar benefits as the $LINK<Palace=BLDG_Palace> but still suffers some corruption. By building the Forbidden Palace you also increase the optimal number of cities for your civilization to have. This amount is relative to map size, difficulty, and current government choice. This is cumulative with $LINK<Forbidden Palace=BLDG_Forbidden_Palace>.\n^{Requires:} Only civilizations under Communist government can build the Secret Police HQ. Changing from Communism will cause the Secret Police HQ bonuses to stop.\n",
-      "description": "#DESC_BLDG_Secret_Police_HQ\n^\n^\n^Totalitarian governments virtually always rely heavily on secret police forces to enforce ideological and political reliability in the populations they govern. Secret police headquarters are often innocuous and bland, and usually contain not just offices and meeting rooms but interrogation and torture facilities, prison cells, execution chambers, and so forth. The Soviet KGB's headquarters was made in the Lubyanka, a tsarist-era office building located over an underground prison complex. \nAcross the street from the Lubyanka was a toy store for children, to take away from the sinister image projected by the building.\n\n\n; END WONDERS ____________________________________________________________________________________ END WONDERS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n; ADVANCES_______________________________________________________________________________________ ADVANCES\n\n\n"
+      "description": "#DESC_BLDG_Secret_Police_HQ\n^\n^\n^Totalitarian governments virtually always rely heavily on secret police forces to enforce ideological and political reliability in the populations they govern. Secret police headquarters are often innocuous and bland, and usually contain not just offices and meeting rooms but interrogation and torture facilities, prison cells, execution chambers, and so forth. The Soviet KGB's headquarters was made in the Lubyanka, a tsarist-era office building located over an underground prison complex. \nAcross the street from the Lubyanka was a toy store for children, to take away from the sinister image projected by the building.\n\n\n; END WONDERS ____________________________________________________________________________________ END WONDERS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n; ADVANCES_______________________________________________________________________________________ ADVANCES\n\n\n",
+      "type": "Small Wonder"
     },
     "bldg_sdi": {
       "Cost": 500,
@@ -2693,7 +2729,8 @@
       "Text": "",
       "name": "Strategic Missile Defense",
       "text": "#BLDG_SDI\n^\n^\nOffers a 75% chance of intercepting enemy ICBMs.\n^{Requires:} The civilization must have at least five SAM Batteries in cities it controls.\n",
-      "description": "#DESC_BLDG_SDI\n^\n^\n^Historically, research in the area of warfare has seen the development of powerful new weapons closely followed by the development of defenses to \ncounteract the weapons' destructive power. The development of nuclear weapons seemed to be the exception to this rule: for the first time, mankind \nhad created a weapon to which there was apparently no effective defense. SDI (Strategic Defense Initiative), however, could be the answer to this \nproblem. Using laser-equipped orbital satellites or ground-launched ABMs (Anti-ballistic Missiles) to intercept and destroy enemy nuclear missiles \nin mid-air, the SDI Defense offers the first hope of negating the threat posed by nuclear missiles.\n\n\n"
+      "description": "#DESC_BLDG_SDI\n^\n^\n^Historically, research in the area of warfare has seen the development of powerful new weapons closely followed by the development of defenses to \ncounteract the weapons' destructive power. The development of nuclear weapons seemed to be the exception to this rule: for the first time, mankind \nhad created a weapon to which there was apparently no effective defense. SDI (Strategic Defense Initiative), however, could be the answer to this \nproblem. Using laser-equipped orbital satellites or ground-launched ABMs (Anti-ballistic Missiles) to intercept and destroy enemy nuclear missiles \nin mid-air, the SDI Defense offers the first hope of negating the threat posed by nuclear missiles.\n\n\n",
+      "type": "Small Wonder"
     },
     "bldg_wall_street": {
       "Cost": 300,
@@ -2705,10 +2742,9 @@
       "Text": "",
       "name": "Wall Street",
       "text": "#BLDG_Wall_Street\n^\n^\nThe $LINK<treasury=GCON_Treasury> begins earning 5% interest every turn with a maximum cap of 50 gold per turn.\n^{Requires:} The civilization must have at least five Stock Exchanges in cities it controls.\n",
-      "description": "#DESC_BLDG_Wall_Street\n^\n^\n^The location of the New York Stock Exchange, Wall Street has become the epitome of the modern financial district. A narrow street running from \nBroadway to the East River, it houses some of the world's most prestigious and powerful banks and commodity exchanges. In 1653 Dutch colonists \nerected a barricade along this route to ward off the British and unfriendly natives. \n\n\n"
-    }
-  },
-  "City Improvements": {
+      "description": "#DESC_BLDG_Wall_Street\n^\n^\n^The location of the New York Stock Exchange, Wall Street has become the epitome of the modern financial district. A narrow street running from \nBroadway to the East River, it houses some of the world's most prestigious and powerful banks and commodity exchanges. In 1653 Dutch colonists \nerected a barricade along this route to ward off the British and unfriendly natives. \n\n\n",
+      "type": "Small Wonder"
+    },
     "bldg_airport": {
       "Cost": 160,
       "Maintenance": 2,
@@ -2717,7 +2753,8 @@
       "Resources": [],
       "text": "#BLDG_Airport\n^\n^A city with an [Airport] produces $LINK<veteran=GCON_Experience> air units instead of regulars.\n^An [Airport] is a link in the $LINK<trade network=GCON_Trade>, allowing luxuries\nand strategic resources to be traded to other [Airports].\n^A city with an [Airport] can be used to upgrade air units and airlift land units.\n",
       "description": "#DESC_BLDG_Airport\n^\n^\n^Since the middle of the 20th century, the airplane has been one of the chief means of long-distance transport in the \nworld. Nearly every major metropolitan area today has at least one airport, with facilities to handle passengers and \nticketing, as well as facilities for refueling and repairing the aircraft that land there. Beginning in the 1940s, \nthe growing role of airplanes as combat vehicles led to the widespread construction of military air bases. Nearly 400 \nof these facilities in the U.S. alone act as bases and maintenance facilities for aircraft assigned to all branches of \nthe military.\n\n\n",
-      "name": "Airport"
+      "name": "Airport",
+      "type": "Improvement"
     },
     "bldg_aqueduct": {
       "Cost": 100,
@@ -2727,7 +2764,8 @@
       "Resources": [],
       "text": "#BLDG_Aqueduct\n^\n^\n^A city with an [Aqueduct] can grow beyond population six.\n^Note that a city adjacent to fresh water never requires an aqueduct.\n",
       "description": "#DESC_BLDG_Aqueduct\n^\n^\n^A major obstacle to population growth and expansion in early cities was the scarcity of water. In many cases, the solution to this problem \nwas an aqueduct. Aqueducts were large, elevated stone \"canals\" through which water from nearby hills and mountains was channeled into the \ncity. Aqueducts allowed cities to grow much larger by significantly increasing the amount of available water. At the same time aqueducts \nreduced the chance of contracting water-borne diseases, by reducing the dependence on stagnant ponds and wells as water sources. Aqueducts \nalso allowed cities to be built in normally inhospitable environments, such as deserts, by providing an outside water source. Modern day Los \nAngeles, for example, obtains its water supply from the Colorado River, through a system of aqueducts over 200 miles long.\n\n\n",
-      "name": "Aqueduct"
+      "name": "Aqueduct",
+      "type": "Improvement"
     },
     "bldg_bank": {
       "Cost": 160,
@@ -2737,7 +2775,8 @@
       "Resources": [],
       "text": "#BLDG_Bank\n^\n^\n^A [Bank] increases $LINK<tax revenue=GCON_Commerce> produced in its city by 50%, in addition to any marketplace benefit. You must have a $LINK<Marketplace=BLDG_Marketplace> to build a Bank.\n",
       "description": "#DESC_BLDG_Bank\n^\n^\n^A highly developed banking system is one of the cornerstones of an advanced civilization. Banks lend money to individuals or groups, \nproviding capital for industrial and real estate development. Banks also contribute to the economic growth of a city or region by stimulating \nthe development of production facilities. Individual citizens can also benefit by investing their own surplus money in the bank and  earning \ninterest on it.\n\n\n",
-      "name": "Bank"
+      "name": "Bank",
+      "type": "Improvement"
     },
     "bldg_barracks": {
       "Cost": 40,
@@ -2747,7 +2786,8 @@
       "Resources": [],
       "text": "#BLDG_Barracks\n^\n^A city with a [Barracks] produces $LINK<veteran=GCON_Experience> ground units instead of regulars and heals ground units\ncompletely in one turn.\n^A city with a [Barracks] can be used to upgrade ground units.\n",
       "description": "#DESC_BLDG_Barracks\n^\n^\n^Warfare has been a recurring phenomenon throughout the history of mankind, and it continues to plague the world today. \nAlthough war is not a desirable situation, it is important that even the most peaceful of societies be prepared for the \npossibility of war. When warring nations are closely matched in technology and manpower, the army with the best training usually wins battles.\nMilitary schools and academies exist all over the world, established for the purpose of training military \npersonnel in the latest methods, tactics, and technology. Men and women who graduate from such facilities possess higher than \naverage command and military and technological skills, making them more effective in combat situations.\n\n\n",
-      "name": "Barracks"
+      "name": "Barracks",
+      "type": "Improvement"
     },
     "bldg_cathedral": {
       "Cost": 160,
@@ -2757,7 +2797,8 @@
       "Resources": [],
       "text": "#BLDG_Cathedral\n^\n^\n^[The Cathedral] produces three $LINK<content faces=GCON_Happy_Faces>, making three unhappy citizens content. You must have a $LINK<Temple=BLDG_Temple> in the city in order to build a Cathedral.\n",
       "description": "#DESC_BLDG_Cathedral\n^\n^\n^Throughout the Dark Ages that followed the fall of the Roman Empire, the Christian Church was a major influence in the revival of \nEuropean civilization. In recognition of the expanding influence of the church, great cathedrals were built in the largest towns and \ncities, to act as centers of religious study and worship. In addition to their religious significance, cathedrals acted as the center \nof social and cultural activity in the town. They brought great pride, stability, and tradition to the citizens of the community.\n\n\n",
-      "name": "Cathedral"
+      "name": "Cathedral",
+      "type": "Improvement"
     },
     "bldg_civil_defense": {
       "Cost": 120,
@@ -2767,7 +2808,8 @@
       "Resources": [],
       "text": "#BLDG_Civil_Defense\n^\n^\n^[Civil Defense] can be built in any size settlement and provides a 50% defensive bonus to units\ndefending in the town. Civil Defense can only be built in a city that has a barracks.\n",
       "description": "#DESC_BLDG_Civil_Defense\n^\n^\n^An active Civil Defense plan in times of war reduces loss of life and property resulting from enemy actions.  During the \nSecond World War the threat of aerial attack on cities was sufficient enough that many cities implemented organized civil \ndefense strategies.  Citizens were trained in fire fighting, rescue, medical first-aid and shelters were built to protect \nagainst bombing raids and other attacks.  Other tactics included power blackouts that significantly reduced the glow of \ncity lights, typically used as guides by enemy pilots in bombing campaigns.  The introduction of nuclear weapons, capable \nof destroying entire metropolitan areas, caused radical changes in how civil defense is now approached, including: plans \nfor mass evacuation, and prolonged residence in shelters.\n\n\n",
-      "name": "Civil Defense"
+      "name": "Civil Defense",
+      "type": "Improvement"
     },
     "bldg_coal_plant": {
       "Cost": 160,
@@ -2779,7 +2821,8 @@
       ],
       "text": "#BLDG_Coal_Plant\n^\n^\n^The [Coal Plant] increases $LINK<factory=BLDG_Factory> output by 50%.\n^It does produce $LINK<pollution=GCON_Pollution>.\n^It replaces any other power plant in the city. A Factory is required to build a Coal Plant.\n",
       "description": "#DESC_BLDG_Coal_Plant\n^\n^\n^Power plants burn coal and other fossil fuels to produce the heat and steam necessary to run generators that produce electrical power. \nWhen electricity became widely and cheaply available, it meant that industries could convert from steam to electrical power to run their \nmachinery. One central power plant could supply the electrical needs of a relatively large geographic area. However, increasing demands \nfor electricity, by both consumer and commercial customers, led to a rise in the number of power plants. This, in turn, led to problems \nwith air pollution. As more plants went on line, more fossil fuels were burned to generate power. Because modern society depends so heavily \non electricity, researchers are constantly searching for alternate forms of energy to satisfy ever-increasing demands.\n\n\n",
-      "name": "Coal Plant"
+      "name": "Coal Plant",
+      "type": "Improvement"
     },
     "bldg_coastal_fortress": {
       "Cost": 40,
@@ -2792,7 +2835,8 @@
       ],
       "text": "#BLDG_Coastal_Fortress\n^\n^\n^A [Coastal Fortress] gives the city a naval bombardment defense of eight.\n^The fortress automatically bombards passing enemy ships.\n",
       "description": "#DESC_BLDG_Coastal_Fortress\n^\n^\n^The construction of defensive structures such as city walls and fortified castles dates back to ancient times. \nCity walls were designed primarily to repel an attack launched by ground-based forces, and they performed adequately \nin such a situation. However, coastal cities were also vulnerable to attack from sea bombardments, since even a city \nwall left sea ports relatively unprotected. The best way to protect the port was to keep the enemy out of range of \nthe city. This was accomplished by constructing fortresses to cover the approach to the city. These coastal fortresses, \nbuilt at the mouth of the city's harbor or on barrier islands, would hold enemy vessels at bay, turning away or thinning \nout the attacking force and minimizing damage to the city's port.\n\n\n",
-      "name": "Coastal Fortress"
+      "name": "Coastal Fortress",
+      "type": "Improvement"
     },
     "bldg_colosseum": {
       "Cost": 120,
@@ -2802,7 +2846,8 @@
       "Resources": [],
       "text": "#BLDG_Colosseum\n^\n^\n^The [Colosseum] produces two $LINK<content faces=GCON_Happy_Faces> that make two unhappy citizens content.\n",
       "description": "#DESC_BLDG_Colosseum\n^\n^\n^The original colosseum provided entertainment for the common people of Roman society by presenting them with spectacles and events as a \ntemporary escape from day-to-day life. This concept has been revived in the 20th Century. Modern-day stadiums and civic centers provide an \narena for entertainment ranging from concerts to professional sporting events. Although the violent spectacle of gladiatorial combat is a \nthing of the past, today's colosseums still provide entertainment and diversion for the masses.\n\n\n",
-      "name": "Colosseum"
+      "name": "Colosseum",
+      "type": "Improvement"
     },
     "bldg_commercial_dock": {
       "Cost": 160,
@@ -2812,7 +2857,8 @@
       "Resources": [],
       "text": "#BLDG_Commercial_Dock\n^\n^\n^A [Commercial Dock] causes the city it is in to produce one extra Commerce in every water square that already produces one.\nA Commercial Dock can only be bult in coastal cities. A Commercial Dock can only be built in a city that has a harbor.\n",
       "description": "#DESC_BLDG_Commercial_Dock\n^\n^\n^Free-market freighters carry a variety of cargoes, between numerous ports. In many instances, the services of these ships are matched with \ncargoes of brokers who meet on a trading floor in an environment analogous to a stock exchange or a commodities exchange.  In times of low \nfreight rates, a broker representing cargo interests may charter a ship for a future date, while having no cargo in prospect but expecting \nto resell the contract when the rates rise.  Most of the world's chartering business is carried out in the Baltic Mercantile and Shipping \nExchange, commonly known as the \"Baltic Exchange\", located in London.  Other exchanges, especially for special cargoes, are in operation as \nwell.  A large part of the immense world oil transportation business, for example, is chartered by brokers who are based in many different ports.\n\n\n\n; SPACESHIP COMPONENTS__________________________________________________________________________SPACESHIP COMPONENTS\n\n\n",
-      "name": "Commercial Dock"
+      "name": "Commercial Dock",
+      "type": "Improvement"
     },
     "bldg_courthouse": {
       "Cost": 80,
@@ -2822,7 +2868,8 @@
       "Resources": [],
       "text": "#BLDG_Courthouse\n^\n^\n^The [Courthouse] decreases $LINK<corruption=GCON_Corruption> in its city and makes the city more resistant to propaganda.\n",
       "description": "#DESC_BLDG_Courthouse\n^\n^\n^As kingdoms and empires expanded, it became increasingly difficult for the rulers to maintain control over the more distant regions \nof their realm. To ensure that the far-flung cities of the empire contributed their expected share of duties and taxes to the government, \nlocal magistrates and courts were established. In the courthouse, the ruler's representatives listened to the grievances of the people and \ndefined and enforced the laws that governed social interaction. This reduced crime, and thereby kept the local population productive.\n\n\n",
-      "name": "Courthouse"
+      "name": "Courthouse",
+      "type": "Improvement"
     },
     "bldg_factory": {
       "Cost": 240,
@@ -2834,7 +2881,8 @@
       ],
       "text": "#BLDG_Factory\n^\n^\n^A [Factory] increases $LINK<shield production=GCON_Shields> in its city by 50%. Building a power plant in the same city\nincreases this bonus. Note that factories produce $LINK<pollution=GCON_Pollution>.\n",
       "description": "#DESC_BLDG_Factory\n^\n^\n^Early examples of factory-like production, where a number of individuals work cooperatively to produce goods for sale or trade, can be \nfound as far back as ancient Greece and Rome. Modern factories, however, evolved from the concept of specialized labor, where each worker \nperformed a single step in the overall production of an item. This specialization allows factories to increase the speed and efficiency of \nthe manufacturing process, far surpassing earlier means of production. The development of the factory system as a means of production played \na key role in the Industrial Revolution.\n\n\n",
-      "name": "Factory"
+      "name": "Factory",
+      "type": "Improvement"
     },
     "bldg_granary": {
       "Cost": 60,
@@ -2844,7 +2892,8 @@
       "Resources": [],
       "text": "#BLDG_Granary\n^\n^\n^The [Granary] effectively doubles the rate of a city's growth by causing only half of a city's $LINK<food store=GCON_Food> to\nbe depleted when the city grows.\n",
       "description": "#DESC_BLDG_Granary\n^\n^\n^Early humans were nomadic, settling in specific regions only for brief periods of time. When the food supply was exhausted in \none area, the nomads would move on to search for more. Cities became possible only when the development of agriculture made \nthe supply of food more abundant and dependable. However, cities still needed a way to keep the food supply stable throughout \nall four seasons. To do so, the citizens had to come up with a way to store seasonal crops for later use. The Granary was designed \nfor the storage and protection of surplus food. Food storage technology meant that a smaller percentage of the population could \nproduce and store enough food for everyone, allowing the remainder to pursue other jobs and activities.\n\n\n",
-      "name": "Granary"
+      "name": "Granary",
+      "type": "Improvement"
     },
     "bldg_harbor": {
       "Cost": 60,
@@ -2854,7 +2903,8 @@
       "Resources": [],
       "text": "#BLDG_Harbor\n^\n^Cities with a [Harbor] produce $LINK<veteran=GCON_Experience> naval units instead of regulars.\n^Coastal, sea, and ocean squares produce one extra $LINK<food=GCON_Food>. \n^A [Harbor] is a link in the $LINK<trade network=GCON_Trade>, allowing $LINK<luxuries=GCON_ResourcesL>\nand $LINK<strategic resources=GCON_ResourcesS> to be traded to other [Harbors].\n^A city with a [Harbor] can be used to upgrade naval units.\n",
       "description": "#DESC_BLDG_Harbor\n^\n^\n^Just because a city is built in a coastal region doesn't guarantee that the city is readily accessible by ship. \nIn order for a port city to establish a steady trade, fishing, or other shipping industry, the city must have a \nharbor. A harbor is a protected body of water that opens into an ocean or lake that shelters ships from waves and \nhigh winds. Although some coastal cities are established in areas where a natural harbor exists, most seaports \nare forced either to improve the existing natural harbor, or to build a man-made harbor to shelter ships and provide \nchannels deep enough to accommodate large vessels.\n\n\n",
-      "name": "Harbor"
+      "name": "Harbor",
+      "type": "Improvement"
     },
     "bldg_hospital": {
       "Cost": 160,
@@ -2864,7 +2914,8 @@
       "Resources": [],
       "text": "#BLDG_Hospital\n^\n^\n^A city with a [Hospital] can grow beyond population 12. You must have a population of 7 or higher to build a hospital.\n",
       "description": "#DESC_BLDG_Hospital\n^\n^\n^Hospitals are institutions that focus on the diagnosis and treatment of disease and trauma. While dispensing these services, \nthey also provide housing. With technological innovation in medicine, hospitals have increasingly become community hubs, \nexpanding their role to include teaching and research. Throughout history a hospital's role has shifted from a place to secure\nthe ill or insane, to one of hope and health. \n\n\n",
-      "name": "Hospital"
+      "name": "Hospital",
+      "type": "Improvement"
     },
     "bldg_hydro_plant": {
       "Cost": 240,
@@ -2874,7 +2925,8 @@
       "Resources": [],
       "text": "#BLDG_Hydro_Plant\n^\n^\n^The [Hydro Plant] increases $LINK<factory=BLDG_Factory> output by 50%.\n^It produces no $LINK<pollution=GCON_Pollution>.\n^It replaces any other power plant in the city. A Factory is required to build a Hydro Plant.\n^\n^A city must have a river within its $LINK<radius=GCON_Radius> to build a Hydro Plant.\n",
       "description": "#DESC_BLDG_Hydro_Plant\n^\n^\n^One alternative to power generation utilizing coal or petroleum fuels is the hydroelectric power plant. This facility \nutilizes the energy of rapidly moving water to turn the turbines of its generators and produce electricity. In locations \nwhere a source of moving water is available, hydro plants offer a clean, safe alternative to coal, petroleum, and nuclear \npower generation. Hydro plants have their own set of  environmental dangers, however. The disruption of a river's normal \nflow and the massive flooding of the land behind the facility's dam can destroy the habitat of the wildlife inhabiting the \nriver basin.\n\n\n",
-      "name": "Hydro Plant"
+      "name": "Hydro Plant",
+      "type": "Improvement"
     },
     "bldg_library": {
       "Cost": 80,
@@ -2884,7 +2936,8 @@
       "Resources": [],
       "text": "#BLDG_Library\n^\n^\n^A city with a [Library] produces 50% more $LINK<scientific research=GCON_Research> than it would without one.\n",
       "description": "#DESC_BLDG_Library\n^\n^\n^The development of writing meant that the accumulated knowledge of a society could be written down and stored rather than memorized \nand passed along by word of mouth. The accumulated written material was stored in a library. The libraries of the ancient world, \nespecially those at Alexandria and Pergamum, became leading centers of science and scholarship. The librarians actively collected \nthe books of the world, accelerating the spread of knowledge.\n\n\n",
-      "name": "Library"
+      "name": "Library",
+      "type": "Improvement"
     },
     "bldg_manufacturing_plant": {
       "Cost": 320,
@@ -2894,7 +2947,8 @@
       "Resources": [],
       "text": "#BLDG_Manufacturing_Plant\n^\n^\n^A [Manufacturing Plant] increases $LINK<shield production=GCON_Shields> in its city by 50%. Note that \nmanufacturing plants produce $LINK<pollution=GCON_Pollution>. A Factory is required to build a Manufacturing Plant.\n",
       "description": "#DESC_BLDG_Manufacturing_Plant\n^\n^\n^Manufacturing plants are large industrial complexes that produce goods of all types, although they are\ngenerally used to produce durable consumer goods such as automobiles. Essentially, a manufacturing plant\nis a large, sophisticated factory that employs specialization of labor, complex machinery, and assembly\nlines to gain efficiency and economies of scale. This combination of manpower and automation increases\nproductivity and reduces production costs.\n\n\n",
-      "name": "Manufacturing Plant"
+      "name": "Manufacturing Plant",
+      "type": "Improvement"
     },
     "bldg_marketplace": {
       "Cost": 100,
@@ -2904,7 +2958,8 @@
       "Resources": [],
       "text": "#BLDG_Marketplace\n^\n^\n^The [Marketplace] increases tax revenue allocated to the $LINK<treasury=GCON_Commerce> by 50%. It also increases the number\nof $LINK<happy faces=GCON_Happy_Faces> produced by $LINK<luxuries=GCON_ResourcesL> as per the following list:\n^* 1 luxury   = 1 happy face\n^* 2 luxuries = 2 happy faces\n^* 3 luxuries = 4 happy faces\n^* 4 luxuries = 6 happy faces\n^* 5 luxuries = 9 happy faces\n^* 6 luxuries = 12 happy faces\n^* 7 luxuries = 16 happy faces\n^* 8 luxuries = 20 happy faces\n",
       "description": "#DESC_BLDG_MarketPlace\n^\n^\n^As cities grew and prospered, trade between the farmers, artisans, and craftsmen who lived in the vicinity contributed to the \neconomic health of the city. It soon became apparent that the best way for conducting trade within the city was to have a central \nlocation, or marketplace, where the people offering goods and services, or seeking them, could meet and conduct business. As a city's \nmarketplace grew larger and more active, the economic vitality of the city grew as well.\n\n\n",
-      "name": "Marketplace"
+      "name": "Marketplace",
+      "type": "Improvement"
     },
     "bldg_mass_transit_system": {
       "Cost": 200,
@@ -2916,7 +2971,8 @@
       ],
       "text": "#BLDG_Mass_Transit_System\n^\n^\n^The [Mass Transit System] reduces $LINK<pollution=GCON_Pollution> caused by population.\n",
       "description": "#DESC_BLDG_Mass_Transit_System\n^\n^\n^Within a few decades of the invention of the automobile, the horse-drawn carriage disappeared from city streets. Along with all the \nadvantages offered by the automobile, this new means of transportation quickly became a significant source of air pollution. As larger \ncities became more crowded, the number of cars increased, making travel difficult and adding to the pollution problem as automobile traffic \nclogged the streets. The development of mass transit systems, including busses, trolleys, subways, and light rail, led to a reduction in \ntraffic and, as a result, a reduction in air pollution.\n\n\n",
-      "name": "Mass Transit System"
+      "name": "Mass Transit System",
+      "type": "Improvement"
     },
     "bldg_nuclear_plant": {
       "Cost": 240,
@@ -2928,7 +2984,8 @@
       ],
       "text": "#BLDG_Nuclear_Plant\n^\n^\n^The [Nuclear Plant] increases $LINK<factory=BLDG_Factory> output by 100%. \n^It does not create any $LINK<pollution=GCON_Pollution>. A Factory is required to build a Nuclear Plant.\n^Nuclear Plants can [meltdown], causing all hell to break loose...\n^\n^A city must have fresh water within its $LINK<radius=GCON_Radius> to build a Nuclear Plant. It replaces any\nother power plant in the city.\n",
       "description": "#DESC_BLDG_Nuclear_Plant\n^\n^\n^Nuclear power plants utilize radioactive materials and the process of nuclear fission to generate the heat and steam \nneeded to run electrical generators and produce electricity. Because nuclear power doesn't cause the air pollution associated \nwith the burning of coal or petroleum products, this means of generating power is considered a viable alternative energy source. \nHowever, the toxic nature of the byproducts produced by the fission process creates serious problems of its own. No method of \nsafely disposing of this toxic waste has been found, and the volatile nature of the fission reaction can lead to a meltdown of \nthe reactor core if the reaction is not properly controlled. Because of these problems, the future of nuclear power is uncertain.\n\n\n\n",
-      "name": "Nuclear Plant"
+      "name": "Nuclear Plant",
+      "type": "Improvement"
     },
     "bldg_offshore_platform": {
       "Cost": 240,
@@ -2938,7 +2995,8 @@
       "Resources": [],
       "text": "#BLDG_Offshore_Platform\n^\n^\n^An [Offshore Platform} causes all worked coastal, sea, and ocean squares to produce one $LINK<shield=GCON_Shields>.\n",
       "description": "#DESC_BLDG_Offshore_Platform\n^\n^\n^Mankind's dependence on wood and coal as a main source of fuel ended when the first commercial oil well went into \nproduction in Pennsylvania in 1859. Crude oil could be refined into many different byproducts, and soon replaced wood \nand coal in many parts of the world. The growing dependence on oil caused the petroleum industry to grow rapidly and \nwells were drilled all over the world. Most wells were initially drilled on land, but after World War II it was found \nthat many of the largest oil deposits could be found below the sea floor. Shallow water drilling from platforms supported \nby pylons resting on the seabed proved very successful. Today, large floating platforms can drill for oil at water depths \nof more than 3300 feet.\n\n\n",
-      "name": "Offshore Platform"
+      "name": "Offshore Platform",
+      "type": "Improvement"
     },
     "bldg_palace": {
       "Cost": 100,
@@ -2948,7 +3006,8 @@
       "Resources": [],
       "text": "#BLDG_Palace\n^\n^\n^[The Palace] marks the capital city and center of your empire.\n^It eliminates $LINK<corruption/waste=GCON_Corruption> in the capital, and decreases it in nearby cities.\nEach civilization can have only one palace at a time. But each civilization can also build the\n$LINK<Forbidden Palace=BLDG_Forbidden_Palace>.\n",
       "description": "#DESC_BLDG_Palace\n^\n^\n^When populations began to organize their communities into cities, their governments became more structured and formalized. \nAt an early stage, the ruler of the city established headquarters from which the business of running the city was conducted. \nIn many cases, these buildings also served as the living quarters of the ruler. In wealthy cities, these facilities often \nexpanded into immense, sprawling palaces. These richly adorned, imposing buildings were a source of civic pride, and helped \nto reinforce the aura of power surrounding the ruler.\n\n\n",
-      "name": "Palace"
+      "name": "Palace",
+      "type": "Improvement"
     },
     "bldg_police_station": {
       "Cost": 160,
@@ -2958,7 +3017,8 @@
       "Resources": [],
       "text": "#BLDG_Police_Station\n^\n^\n^The [Police Station] combats $LINK<war weariness=GCON_War_Weariness> and decreases $LINK<corruption=GCON_Corruption> in its city.\n",
       "description": "#DESC_BLDG_Police_Station\n^\n^\n^The concept of a police force operating independently of the military goes back to the Praetorian Guard of ancient \nRome. In the Middle Ages, noblemen protected their estates by appointing constables to enforce the law and to arrest \nand guard criminals, but the first modern, organized police force was the London Metropolitan Police. Established in \n1829, this organization became the model for law enforcement organizations in the United States and many other \nindustrialized nations around the world. The presence of a police force serves to uphold the laws of society, and to \ncontrol civil unrest. A strong, visible police force strengthens confidence of the community by keeping the citizens\nsafe.\n\n\n",
-      "name": "Police Station"
+      "name": "Police Station",
+      "type": "Improvement"
     },
     "bldg_recycling_center": {
       "Cost": 200,
@@ -2968,7 +3028,8 @@
       "Resources": [],
       "text": "#BLDG_Recycling_Center\n^\n^\n^The [Recycling Center] decreases $LINK<pollution=GCON_Pollution> caused by city improvements.\n",
       "description": "#DESC_BLDG_Recycling_Center\n^\n^\n^The continual growth in city populations leads to an inevitable increase in garbage. Eventually, existing landfills and garbage dumps \nare filled, forcing new dumping sites to be established. This leads to the gradual but steady destruction of the local environment. \nTo reverse this problem, many areas have established recycling centers, where much of the garbage is sorted and reduced to reusable \ncomponents through various means. These components are then used to manufacture new products. In this way, much of the trash produced \nis turned into raw materials for production, rather than contributing to the ever-increasing pollution problem.\n\n\n",
-      "name": "Recycling Center"
+      "name": "Recycling Center",
+      "type": "Improvement"
     },
     "bldg_lab": {
       "Cost": 200,
@@ -2978,7 +3039,8 @@
       "Resources": [],
       "text": "#BLDG_Lab\n^\n^\n^The [Research Lab] increases $LINK<scientific research=GCON_Research> by 50%.\n^This is in addition to any benefits from a $LINK<library=BLDG_Library> and/or $LINK<university=BLDG_University>.\nA University is required to build a Research Lab.\n",
       "description": "#DESC_BLDG_Lab\n^\n^\n^Historically, libraries and universities have acted as the primary centers of research for new ideas and technologies. The growth \nof private industry in the Modern Age has also given birth to hundreds of privately owned research facilities. These private laboratories, \nusually dedicated to research in a single field related to their founding company, have made tremendous advances in many fields including \nphysics, biology, chemistry, and medicine. The growth of privately-funded  research has vastly increased the speed at which mankind achieves \nnew advances in science and technology.\n\n\n",
-      "name": "Research Lab"
+      "name": "Research Lab",
+      "type": "Improvement"
     },
     "bldg_sam_missile_battery": {
       "Cost": 80,
@@ -2990,7 +3052,8 @@
       ],
       "text": "#BLDG_SAM_Missile_Battery\n^\n^\n^[SAM Missile Batteries] attack enemy air units that attempt to attack the SAM site's city.\n",
       "description": "#DESC_BLDG_SAM_Missile_Battery\n^\n^\n^The use of airplanes in warfare began in earnest during World War I. By the end of World War II, the use of fighter \naircraft and bombers was commonplace and the importance of air warfare continued to grow, as did the importance of \neffective anti-aircraft defenses. During the 1950s, the refinement of rocket technology allowed for the construction \nof compact missiles which were used to deliver explosive warheads to targets swiftly and accurately. Batteries \nof surface-to-air missiles, or SAMs, were built to protect cities and ground installations against airborne attacks. \nThe long range and high accuracy of SAM Missile Batteries provided a much more effective defense than the anti-aircraft guns \nof World War II.\n\n\n",
-      "name": "SAM Missile Battery"
+      "name": "SAM Missile Battery",
+      "type": "Improvement"
     },
     "bldg_solar_plant": {
       "Cost": 320,
@@ -3000,7 +3063,8 @@
       "Resources": [],
       "text": "#BLDG_Solar_Plant\n^\n^\n^The [Solar Plant] increases $LINK<factory=BLDG_Factory> output by 50%.\n^It produces no $LINK<pollution=GCON_Pollution>, and replaces any other power plant in the city. A Factory is required to build a \nSolar Plant.\n",
       "description": "#DESC_BLDG_Solar_Plant\n^\n^\n^One of the greatest natural sources of energy available on Earth is the sun. Solar energy can be converted directly \ninto electrical power without the need for mechanical generators through the use of photoelectric cells. Alternatively, \nlarge solar collectors known as heliostats can be used to focus solar energy into a water boiler, generating steam to \nrun conventional electrical turbines. Unfortunately, at our current level of technology, both of these systems are \nprohibitively expensive to construct. However, because of  the dwindling supply of fossil fuels and increasing concern \nover the pollution produced by conventional and nuclear power plants, scientists are constantly working on a viable way \nto harness the clean and endless supply of energy provided by our sun.\n\n\n",
-      "name": "Solar Plant"
+      "name": "Solar Plant",
+      "type": "Improvement"
     },
     "bldg_ss_cockpit": {
       "Cost": 320,
@@ -3012,7 +3076,8 @@
       ],
       "text": "#BLDG_SS_Cockpit\n^\n^\n^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type.\n",
       "description": "#DESC_BLDG_SS_Cockpit\n^\n^\n^The command and control center of the Space Ship, the Cockpit component is the brain of the vessel. Ergonomically \ndesigned for the comfort of the pilots, the Cockpit holds all of the advanced navigation and systems control computers \nnecessary for interstellar travel and interplanetary colonization as well as providing for all of the long-term \nnecessities of its occupants. A fully encased component, the Cockpit has no unshielded area, completely encasing \nthe occupants in a protective shell of titanium, ceramic, and an electromagnetic repulsion system to shed unwanted \nradiation. It utilizes the latest in holographic technology for star chart navigation, heads up displays for a 360 \ndegree range of vision around the Space Ship, and the most advanced sensors available for collision detection and \navoidance. The crowning jewel of the Cockpit component, however, is the advanced CAM Computer System, an artificial \nintelligence system designed to evaluate the potential dangers of deep space flight that may be encountered in the \nregions that no human has ever before penetrated. The CAM System continually monitors radiation fields and particle \npositions, judging the best way to deal with any potential threat and alerting the pilots in case of an emergency. \nThe CAM system also helps keep the pilots entertained, having full access to the libraries of the Planetary Party \nlounge and being the most advanced Chess computer in the known galaxy. \n\n\n",
-      "name": "SS Cockpit"
+      "name": "SS Cockpit",
+      "type": "Improvement"
     },
     "bldg_ss_landing_docking_bay": {
       "Cost": 160,
@@ -3024,7 +3089,8 @@
       ],
       "text": "#BLDG_SS_Landing_Docking_Bay\n^\n^\n^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type.\n",
       "description": "#DESC_BLDG_SS_Landing_Docking_Bay\n^\n^\n^Built entirely in space and for space travel, the Space Ship is a marvel of human technology. The Docking Bay module \nallows for the transfer of personnel and materials both during the initial loading of the Space Ship as well as during its \nfinal orbit, during which it will be converted to a Space Station for the first phase of the colonization and terraforming \nprocess. The Docking Bay module also holds the RCV Manned Shuttle, the main travel and transit vehicle for the Space Ship \noccupants, as well as providing access for the engineers to the exterior of the Space Ship during space walks. The Docking \nBay is in essence a large air lock with a door large enough to release the RCV, flanked by a pair of smaller air locks for \ntransferal of small teams of individuals. The Docking Bay also has large magnetic locks, allowing the Space Ship to join to \nthe International Space Station prior to its departure during the final phases of supply loading before launching from \nEarth's orbit for its interstellar trip.\n\n\n",
-      "name": "SS Docking Bay"
+      "name": "SS Docking Bay",
+      "type": "Improvement"
     },
     "bldg_ss_engine": {
       "Cost": 640,
@@ -3036,7 +3102,8 @@
       ],
       "text": "#BLDG_SS_Engine\n^\n^\n^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type.\n",
       "description": "#DESC_BLDG_SS_Engine\n^\n^\n^The Space Ship Engine is actually a four part launch vehicle, designed to enable the Space Ship to complete its journey \nboth within the high gravity space-time bends surrounding star systems and through the vast emptiness of deep space that \nseparates our star from Alpha Centauri. Its first stage is the external booster rockets, which, much like the terrestrially \nlaunched shuttles of the late twentieth century, are solid fuel boosters and are jettisoned when they are no longer \nneeded. They are crucial to build the initial impulse which will carry the Space Ship into Jupiter's gravity well, giving \nit the energy to slingshot to Uranus and then out into deep space. The second part to the Engine is the Space Ship's solar \nsail, which was designed both to use the radiation emitted from our sun and Jupiter for propulsion and to collect atomic \nparticles for further future fuel and materials. The third part of the Engine array is the ion drive, which will harness \nboth nuclear power and collected hydrogen to propel the craft through deep space, channeling high energy particles through \nthe Thrusters. The fourth and most externally obvious component is the hydrogen solid fuel rocket, which will be used in \nthe final phases of the Space Ship's travel to place it in orbit around Alpha Centauri's planetary system. \n\n\n",
-      "name": "SS Engine"
+      "name": "SS Engine",
+      "type": "Improvement"
     },
     "bldg_ss_exterior_casing": {
       "Cost": 640,
@@ -3049,7 +3116,8 @@
       ],
       "text": "#BLDG_SS_Exterior_Casing\n^\n^\n^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type.\n",
       "description": "#DESC_BLDG_SS_Exterior_Casing\n^\n^\n^Although humankind has mastered space flight, the concept of interstellar and deep space travel presents many new problems \nto engineers and physicists. The Exterior Casing of the Space Ship is itself a technological marvel. Designed around a \ncomposite system of layered ceramic, zero-gee manufactured aluminum-titanium alloy, and high density polymers, the Exterior \nCasing is made to withstand both the dangers of debris within star systems and of radiation throughout its travel. Built \ninto the Exterior Casing is also a complex web of electric wiring, capable of carrying a very high positive or negative \nelectromagnetic charge, providing a shield from radiation and literally funneling electromagnetic energy and space borne \nhydrogen dust into the solar sail where it can be collected and used for further fuel. It is also designed with multiple \nlevels of sensors designed to collect scientific data and to give a clear picture to the navigational computer and to the \npilots of what is going on outside of the vehicle. Although this composite design for an Exterior Casing is expensive, the \nprotection and potential scientific information that it affords is well worth the cost of manufacture.\n\n\n; GREAT WONDERS ____________________________________________________________________________________ GREAT WONDERS\n\n\n\n",
-      "name": "SS Exterior Casing"
+      "name": "SS Exterior Casing",
+      "type": "Improvement"
     },
     "bldg_ss_fuel_cells": {
       "Cost": 160,
@@ -3061,7 +3129,8 @@
       ],
       "text": "#BLDG_SS_Fuel_Cells\n^\n^\n^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type.\n",
       "description": "#DESC_BLDG_SS_Fuel_Cells\n^\n^\n^Essentially designed around the concept of a controlled hydrogen bomb explosion, the Fuel Cells for the Space Ship are \nbased around the hydrogen collection system of the solar sail. The electromagnetic and solar energy collected by the solar \nsail are converted to electricity, which is used to slowly build the free hydrogen collected into fuel, which is stored in \nthe fuel cell. The fuel cells also contain small, controlled amounts of fissionable material, which is in turn used with \nthe hydrogen core to start a nuclear reaction. These reactions, contained in the Fuel Cells, supply the high energy \nparticles which are funneled and accelerated through the ion drive to boost the Space Ship in deep space travel. In the \nfinal stages of travel the Fuel Cells provide the necessary hydrogen, collected in transit, to power the solid fuel rocket. \nThe entire process is controlled through powerful electromagnets which channel the energy and prevent the escape of excess \nenergy which could produce a dangerous meltdown. One byproduct of this nuclear reaction is heat, which is absorbed in the \nFuel Cell walls and converted to the electrical energy which powers the computers, Life Support Systems, and other essential \nfunctions.\n\n\n",
-      "name": "SS Fuel Cells"
+      "name": "SS Fuel Cells",
+      "type": "Improvement"
     },
     "bldg_ss_life_support_system": {
       "Cost": 320,
@@ -3073,7 +3142,8 @@
       ],
       "text": "#BLDG_SS_Life_Support_System\n^\n^\n^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type.\n",
       "description": "#DESC_BLDG_SS_Life_Support_System\n^\n^\n^Essential to the sustenance of human life are food, water, air, and heat, and the Life Support System provides all of \nthese things. Recycling is the key to the Space Ship's Life Support System, and no organic component is left to waste in \nthe vessel. Computers control the collection and recycling of waste, which is injected into large vats of algae which \nconsume the waste or processed into fertilizer for the Space Ship hydroponics garden. Both the algae and the garden provide \nfood and oxygen for the colonists as well as for their livestock, which consist of fish, shrimp, and a particularly hearty \n(and tasty) breed of Peruvian mountain llama. Extra oxygen is processed in the air filtration system, which electrically \ndivides water into hydrogen and oxygen molecules and separates them for oxygen and fuel uses. Excess heat produced by the \nFuel Cells is also absorbed into steam pipes, which are used to keep the interior of the vessel warm and to separate pure \nwater out of waste water to a 99.44% purity. Extraplanetary travel has never before been attempted on this scale, and the \nLife Support System has been carefully crafted to provide indefinitely for the needs of the colonists as well as giving \nthem a basis for redeveloping a food chain on the eventual planet of colonization.\n\n\n",
-      "name": "SS Life Support System"
+      "name": "SS Life Support System",
+      "type": "Improvement"
     },
     "bldg_ss_planetary_party_lounge": {
       "Cost": 160,
@@ -3085,7 +3155,8 @@
       ],
       "text": "#BLDG_SS_Planetary_Party_Lounge\n^\n^\n^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type.\n",
       "description": "#DESC_BLDG_SS_Planetary_Party_Lounge\n^\n^\n^Described as the most expensive discotheque and museum gallery ever made, the Planetary Party Lounge is the ultimate in \nterrestrial entertainment. With a full copy of the Library of the National Archives, including all human data able to be \nput on disk, the Planetary Party Lounge computers allow the colonists to read books, play video games, holographically \nbrowse art museums, and sample every existing bit of human culture from the most sublime to the least savory. Holographic \ninstructional videos exist on all manners of craft and skill, from woodcarving to belly dancing, to help keep cultural \ntraditions alive and archived for future generations of colonists. The finest entertainers from around the world have been \nrecruited to accompany the colonists and keep them happy in their journey to the next star system, and professional masseuses\nand physical therapists are on hand to see to the pleasures of the body. But the center of social life on board the Space \nShip is bound to be the 13 tiered central lounge, boasting a quaint rural pub, a bustling casino, a hip disco, an auditorium\nand concert hall, a full featured gymnasium with hot tub and swimming pool, and a number of restaurants, both large and \nsmall. With so much to do, the colonists and crew aren't likely to want to get back into their Stasis Chambers!\n\n\n\n",
-      "name": "SS Planetary Party Lounge"
+      "name": "SS Planetary Party Lounge",
+      "type": "Improvement"
     },
     "bldg_ss_stasis_chamber": {
       "Cost": 320,
@@ -3098,7 +3169,8 @@
       ],
       "text": "#BLDG_SS_Stasis_Chamber\n^\n^\n^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type. \n",
       "description": "#DESC_BLDG_SS_Stasis_Chamber\n^\n^\n^With a journey predicted to take decades, if not centuries, one of the most important considerations of the engineers was \nthe aging of the crew. Recent advances in cryogenics and chemical therapy have enabled scientists to chemically slow the \nmetabolic process to a virtual standstill, which enables the scientists to then deep freeze the body without harm. Sensors \nregulate the zero-oxygen environment to ensure that the colonists will be kept as safe as possible, and a special warming \nsystem utilizing broad spectrum electromagnetic radiation is used to quickly and safely restore warmth to the body. The \nradiation also has the effect of breaking down the chemical agents that slow the colonists' metabolism, making them able \nto be thawed out in a matter of seconds and fully aware in a little over a minute. This is essential to the survival of \nthe craft in a situation in which the computer is unable to determine a course of action and a pilot or navigator must be \nroused to assess the danger, or in a situation in which a technician must be roused to effect repairs. This system has been \nused very effectively in tests on pigs and monkeys, and it has been shown that such animals in deep cryogenic sleep have \nbeen able to be roused after three years with absolutely no visible side effects. A couple of military volunteers have also \nbeen frozen to test the system, but only for a matter of weeks. Although scientists have not yet tested the effects of \nlong-term freezing on human beings, they are completely confident that there will not be any problems with the Stasis \nChamber on the Space Ship. Completely confident.\n\n\n",
-      "name": "SS Stasis Chamber"
+      "name": "SS Stasis Chamber",
+      "type": "Improvement"
     },
     "bldg_ss_storage_supply": {
       "Cost": 160,
@@ -3110,7 +3182,8 @@
       ],
       "text": "#BLDG_SS_Storage_Supply\n^\n^\n^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type.\n",
       "description": "#DESC_BLDG_SS_Storage_Supply\n^\n^\n^With a journey on which so much is dependent, including the future survival of humanity in the stars, many preparations \nhave been made to insure the survival of the crew both on the journey and once the final destination has been reached. The \nlarge Storage/Supply module fulfills many functions for the colonists, all of which are considered vital for the perpetuation\nof life on distant planets. The first and most obvious function that it fulfills is the storage of raw materials, including \nessential metals and elements which may not be in such plentiful supply in the further reaches of the galaxy. In addition \nto the non-organic elements stored there are also complex amino acid chains stored for eventual use to ensure the survival \nof organic material in the transition period during which the planet is being terraformed. Perhaps more important, though, \nis the storage of the terraforming machines and vehicles which are expected to be necessary once a distant planet is \nreached. They will be used not only to attempt terraforming the planet, but also to build the initial habitat of the \ncolonists and mine the planet's resources for use. The most important part of the Storage/Supply unit, in the eyes of many \nscientists, is Project: ARK. A catalogue and series of samples of over 150 million species are included, cryogenically \nfrozen and preserved to rebuild as much of Earth's plant and animal kingdom by the genetic engineers in transit with the \nSpace Ship.\n\n\n\n",
-      "name": "SS Storage/Supply"
+      "name": "SS Storage/Supply",
+      "type": "Improvement"
     },
     "bldg_ss_thrusters": {
       "Cost": 320,
@@ -3122,7 +3195,8 @@
       ],
       "text": "#BLDG_SS_Thrusters\n^\n^\n^One of ten components of the spaceship, which is used to achieve the $LINK<Space Race=GCON_Victory> victory type.\n",
       "description": "#DESC_BLDG_SS_Thrusters\n^\n^\n^The massive Thrusters are, much like the Engine, designed to function in a myriad of ways. Designed in stages like the \nEngines, the Thrusters channel the exhaust used to propel the Space Ship through all of its phases of travel. In the initial \nphase, the external booster rockets channel their fuel through the Thrusters array until they run out of fuel, at which \npoint they are jettisoned. After that, the powerful electromagnets built into the Thrusters help accelerate the charged \nparticles of the ion drive to near the speed of light, providing a great deal of thrust for the Space Ship. Finally, in \nthe last stages of travel, the Thrusters are responsible for maneuvering the Space Ship into the planet's gravity well \nand providing a counter thrust to slow the vessel to a manageable velocity to settle into a geo-synchronous orbit. In \norder to fulfill all of these functions, the Thrusters array had to be capable of the ultra-sensitive duty of accelerating \nhigh energy ions as well as be able to handle the hundreds of thousands of pounds of thrust produced by the solid fuel \nboosters. The engineers who designed the Thrusters were able to fulfill both of these functions as well as making them \narticulated to allow for maneuverability that is remarkable considering the mass and projected velocities of the craft.\n\n\n\n\n",
-      "name": "SS Thrusters"
+      "name": "SS Thrusters",
+      "type": "Improvement"
     },
     "bldg_stock_exchange": {
       "Cost": 200,
@@ -3132,7 +3206,8 @@
       "Resources": [],
       "text": "#BLDG_Stock_Exchange\n^\n^\n^[Stock Exchange] provides a 50% tax output for the city it is constructed in. The Stock Exchange can only be built\nin a city that has a bank.\n",
       "description": "#DESC_BLDG_Stock_Exchange\n^\n^\n^The stock exchange is an organized market which specializes in the sale and purchase of securities such as shares, stocks, and bonds.  \nIn the most developed capitalist countries, the stock exchange functions as a ready market for securities, encouraging people to channel \ntheir savings into corporate investments.  In addition, the stock exchange acts as a pricing mechanism, determining prices that reflect \nthe true investment value of a company's stock.  The membership requirements of exchanges vary mainly with respect to the number of members, \nthe degree of bank participation, the rigor of the eligibility requirements, and the degree to which government participates in their management.\n\n\n",
-      "name": "Stock Exchange"
+      "name": "Stock Exchange",
+      "type": "Improvement"
     },
     "bldg_temple": {
       "Cost": 60,
@@ -3142,7 +3217,8 @@
       "Resources": [],
       "text": "#BLDG_Temple\n^\n^\n^The [Temple] produces one $LINK<content face=GCON_Moods>, making one unhappy citizen content.\n",
       "description": "#DESC_BLDG_Temple\n^\n^\n^In ancient times, almost every city had a temple dedicated to the city's patron god. Many cities also had temples dedicated to \nother gods as well. In modern times temples are thought of as places of worship, like churches and cathedrals. Ancient societies, \nhowever, considered temples to be the local dwelling place for the god or goddess to whom they were dedicated. The faithful citizens \nbrought gifts of food, rare metals, and spices to the temple as a sign of homage and respect. The presence of a temple in the city \nhad a comforting effect on the population, and wise rulers often constructed one as soon as the city began to grow.\n\n\n",
-      "name": "Temple"
+      "name": "Temple",
+      "type": "Improvement"
     },
     "bldg_university": {
       "Cost": 200,
@@ -3152,7 +3228,8 @@
       "Resources": [],
       "text": "#BLDG_University\n^\n^\n^[The University] increases the scientific $LINK<research=GCON_Research> in its city by 50%.\nThis is in addition to any $LINK<library=BLDG_Library> benefits already in place. You must have a Library in the city in order to build an University.\n",
       "description": "#DESC_BLDG_University\n^\n^\n^Universities are institutions of higher learning. Early universities, established in the Middle Ages, were usually built in cities that \nhad a large or important cathedral. Studies at these institutions focused on matters concerning the church. The curricula quickly expanded \nto include classical art, literature, and languages. Modern universities provide the opportunity to study a wide array of subjects. They have \nalso become centers for research into many fields, serving as the source of major advances in computers, medicine, physics, and a variety of \nother subjects.\n\n\n",
-      "name": "University"
+      "name": "University",
+      "type": "Improvement"
     },
     "bldg_walls": {
       "Cost": 20,
@@ -3162,7 +3239,8 @@
       "Resources": [],
       "text": "#BLDG_Walls\n^\n^\n^[Walls] can be built only in town-size settlements and provide a land bombardment defense of eight,\nand a 50% defensive bonus to units defending in the town. When a town becomes a city, the walls no longer provide a defensive bonus.\n",
       "description": "#DESC_BLDG_Walls\n^\n^\n^Before the establishment of centralized governments capable of supporting strong, national armies, individual cities were left to fend for \nthemselves when it came to defense. As a result, many cities constructed city walls to protect against raiders and bandits. City walls \nrepresented a major investment in both time and materials, requiring years to complete and constant repairs to maintain their strength and \nintegrity. However, these walls turned the city into a fortress capable of withstanding all but the most determined attack.\n\n\n",
-      "name": "Walls"
+      "name": "Walls",
+      "type": "Improvement"
     },
     "bldg_wealth": {
       "Cost": 0,
@@ -3172,10 +3250,11 @@
       "Resources": [],
       "text": "#BLDG_Wealth\n^\n^\n^[Wealth] causes shields to be converted to gold at a ratio of four to one.\n^When your civilization learns $LINK<Economics=TECH_Economics> the ratio is reduced to two to one.\n",
       "description": "#DESC_BLDG_Wealth\n^\n^\n^Manufactured goods can provide an excellent source of income. Cities throughout time have become manufacturing centers of \none sort or another, trading the goods and services generated within by its artisans and craftsmen. Modern manufacturing \noperations currently employ all sorts of workers, from laborers to managers to executives, and are the primary driving \nforces of many cities' and nations' economies.\n\n\n",
-      "name": "Wealth"
+      "name": "Wealth",
+      "type": "Improvement"
     }
   },
-  "Governments": {
+  "gvmt": {
     "govt_anarchy": {
       "requires": "",
       "allows": "",
@@ -3233,7 +3312,7 @@
       "description": "#DESC_GOVT_Republic\nThe republic is a system of government in which the citizens appoint, by popular vote, a head of state and officials to represent the \nviews of the general public. The concept of the republic first appeared in ancient Rome, where local provinces sent elected \nrepresentatives to the Senate, which governed all Roman lands. Both the head of state and the local representatives in a republic \nare elected; no one is granted a position by birth or divine right. Republican governments are similar in some ways to democracies, \nin that they offer a great deal of personal, financial, and political freedom to their citizens. The main difference between the two \nsystems is that a true democracy allows the participation of every voting citizen in any and all political matters, whereas in a \nrepublic, a body of elected officials represents the views and opinions of the people. Although an effective system, personal \nagendas of political representatives might act to decrease the effectiveness in representing the views of the people. Due to human \nnature, corruption is fairly common in a republican government.\n\n\n\n"
     }
   },
-  "Units": {
+  "prto": {
     "prto_abu": {
       "Cost": 0,
       "Attack": 1,
@@ -5458,7 +5537,7 @@
       "text": "#PRTO_Xerxes\n^\n^\n^Xerxes is the King unit for the $LINK<Persians=RACE_PERSIAN> in the Regicide $LINK<Short Game Mode=GCON_Short_Game_Modes>.\n\n"
     }
   },
-  "Worker Actions": {
+  "tfrm": {
     "tfrm_airfield": {
       "Turns": 1,
       "Advance": "Flight",
@@ -5561,7 +5640,7 @@
       "text": "#TFRM_Road\n^Roads increase the output of $LINK<commerce=GCON_Commerce> and can be built in any terrain except water squares.\nAlso, units moving along roads expend one third of a movement point per square, regardless of terrain type. \n^\n^{Terrain\t\t\t\tProduces}\n^Floodplains\t\t\t1 commerce, 2 with a road.\n^Grasslands\t\t\t\t0 commerce, 1 with a road.\n^Plains\t\t\t\t\t0 commerce, 1 with a road.\n^Hills\t\t\t\t\t0 commerce, 1 with a road.\n^Mountains\t\t\t\t0 commerce, 1 with a road.\n^Forests\t\t\t\t0 commerce, 1 with a road.\n^Jungles\t\t\t\t0 commerce, 1 with a road.\n^\n^Workers are ordered to build roads by pressing [R] or the \"Build Road\" button.\n\n\n"
     }
   },
-  "Terrain": {
+  "terr": {
     "terr_coast": {
       "Movement Cost": 1,
       "Defensive Bonus": 10,
@@ -5852,7 +5931,7 @@
       "description": "#DESC_TERR_Volcano\n^\n^\n^Heat rises. This is the reason, in a nutshell, for the presence of volcanoes on the earth. Mountainous\nmanifestations of vents and cracks in the earth's crust, volcanoes provide release for the heat that builds up\nin the earth's core. A volcanic eruption occurs when the heat pressure underneath a particular vent becomes\ntoo strong for the crust to contain, and depending on the size of the vent and the amount of pressure an\neruption can be minor (just a dribble of lava that seals off the volcano when it dries) or cataclysmic\n(such as the Krakatoa or Vesuvius eruptions).\n\n\n; END TERRAIN______________________________________________________________________________________END TERRAIN\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n; Government Types________________________________________________________ Government Types\n\n\n"
     }
   },
-  "Resources": {
+  "good": {
     "good_cattle": {
       "type": "Bonus",
       "Tile Bonus": [
@@ -6148,7 +6227,7 @@
       "description": "#DESC_GOOD_Uranium\n^\n^\n^One of the most valuable metals in the world, uranium�s use has dramatically changed since its discovery in 1789. Originally \nused in the production of steel-alloys, uranium improved the strength and elasticity of steel without making it brittle. Since 1939 it�s rarely been \nused for anything besides atomic energy. This heavy, white metal�s greatest contribution is to the process of nuclear fission. \nRadioactive manipulation of uranium atoms can eject neutrons, which can travel at speeds up to 12,000 miles per second. If \nsuch a neutron impacts the nucleus of a neighboring atom, the target atom can completely fragment. Not only is the resulting \nenergy released immense, but the shattered atom can also potentially collide with additional atoms. This chain reaction is \nthe phenomenon underlying all nuclear fission applications including nuclear weapons and power.\n\n\n\n\n\n\n; ___________________________________________Luxury Resources____________________________________________\n\n"
     }
   },
-  "Game Concepts": {
+  "gcon": {
     "gcon_age_of_science": {
       "name": "Age of Science",
       "text": "#GCON_Age_of_Science\nAge of Science\n^\n^\n^Every civilization can experience an [Age of Science], a 20-turn period in which the \n$LINK<scientific research=GCON_Research> of each city in that civilization's empire is 25% more productive.\nAn Age of Science can only be triggered by a $LINK<scientific leader=GCON_Leaders>.\n\n\n\n\n"
