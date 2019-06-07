@@ -28,6 +28,7 @@ class Civilopedia {
                 .replace(/\}/g, '</b>')
                 .replace(/\n/g, ' ')
                 .replace(/\^/g, '\n'))
+                .replace(/    /g, '\t')
                 .replace(/  /g, ' ');
   }
 
