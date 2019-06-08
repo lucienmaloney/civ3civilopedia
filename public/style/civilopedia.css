@@ -53,17 +53,16 @@ html {
   width: 130px;
   height: 130px;
   border: 1px solid black;
-  background-image: url('/img/Civilopedia/Icons/anarchy large.bmp');
 }
 
 #civilopedia > #content {
   top: 102px;
   left: 27px;
-  width: 472px;
-  height: 595px;
+  width: 408px;
+  height: 555px;
   font-size: 13px;
   overflow: hidden;
-  padding: 32px 28px;
+  margin: 32px 28px;
 }
 
 p {
@@ -73,6 +72,18 @@ p {
 p#text {
   white-space: pre-wrap;
   padding-right: 10px;
-  overflow-y: auto;
   height: 100%;
+  overflow-y: auto;
+}
+
+div.link {
+  width: 100%;
+  height: 32px;
+  margin-bottom: 2px;
+}
+
+div.link > img {
+  width: 32px;
+  height: 32px;
+  border: 2px solid red;
 }
