@@ -76,14 +76,25 @@ p#text {
   overflow-y: auto;
 }
 
-div.link {
+a.link {
   width: 100%;
   height: 32px;
   margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  font-style: none;
+  text-decoration: none;
+  color: black;
 }
 
-div.link > img {
+a.link:hover {
+  cursor: pointer;
+  color: #b55a52;
+}
+
+a.link > img {
   width: 32px;
   height: 32px;
   border: 2px solid red;
+  margin-right: 10px;
 }

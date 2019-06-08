@@ -16,7 +16,7 @@ html
         div#content
           block content
           each item in menu
-            div.link
+            a.link(href=`${item.path}`)
               img(src=`/img/icons/${item.image}small.bmp`)
-              span!= name
+              span!= item.name
           p#text!= text

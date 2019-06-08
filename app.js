@@ -22,23 +22,23 @@ class Page {
     this.abbr = abbr;
   }
 
-  get link() {
-    return `<a href="/civilopedia/${this.abbr}">${this.name}</a>`;
+  get path() {
+    return `/civilopedia/${this.abbr}`;
   }
 }
 
 const PAGES = {
-  bldg: new Page('improvement', 'City Improvements', 'citywallsmea', 'bldg'),
-  tech: new Page('advances', 'Civiliation Advances', 'literature', 'tech'),
-  prto: new Page('unit', 'Units', 'rifleman', 'prto', 'prto'),
-  good: new Page('resources', 'Resources', 'oil', 'good'),
-  gvmt: new Page('government', 'Governments', 'democracy', 'gvmt'),
-  terr: new Page('terrain', 'Terrain', 'mountains', 'terr'),
-  tfrm: new Page('actions', 'Worker Actions', 'clearwetlands', 'tfrm'),
   race: new Page('concepts', 'Tribes', 'menu', 'race'),
-  gcon: new Page('concepts', 'Game Concepts', 'concepts', 'gcon'),
+  tech: new Page('advances', 'Civiliation Advances', 'literature', 'tech'),
   gwdr: new Page('improvement', 'Great Wonders', 'pyramid', 'gwdr'),
   swdr: new Page('improvement', 'Small Wonders', 'apollo', 'swdr'),
+  bldg: new Page('improvement', 'City Improvements', 'citywallsmea', 'bldg'),
+  gvmt: new Page('government', 'Governments', 'democracy', 'gvmt'),
+  prto: new Page('unit', 'Units', 'rifleman', 'prto', 'prto'),
+  tfrm: new Page('actions', 'Worker Actions', 'clearwetlands', 'tfrm'),
+  terr: new Page('terrain', 'Terrain', 'mountains', 'terr'),
+  good: new Page('resources', 'Resources', 'oil', 'good'),
+  gcon: new Page('concepts', 'Game Concepts', 'concepts', 'gcon'),
 }
 
 const CIVILOPEDIA_JSON = require('./public/civ3complete.json');
@@ -68,15 +68,20 @@ app.get('/civilopedia/:section', function(req, res, next) {
     }
 
 
-    const links = keys.map(k => {
-      return `<a href="${Civ.fileNameToUrlPath(k)}">${(CIVILOPEDIA_JSON[section] || CIVILOPEDIA_JSON.bldg)[k].name}</a>`
+    const menu = keys.map(k => {
+      const name = (CIVILOPEDIA_JSON[section] || CIVILOPEDIA_JSON.bldg)[k].name;
+      return {
+        name: name,
+        image: name.toLowerCase().replace(/_/g, ''),
+        path: Civ.fileNameToUrlPath(k),
+      };
     });
 
     res.status(200).render(PAGES.gcon.view, {
       header: PAGES[section].name,
-      text: links.join('\n'),
+      text: '',
       image: PAGES[section].image + 'large',
-      menu: [],
+      menu: menu,
     });
   } else {
     next();
