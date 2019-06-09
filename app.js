@@ -35,7 +35,7 @@ class Page {
 const PAGES = {
   race: new Page('concepts', 'Tribes', 'menu', 'race', 'red'),
   tech: new Page('advances', 'Civiliation Advances', 'literature', 'tech', 'grey'),
-  gwdr: new Page('improvement', 'Great Wonders', 'pyramid', 'gwdr', 'yellow'),
+  gwdr: new Page('improvement', 'Great Wonders', 'thepyramids', 'gwdr', 'yellow'),
   swdr: new Page('improvement', 'Small Wonders', 'apollo', 'swdr', 'yellow'),
   bldg: new Page('improvement', 'City Improvements', 'walls', 'bldg', 'yellow'),
   gvmt: new Page('government', 'Governments', 'democracy', 'gvmt', 'pink'),
