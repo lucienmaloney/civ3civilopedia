@@ -13,6 +13,10 @@ html
         div#title CIVILOPEDIA
         div#bigimg(style=`background-image: url('/img/icons/${image}.bmp');`)
         div#header #{header}
+        div#menu
+          a#uparrow(href=`${uplink}`)
+          a#leftarrow(href=`${leftlink}`)
+          a#rightarrow(href=`${rightlink}`)
         div#content
           block content
           each item in menu

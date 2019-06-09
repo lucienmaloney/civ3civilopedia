@@ -55,6 +55,7 @@ app.get('/civilopedia', function(req, res, next) {
     header: 'Main Menu',
     image: 'menuredlarge',
     menu: keys.map(k => PAGES[k]),
+    uplink: '',
   });
 });
 
@@ -88,6 +89,7 @@ app.get('/civilopedia/:section', function(req, res, next) {
       text: '',
       image: PAGES[section].image + 'large',
       menu: menu,
+      uplink: '/civilopedia',
     });
   } else {
     next();
@@ -108,6 +110,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
       header: data.name,
       image: image,
       menu: [],
+      uplink: `/civilopedia/${section}`,
     });
   } else {
     next();
