@@ -79,7 +79,7 @@ app.get('/civilopedia/:section', function(req, res, next) {
       const name = (CIVILOPEDIA_JSON[section] || CIVILOPEDIA_JSON.bldg)[k].name;
       const image = section === 'gcon' ? 'concepts' : name.toLowerCase().replace(/_| |\//g, '');
       return {
-        name: image,
+        name: name,
         image: image,
         path: Civ.fileNameToUrlPath(k),
         bordercolor: PAGES[section].color,
