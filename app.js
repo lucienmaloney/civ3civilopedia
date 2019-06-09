@@ -15,30 +15,35 @@ app.get('/', function(req, res) {
 });
 
 class Page {
-  constructor(view, name, image, abbr) {
+  constructor(view, name, image, abbr, color) {
     this.view = view;
     this.name = name;
     this.image = image;
     this.abbr = abbr;
+    this.color = color;
   }
 
   get path() {
     return `/civilopedia/${this.abbr}`;
   }
+
+  get bordercolor() {
+    return 'red';
+  }
 }
 
 const PAGES = {
-  race: new Page('concepts', 'Tribes', 'menu', 'race'),
-  tech: new Page('advances', 'Civiliation Advances', 'literature', 'tech'),
-  gwdr: new Page('improvement', 'Great Wonders', 'pyramid', 'gwdr'),
-  swdr: new Page('improvement', 'Small Wonders', 'apollo', 'swdr'),
-  bldg: new Page('improvement', 'City Improvements', 'citywallsmea', 'bldg'),
-  gvmt: new Page('government', 'Governments', 'democracy', 'gvmt'),
-  prto: new Page('unit', 'Units', 'rifleman', 'prto', 'prto'),
-  tfrm: new Page('actions', 'Worker Actions', 'clearwetlands', 'tfrm'),
-  terr: new Page('terrain', 'Terrain', 'mountains', 'terr'),
-  good: new Page('resources', 'Resources', 'oil', 'good'),
-  gcon: new Page('concepts', 'Game Concepts', 'concepts', 'gcon'),
+  race: new Page('concepts', 'Tribes', 'menu', 'race', 'red'),
+  tech: new Page('advances', 'Civiliation Advances', 'literature', 'tech', 'grey'),
+  gwdr: new Page('improvement', 'Great Wonders', 'pyramid', 'gwdr', 'yellow'),
+  swdr: new Page('improvement', 'Small Wonders', 'apollo', 'swdr', 'yellow'),
+  bldg: new Page('improvement', 'City Improvements', 'citywallsmea', 'bldg', 'yellow'),
+  gvmt: new Page('government', 'Governments', 'democracy', 'gvmt', 'pink'),
+  prto: new Page('unit', 'Units', 'rifleman', 'prto', 'prto', 'blue'),
+  tfrm: new Page('actions', 'Worker Actions', 'clearwetlands', 'tfrm', 'limegreen'),
+  terr: new Page('terrain', 'Terrain', 'mountains', 'terr', 'limegreen'),
+  good: new Page('resources', 'Resources', 'oil', 'good', 'orange'),
+  gcon: new Page('concepts', 'Game Concepts', 'concepts', 'gcon', 'red'),
 }
 
 const CIVILOPEDIA_JSON = require('./public/civ3complete.json');
@@ -47,7 +52,6 @@ app.get('/civilopedia', function(req, res, next) {
   const keys = Object.keys(PAGES);
 
   res.status(200).render(PAGES.gcon.view, {
-    text: '',
     header: 'Main Menu',
     image: 'menuredlarge',
     menu: keys.map(k => PAGES[k]),
@@ -75,6 +79,7 @@ app.get('/civilopedia/:section', function(req, res, next) {
         name: image,
         image: image,
         path: Civ.fileNameToUrlPath(k),
+        bordercolor: PAGES[section].color,
       };
     });
 
