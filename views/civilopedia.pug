@@ -21,10 +21,13 @@ html
           a#uparrow(href=`${uplink}`)
           a#leftarrow(href=`${leftlink}`)
           a#rightarrow(href=`${rightlink}`)
+          div#letters
+            each letter in "abcdefghijklmnopqrstuvwxyz".split('')
+              a(href=`${letterlink}#${letter.toUpperCase()}`) #{letter.toUpperCase()}
         div#content
           block content
           each item in menu
-            a.link(href=`${item.path}`)
+            a.link(href=`${item.path}`, id=`${item.name[0]}`)
               img(src=`/img/icons/${item.image}.bmp`, style=`border: 2px solid ${item.bordercolor};`)
               span!= item.name
           p#text!= text

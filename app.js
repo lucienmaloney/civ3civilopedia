@@ -58,6 +58,7 @@ app.get('/civilopedia', function(req, res, next) {
     uplink: '',
     leftlink: '',
     rightlink: '',
+    letterlink: '/civilopedia',
   });
 });
 
@@ -98,6 +99,7 @@ app.get('/civilopedia/:section', function(req, res, next) {
       uplink: '/civilopedia',
       leftlink: `/civilopedia/${sectionKeys[(index + length - 1) % length]}`,
       rightlink: `/civilopedia/${sectionKeys[(index + 1) % length]}`,
+      letterlink: `/civilopedia/${section}`,
     });
   } else {
     next();
@@ -128,6 +130,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
       image: image,
       menu: [],
       uplink: `/civilopedia/${menuSection}`,
+      letterlink: `/civilopedia/${menuSection}`,
       more: data.description ? descLabel : '',
       moreLink: `/civilopedia/${section}/${page}${desc ? '' : '/desc'}`,
       leftlink: `/civilopedia/${section}/${sectionKeys[(index + length - 1) % length].substring(5)}`,
