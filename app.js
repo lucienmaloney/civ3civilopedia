@@ -37,7 +37,7 @@ const PAGES = {
   tech: new Page('advances', 'Civiliation Advances', 'literature', 'tech', 'grey'),
   gwdr: new Page('improvement', 'Great Wonders', 'pyramid', 'gwdr', 'yellow'),
   swdr: new Page('improvement', 'Small Wonders', 'apollo', 'swdr', 'yellow'),
-  bldg: new Page('improvement', 'City Improvements', 'citywallsmea', 'bldg', 'yellow'),
+  bldg: new Page('improvement', 'City Improvements', 'walls', 'bldg', 'yellow'),
   gvmt: new Page('government', 'Governments', 'democracy', 'gvmt', 'pink'),
   prto: new Page('unit', 'Units', 'rifleman', 'prto', 'blue'),
   tfrm: new Page('actions', 'Worker Actions', 'clearwetlands', 'tfrm', 'limegreen'),
@@ -74,7 +74,7 @@ app.get('/civilopedia/:section', function(req, res, next) {
 
     const menu = keys.map(k => {
       const name = (CIVILOPEDIA_JSON[section] || CIVILOPEDIA_JSON.bldg)[k].name;
-      const image = section === 'gcon' ? 'concepts' : name.toLowerCase().replace(/_| /g, '');
+      const image = section === 'gcon' ? 'concepts' : name.toLowerCase().replace(/_| |\//g, '');
       return {
         name: image,
         image: image,
@@ -101,7 +101,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
 
   if (CIVILOPEDIA_JSON[section] && CIVILOPEDIA_JSON[section][full]) {
     const data = CIVILOPEDIA_JSON[section][full];
-    const image = section === 'gcon' ? 'conceptslarge' : `${data.name.toLowerCase().replace(/_| /g, '')}large`;
+    const image = section === 'gcon' ? 'conceptslarge' : `${data.name.toLowerCase().replace(/_| |\//g, '')}large`;
 
     res.status(200).render(PAGES[section].view, {
       text: Civ.parseText(data.text),
