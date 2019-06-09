@@ -93,7 +93,7 @@ app.get('/civilopedia/:section', function(req, res, next) {
     res.status(200).render(PAGES.gcon.view, {
       header: PAGES[section].name,
       text: '',
-      image: PAGES[section].image + 'large',
+      image: PAGES[section].image,
       menu: menu,
       uplink: '/civilopedia',
       leftlink: `/civilopedia/${sectionKeys[(index + length - 1) % length]}`,
@@ -112,7 +112,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
 
   if (CIVILOPEDIA_JSON[section] && CIVILOPEDIA_JSON[section][full]) {
     const data = CIVILOPEDIA_JSON[section][full];
-    const image = section === 'gcon' ? 'conceptslarge' : `${data.name.toLowerCase().replace(/_| |\//g, '')}large`;
+    const image = section === 'gcon' ? 'concepts' : `${data.name.toLowerCase().replace(/_| |\//g, '')}`;
     const view = desc ? PAGES.gcon.view : PAGES[section].view;
     const descLabel = desc ? 'Effects' : 'Description';
 
