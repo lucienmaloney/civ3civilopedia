@@ -11,7 +11,7 @@ html
       div#civilopedia
         div#background
         div#title CIVILOPEDIA
-        div#bigimg(style=`background-image: url('/img/icons/${image}.bmp');`)
+        div#bigimg(style=`background-image: url("/img/icons/${image}.bmp");`)
         div#header #{header}
         a#backarrow(href='javascript:history.back()')
         a#forwardarrow(href='javascript:history.forward()')
@@ -27,7 +27,7 @@ html
         div#content
           block content
           each item in menu
-            a.link(href=`${item.path}`, id=`${item.name[0]}`)
+            a.link(href=`${item.path}`, id=`${item.name.includes('The ') ? item.name[4] : item.name[0]}`)
               img(src=`/img/icons/${item.image}.bmp`, style=`border: 2px solid ${item.bordercolor};`)
               span!= item.name
           p#text!= text
