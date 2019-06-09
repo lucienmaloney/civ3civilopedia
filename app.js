@@ -120,12 +120,14 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
     const length = sectionKeys.length;
     const index = sectionKeys.indexOf(full);
 
+    const menuSection = data.type === 'Great Wonder' ? 'gwdr' : data.type === 'Small Wonder' ? 'swdr' : section;
+
     res.status(200).render(view, {
       text: desc ? Civ.parseText(data.description) : Civ.parseText(data.text),
       header: data.name,
       image: image,
       menu: [],
-      uplink: `/civilopedia/${section}`,
+      uplink: `/civilopedia/${menuSection}`,
       more: data.description ? descLabel : '',
       moreLink: `/civilopedia/${section}/${page}${desc ? '' : '/desc'}`,
       leftlink: `/civilopedia/${section}/${sectionKeys[(index + length - 1) % length].substring(5)}`,
