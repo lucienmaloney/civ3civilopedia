@@ -101,11 +101,12 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
 
   if (CIVILOPEDIA_JSON[section] && CIVILOPEDIA_JSON[section][full]) {
     const data = CIVILOPEDIA_JSON[section][full];
+    const image = section === 'gcon' ? 'conceptslarge' : `${data.name.toLowerCase().replace(/_| /g, '')}large`;
 
     res.status(200).render(PAGES[section].view, {
       text: Civ.parseText(data.text),
       header: data.name,
-      image: `${data.name.toLowerCase().replace(/_| /g, '')}large`,
+      image: image,
       menu: [],
     });
   } else {
