@@ -114,7 +114,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
     const data = CIVILOPEDIA_JSON[section][full];
     const image = section === 'gcon' ? 'concepts' : `${data.name.toLowerCase().replace(/_| |\//g, '')}`;
     const view = desc ? PAGES.gcon.view : PAGES[section].view;
-    const descLabel = desc ? 'Effects' : 'Description';
+    const descLabel = desc ? 'Effects' : section === 'race' || section === 'gcon' ? 'More' : 'Description';
 
     const sectionKeys = Object.keys(CIVILOPEDIA_JSON[section]);
     const length = sectionKeys.length;
