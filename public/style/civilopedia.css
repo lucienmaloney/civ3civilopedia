@@ -107,10 +107,26 @@ a.link > img {
   left: 522px;
 }
 
-#uparrow, #leftarrow, #rightarrow {
+#uparrow, #leftarrow, #rightarrow, #backarrow, #forwardarrow {
   position: absolute;
   background-image: url('/img/Civilopedia/arrows.png');
   margin: 0px;
+}
+
+#backarrow, #forwardarrow {
+  width: 15px;
+  height: 24px;
+  top: 23px;
+}
+
+#backarrow {
+  left: 240px;
+  background-position: -1px -1px;
+}
+
+#forwardarrow {
+  left: 268px;
+  background-position: -17px -1px;
 }
 
 #uparrow {
@@ -137,7 +153,7 @@ a.link > img {
   background-position: -1px -1px;
 }
 
-#leftarrow:hover {
+#leftarrow:hover, #backarrow:hover {
   background-position: -33px -1px;
   cursor: pointer;
 }
@@ -147,7 +163,8 @@ a.link > img {
   background-position: -17px -1px;
 }
 
-#rightarrow:hover {
+#rightarrow:hover, #forwardarrow:hover {
   background-position: -49px -1px;
   cursor: pointer;
 }
+

@@ -13,6 +13,8 @@ html
         div#title CIVILOPEDIA
         div#bigimg(style=`background-image: url('/img/icons/${image}.bmp');`)
         div#header #{header}
+        a#backarrow(href='javascript:history.back()')
+        a#forwardarrow(href='javascript:history.forward()')
         div#menu
           a#uparrow(href=`${uplink}`)
           a#leftarrow(href=`${leftlink}`)
