@@ -53,7 +53,7 @@ app.get('/civilopedia', function(req, res, next) {
 
   res.status(200).render(PAGES.gcon.view, {
     header: 'Main Menu',
-    image: 'menuredlarge',
+    image: 'menured',
     menu: keys.map(k => PAGES[k]),
     uplink: '',
     leftlink: '',
