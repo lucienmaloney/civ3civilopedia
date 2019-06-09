@@ -39,7 +39,7 @@ const PAGES = {
   swdr: new Page('improvement', 'Small Wonders', 'apollo', 'swdr', 'yellow'),
   bldg: new Page('improvement', 'City Improvements', 'citywallsmea', 'bldg', 'yellow'),
   gvmt: new Page('government', 'Governments', 'democracy', 'gvmt', 'pink'),
-  prto: new Page('unit', 'Units', 'rifleman', 'prto', 'prto', 'blue'),
+  prto: new Page('unit', 'Units', 'rifleman', 'prto', 'blue'),
   tfrm: new Page('actions', 'Worker Actions', 'clearwetlands', 'tfrm', 'limegreen'),
   terr: new Page('terrain', 'Terrain', 'mountains', 'terr', 'limegreen'),
   good: new Page('resources', 'Resources', 'oil', 'good', 'orange'),
