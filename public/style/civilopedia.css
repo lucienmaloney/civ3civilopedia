@@ -210,3 +210,36 @@ div#letters > a {
 div#letters > a:hover {
   color: #b55a52;
 }
+
+.shield {
+  background-position: -410px -10px;
+}
+
+.wealth {
+  background-position: -440px -10px;
+}
+
+.food {
+  background-position: -472px -10px;
+}
+
+.culture {
+  background-position: -564px -8px;
+}
+
+.shield, .wealth, .food, .culture {
+  width: 20px;
+  height: 16px;
+  background-image: url("/img/Civilopedia/cityicons.png");
+}
+
+.bigtext {
+  position: absolute;
+  font-size: 14px;
+}
+
+.cover {
+  position: absolute;
+  z-index: 11037;
+  left: 22px;
+}

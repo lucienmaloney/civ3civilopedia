@@ -4,3 +4,14 @@ block styles
   link(rel="stylesheet", type="text/css", href="/style/resources.css")
 
 block content
+  div#tiles.bigtext TILE BONUS
+  div#values
+    span.value +#{data['Tile Bonus'][0]}
+    div.food
+    span.value +#{data['Tile Bonus'][1]}
+    div.shield
+    span.value +#{data['Tile Bonus'][2]}
+    div.wealth
+
+block covers
+  div.cover

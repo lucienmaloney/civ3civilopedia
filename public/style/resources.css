@@ -10,3 +10,27 @@
 p#text {
   height: 180px !important;
 }
+
+#tiles {
+  top: 220px;
+}
+
+.cover {
+  top: 420px;
+  width: 492px;
+  height: 267px;
+  background-image: url('/img/Civilopedia/civilopediaD-coverUp.bmp');
+}
+
+#values {
+  position: absolute;
+  top: 250px;
+  left: 110px;
+  display: flex;
+  align-items: center
+}
+
+.value {
+  margin-left: 15px;
+  margin-right: 2px;
+}

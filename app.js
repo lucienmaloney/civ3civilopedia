@@ -135,6 +135,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
       moreLink: `/civilopedia/${section}/${page}${desc ? '' : '/desc'}`,
       leftlink: `/civilopedia/${section}/${sectionKeys[(index + length - 1) % length].substring(5)}`,
       rightlink: `/civilopedia/${section}/${sectionKeys[(index + 1) % length].substring(5)}`,
+      data: data,
     });
   } else {
     next();
