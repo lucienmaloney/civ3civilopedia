@@ -58,11 +58,11 @@ html {
 #civilopedia > #content {
   top: 102px;
   left: 27px;
-  width: 408px;
-  height: 555px;
+  width: 430px;
+  height: 563px;
   font-size: 13px;
   overflow: hidden;
-  margin: 32px 28px;
+  margin: 28px 16px 6px 26px;
   overflow-y: auto;
 }
 
@@ -168,3 +168,23 @@ a.link > img {
   cursor: pointer;
 }
 
+#descbox {
+  position: absolute;
+  background-image: url('/img/Civilopedia/descbox.bmp');
+  left: 534px;
+  top: 221px;
+  width: 102px;
+  height: 17px;
+  background-position: -1px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+#descbox:hover {
+  cursor: pointer;
+  background-position: -104px 0px;
+}

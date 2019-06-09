@@ -100,17 +100,22 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
   const section = (req.params.section || '').toLowerCase();
   const page = (req.params.page || '').toLowerCase();
   const full = `${section}_${page}`;
+  const desc = req.params.desc;
 
   if (CIVILOPEDIA_JSON[section] && CIVILOPEDIA_JSON[section][full]) {
     const data = CIVILOPEDIA_JSON[section][full];
     const image = section === 'gcon' ? 'conceptslarge' : `${data.name.toLowerCase().replace(/_| |\//g, '')}large`;
+    const view = desc ? PAGES.gcon.view : PAGES[section].view;
+    const descLabel = desc ? 'Effects' : 'Description';
 
-    res.status(200).render(PAGES[section].view, {
-      text: Civ.parseText(data.text),
+    res.status(200).render(view, {
+      text: desc ? Civ.parseText(data.description) : Civ.parseText(data.text),
       header: data.name,
       image: image,
       menu: [],
       uplink: `/civilopedia/${section}`,
+      more: data.description ? descLabel : '',
+      moreLink: `/civilopedia/${section}/${page}${desc ? '' : '/desc'}`
     });
   } else {
     next();
