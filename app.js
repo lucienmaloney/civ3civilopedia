@@ -70,9 +70,10 @@ app.get('/civilopedia/:section', function(req, res, next) {
 
     const menu = keys.map(k => {
       const name = (CIVILOPEDIA_JSON[section] || CIVILOPEDIA_JSON.bldg)[k].name;
+      const image = section === 'gcon' ? 'concepts' : name.toLowerCase().replace(/_| /g, '');
       return {
-        name: name,
-        image: name.toLowerCase().replace(/_/g, ''),
+        name: image,
+        image: image,
         path: Civ.fileNameToUrlPath(k),
       };
     });
@@ -99,7 +100,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
     res.status(200).render(PAGES[section].view, {
       text: Civ.parseText(data.text),
       header: data.name,
-      image: `${page.toLowerCase().replace(/_/g, '')}large`,
+      image: `${data.name.toLowerCase().replace(/_| /g, '')}large`,
       menu: [],
     });
   } else {

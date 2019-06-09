@@ -63,6 +63,7 @@ html {
   font-size: 13px;
   overflow: hidden;
   margin: 32px 28px;
+  overflow-y: auto;
 }
 
 p {
@@ -72,7 +73,8 @@ p {
 p#text {
   white-space: pre-wrap;
   padding-right: 10px;
-  height: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
   overflow-y: auto;
 }
 
