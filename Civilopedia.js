@@ -1,3 +1,10 @@
+const PAGES = {
+  'Wonders': 'gwdr',
+  'City_Improvements': 'bldg',
+  'Technologies': 'tech',
+  'Governments': 'gvmt',
+}
+
 class Civilopedia {
   static urlPathToFilePath(section, page, desc) {
     return `public/civ3/${desc ? 'desc_' : ''}${section.toLowerCase()}_${page.toLowerCase()}.txt`;
@@ -12,6 +19,9 @@ class Civilopedia {
     }
     const section = fn.substr(0, 4);
     const name = fn.substr(5);
+    if (section === 'MENU') {
+      return `/${book}/${PAGES[name]}`;
+    }
     return `/${book}/${section}/${name}${desc}`;
   }
 
