@@ -56,6 +56,8 @@ app.get('/civilopedia', function(req, res, next) {
     image: 'menuredlarge',
     menu: keys.map(k => PAGES[k]),
     uplink: '',
+    leftlink: '',
+    rightlink: '',
   });
 });
 
@@ -84,12 +86,18 @@ app.get('/civilopedia/:section', function(req, res, next) {
       };
     });
 
+    const sectionKeys = Object.keys(PAGES);
+    const length = sectionKeys.length;
+    const index = sectionKeys.indexOf(section);
+
     res.status(200).render(PAGES.gcon.view, {
       header: PAGES[section].name,
       text: '',
       image: PAGES[section].image + 'large',
       menu: menu,
       uplink: '/civilopedia',
+      leftlink: `/civilopedia/${sectionKeys[(index + length - 1) % length]}`,
+      rightlink: `/civilopedia/${sectionKeys[(index + 1) % length]}`,
     });
   } else {
     next();
@@ -108,6 +116,10 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
     const view = desc ? PAGES.gcon.view : PAGES[section].view;
     const descLabel = desc ? 'Effects' : 'Description';
 
+    const sectionKeys = Object.keys(CIVILOPEDIA_JSON[section]);
+    const length = sectionKeys.length;
+    const index = sectionKeys.indexOf(full);
+
     res.status(200).render(view, {
       text: desc ? Civ.parseText(data.description) : Civ.parseText(data.text),
       header: data.name,
@@ -115,7 +127,9 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
       menu: [],
       uplink: `/civilopedia/${section}`,
       more: data.description ? descLabel : '',
-      moreLink: `/civilopedia/${section}/${page}${desc ? '' : '/desc'}`
+      moreLink: `/civilopedia/${section}/${page}${desc ? '' : '/desc'}`,
+      leftlink: `/civilopedia/${section}/${sectionKeys[(index + length - 1) % length].substring(5)}`,
+      rightlink: `/civilopedia/${section}/${sectionKeys[(index + 1) % length].substring(5)}`,
     });
   } else {
     next();
