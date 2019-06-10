@@ -55,9 +55,6 @@ const CIVILOPEDIA_JSON = require('./public/civ3complete.json');
 let CIVILOPEDIA_NAMES = {};
 Object.keys(CIVILOPEDIA_JSON).forEach(k1 => {
   Object.keys(CIVILOPEDIA_JSON[k1]).forEach(k2 => {
-    if (CIVILOPEDIA_NAMES[CIVILOPEDIA_JSON[k1][k2].name]) {
-      console.log(CIVILOPEDIA_JSON[k1][k2].name);
-    }
     CIVILOPEDIA_NAMES[CIVILOPEDIA_JSON[k1][k2].name] = k2;
   });
 });
