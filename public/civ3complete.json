@@ -287,7 +287,7 @@
           "Education"
         ],
         "allows": [
-          "Democracy",
+          "Democracy(tech)",
           "Economics"
         ]
       },
@@ -382,7 +382,7 @@
       "tech": {
         "requires": [
           "Monotheism",
-          "Feudalism"
+          "Feudalism(tech)"
         ],
         "allows": []
       },
@@ -447,7 +447,7 @@
         "Units": [
           "Cruiser",
           "Destroyer",
-          "Transport"
+          "Transport(prto)"
         ],
         "Actions": [],
         "Gr Wonders": [],
@@ -481,7 +481,7 @@
         "Resources": []
       },
       "text": "",
-      "name": "Communism",
+      "name": "Communism(Tech)",
       "description": "#DESC_TECH_Communism\n^\n^\n^Communism is a conceptualized system of government in which resources and production facilities are the property of the entire society \nrather than individuals. In a communist society, labor is shared equally as well, and the benefits of labor are distributed according to need. \nUnder such a system, all people would be equal, without class stratification. Although the basic idea of communism has existed since the time \nof Plato, modern communism is identified with the system of government described by Karl Marx and Fredrich Engels in the \"Communist \nManifesto\". They believed that capitalistic systems, in which the rich upper class prospered through the exploitation of the powerless lower \nclass, were bound to destroy themselves. At this point, the poor would rebel against their former oppressors and form a classless society. \nThis prophecy has never come true, and countries that have attempted to base their governments on communism have ultimately failed to \nachieve the utopia described by Marx and Engels.\n\n\n"
     },
     "tech_computers": {
@@ -609,7 +609,7 @@
         "Resources": []
       },
       "text": "",
-      "name": "Democracy",
+      "name": "Democracy(tech)",
       "description": "#DESC_TECH_Democracy\n^\n^\n^Democracy is a ruling system where the citizens have a great deal of control over the actions of the government, either directly or through \nelected representatives. Democratic governments can be traced back to the city-states of ancient Greece and Rome. Citizens would gather \nin a public forum, and each one would have the opportunity to speak and vote on issues affecting the community. This direct democracy \nsystem was possible due to the relatively small populations of the city-states. Starting in the 17th century, the monarchs of Europe began to \nbe stripped of their absolute power, and by the end of the 19th century the citizens had a strong voice in government in many European \nnations. Large populations made public forums impractical, so the people elected groups of representatives to carry their views to the ruling \npowers. Strictly speaking, this type of system more closely resembles a republican system rather than a true democracy. This type of \nrepresentative democracy is considered the best governing system in the modern world because of the personal and economic freedom \nenjoyed by the citizens.\n\n\n"
     },
     "tech_ecology": {
@@ -779,7 +779,7 @@
         "Resources": []
       },
       "text": "#TECH_Espionage\n^\n^\n^{New Ability}  Build an $LINK<Intelligence Agency=BLDG_Intelligence_Center> and you can conduct\n$LINK<Espionage Missions=GCON_Espionage>.\n",
-      "name": "Espionage",
+      "name": "Espionage(tech)",
       "description": "#DESC_TECH_Espionage\n^\n^\n^As far back as 500 BC, the Chinese military strategist Sun Tzu stressed the importance of the gathering of covert information about one's \nenemy. Although every world government has strict laws and penalties to deal with spies, covert intelligence is an important political, \ntechnological, and military commodity. During times of war, covert operatives provide important information about enemy troop movements \nand weapons technology. Spies may also be called upon to perform acts of sabotage in order to delay or divert the enemy. In peacetime, \norganizations such as the CIA use operatives to keep track of potential political situations abroad. Spying is not limited to politics and war; \nindustrial spies are often used to gain information about rival companies.\n\n\n"
     },
     "tech_fascism": {
@@ -801,7 +801,7 @@
         "Resources": []
       },
       "text": "",
-      "name": "Fascism",
+      "name": "Fascism(tech)",
       "description": "#DESC_TECH_Fascism\n^\n^\n^Unlike other forms of government, there is no concrete definition of fascism. The word \"fascism\" comes from the fasces, the bundle of sticks used as a symbol of authority in ancient Rome -- appropriately, since the first fascist government, that of Benito Mussolini in Italy, aspired to regain Rome's glory.\n^\tSome common elements of fascism include strong nationalist sentiment, xenophobia, subordination of individual interests to the community, militarism and glorification of the army, secret police forces that enforce secret laws, informer networks, suppression of civil liberties and independent media, and economic policies that tightly tie business and commerce to government. (Note that many of these features are common in communist states as well.)\n^\tFascist states need not be authoritarian, although they usually are; when fascist leaders are democratically elected (as Adolf Hitler was), they often try to modify or abolish the democratic institutions that placed the leaders in power."
     },
     "tech_feudalism": {
@@ -830,7 +830,7 @@
         "Resources": []
       },
       "text": "",
-      "name": "Feudalism",
+      "name": "Feudalism(tech)",
       "description": "#DESC_TECH_Feudalism\n^\n^\n^In the unsettled times following the collapse of Charlemagne's Frankish empire, a new social and political system arose in Europe called \nfeudalism. Derived from the concept of monarchy, feudalism was a hierarchical system in which each descending stratum owed allegiance to \nthose above. The king, whose authority was second only to God, granted tracts of land, or fiefs, to his barons. The barons might then grant \nsmaller estates to knights, who swore to protect and serve the baron. The knights, in turn, might then grant fractions of their fiefs to \nsubordinates who would serve the knights. At the bottom of the feudal pyramid were the serfs, who could not own land, and acted essentially \nas slave laborers who worked the land for their masters. Feudalism began to decline in the 13th century, when standing armies and \nmercenaries began to fulfill the protective role once served by the vassals and knights.\n\n\n"
     },
     "tech_fission": {
@@ -894,7 +894,7 @@
     "tech_free_artistry": {
       "tech": {
         "requires": [
-          "Democracy"
+          "Democracy(tech)"
         ],
         "allows": []
       },
@@ -994,7 +994,7 @@
         ],
         "allows": [
           "The Corporation",
-          "Espionage"
+          "Espionage(tech)"
         ]
       },
       "allows": {
@@ -1042,7 +1042,7 @@
     "tech_invention": {
       "tech": {
         "requires": [
-          "Feudalism",
+          "Feudalism(tech)",
           "Engineering"
         ],
         "allows": [
@@ -1429,7 +1429,7 @@
         "Resources": []
       },
       "text": "",
-      "name": "Monarchy",
+      "name": "Monarchy(tech)",
       "description": "#DESC_TECH_Monarchy\n^\n^\n^Rule by monarchy developed as a logical extension of the absolute rule of tribal chieftains. Many of the earliest monarchs, such as those in \nancient Egypt, claimed that they ruled by divine right. In the spread of European monarchy during the Middle Ages, however, rulership was \ngenerally conveyed upon a leader who could most effectively raise and command an army. Monarchies are dynastic, with rule of the country \npassing to the eldest son when the king dies or retires. Monarchs had absolute rule over their subjects, severely limiting the personal and \neconomic freedom of all citizens except for nobility and the rich upper class. Although monarchies ruled most of Europe for centuries, the \nunhappiness of lower-class citizens eventually grew intolerable, causing several major revolutions. By the mid-18th century, the power of the \nEuropean monarchs had been severely limited, paving the way for participatory systems of government.\n\n\n"
     },
     "tech_monotheism": {
@@ -1530,9 +1530,9 @@
       "tech": {
         "requires": [],
         "allows": [
-          "Communism",
-          "Espionage",
-          "Fascism"
+          "Communism(Tech)",
+          "Espionage(tech)",
+          "Fascism(tech)"
         ]
       },
       "allows": {
@@ -1650,7 +1650,7 @@
           "Mysticism"
         ],
         "allows": [
-          "Monarchy"
+          "Monarchy(tech)"
         ]
       },
       "allows": {
@@ -1696,7 +1696,7 @@
           "Theology"
         ],
         "allows": [
-          "Democracy"
+          "Democracy(tech)"
         ]
       },
       "allows": {
@@ -2171,7 +2171,7 @@
         "requires": [],
         "allows": [
           "Horseback Riding",
-          "Monarchy"
+          "Monarchy(tech)"
         ]
       },
       "allows": {
@@ -2322,7 +2322,7 @@
       "Maintenance": 0,
       "Culture": 4,
       "Obsolete": "Steam Power",
-      "Advance": "Monarchy",
+      "Advance": "Monarchy(tech)",
       "Resources": [],
       "name": "The Hanging Gardens",
       "text": "#BLDG_Hanging_Gardens\n^\n^\n[The Hanging Gardens] makes three $LINK<unhappy citizens=GCON_Moods> content in its city and\none unhappy citizen content in all other friendly cities.\n^\n^\n^This Great Wonder can become a $LINK<tourist attraction=GCON_Tourist_Attraction>.\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Industrious and Agricultural civilizations.\n",
@@ -2542,7 +2542,7 @@
       "Maintenance": 0,
       "Culture": 2,
       "Obsolete": "",
-      "Advance": "Feudalism",
+      "Advance": "Feudalism(tech)",
       "Resources": [],
       "name": "Sun Tzu's Art of War",
       "text": "#BLDG_Art_of_War\n^\n^\n^Puts a $LINK<barracks=BLDG_Barracks> in every city on the same continent.\n^\n^\n^\n^\n^May trigger $LINK<Golden Age=GCON_Golden_Age> for Militaristic civilizations.\n",
@@ -2656,7 +2656,7 @@
       "Maintenance": 0,
       "Culture": 1,
       "Required Government": "",
-      "Advance": "Espionage",
+      "Advance": "Espionage(tech)",
       "Resources": [],
       "Text": "",
       "name": "Intelligence Agency",
@@ -2711,7 +2711,7 @@
       "Maintenance": 0,
       "Culture": 0,
       "Required Government": "Communism",
-      "Advance": "Espionage",
+      "Advance": "Espionage(tech)",
       "Resources": [],
       "Text": "",
       "name": "Secret Police HQ",
@@ -3013,7 +3013,7 @@
       "Cost": 160,
       "Maintenance": 2,
       "Culture": 0,
-      "Advance": "Communism",
+      "Advance": "Communism(Tech)",
       "Resources": [],
       "text": "#BLDG_Police_Station\n^\n^\n^The [Police Station] combats $LINK<war weariness=GCON_War_Weariness> and decreases $LINK<corruption=GCON_Corruption> in its city.\n",
       "description": "#DESC_BLDG_Police_Station\n^\n^\n^The concept of a police force operating independently of the military goes back to the Praetorian Guard of ancient \nRome. In the Middle Ages, noblemen protected their estates by appointing constables to enforce the law and to arrest \nand guard criminals, but the first modern, organized police force was the London Metropolitan Police. Established in \n1829, this organization became the model for law enforcement organizations in the United States and many other \nindustrialized nations around the world. The presence of a police force serves to uphold the laws of society, and to \ncontrol civil unrest. A strong, visible police force strengthens confidence of the community by keeping the citizens\nsafe.\n\n\n",
@@ -3263,14 +3263,14 @@
       "description": "#DESC_GOVT_Anarchy\n^Change of rule in cultures are often periods of unrest, but when the very framework for government is transformed \nit almost always results in a period of anarchy. The massive political and social upheaval experienced by the \nculture during a period of anarchy brings commerce and production to a standstill as cities rise up and government \norganizations try to restructure. Despite the fact that corruption and waste are absolute, there is a positive side \nto anarchy - it is temporary. When the smoke clears and the citizens calm down they are ready to embrace a new form \nof order in your society.\n\n\n"
     },
     "gvmt_communism": {
-      "requires": "Communism",
+      "requires": "Communism(Tech)",
       "allows": "Secret Police HQ",
       "name": "Communism",
       "text": "#GOVT_Communism\n^\n^\n^Under Communism, the government is in the hands of a ruling \"party\" controlled absolutely by you, the Chairman.\nAlthough Communism allows greater production than despotism, the system restricts personal freedoms, limiting\n$LINK<commerce=GCON_Commerce>. One positive aspect of Communism is its effect upon $LINK<corruption and waste=GCON_Corruption>:\nall cities suffer the same, limited effects.\n^\n^Worker efficiency\t\t\t\t100%\n^Hurry Method\t\t\t\t\tForced Labor\n^Corruption / Waste\t\t\t\tCommunal\n^War Weariness\t\t\t\tNone\n^Draft Rate\t\t\t\t\t2\n^Military Police Limit\t\t\t\t4\n^Unit Support\n^    per town\t\t\t\t\t6\n^    per city\t\t\t\t\t6\n^    per metropolis\t\t\t\t6\n",
       "description": "#DESC_GOVT_Communism\nCommunism is a conceptualized system of government in which resources and production facilities are the property\nof the entire society rather than individuals. In a communist society, labor is shared equally as well, and the\nbenefits of labor are distributed according to need. Under such a system, all people would be equal, without class stratification. Although the basic idea of \ncommunism has existed since the time of Plato, modern communism is identified with the system of government described by \nKarl Marx and Fredrich Engels in the \"Communist Manifesto\". They believed that capitalistic systems, in which the rich upper \nclass prospered through the exploitation of the powerless lower class, were bound to destroy themselves. At this point, the poor \nwould rebel against their former oppressors and form a classless society. This prophecy has never come true, and countries that \nhave attempted to base their governments on communism have ultimately failed to achieve the utopia described by Marx and \nEngels.\n\n\n\n"
     },
     "gvmt_democracy": {
-      "requires": "Democracy",
+      "requires": "Democracy(tech)",
       "allows": "",
       "name": "Democracy",
       "text": "#GOVT_Democracy\n^\n^\n^You are elected by the people to rule with their interests at heart. You are rewarded by increased\n$LINK<commerce=GCON_Commerce> and $LINK<production=GCON_Shields>. However, $LINK<war weariness=GCON_War_Weariness>\nis a significant problem and war must be entered into only after much consideration.\n^\n^\n^\n^Worker efficiency\t\t\t\t150%\n^Hurry Method\t\t\t\t\tPay citizens\n^Corruption / Waste\t\t\t\tMinimal\n^War Weariness\t\t\t\tHigh\n^Draft Rate\t\t\t\t\t1\n^Military Police Limit\t\t\t\t0\n^Unit Support\n^    per town\t\t\t\t\t0\n^    per city\t\t\t\t\t0\n^    per metropolis\t\t\t\t0\n",
@@ -3284,21 +3284,21 @@
       "description": "#DESC_GOVT_Despotism\n^Despotism is, without a doubt, the simplest form of government. It is based on a simple concept: might makes \nright. In a despotism, the power is held unquestionably by those who hold power over the military and who therefore \ncan enforce their decrees. Because of the oppression experienced in this type of regime, despots often find that \ntheir ability to control the population is proportional to their use of armed troops in towns and cities in which \nthe people live. Furthermore, because it is such a centralized form of government despotism makes it difficult to \neffectively put down rebellions and prevent the misappropriation of funds if their empire grows too large. Despots \npay a terrible price in waste and corruption in their society; and with the development of more sophisticated forms \nof government despots often find that staging a coup is necessary for further growth. \n\n\n"
     },
     "gvmt_fascism": {
-      "requires": "Fascism",
+      "requires": "Fascism(tech)",
       "allows": "",
       "name": "Fascism",
       "text": "#GOVT_Fascism\n^\n^You rule as dictator of a fascist state, appealing to strong feelings of national identity and the promise of a glorious future (or return to an idealized past). Your nation views itself as entitled to anything it can take from weaker or less worthy civilizations, so $LINK<war weariness=GCON_War_Weariness> is not an issue, and nationalist fervor for public works means that your Workers do their jobs faster. However, your brutal methods and suspicious attitude towards business and enterprise mean you must use forced labor to build improvements. Your cities lose population points upon a change to fascist government, Newly conquered cities also lose population, and do not generate culture until a popular majority has been assimilated. \n^\n^Worker efficiency\t\t\t\t200%\n^Hurry Method\t\t\t\t\tForced Labor\n^Corruption / Waste\t\t\t\tNuisance\n^War Weariness\t\t\t\tNone\n^Draft Rate\t\t\t\t\t2\n^Military Police Limit\t\t\t\t4\n^Unit Support\n^    per town\t\t\t\t\t4\n^    per city\t\t\t\t\t7\n^    per metropolis\t\t\t\t10\n",
       "description": "#DESC_GOVT_Fascism\n^\n^\n^Unlike other forms of government, there is no concrete definition of fascism. The word \"fascism\" comes from the fasces, the bundle of sticks used as a symbol of authority in ancient Rome -- appropriately, since the first fascist government, that of Benito Mussolini in Italy, aspired to regain Rome's glory.\n^\tSome common elements of fascism include strong nationalist sentiment, xenophobia, subordination of individual interests to those of the community or \"society\", militarism and glorification of the army, secret police forces that enforce secret laws, informer networks, suppression of civil liberties and independent media, and economic policies that tightly tie business and commerce to government. (Note that many of these features are common in communist states as well.)\n^\tFascist states need not be authoritarian, although they usually are; when fascist leaders are democratically elected (as Adolf Hitler was), they often try to modify or abolish the democratic institutions that placed the leaders in power.\n\n\n"
     },
     "gvmt_feudalism": {
-      "requires": "Feudalism",
+      "requires": "Feudalism(tech)",
       "allows": "",
       "name": "Feudalism",
       "text": "#GOVT_Feudalism\n^\n^\n^You rule as a feudal king, dependent on your vassal lords for support and bound to respect their wishes. $LINK<Corruption=GCON_Corruption> among the lords is a continual problem.  In addition, your vassals are wary of continual warfare and $LINK<war weariness=GCON_War_Weariness> may result. You do not suffer the production problems associated with $LINK<despotism=GOVT_Despotism>, however.  Maintenance cost per unit per turn is 3 gold instead of 1.\n^\n^\n^\n^Worker efficiency\t\t\t\t100%\n^Hurry Method\t\t\t\t\tForced Labor\n^Corruption / Waste\t\t\t\tProblematic\n^War Weariness\t\t\t\tLow\n^Draft Rate\t\t\t\t\t2\n^Military Police Limit\t\t\t\t3\n^Unit Support\n^    per town\t\t\t\t\t5\n^    per city\t\t\t\t\t2\n^    per metropolis\t\t\t\t1\n",
       "description": "#DESC_GOVT_Feudalism\n^\n^\n^Feudal governments are decentralized monarchies where kings rule because subordinate nobles support them. Kings still retain vast powers under feudalism, but nonetheless must tread carefully lest their vassals rebel. The range of powers available to feudal kings usually involved the power to tax, to impress a lord's serfs into (limited) military service, and to resolve political disputes and create titles."
     },
     "gvmt_monarchy": {
-      "requires": "Monarchy",
+      "requires": "Monarchy(tech)",
       "allows": "",
       "name": "Monarchy",
       "text": "#GOVT_Monarchy\n^\n^\n^Monarchs rule with absolute authority, severely limiting personal and economic freedom of all\ncitizens except for nobility and the rich upper-class. However, there is a sense among the populace that you rule by\nsanction of the gods (or God) and this alleviates many of the production problems found in $LINK<despotism=GOVT_Despotism>.\n$LINK<Corruption and waste=GCON_Corruption> are significant, but are ameliorated to an extent by loyalty to the King.\n^\n^Worker efficiency\t\t\t\t100%\n^Hurry Method\t\t\t\t\tPay citizens\n^Corruption / Waste\t\t\t\tProblematic\n^War Weariness\t\t\t\tNone\n^Draft Rate\t\t\t\t\t2\n^Military Police Limit\t\t\t\t3\n^Unit Support\n^    per town\t\t\t\t\t2\n^    per city\t\t\t\t\t4\n^    per metropolis\t\t\t\t8\n",
@@ -4037,7 +4037,7 @@
       "Rate of Fire": null,
       "Anti-Air Defense": null,
       "Transport Capacity": 4,
-      "Upgrades To": "Transport",
+      "Upgrades To": "Transport(prto)",
       "Advance": "Magnetism",
       "Resources": [],
       "name": "Galleon",
@@ -4645,7 +4645,7 @@
       "Anti-Air Defense": null,
       "Transport Capacity": null,
       "Upgrades To": "Guerilla",
-      "Advance": "Feudalism",
+      "Advance": "Feudalism(tech)",
       "Resources": [
         "Iron"
       ],
@@ -4919,7 +4919,7 @@
       "Anti-Air Defense": null,
       "Transport Capacity": null,
       "Upgrades To": "Musketman",
-      "Advance": "Feudalism",
+      "Advance": "Feudalism(tech)",
       "Resources": [
         "Iron"
       ],
@@ -5230,7 +5230,7 @@
       "Anti-Air Defense": null,
       "Transport Capacity": null,
       "Upgrades To": "",
-      "Advance": "Feudalism",
+      "Advance": "Feudalism(tech)",
       "Resources": [
         "Iron"
       ],
@@ -5396,7 +5396,7 @@
       "Resources": [
         "Oil"
       ],
-      "name": "Transport",
+      "name": "Transport(prto)",
       "text": "#PRTO_Transport\n^\n^\n^While barely able to defend itself, the [Transport] can move large quantities of military forces over\nthe bounding main. A transport carrying $LINK<Marines=PRTO_Marine> can be a significant off-shore\nthreat to any nation.\n^\n^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a transport.\n",
       "description": "#DESC_PRTO_Transport\n^\n^\n^The troop transport ship, which in peacetime serves as a cargo or passenger vessel, is the principle means \nused by modern powers to move large quantities of military equipment and personnel over long distances. \nBecause transports lack offensive weaponry, they require armed vessels as escorts during times of war. A \nproperly escorted transport can move large military forces to a new area quickly to act as reinforcements \nor as an attacking force.\n\n\n\n"
     },

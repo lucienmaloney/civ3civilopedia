@@ -51,6 +51,9 @@ const CIVILOPEDIA_JSON = require('./public/civ3complete.json');
 let CIVILOPEDIA_NAMES = {};
 Object.keys(CIVILOPEDIA_JSON).forEach(k1 => {
   Object.keys(CIVILOPEDIA_JSON[k1]).forEach(k2 => {
+    if (CIVILOPEDIA_NAMES[CIVILOPEDIA_JSON[k1][k2].name]) {
+      console.log(CIVILOPEDIA_JSON[k1][k2].name);
+    }
     CIVILOPEDIA_NAMES[CIVILOPEDIA_JSON[k1][k2].name] = k2;
   });
 });
@@ -58,9 +61,9 @@ Object.keys(CIVILOPEDIA_JSON).forEach(k1 => {
 function nameToLink(name) {
   const key = CIVILOPEDIA_NAMES[name];
   return {
-    name: name,
+    name: name.replace(/\(([^)]+)\)/, ''),
     path: Civ.fileNameToUrlPath(key),
-    image: name.toLowerCase().replace(/_| |\//g, ''),
+    image: name.toLowerCase().replace(/_| |\//g, '').replace(/\(([^)]+)\)/, ''),
     bordercolor: PAGES[key.substring(0, 4)].color,
   };
 }
@@ -95,9 +98,9 @@ app.get('/civilopedia/:section', function(req, res, next) {
 
     const menu = keys.map(k => {
       const name = (CIVILOPEDIA_JSON[section] || CIVILOPEDIA_JSON.bldg)[k].name;
-      const image = section === 'gcon' ? 'concepts' : name.toLowerCase().replace(/_| |\//g, '');
+      const image = section === 'gcon' ? 'concepts' : name.toLowerCase().replace(/_| |\//g, '').replace(/\(([^)]+)\)/, '');
       return {
-        name: name,
+        name: name.replace(/\(([^)]+)\)/, ''),
         image: image,
         path: Civ.fileNameToUrlPath(k),
         bordercolor: PAGES[section].color,
@@ -131,7 +134,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
 
   if (CIVILOPEDIA_JSON[section] && CIVILOPEDIA_JSON[section][full]) {
     const data = CIVILOPEDIA_JSON[section][full];
-    const image = section === 'gcon' ? 'concepts' : `${data.name.toLowerCase().replace(/_| |\//g, '')}`;
+    const image = section === 'gcon' ? 'concepts' : `${data.name.toLowerCase().replace(/_| |\//g, '').replace(/\(([^)]+)\)/, '')}`;
     const view = desc ? PAGES.gcon.view : PAGES[section].view;
     const descLabel = desc ? 'Effects' : section === 'race' || section === 'gcon' ? 'More' : 'Description';
 
@@ -171,7 +174,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
 
     res.status(200).render(view, {
       text: desc ? Civ.parseText(data.description) : Civ.parseText(data.text),
-      header: data.name,
+      header: data.name.replace(/\(([^)]+)\)/, ''),
       image: image,
       menu: [],
       uplink: `/civilopedia/${menuSection}`,
