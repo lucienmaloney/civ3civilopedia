@@ -144,6 +144,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
     let advances = [];
     let resources = [];
     let techdata = [];
+    let techadvances = {};
     if (data.Resources) {
       resources = data.Resources.map(nameToLink);
     }
@@ -162,6 +163,10 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
           });
         }
       });
+
+      techadvances.tech = nameToLink(data.name);
+      techadvances.requires = data.tech.requires.map(nameToLink);
+      techadvances.allows = data.tech.allows.map(nameToLink);
     }
 
     res.status(200).render(view, {
@@ -179,6 +184,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
       resources,
       advances,
       techdata,
+      techadvances,
     });
   } else {
     next();

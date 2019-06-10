@@ -7,13 +7,31 @@ block content
   div#requires.bigtext REQUIRES
   div#allows.bigtext ALLOWS
   div#allowsright.bigtext ALLOWS
+  if(techadvances.requires.length)
+    div(class=`lines left line${techadvances.requires.length}`)
+  if(techadvances.allows.length)
+    div(class=`lines right line${techadvances.allows.length}`)
+  div#box
+    a.bottomlink(href=`${techadvances.tech.path}`)
+      img(src=`/img/icons/${techadvances.tech.image}.bmp`, style=`border: 2px solid ${techadvances.tech.bordercolor};`)
+      span #{techadvances.tech.name}
+  div#leftbox.techcon
+    each item in techadvances.requires
+      a.bottomlink(href=`${item.path}`)
+        img(src=`/img/icons/${item.image}.bmp`, style=`border: 2px solid ${item.bordercolor};`)
+        span #{item.name}
+  div#rightbox.techcon
+    each item in techadvances.allows
+      a.bottomlink(href=`${item.path}`)
+        img(src=`/img/icons/${item.image}.bmp`, style=`border: 2px solid ${item.bordercolor};`)
+        span #{item.name}
   div#lower.container
     each data in techdata
       div
         div.smalltext #{data.name}
         div.iconcon
           each item in data.data
-            a.bottomlink(href=`${item.path}`)
+            a.bottomlink.datalink(href=`${item.path}`)
               img(src=`/img/icons/${item.image}.bmp`, style=`border: 2px solid ${item.bordercolor};`)
               br
               span #{item.name}

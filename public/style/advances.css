@@ -65,7 +65,7 @@ p#text {
   overflow-y: hidden;
 }
 
-.bottomlink {
+.datalink {
   display: inline-block !important;
   margin-right: 10px;
   width: 70px;
@@ -74,7 +74,51 @@ p#text {
   text-overflow: hidden;
 }
 
-.bottomlink > span {
+.datalink > span {
   position: relative;
   top: -5px;
+}
+
+#box {
+  width: 100%;
+  height: 240px;
+  position: absolute;
+  top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lines {
+  width: 81px;
+  height: 165px;
+  background-image: url('/img/Civilopedia/advances.png');
+  position: absolute;
+  top: 160px;
+}
+
+.left {
+  background-position-x: -53px;
+  left: 114px;
+}
+
+.right {
+  background-position-x: -135px;
+  left: 235px;
+}
+
+.line4 {
+  background-position-y: -26px;
+}
+
+.line3 {
+  background-position-y: -229px;
+}
+
+.line2 {
+  background-position-y: -432px;
+}
+
+.line1 {
+  background-position-y: -635px;
 }
