@@ -149,6 +149,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
     let resources = [];
     let techdata = [];
     let techadvances = {};
+    let linkdata = {};
     if (data.Resources) {
       resources = data.Resources.map(nameToLink);
     }
@@ -172,6 +173,17 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
       techadvances.requires = data.tech.requires.map(nameToLink);
       techadvances.allows = data.tech.allows.map(nameToLink);
     }
+    if (section === 'bldg') {
+      if (data.Obsolete) {
+        linkdata.obsolete = Civ.fileNameToUrlPath(CIVILOPEDIA_NAMES[data.Obsolete]);
+      }
+      if (data['Required Government']) {
+        linkdata.reqgov = Civ.fileNameToUrlPath(CIVILOPEDIA_NAMES[data['Required Government']]);
+      }
+    }
+    if (section === 'prto' && data['Upgrades To']) {
+      linkdata.upgradesto = Civ.fileNameToUrlPath(CIVILOPEDIA_NAMES[data['Upgrades To']]);
+    }
 
     res.status(200).render(view, {
       text: desc ? Civ.parseText(data.description) : Civ.parseText(data.text),
@@ -189,6 +201,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
       advances,
       techdata,
       techadvances,
+      linkdata,
     });
   } else {
     next();

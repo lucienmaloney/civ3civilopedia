@@ -13,7 +13,9 @@ block content
       span Cost: #{data.Cost}
       div.shield
     if data['Upgrades To']
-      div Upgrades To: #{data['Upgrades To']}
+      div
+        span Upgrades To:&nbsp;
+        a(href=`${linkdata.upgradesto}`) #{data['Upgrades To']}
   div#statistics
     div #{data['Attack'] != null ? `Attack: ${data['Attack']}` : ''}
     div #{data['Defense'] != null ? `Defense: ${data['Defense']}` : ''}

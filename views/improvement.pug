@@ -10,8 +10,8 @@ block content
   div#box.container
     if data['Required Government']
       div
-        span Required Government:
-        a &nbsp;#{data['Required Government']}
+        span Required Government:&nbsp;
+        a(href=`${linkdata.reqgov}`) #{data['Required Government']}
     div
       span Cost: #{data.Cost}
       div.shield
@@ -24,8 +24,8 @@ block content
         div.culture
     if data.Obsolete
       div
-        span Made Obsolete By:
-        a &nbsp;#{data.Obsolete}
+        span Made Obsolete By:&nbsp;
+        a(href=`${linkdata.obsolete}`) #{data.Obsolete}
   div#advance.container
     each item in advances
       a.bottomlink(href=`${item.path}`)
