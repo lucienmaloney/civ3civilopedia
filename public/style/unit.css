@@ -10,3 +10,78 @@
 p#text {
   height: 210px !important;
 }
+
+#requires {
+  top: 390px;
+}
+
+#advancetext {
+  top: 418px;
+}
+
+#resourcetext {
+  top: 496px;
+}
+
+#advance {
+  top: 430px;
+  height: 60px;
+}
+
+#resources {
+  top: 508px;
+  height: 60px;
+}
+
+#content {
+  overflow: hidden !important;
+}
+
+.cover {
+  background-image: url('/img/Civilopedia/B-cover.bmp');
+  position: absolute;
+  top: 500px;
+  width: 486px;
+  height: 207px;
+}
+
+#stats {
+  top: 295px;
+}
+
+#upperbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 230px;
+  height: 45px;
+  width: 100%;
+  padding: 0px 50px;
+}
+
+#shields {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#shields > span {
+  margin-right: 4px;
+}
+
+#statistics {
+  position: absolute;
+  top: 310px;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  align-items: flex-start;
+}
+
+#statistics > div {
+  padding-top: 2px;
+  width: 150px;
+}

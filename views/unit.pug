@@ -4,3 +4,36 @@ block styles
   link(rel="stylesheet", type="text/css", href="/style/unit.css")
 
 block content
+  div#requires.bigtext REQUIRES
+  div#stats.bigtext Stats
+  div#advancetext.smalltext Advances
+  div#resourcetext.smalltext Resources
+  div#upperbar
+    div#shields
+      span Cost: #{data.Cost}
+      div.shield
+    if data['Upgrades To']
+      div Upgrades To: #{data['Upgrades To']}
+  div#statistics
+    div #{data['Attack'] != null ? `Attack: ${data['Attack']}` : ''}
+    div #{data['Defense'] != null ? `Defense: ${data['Defense']}` : ''}
+    div #{data['Movement'] != null ? `Movement: ${data['Movement']}` : ''}
+    div #{data['Bombard'] != null ? `Bombard: ${data['Bombard']}` : ''}
+    div #{data['Range'] != null ? `Range: ${data['Range']}` : ''}
+    div #{data['Rate of Fire'] != null ? `Rate of Fire: ${data['Rate of Fire']}` : ''}
+    div #{data['Anti-Air Defense'] != null ? `Anti-Air Defense: ${data['Anti-Air Defense']}` : ''}
+    div #{data['Transport Capacity'] != null ? `Transport Capacity: ${data['Transport Capacity']}` : ''}
+  div#advance.container
+    each item in advances
+      a.bottomlink(href=`${item.path}`)
+        img(src=`/img/icons/${item.image}.bmp`, style=`border: 2px solid ${item.bordercolor};`)
+        span #{item.name}
+  div#resources.container
+    each item in resources
+      a.bottomlink(href=`${item.path}`)
+        img(src=`/img/icons/${item.image}.bmp`, style=`border: 2px solid ${item.bordercolor};`)
+        span #{item.name}
+
+block covers
+  if !(advances.length || resources.length)
+    div.cover
