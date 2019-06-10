@@ -8,5 +8,51 @@
 }
 
 p#text {
-  height: 80px !important;
+  height: 90px !important;
+}
+
+#stats {
+  top: 108px;
+}
+
+#yield {
+  top: 195px;
+}
+
+#statsbox {
+  position: absolute;
+  width: 100%;
+  padding-top: 20px;
+  height: 88px;
+  top: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 160px;
+}
+
+#yieldbox {
+  position: absolute;
+  width: 100%;
+  height: 180px;
+  top: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-spacing: 5px;
+}
+
+td{
+  text-align: right;
+}
+
+td > * {
+  float: right;
+}
+
+td > div {
+  margin-left: 3px;
 }

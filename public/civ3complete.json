@@ -5864,7 +5864,7 @@
     },
     "terr_river": {
       "Movement Cost": 0,
-      "Defensive Bonus": 0,
+      "Defensive Bonus": 25,
       "Base Yield": [
         0,
         0,

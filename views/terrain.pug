@@ -4,3 +4,43 @@ block styles
   link(rel="stylesheet", type="text/css", href="/style/terrain.css")
 
 block content
+  div#stats.bigtext STATISTICS
+  div#yield.bigtext YIELD
+  div#statsbox
+    div Movement Cost: #{data['Movement Cost']}
+    div Defensive Bonus: +#{data['Defensive Bonus']}%
+  div#yieldbox
+    table
+      tr
+        td Base Tile Yield:
+        td
+          div.food
+          span #{data['Base Yield'][0]}
+        td
+          div.shield
+          span #{data['Base Yield'][1]}
+        td
+          div.wealth
+          span #{data['Base Yield'][2]}
+      tr
+        td Irrigation Bonus:
+        td
+          div.food
+          span +#{data['Bonus Yield'][0]}
+        td
+        td
+      tr
+        td Mine Bonus:
+        td
+        td
+          div.shield
+          span +#{data['Bonus Yield'][1]}
+        td
+      tr
+        td Road Bonus:
+        td
+        td
+        td
+          div.wealth
+          span +#{data['Bonus Yield'][2]}
+
