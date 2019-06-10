@@ -10,3 +10,49 @@
 p#text {
   height: 200px !important;
 }
+
+#requires {
+  top: 390px;
+}
+
+#advancetext {
+  top: 418px;
+}
+
+#resourcetext {
+  top: 496px;
+}
+
+#box {
+  top: 230px;
+  height: 142px;
+  flex-direction: column;
+  justify-content: center !important;
+  font-size: 12px;
+  align-items: flex-start !important;
+  padding-left: 130px;
+}
+
+#box > div {
+  display: flex;
+  padding: 1px 0px;
+  align-items: center;
+}
+
+#box > div > div {
+  margin-left: 5px;
+}
+
+#advance {
+  top: 430px;
+  height: 60px;
+}
+
+#resources {
+  top: 508px;
+  height: 60px;
+}
+
+#content {
+  overflow: hidden !important;
+}
