@@ -48,6 +48,23 @@ const PAGES = {
 
 const CIVILOPEDIA_JSON = require('./public/civ3complete.json');
 
+let CIVILOPEDIA_NAMES = {};
+Object.keys(CIVILOPEDIA_JSON).forEach(k1 => {
+  Object.keys(CIVILOPEDIA_JSON[k1]).forEach(k2 => {
+    CIVILOPEDIA_NAMES[CIVILOPEDIA_JSON[k1][k2].name] = k2;
+  });
+});
+
+function nameToLink(name) {
+  const key = CIVILOPEDIA_NAMES[name];
+  return {
+    name: name,
+    path: Civ.fileNameToUrlPath(key),
+    image: name.toLowerCase().replace(/_| |\//g, ''),
+    bordercolor: PAGES[key.substring(0, 4)].color,
+  };
+}
+
 app.get('/civilopedia', function(req, res, next) {
   const keys = Object.keys(PAGES);
 
@@ -124,6 +141,15 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
 
     const menuSection = data.type === 'Great Wonder' ? 'gwdr' : data.type === 'Small Wonder' ? 'swdr' : section;
 
+    let advances = [];
+    let resources = [];
+    if (data.Resources) {
+      resources = data.Resources.map(nameToLink);
+    }
+    if (data.Advance) {
+      advances.push(nameToLink(data.Advance));
+    }
+
     res.status(200).render(view, {
       text: desc ? Civ.parseText(data.description) : Civ.parseText(data.text),
       header: data.name,
@@ -136,6 +162,8 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
       leftlink: `/civilopedia/${section}/${sectionKeys[(index + length - 1) % length].substring(5)}`,
       rightlink: `/civilopedia/${section}/${sectionKeys[(index + 1) % length].substring(5)}`,
       data: data,
+      resources,
+      advances,
     });
   } else {
     next();

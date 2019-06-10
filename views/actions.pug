@@ -4,3 +4,17 @@ block styles
   link(rel="stylesheet", type="text/css", href="/style/actions.css")
 
 block content
+  div#requires.bigtext REQUIRES
+  div#advancetext.smalltext Advances
+  div#resourcetext.smalltext Resources
+  div#box.container Base Turns to Complete: #{data.Turns}
+  div#advance.container
+    each item in advances
+      a.bottomlink(href=`${item.path}`)
+        img(src=`/img/icons/${item.image}.bmp`, style=`border: 2px solid ${item.bordercolor};`)
+        span #{item.name}
+  div#resources.container
+    each item in resources
+      a.bottomlink(href=`${item.path}`)
+        img(src=`/img/icons/${item.image}.bmp`, style=`border: 2px solid ${item.bordercolor};`)
+        span #{item.name}

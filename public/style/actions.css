@@ -8,5 +8,32 @@
 }
 
 p#text {
-  height: 220px !important;
+  height: 240px !important;
+}
+
+#requires {
+  top: 330px;
+}
+
+#advancetext {
+  top: 358px;
+}
+
+#resourcetext {
+  top: 450px;
+}
+
+#box {
+  top: 257px;
+  height: 60px;
+}
+
+#advance {
+  top: 375px;
+  height: 60px;
+}
+
+#resources {
+  top: 467px;
+  height: 60px;
 }

@@ -100,6 +100,24 @@ a.link > img {
   margin-right: 10px;
 }
 
+a.bottomlink:hover {
+  cursor: pointer;
+  color: #b55a52;
+}
+
+a.bottomlink > img {
+  width: 36px;
+  height: 36px;
+}
+
+a.bottomlink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
 #menu {
   width: 129px;
   height: 326px;
@@ -238,8 +256,23 @@ div#letters > a:hover {
   font-size: 14px;
 }
 
+.smalltext {
+  position: absolute;
+  font-size: 13px;
+}
+
 .cover {
   position: absolute;
   z-index: 11037;
   left: 22px;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: auto;
+  flex-wrap: nowrap;
 }
