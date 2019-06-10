@@ -12,6 +12,16 @@ block content
     div.shield
     span.value +#{data['Tile Bonus'][2]}
     div.wealth
+  div#requires.bigtext REQUIRES
+  div#advances.smalltext Advances
+  div#advance.container
+    each item in advances
+      a.bottomlink(href=`${item.path}`)
+        img(src=`/img/icons/${item.image}.bmp`, style=`border: 2px solid ${item.bordercolor};`)
+        span #{item.name}
 
 block covers
-  div.cover
+  if !data.Advance
+    div.cover
+  else
+    div.cover.coverbottom

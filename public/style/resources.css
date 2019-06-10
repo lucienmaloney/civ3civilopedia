@@ -22,6 +22,14 @@ p#text {
   background-image: url('/img/Civilopedia/civilopediaD-coverUp.bmp');
 }
 
+.coverbottom {
+  top: 531px;
+  width: 484px;
+  height: 150px;
+  background-image: url('/img/Civilopedia/civilopediaC-coverUp.bmp');
+  background-repeat: repeat-y !important;
+}
+
 #values {
   position: absolute;
   top: 250px;
@@ -33,4 +41,19 @@ p#text {
 .value {
   margin-left: 15px;
   margin-right: 2px;
+}
+
+#requires {
+  top: 307px;
+}
+
+#advances {
+  top: 336px;
+}
+
+#advance {
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  top: 315px;
 }
