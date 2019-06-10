@@ -148,6 +148,8 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
     }
     if (data.Advance) {
       advances.push(nameToLink(data.Advance));
+    } else if (section === 'gvmt' && data.requires) {
+      advances.push(nameToLink(data.requires));
     }
 
     res.status(200).render(view, {

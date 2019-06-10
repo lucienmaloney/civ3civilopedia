@@ -10,3 +10,23 @@
 p#text {
   height: 320px !important;
 }
+
+#requires {
+  top: 361px;
+}
+
+#advancetext {
+  top: 389px;
+}
+
+.cover {
+  top: 589px;
+  width: 482px;
+  height: 115px;
+  background-image: url('/img/Civilopedia/F-lower.bmp');
+}
+
+#advance {
+  top: 400px;
+  height: 60px;
+}
