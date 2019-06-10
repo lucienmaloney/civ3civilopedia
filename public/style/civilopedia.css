@@ -275,4 +275,5 @@ div#letters > a:hover {
   align-items: center;
   overflow-x: auto;
   flex-wrap: nowrap;
+  text-align: center;
 }

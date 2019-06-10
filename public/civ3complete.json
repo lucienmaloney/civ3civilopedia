@@ -498,7 +498,7 @@
         ],
         "Actions": [],
         "Gr Wonders": [
-          "SETI Program"
+          "SETI program"
         ],
         "City Imp's": [
           "Research Lab"
@@ -1051,7 +1051,7 @@
       },
       "allows": {
         "Units": [
-          "Beserk",
+          "Berserk",
           "Longbowman"
         ],
         "Actions": [],
@@ -2081,7 +2081,7 @@
         "Gr Wonders": [],
         "City Imp's": [
           "SS Fuel Cells",
-          "SS Life Support"
+          "SS Life Support System"
         ],
         "Govts": [],
         "Sm Wonders": [],

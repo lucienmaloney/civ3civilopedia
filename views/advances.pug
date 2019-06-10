@@ -4,3 +4,22 @@ block styles
   link(rel="stylesheet", type="text/css", href="/style/advances.css")
 
 block content
+  div#requires.bigtext REQUIRES
+  div#allows.bigtext ALLOWS
+  div#allowsright.bigtext ALLOWS
+  div#lower.container
+    each data in techdata
+      div
+        div.smalltext #{data.name}
+        div.iconcon
+          each item in data.data
+            a.bottomlink(href=`${item.path}`)
+              img(src=`/img/icons/${item.image}.bmp`, style=`border: 2px solid ${item.bordercolor};`)
+              br
+              span #{item.name}
+
+block covers
+  if !text
+    div.cover
+  if !techdata.length
+    div.cover.coverbottom

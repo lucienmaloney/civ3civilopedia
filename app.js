@@ -143,6 +143,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
 
     let advances = [];
     let resources = [];
+    let techdata = [];
     if (data.Resources) {
       resources = data.Resources.map(nameToLink);
     }
@@ -150,6 +151,17 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
       advances.push(nameToLink(data.Advance));
     } else if (section === 'gvmt' && data.requires) {
       advances.push(nameToLink(data.requires));
+    }
+    if(section === 'tech') {
+      const keys = Object.keys(data.allows);
+      keys.forEach(key => {
+        if (data.allows[key].length) {
+          techdata.push({
+            name: key,
+            data: data.allows[key].map(nameToLink),
+          });
+        }
+      });
     }
 
     res.status(200).render(view, {
@@ -166,6 +178,7 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
       data: data,
       resources,
       advances,
+      techdata,
     });
   } else {
     next();
@@ -175,5 +188,10 @@ app.get('/civilopedia/:section/:page/:desc(desc)?', function(req, res, next) {
 app.use('*', function(req, res) {
   res.status(404).send('404 Not Found');
 });
+
+app.use(function (err, req, res, next) {
+  console.error(err.stack)
+  res.status(500).send('500 Server Error')
+})
 
 app.listen(4000, () => console.log('Running on port 4000'));
