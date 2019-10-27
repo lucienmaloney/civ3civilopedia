@@ -1,0 +1,24 @@
+figure {
+  width: 200px;
+  text-align: center;
+}
+
+#pediacon {
+  display: flex;
+}
+
+body {
+  background-color: #f7f7ed;
+}
+
+img {
+  border: 1px solid black;
+}
+
+#fieldcon {
+  display: flex;
+}
+
+#fieldcon > fieldset {
+  flex-grow: 1;
+}

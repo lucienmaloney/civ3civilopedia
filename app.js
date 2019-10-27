@@ -10,12 +10,7 @@ app.set('views', './views');
 app.use(express.static('public'));
 
 app.get('/', function(req, res) {
-  res.statusCode = 200;
-  res.write('<a href="/civilopedia">Civilization 3 Complete Civilopedia Online</a><br>');
-  res.write('<a href="/civ3completedataonly.json">Civilization 3 Complete Civilopedia JSON (Data Only)</a><br>');
-  res.write('<a href="/civ3complete.json">Civilization 3 Complete Civilopedia Full JSON (Data + Text + Descriptions)</a><br>');
-  res.write('<a href="https://github.com/lucienmaloney/civ3civilopedia">GitHub Page</a>');
-  res.end();
+  res.status(200).render('index');
 });
 
 class Page {
