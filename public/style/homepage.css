@@ -12,12 +12,12 @@ main figure {
 
 body {
   background-color: #f7f7ed;
-  background: linear-gradient(#f7f7ed, #bbb);
+  background: linear-gradient(#f7f7ed, #ccc);
   height: auto;
 }
 
 main img {
-  border: 1px solid black;
+  border: 1px solid #555;
 }
 
 #fieldcon {
@@ -70,5 +70,13 @@ details > *:not(details):not(summary) {
 }
 
 a {
+  display: table-row;
+}
+
+figcaption a {
   display: block;
+}
+
+td {
+  padding-left: 20px;
 }

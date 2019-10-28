@@ -5,12 +5,14 @@ html
     meta(charset="ISO-8859-1")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet", type="text/css" href="/style/homepage.css")
+
   body
     nav
       h5(title="Civ3Complete.com") Civ3Complete
       a(href="/", title="Homepage") Homepage
       br
       a(href="/civilopedia", title="Civilization 3 Complete Civilopedia") Civ3Pedia
+
     main
       fieldset#pediacon
         legend Civilopedias
@@ -21,14 +23,29 @@ html
         figure(title="The Online Civilization 6 Civilopedia")
           img(src="/img/civ6cover.jpg")
           figcaption Civilization 6 (WIP)
+
       fieldset
         legend Utilities
-        a(href="/decompressor") Civilization 3 SAV/BIQ/BIX/BIC File Decompressor
-        a(href="/saveditor") Civilization 3 SAV file editor
+        table
+          tr
+            th Civilization 3
+            th Civilization 6
+          tr
+            td
+              a(href="/civ3decompressor") .SAV/.BIQ/.BIX/.BIC File Decompressor
+            td
+              a(href="/civ6decompressor") .Civ6Save File Decompressor
+          tr
+            td
+              a(href="/civ3saveeditor") .SAV File Editor
+            td
+              a(href="/civ6recompressor") .Civ6Save File Recompressor
+
       div#fieldcon
         fieldset
           legend Resources
           a(href="https://github.com/lucienmaloney/civ3civilopedia") Website Github Page
+          a(href="https://github.com/lucienmaloney/civ6save-editing") Civ 6 Hex Editing Github Page
           a(href="https://www.youtube.com/channel/UCyNfptl3leFF_tV4tFDkfJw") YouTube Channel
           dl
             dt Civilization 3 Complete Civilopedia Resources:
@@ -41,6 +58,7 @@ html
             dd
               a(href="https://apolyton.net/forum/civilization-series/civilization-iii/122361-civilization-iii-bix-biq-file-format") Civilization 3 BIX/BIQ Partial File Format (Apolyton)
               a(href="https://forums.civfanatics.com/threads/the-civilization-iii-save-format.48270/") Civilization 3 SAV Partial File Format (CivFanatics)
+
         fieldset
           legend Saves and Maps
           details
