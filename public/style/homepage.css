@@ -1,6 +1,9 @@
 figure {
-  width: 200px;
   text-align: center;
+}
+
+main figure {
+  width: 200px;
 }
 
 #pediacon {
@@ -9,9 +12,10 @@ figure {
 
 body {
   background-color: #f7f7ed;
+  height: auto;
 }
 
-img {
+main img {
   border: 1px solid black;
 }
 
@@ -19,6 +23,50 @@ img {
   display: flex;
 }
 
-#fieldcon > fieldset {
+#fieldcon > fieldset:first-child {
   flex-grow: 1;
+}
+
+#fieldcon > fieldset:last-child {
+  width: 400px;
+}
+
+body {
+  display: flex;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+nav {
+  width: 48px;
+  margin: 30px 10px;
+}
+
+nav img {
+  width: 48px;
+  height: auto;
+}
+
+main {
+  flex-grow: 1;
+}
+
+legend {
+  font-weight: bold;
+}
+
+details {
+  max-width: 375px;
+}
+
+details > details {
+  padding-left: 20px;
+}
+
+details > *:not(details):not(summary) {
+  padding-left: 20px;
+}
+
+a {
+  display: block;
 }

@@ -1,11 +1,13 @@
 doctype html
 html
   head
-    title Civ Resources
+    title Civilization Resources
     meta(charset="ISO-8859-1")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet", type="text/css" href="/style/homepage.css")
   body
+    nav
+      img(src="/img/home.png")
     main
       fieldset#pediacon
         legend Civilopedias
@@ -19,13 +21,11 @@ html
       fieldset
         legend Utilities
         a(href="/decompressor") Civilization 3 SAV/BIQ/BIX/BIC File Decompressor
-        br
         a(href="/saveditor") Civilization 3 SAV file editor
       div#fieldcon
         fieldset
           legend Resources
           a(href="https://github.com/lucienmaloney/civ3civilopedia") Website Github Page
-          br
           a(href="https://www.youtube.com/channel/UCyNfptl3leFF_tV4tFDkfJw") YouTube Channel
           dl
             dt Civilization 3 Complete Civilopedia Resources:
@@ -34,4 +34,24 @@ html
             dd
               a(href="/civ3complete.json") Civilopedia JSON (Data + Text + Descriptions)
         fieldset
-          legend Saves
+          legend Saves and Maps
+          details
+            summary Civilization 3
+            details
+              summary Logic Gates, Adders, and Circuits
+              a(href="/saves/and-gates.biq") and-gates.biq
+              a(href="/saves/or-gates.biq") or-gates.biq
+              a(href="/saves/xor-gates.biq") xor-gates.biq
+              a(href="/saves/signal-crossing.biq") signal-crossing.biq
+              a(href="/saves/signal-duplicator.biq") signal-duplicator.biq
+              a(href="/saves/half-adder.biq") half-adder.biq
+              a(href="/saves/improved-half-adder.biq") improved-half-adder.biq
+              a(href="/saves/full-adder.biq") full-adder.biq
+              a(href="/saves/4-bit-adder.biq") 4-bit-adder.biq
+            details
+              summary AI Games
+              a(href="/saves/2650AD.SAV") 2650AD.SAV
+          details
+            summary Civilization 6
+            details
+              summary Hex-Edited Saves
