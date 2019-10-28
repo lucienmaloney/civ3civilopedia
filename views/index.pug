@@ -7,7 +7,10 @@ html
     link(rel="stylesheet", type="text/css" href="/style/homepage.css")
   body
     nav
-      img(src="/img/home.png")
+      h5(title="Civ3Complete.com") Civ3Complete
+      a(href="/", title="Homepage") Homepage
+      br
+      a(href="/civilopedia", title="Civilization 3 Complete Civilopedia") Civ3Pedia
     main
       fieldset#pediacon
         legend Civilopedias
@@ -33,6 +36,11 @@ html
               a(href="/civ3completedataonly.json") Civilopedia JSON (Data Only)
             dd
               a(href="/civ3complete.json") Civilopedia JSON (Data + Text + Descriptions)
+          dl
+            dt External Resources
+            dd
+              a(href="https://apolyton.net/forum/civilization-series/civilization-iii/122361-civilization-iii-bix-biq-file-format") Civilization 3 BIX/BIQ Partial File Format (Apolyton)
+              a(href="https://forums.civfanatics.com/threads/the-civilization-iii-save-format.48270/") Civilization 3 SAV Partial File Format (CivFanatics)
         fieldset
           legend Saves and Maps
           details

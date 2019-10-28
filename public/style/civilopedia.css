@@ -3,7 +3,27 @@
 }
 
 html {
-  background-color: black;
+  background: linear-gradient(#f7f7ed, black);
+}
+
+body {
+  display: flex;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+nav {
+  width: 100px;
+  margin: 10px 10px;
+  height: 800px;
+}
+
+nav a {
+  display: block;
+}
+
+main {
+  flex-grow: 1;
 }
 
 #civilopedia {

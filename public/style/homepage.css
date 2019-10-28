@@ -12,6 +12,7 @@ main figure {
 
 body {
   background-color: #f7f7ed;
+  background: linear-gradient(#f7f7ed, #bbb);
   height: auto;
 }
 
@@ -21,6 +22,11 @@ main img {
 
 #fieldcon {
   display: flex;
+}
+
+#fieldcon > fieldset {
+  height: 300px;
+  overflow-y: auto;
 }
 
 #fieldcon > fieldset:first-child {
@@ -38,13 +44,9 @@ body {
 }
 
 nav {
-  width: 48px;
-  margin: 30px 10px;
-}
-
-nav img {
-  width: 48px;
-  height: auto;
+  width: 100px;
+  margin: 10px 10px;
+  height: 800px;
 }
 
 main {
