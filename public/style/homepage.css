@@ -6,6 +6,19 @@ main figure {
   width: 200px;
 }
 
+fieldset {
+  background-color: #f7f7ed;
+  margin-bottom: 5px;
+}
+
+legend {
+  text-shadow: 1px 1px 1px #999;
+}
+
+dd {
+  display: list-item;
+}
+
 #pediacon {
   display: flex;
 }
@@ -14,6 +27,11 @@ body {
   background-color: #f7f7ed;
   background: linear-gradient(#f7f7ed, #ccc);
   height: auto;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  line-height: 1.4em;
 }
 
 main img {
@@ -73,7 +91,7 @@ a {
   display: table-row;
 }
 
-figcaption a {
+figcaption a, #saves a {
   display: block;
 }
 

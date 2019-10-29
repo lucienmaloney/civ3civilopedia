@@ -10,6 +10,7 @@ body {
   display: flex;
   margin-left: 0px;
   padding-left: 0px;
+  font-family: Arial, sans-serif;
 }
 
 nav {
@@ -31,7 +32,6 @@ main {
   height: 734px;
   margin: 10px auto;
   position: relative;
-  font-family: Arial, sans-serif;
 }
 
 #civilopedia > div {
