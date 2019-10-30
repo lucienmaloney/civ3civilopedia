@@ -7,7 +7,7 @@ main figure {
 }
 
 fieldset {
-  background-color: #f7f7ed;
+  background-color: #F9F9FA;
   margin-bottom: 5px;
 }
 
@@ -24,8 +24,8 @@ dd {
 }
 
 body {
-  background-color: #f7f7ed;
-  background: linear-gradient(#f7f7ed, #bbb);
+  background-color: #F9F9FA;
+  background: linear-gradient(#F9F9FA, #bbb);
   height: auto;
   font-family: Arial, sans-serif;
 }
