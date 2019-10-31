@@ -1,14 +1,16 @@
 figure {
   text-align: center;
   width: 200px;
+  padding: 0px;
+  margin: 15px 35px;
 }
 
 dd {
   display: list-item;
 }
 
-#pediacon {
-  display: flex;
+#pediacon > figure {
+  float: left;
 }
 
 main img {
@@ -50,4 +52,9 @@ figcaption a, #saves a {
 
 td {
   padding-left: 20px;
+}
+
+#saves > div {
+  overflow-y: auto;
+  height: 275px;
 }

@@ -20,6 +20,7 @@ main {
   line-height: 1.4em;
   flex-grow: 1;
   padding-top: 10px;
+  margin-right: 10px;
 }
 
 nav a, fieldset a {
