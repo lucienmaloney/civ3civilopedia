@@ -1,5 +1,4 @@
 const express = require('express');
-const civ3routes = require('./civ3civilopedia/routing.js');
 
 const app = express();
 
@@ -12,7 +11,11 @@ app.get('/', function(req, res) {
   res.status(200).render('home');
 });
 
+const civ3routes = require('./routes/civ3civilopedia/routing.js');
 app.use('/civilopedia', civ3routes);
+
+const utilroutes = require('./routes/utilroutes.js');
+app.use('/', utilroutes);
 
 app.use('*', function(req, res) {
   res.status(404).send('404 Not Found');

@@ -23,7 +23,7 @@ main {
   margin-right: 10px;
 }
 
-nav a, fieldset a {
+nav a, fieldset a:not(.inline) {
   display: table-row;
 }
 

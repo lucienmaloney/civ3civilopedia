@@ -38,7 +38,7 @@ const PAGES = {
   gcon: new Page('concepts', 'Game Concepts', 'concepts', 'gcon', 'red'),
 }
 
-const CIVILOPEDIA_JSON = require('../public/civ3complete.json');
+const CIVILOPEDIA_JSON = require('../../public/civ3complete.json');
 
 let CIVILOPEDIA_NAMES = {};
 Object.keys(CIVILOPEDIA_JSON).forEach(k1 => {
