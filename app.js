@@ -9,7 +9,7 @@ app.set('views', './views');
 app.use(express.static('public'));
 
 app.get('/', function(req, res) {
-  res.status(200).render('index');
+  res.status(200).render('home');
 });
 
 app.use('/civilopedia', civ3routes);

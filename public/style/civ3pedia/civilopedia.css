@@ -2,36 +2,12 @@
   box-sizing: border-box;
 }
 
-html {
-  background: linear-gradient(#F9F9FA, black);
-}
-
-body {
-  display: flex;
-  margin-left: 0px;
-  padding-left: 0px;
-  font-family: Arial, sans-serif;
-}
-
-nav {
-  width: 100px;
-  margin: 10px 10px;
-  height: 800px;
-}
-
-nav a {
-  display: block;
-}
-
-main {
-  flex-grow: 1;
-}
-
 #civilopedia {
   width: 677px;
   height: 734px;
   margin: 10px auto;
   position: relative;
+  line-height: normal;
 }
 
 #civilopedia > div {

@@ -1,0 +1,77 @@
+extends base.pug
+
+block title
+  title Civilization Resources
+
+block styles
+  link(rel="stylesheet", type="text/css", href="/style/home.css")
+
+block main
+  fieldset#pediacon
+    legend Civilopedias
+    figure(title="The Online Civilization 3 Complete Civilopedia")
+      img(src="/img/civ3cover.jpg")
+      figcaption
+        a(href="/civilopedia") Civilization 3 Complete
+    figure(title="The Online Civilization 6 Civilopedia")
+      img(src="/img/civ6cover.jpg")
+      figcaption Civilization 6 (WIP)
+
+  fieldset
+    legend Utilities
+    table
+      tr
+        th Civilization 3
+        th Civilization 6
+      tr
+        td
+          a(href="/civ3decompressor") .SAV/.BIQ/.BIX/.BIC File Decompressor
+        td
+          a(href="/civ6decompressor") .Civ6Save File Decompressor
+      tr
+        td
+          a(href="/civ3saveeditor") .SAV File Editor
+        td
+          a(href="/civ6recompressor") .Civ6Save File Recompressor
+
+  div#fieldcon
+    fieldset
+      legend Resources
+      a(href="https://github.com/lucienmaloney/civ3civilopedia") Website Github Page
+      a(href="https://github.com/lucienmaloney/civ6save-editing") Civ 6 Hex Editing Github Page
+      a(href="https://www.youtube.com/channel/UCyNfptl3leFF_tV4tFDkfJw") YouTube Channel
+      dl
+        dt Civilization 3 Complete Civilopedia Resources:
+        dd
+          a(href="/civ3completedataonly.json") Civilopedia JSON (Data Only)
+        dd
+          a(href="/civ3complete.json") Civilopedia JSON (Data + Text + Descriptions)
+      dl
+        dt External Resources
+        dd
+          a(href="https://apolyton.net/forum/civilization-series/civilization-iii/122361-civilization-iii-bix-biq-file-format") Civilization 3 BIX/BIQ Partial File Format (Apolyton)
+        dd
+          a(href="https://forums.civfanatics.com/threads/the-civilization-iii-save-format.48270/") Civilization 3 SAV Partial File Format (CivFanatics)
+
+    fieldset#saves
+      legend Saves and Maps
+      details
+        summary Civilization 3
+        details
+          summary Logic Gates, Adders, and Circuits
+          a(href="/saves/and-gates.biq") and-gates.biq
+          a(href="/saves/or-gates.biq") or-gates.biq
+          a(href="/saves/xor-gates.biq") xor-gates.biq
+          a(href="/saves/signal-crossing.biq") signal-crossing.biq
+          a(href="/saves/signal-duplicator.biq") signal-duplicator.biq
+          a(href="/saves/half-adder.biq") half-adder.biq
+          a(href="/saves/improved-half-adder.biq") improved-half-adder.biq
+          a(href="/saves/full-adder.biq") full-adder.biq
+          a(href="/saves/4-bit-adder.biq") 4-bit-adder.biq
+        details
+          summary AI Games
+          a(href="/saves/2650AD.SAV") 2650AD.SAV
+      details
+        summary Civilization 6
+        details
+          summary Hex-Edited Saves

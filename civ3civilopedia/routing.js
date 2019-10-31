@@ -3,8 +3,8 @@ const Civ = require('./Civilopedia');
 const router = require('express').Router();
 
 class Page {
-  constructor(view, name, image, abbr, color) {
-    this.view = view;
+  constructor(page, name, image, abbr, color) {
+    this.page = page;
     this.name = name;
     this.image = image;
     this.abbr = abbr;
@@ -17,6 +17,10 @@ class Page {
 
   get bordercolor() {
     return 'red';
+  }
+
+  get view() {
+    return `civ3pedia/${this.page}`;
   }
 }
 

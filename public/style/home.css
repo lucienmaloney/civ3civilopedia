@@ -1,18 +1,6 @@
 figure {
   text-align: center;
-}
-
-main figure {
   width: 200px;
-}
-
-fieldset {
-  background-color: #F9F9FA;
-  margin-bottom: 5px;
-}
-
-legend {
-  text-shadow: 1px 1px 1px #999;
 }
 
 dd {
@@ -21,17 +9,6 @@ dd {
 
 #pediacon {
   display: flex;
-}
-
-body {
-  background-color: #F9F9FA;
-  background: linear-gradient(#F9F9FA, #bbb);
-  height: auto;
-  font-family: Arial, sans-serif;
-}
-
-main {
-  line-height: 1.4em;
 }
 
 main img {
@@ -55,26 +32,6 @@ main img {
   width: 400px;
 }
 
-body {
-  display: flex;
-  margin-left: 0px;
-  padding-left: 0px;
-}
-
-nav {
-  width: 100px;
-  margin: 10px 10px;
-  height: 800px;
-}
-
-main {
-  flex-grow: 1;
-}
-
-legend {
-  font-weight: bold;
-}
-
 details {
   max-width: 375px;
 }
@@ -85,10 +42,6 @@ details > details {
 
 details > *:not(details):not(summary) {
   padding-left: 20px;
-}
-
-a {
-  display: table-row;
 }
 
 figcaption a, #saves a {
