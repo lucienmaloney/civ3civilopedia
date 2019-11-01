@@ -9,13 +9,14 @@ block styles
 block main
   fieldset#pediacon
     legend Civilopedias
-    figure(title="The Online Civilization 3 Complete Civilopedia")
-      img(src="/img/civ3cover.jpg")
-      figcaption
-        a(href="/civilopedia") Civilization 3 Complete
-    figure(title="The Online Civilization 6 Civilopedia")
-      img(src="/img/civ6cover.jpg")
-      figcaption Civilization 6 (WIP)
+    a.inline(href="/civilopedia", title="The Online Civilization 3 Complete Civilopedia")
+      figure
+        img(src="/img/civ3cover.jpg")
+        figcaption Civilization 3 Complete
+    a.inline
+      figure(title="The Online Civilization 6 Civilopedia")
+        img(src="/img/civ6cover.jpg")
+        figcaption Civilization 6 (WIP)
 
   fieldset
     legend Utilities

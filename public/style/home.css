@@ -2,15 +2,16 @@ figure {
   text-align: center;
   width: 200px;
   padding: 0px;
-  margin: 15px 35px;
+  margin: 0px;
 }
 
 dd {
   display: list-item;
 }
 
-#pediacon > figure {
+#pediacon > a {
   float: left;
+  margin: 15px 35px;
 }
 
 main img {
@@ -46,7 +47,7 @@ details > *:not(details):not(summary) {
   padding-left: 20px;
 }
 
-figcaption a, #saves a {
+#saves a {
   display: block;
 }
 
