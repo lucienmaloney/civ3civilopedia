@@ -1,30 +1,21 @@
-extends ../base.pug
+extends util.pug
 
 block title
   title Civ 3 .SAV Map Revealer
 
-block main
-  fieldset
-    legend Civilization 3 Map Revealer
-    dl
-      dt Supported File Formats:
-      dd .SAV (Civ 3 Save file)
-    hr
-    table
-      tr
-        td(align="right")
-          label Upload File:
-        td
-          input(type="file", text="Upload File")
-      tr
-        td
-          label Download Modified File:
-        td
-          input(type="button", value="Download", disabled)
-    hr
-    h4 What Does the Map Revealer do?
-    p The Map Revealer removes the fog of war from every tile and adds line of sight to every tile for player 1 only.
-    h4 How Does it Work?
-    p Civilization 3 .SAV files store the data for fog of war and line of sight in bitmaps in the tile section. So revealing the map simply requires setting all of both of these values from 0 to 1 for every tile for player 1.
-    h4 What about Cheating?
-    p As a countermeasure to cheating, if the map revealer is run, in addition to the map being revealed for player 1, the bottomright-most corner of the map will have its fog of war removed for every player. This way, other players can check that tile to be sure that no one's pulling a fast one.
+block header
+  legend Civilization 3 Map Revealer
+  dl
+    dt Supported File Formats:
+    dd .SAV (Civ 3 Save file)
+
+block footer
+  h4 What Does the Map Revealer do?
+  p The Map Revealer removes the fog of war from every tile and adds line of sight to every tile for player 1 only.
+  h4 How Does it Work?
+  p Civilization 3 .SAV files store the data for fog of war and line of sight in bitmaps in the tile section. So revealing the map simply requires setting all of both of these values from 0 to 1 for every tile for player 1.
+  h4 What about Cheating?
+  p As a countermeasure to cheating, if the map revealer is run, in addition to the map being revealed for player 1, the bottomright-most corner of the map will have its fog of war removed for every player. This way, other players can check that tile to be sure that no one's pulling a fast one.
+
+block append scripts
+  script(src="/script/civ3maprevealer.js")

@@ -1,0 +1,24 @@
+extends ../base.pug
+
+block main
+  fieldset
+    block header
+    hr
+    table
+      tr
+        td(align="right")
+          label Upload File:
+        td
+          input#upload(type="file", text="Upload File", onchange="handleFile()")
+      tr
+        td(align="right")
+          label Download Decompressed File:
+        td
+          input#download(type="button", value="Download", disabled, onclick="downloadFile()")
+    hr
+    block footer
+
+block scripts
+  script(src="/script/decompress.js")
+  script(src="/script/download.js")
+  script(src="/script/util.js")

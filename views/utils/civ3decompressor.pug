@@ -1,35 +1,25 @@
-extends ../base.pug
+extends util.pug
 
 block title
   title Civ 3 File Decompressor
 
-block main
-  fieldset
-    legend Civilization 3 Decompressor
-    dl
-      dt Supported File Formats:
-      dd .SAV (Civ 3 Save file)
-      dd .BIQ (Civ 3 Conquests/Complete Map File)
-      dd .BIX (Civ 3 Play The World Map File)
-      dd .BIC (Vanilla Civ 3 Map File)
-    hr
-    table
-      tr
-        td(align="right")
-          label Upload File:
-        td
-          input(type="file", text="Upload File")
-      tr
-        td
-          label Download Decompressed File:
-        td
-          input(type="button", value="Download", disabled)
-    hr
-    h4 Why Decompress a Civ 3 File?
-    p Most Civilization 3 Files when produced are compressed, which is problematic when doing things like hex-editing. The only exceptions are autosave .SAV files, which can be read without needing to be unpacked. The game and the Civ3Editor can both read decompressed files fine, so there's no need to recompress them after editing like is necessary for Civ 6.
-    h4 How is Decompression done?
-    p
-      |This utility uses a JavaScript implementation of a script originally written in Java by user Quintillus on the CivFanatics forums. See&nbsp;
-      a.inline(href="https://forums.civfanatics.com/threads/cross-platform-sav-biq-bix-bic-decompressor.527613/") this thread
-      |&nbsp;for the details. Point being, full credit goes to Quintillus for the code. I've simply adapted it into an online portal.
+block header
+  legend Civilization 3 Decompressor
+  dl
+    dt Supported File Formats:
+    dd .SAV (Civ 3 Save file)
+    dd .BIQ (Civ 3 Conquests/Complete Map File)
+    dd .BIX (Civ 3 Play The World Map File)
+    dd .BIC (Vanilla Civ 3 Map File)
 
+block footer
+  h4 Why Decompress a Civ 3 File?
+  p Most Civilization 3 Files when produced are compressed, which is problematic when doing things like hex-editing. The only exceptions are autosave .SAV files, which can be read without needing to be unpacked. The game and the Civ3Editor can both read decompressed files fine, so there's no need to recompress them after editing like is necessary for Civ 6.
+  h4 How is Decompression done?
+  p
+    |This utility uses a JavaScript implementation of a script originally written in Java by user Quintillus on the CivFanatics forums. See&nbsp;
+    a.inline(href="https://forums.civfanatics.com/threads/cross-platform-sav-biq-bix-bic-decompressor.527613/") this thread
+    |&nbsp;for the details. Point being, full credit goes to Quintillus for the code. I've simply adapted it into an online portal.
+
+block append scripts
+  script(src="/script/civ3decompressor.js")
