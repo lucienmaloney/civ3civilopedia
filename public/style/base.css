@@ -1,6 +1,7 @@
 body {
   background-color: #F9F9FA;
   background: linear-gradient(#F9F9FA, #bbb);
+  min-height: 100vh;
   height: auto;
   font-family: Arial, sans-serif;
   display: flex;
@@ -12,7 +13,7 @@ nav {
   width: 100px;
   margin: 0px 10px 0px 0px;
   padding: 20px 0px 10px 10px;
-  height: 800px;
+  height: inherit;
   background: linear-gradient(to right, rgba(180, 180, 180, 0.75), rgba(255, 255, 255, 0));
 }
 
