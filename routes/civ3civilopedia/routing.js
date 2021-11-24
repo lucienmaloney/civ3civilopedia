@@ -116,7 +116,8 @@ router.get('/:section', function(req, res, next) {
 });
 
 router.get('/:section/:page/:desc(desc)?', function(req, res, next) {
-  const section = (req.params.section || '').toLowerCase();
+  let section = (req.params.section || '').toLowerCase();
+  section = section === "govt" ? "gvmt" : section;
   const page = (req.params.page || '').toLowerCase();
   const full = `${section}_${page}`;
   const desc = req.params.desc;
